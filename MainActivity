@@ -1,0 +1,520 @@
+package com.app.mazade.ubuy;
+
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentSender;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
+import co.tamara.sdk.p019ui.TamaraPaymentFragment;
+import com.amazon.p021s3.UploadAmazonS3;
+import com.app.mazade.ubuy.data.AppUpdateData;
+import com.app.mazade.ubuy.data.BaseData;
+import com.app.mazade.ubuy.data.QuateData;
+import com.app.mazade.ubuy.data.StoresBaseData;
+import com.app.mazade.ubuy.data.StoresData;
+import com.app.mazade.ubuy.database.DatabaseHelper;
+import com.app.mazade.ubuy.delegates.ResponseDelegate;
+import com.app.mazade.ubuy.events.HomePageUpdate;
+import com.app.mazade.ubuy.fragment.HomeFragment;
+import com.app.mazade.ubuy.fragment.NavigationFragment;
+import com.app.mazade.ubuy.gcm.GCM;
+import com.app.mazade.ubuy.newhome.NewHomeFragment;
+import com.app.mazade.ubuy.request.BaseRequestData;
+import com.app.mazade.ubuy.request.BaseResponseData;
+import com.app.mazade.ubuy.request.RequestedServiceDataModel;
+import com.app.mazade.ubuy.utils.BusProvider;
+import com.app.mazade.ubuy.utils.ExceptionUtils;
+import com.app.mazade.ubuy.utils.FirebaseTracking;
+import com.app.mazade.ubuy.utils.LOG;
+import com.app.mazade.ubuy.utils.PreferenceConnector;
+import com.app.mazade.ubuy.utils.QGUtils;
+import com.app.mazade.ubuy.utils.Utils;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.android.play.core.appupdate.AppUpdateInfo;
+import com.google.android.play.core.tasks.OnSuccessListener;
+import com.google.firebase.inappmessaging.FirebaseInAppMessaging;
+import com.google.firebase.messaging.FirebaseMessaging;
+import com.google.gson.reflect.TypeToken;
+import com.stripe.android.model.parsers.AccountRangeJsonParser;
+import com.stripe.android.stripe3ds2.transactions.MessageExtension;
+import com.twilio.voice.Constants;
+import com.ubuy.R;
+import java.text.DateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import okhttp3.internal.cache.DiskLruCache;
+import zendesk.core.ZendeskIdentityStorage;
+
+/* loaded from: classes.dex */
+public class MainActivity extends DeepLinkActivity {
+
+    /* renamed from: b5 */
+    public CharSequence f14573b5;
+
+    /* renamed from: c5 */
+    public Context f14574c5;
+
+    /* renamed from: d5 */
+    public StoresBaseData f14575d5;
+
+    /* renamed from: e5 */
+    public HomeFragment f14576e5;
+
+    /* renamed from: f5 */
+    public NewHomeFragment f14577f5;
+
+    /* renamed from: g5 */
+    public Boolean f14578g5 = Boolean.TRUE;
+
+    /* renamed from: h5 */
+    public long f14579h5 = 0;
+
+    /* renamed from: b1 */
+    public static /* synthetic */ void m42368b1(MainActivity mainActivity, AppUpdateData appUpdateData, AppUpdateInfo appUpdateInfo) {
+        mainActivity.m42365e1(appUpdateData, appUpdateInfo);
+    }
+
+    /* renamed from: e1 */
+    public /* synthetic */ void m42365e1(AppUpdateData appUpdateData, AppUpdateInfo appUpdateInfo) {
+        Bundle bundle = new Bundle();
+        String format = DateFormat.getDateTimeInstance().format(new Date());
+        bundle.putString("country_name", PreferenceConnector.m38281f(this.f14574c5));
+        bundle.putString("store", PreferenceConnector.m38281f(this.f14574c5));
+        bundle.putString("app_version", "9.0.0");
+        bundle.putString("timestamp", format);
+        LOG.m38371a("appUpdateInfo  " + appUpdateInfo.toString() + "  name  " + appUpdateInfo.mo22391o() + " updatePriority  " + appUpdateInfo.mo22388r());
+        if (appUpdateData.m40894b() < 124) {
+            LOG.m38371a("app low version :- FlexibleUpdate " + appUpdateData.m40894b());
+            try {
+                this.f14578g5 = Boolean.TRUE;
+                bundle.putString("type_of_update", "Flexible");
+                LOG.m38370b("FirebaseEvent", "In App update -> Flexible -> " + bundle);
+                FirebaseTracking.m38471b(this.f14574c5, "in_app_update", bundle);
+                this.f14317U4.mo22418d(appUpdateInfo, 0, this, 10010);
+                return;
+            } catch (IntentSender.SendIntentException e) {
+                ExceptionUtils.m38483a(e);
+                LOG.m38370b("FirebaseEvent", "Error -> in_app_update -> " + e.getMessage());
+                return;
+            }
+        }
+        LOG.m38371a("app low version :- ImmediateUpdate  " + appUpdateData.m40894b());
+        try {
+            this.f14578g5 = Boolean.FALSE;
+            bundle.putString("type_of_update", "Immediate");
+            LOG.m38370b("FirebaseEvent", "In App update -> Immediate -> " + bundle);
+            FirebaseTracking.m38471b(this.f14574c5, "in_app_update", bundle);
+            this.f14317U4.mo22418d(appUpdateInfo, 1, this, 10010);
+        } catch (IntentSender.SendIntentException e2) {
+            ExceptionUtils.m38483a(e2);
+            LOG.m38370b("FirebaseEvent", "Error -> in_app_update -> " + e2.getMessage());
+        }
+    }
+
+    @Override // com.app.mazade.ubuy.DeepLinkActivity
+    /* renamed from: P0 */
+    public void mo42369P0(final String str, final String str2, final Intent intent) {
+        boolean z;
+        if (m42466Z(str)) {
+            return;
+        }
+        this.f14307K4 = DatabaseHelper.m39766t(this).m39789U();
+        int i = 0;
+        while (true) {
+            if (i >= this.f14307K4.size()) {
+                z = false;
+                break;
+            } else if (this.f14307K4.get(i).active != null && !this.f14307K4.get(i).active.equalsIgnoreCase("no") && this.f14307K4.get(i).code.equalsIgnoreCase(str)) {
+                z = true;
+                break;
+            } else {
+                i++;
+            }
+        }
+        if (!z) {
+            m42413R0(PreferenceConnector.m38246y(getApplicationContext()), null);
+            return;
+        }
+        try {
+            this.f14303G4 = new RequestedServiceDataModel(this.f14574c5, new ResponseDelegate() { // from class: com.app.mazade.ubuy.MainActivity.1
+                {
+                    MainActivity.this = this;
+                }
+
+                @Override // com.app.mazade.ubuy.delegates.ResponseDelegate
+                public void onFailure(String str3, BaseRequestData baseRequestData) {
+                }
+
+                @Override // com.app.mazade.ubuy.delegates.ResponseDelegate
+                public void onNoNetwork(String str3, BaseRequestData baseRequestData) {
+                }
+
+                @Override // com.app.mazade.ubuy.delegates.ResponseDelegate
+                public void onSuccess(BaseResponseData baseResponseData, BaseRequestData baseRequestData) {
+                    BaseData baseData = (BaseData) baseResponseData;
+                    PreferenceConnector.m38270k0(MainActivity.this.f14574c5, ((QuateData) baseData.m40889n()).m40050a());
+                    MainActivity mainActivity = MainActivity.this;
+                    mainActivity.f14338y.m39799B0(PreferenceConnector.m38305M(mainActivity.f14574c5, "website_id", DiskLruCache.VERSION_1), ((QuateData) baseData.m40889n()).m40050a(), 0);
+                    PreferenceConnector.m38302P(MainActivity.this.f14574c5, str);
+                    PreferenceConnector.m38288b0(MainActivity.this.f14574c5, str);
+                    PreferenceConnector.m38250u0(MainActivity.this.f14574c5, "local.inventry.other.store.url", null);
+                    PreferenceConnector.m38292Z(MainActivity.this.f14574c5, str2);
+                    PreferenceConnector.m38290a0(MainActivity.this.f14574c5, str2);
+                    MainActivity mainActivity2 = MainActivity.this;
+                    StoresData.WebSite m39797G = mainActivity2.f14338y.m39797G(PreferenceConnector.m38283e(mainActivity2.f14574c5), LanguegeCountaryActivity.f14511D4[Utils.m38091h(MainActivity.this.f14574c5)], 0);
+                    PreferenceConnector.m38250u0(MainActivity.this.f14574c5, "website_id", m39797G.m39937A());
+                    PreferenceConnector.m38250u0(MainActivity.this.f14574c5, "storeid", m39797G.m39918q());
+                    PreferenceConnector.m38250u0(MainActivity.this.f14574c5, "url", m39797G.m39911x());
+                    PreferenceConnector.m38250u0(MainActivity.this.f14574c5, "secure_url", m39797G.m39919p());
+                    PreferenceConnector.m38293Y(MainActivity.this.f14574c5, m39797G.m39929f());
+                    PreferenceConnector.m38270k0(MainActivity.this.f14574c5, m39797G.m39920o());
+                    PreferenceConnector.m38256r0(MainActivity.this.f14574c5, "amazon", true);
+                    NavigationFragment.f17922w4 = null;
+                    MainActivity.this.m42405Z0(intent);
+                }
+
+                @Override // com.app.mazade.ubuy.delegates.ResponseDelegate
+                public void onSuccess(String str3, BaseRequestData baseRequestData) {
+                }
+            });
+            BaseRequestData baseRequestData = new BaseRequestData();
+            baseRequestData.m38857S0(100006);
+            this.f14303G4.m38759v(baseRequestData);
+            this.f14303G4.m38782A(new TypeToken<BaseData<QuateData>>() { // from class: com.app.mazade.ubuy.MainActivity.2
+                {
+                    MainActivity.this = this;
+                }
+            }.getType());
+            RequestedServiceDataModel requestedServiceDataModel = this.f14303G4;
+            requestedServiceDataModel.m38781B(Utils.m38085n(this.f14574c5) + "changeamazonstores");
+            if (PreferenceConnector.m38312F(this.f14574c5, "abroad") != null && !PreferenceConnector.m38312F(this.f14574c5, "abroad").equalsIgnoreCase("")) {
+                this.f14303G4.m38762s(ZendeskIdentityStorage.USER_ID_KEY, PreferenceConnector.m38312F(this.f14574c5, "abroad"));
+            }
+            StoresData.WebSite m39797G = this.f14338y.m39797G(PreferenceConnector.m38283e(this.f14574c5), LanguegeCountaryActivity.f14511D4[Utils.m38091h(this.f14574c5)], 0);
+            this.f14303G4.m38762s("store_id", m39797G.m39918q());
+            this.f14303G4.m38762s("website_id", m39797G.m39937A());
+            this.f14303G4.m38762s("quote_id", m39797G.m39920o());
+            this.f14303G4.m38762s("amazon_store", str);
+            this.f14303G4.m38697E();
+        } catch (Exception e) {
+            ExceptionUtils.m38483a(e);
+        }
+    }
+
+    /* renamed from: c1 */
+    public final void m42367c1() {
+    }
+
+    /* renamed from: d1 */
+    public final void m42366d1(final AppUpdateData appUpdateData) {
+        this.f14317U4.mo22420b().mo21884c(new OnSuccessListener() { // from class: com.app.mazade.ubuy.c
+            @Override // com.google.android.play.core.tasks.OnSuccessListener
+            public final void onSuccess(Object obj) {
+                MainActivity.m42368b1(MainActivity.this, appUpdateData, (AppUpdateInfo) obj);
+            }
+        });
+    }
+
+    /* renamed from: f1 */
+    public void m42364f1() {
+        try {
+            this.f14303G4 = new RequestedServiceDataModel(this, this);
+            BaseRequestData baseRequestData = new BaseRequestData();
+            baseRequestData.m38857S0(1000044);
+            baseRequestData.m38833h0(false);
+            baseRequestData.m38829j0("appservicess");
+            baseRequestData.m38831i0(0);
+            this.f14303G4.m38759v(baseRequestData);
+            this.f14303G4.m38782A(new TypeToken<BaseData<AppUpdateData>>() { // from class: com.app.mazade.ubuy.MainActivity.4
+                {
+                    MainActivity.this = this;
+                }
+            }.getType());
+            RequestedServiceDataModel requestedServiceDataModel = this.f14303G4;
+            requestedServiceDataModel.m38781B(Utils.m38085n(this) + "getappversion");
+            this.f14303G4.m38694H();
+        } catch (Exception e) {
+            ExceptionUtils.m38483a(e);
+        }
+    }
+
+    /* renamed from: g1 */
+    public void m42363g1() {
+        try {
+            FirebaseMessaging.m17517f().m17515h().mo25493b(new OnCompleteListener<String>() { // from class: com.app.mazade.ubuy.MainActivity.3
+                {
+                    MainActivity.this = this;
+                }
+
+                @Override // com.google.android.gms.tasks.OnCompleteListener
+                /* renamed from: a */
+                public void mo11371a(Task<String> task) {
+                    if (!task.mo25477r()) {
+                        Log.w("MainActivity Firebase ", "Fetching FCM registration token failed", task.mo25482m());
+                    } else {
+                        Log.d("Firebase Token ", task.mo25481n());
+                    }
+                }
+            });
+            if ((GCM.m39107a(this.f14574c5.getApplicationContext()) == null || GCM.m39107a(this.f14574c5.getApplicationContext()).trim().length() == 0) && PreferenceConnector.m38313E(this) != null && PreferenceConnector.m38313E(this).trim().length() > 0) {
+                this.f14303G4 = new RequestedServiceDataModel(this, this);
+                BaseRequestData baseRequestData = new BaseRequestData();
+                baseRequestData.m38857S0(10000117);
+                this.f14303G4.m38759v(baseRequestData);
+                RequestedServiceDataModel requestedServiceDataModel = this.f14303G4;
+                requestedServiceDataModel.m38781B(Utils.m38085n(this.f14574c5) + "customer/updatetoken");
+                this.f14303G4.m38762s(ZendeskIdentityStorage.USER_ID_KEY, PreferenceConnector.m38313E(this));
+                this.f14303G4.m38762s("token_id", GCM.m39107a(this));
+                this.f14303G4.m38762s("token_type", Constants.PLATFORM_ANDROID);
+                this.f14303G4.m38762s("email", PreferenceConnector.m38314D(this));
+                this.f14303G4.m38762s("website_id", PreferenceConnector.m38305M(this, "website_id", DiskLruCache.VERSION_1));
+                this.f14303G4.m38755z(StoresBaseData.class);
+                this.f14303G4.m38694H();
+            }
+        } catch (Exception e) {
+            ExceptionUtils.m38483a(e);
+        }
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, androidx.fragment.app.FragmentActivity, androidx.activity.ComponentActivity, android.app.Activity
+    public void onActivityResult(int i, int i2, Intent intent) {
+        if (i2 == -1 && i == 109 && -1 == i2 && intent != null) {
+            ArrayList<String> stringArrayListExtra = intent.getStringArrayListExtra("android.speech.extra.RESULTS");
+            Intent intent2 = new Intent(this.f14574c5, ProductListActivity.class);
+            intent2.putExtra("serach.key", stringArrayListExtra.get(0));
+            intent2.putExtra("key.word", stringArrayListExtra.get(0));
+            startActivity(intent2);
+        }
+        if (i != 10010) {
+            super.onActivityResult(i, i2, intent);
+        } else if (i2 == -1) {
+            LOG.m38370b("FirebaseEvent", "In app update OK.");
+        } else if (i2 != 0) {
+            if (i2 != 1) {
+                return;
+            }
+            LOG.m38370b("FirebaseEvent", "In app update Failed.");
+            finish();
+        } else {
+            LOG.m38370b("FirebaseEvent", "In app update Canceled.");
+            Log.e("Update", "" + this.f14578g5);
+            if (this.f14578g5.booleanValue()) {
+                return;
+            }
+            finish();
+        }
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, androidx.activity.ComponentActivity, android.app.Activity
+    public void onBackPressed() {
+        try {
+            if (this.f14332t4.m47990I()) {
+                this.f14332t4.m47974d();
+            } else {
+                long currentTimeMillis = System.currentTimeMillis();
+                if (currentTimeMillis - this.f14579h5 > 2500) {
+                    Toast.makeText(this.f14574c5, getString(R.string.app_exit_toast), 1).show();
+                    this.f14579h5 = currentTimeMillis;
+                } else {
+                    super.onBackPressed();
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, android.view.View.OnClickListener
+    public void onClick(View view) {
+        if (view.getId() != R.id.department) {
+            return;
+        }
+        onclickDrawarItem(3, null);
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, androidx.fragment.app.FragmentActivity, androidx.activity.ComponentActivity, androidx.core.app.ComponentActivity, android.app.Activity
+    public void onCreate(Bundle bundle) {
+        FirebaseTracking.m38470c(this, AccountRangeJsonParser.FIELD_COUNTRY, PreferenceConnector.m38283e(getApplicationContext()));
+        FirebaseTracking.m38470c(this, "language", PreferenceConnector.m38305M(this.f14574c5, "userLanguage", "en"));
+        FirebaseTracking.m38470c(this, "country_code", PreferenceConnector.m38283e(this));
+        FirebaseTracking.m38470c(this, "email", PreferenceConnector.m38314D(this));
+        FirebaseTracking.m38470c(this, ZendeskIdentityStorage.USER_ID_KEY, PreferenceConnector.m38314D(this));
+        super.onCreate(bundle);
+        FirebaseTracking.m38471b(this.f14574c5, "home_view", null);
+        FirebaseInAppMessaging.m18710e().m18706i(Boolean.FALSE);
+        DatabaseHelper.m39766t(this).m39780f();
+        QGUtils.m38207v(this);
+        this.f14574c5 = this;
+        m42363g1();
+        m42364f1();
+        PreferenceConnector.m38296V(this.f14574c5, false);
+        try {
+        } catch (Exception e) {
+            ExceptionUtils.m38483a(e);
+        }
+        if (!PreferenceConnector.m38308J(this.f14574c5, "start", false)) {
+            m42404a1(getIntent());
+            return;
+        }
+        if (getIntent().getExtras() != null && getIntent().getExtras().getString("url") != null && getIntent().getExtras().getString("message") != null) {
+            Log.d("notification opened", "2 ");
+            PreferenceConnector.f19582k = "isFromNotification";
+            LOG.m38371a("FCM DATA URL > " + getIntent().getExtras().getString("url"));
+            LOG.m38371a("FCM DATA MSG > " + getIntent().getExtras().getString("message"));
+        }
+        if (getIntent().getDataString() != null || getIntent().getStringExtra("url") != null) {
+            m42415O0(getIntent());
+        }
+        if (getIntent().getStringExtra("notification") != null) {
+            Intent intent = getIntent();
+            new HashMap();
+            if (intent.getStringExtra("website") != null) {
+                if (intent.getStringExtra("website").equalsIgnoreCase("local")) {
+                    Intent intent2 = getIntent();
+                    if (!intent.getStringExtra("type").equalsIgnoreCase(TamaraPaymentFragment.ARG_ORDER) && !intent.getStringExtra("type").equalsIgnoreCase("product") && intent.getStringExtra("type").equalsIgnoreCase("search")) {
+                        intent2.putExtra("url", "https://www.ubuy.com.kw/catalogsearch/result/?q=" + intent.getStringExtra(MessageExtension.FIELD_ID));
+                        m42415O0(intent2);
+                    }
+                } else {
+                    Intent intent3 = getIntent();
+                    if (intent.getStringExtra("type").equalsIgnoreCase(TamaraPaymentFragment.ARG_ORDER)) {
+                        intent3.putExtra("url", "https://www.a.ubuy.com.kw/en/trackorder/index/detail?order_id=" + intent.getStringExtra(MessageExtension.FIELD_ID) + "&tracking_number=");
+                        m42415O0(intent3);
+                    } else if (intent.getStringExtra("type").equalsIgnoreCase("product")) {
+                        intent3.putExtra("url", "https://www.a.ubuy.com.kw/en/catalog/product/view/id/" + intent.getStringExtra(MessageExtension.FIELD_ID) + "/s");
+                        m42415O0(intent3);
+                    } else if (intent.getStringExtra("type").equalsIgnoreCase("search")) {
+                        intent3.putExtra("url", "https://www.a.ubuy.com.kw/en/search/?q=" + intent.getStringExtra(MessageExtension.FIELD_ID));
+                        m42415O0(intent3);
+                    }
+                }
+            }
+        }
+        setContentView(-1);
+        this.f14573b5 = getTitle();
+        m42486F0(2, new Intent(this, MainActivity.class));
+        m42367c1();
+        if (getIntent().getStringExtra("product.id") != null) {
+            if (getIntent().getStringExtra("product.type") == null) {
+                Intent intent4 = new Intent(this.f14574c5, ProductDetailAmazonActivity.class);
+                intent4.putExtra("product.id", getIntent().getStringExtra("product.id"));
+                intent4.putExtra("product.type", getIntent().getStringExtra("product.type"));
+                startActivity(intent4);
+            } else {
+                Intent intent5 = new Intent(this.f14574c5, ProductDetailActivity.class);
+                intent5.putExtra("product.id", getIntent().getStringExtra("product.id"));
+                intent5.putExtra("product.type", getIntent().getStringExtra("product.type"));
+                startActivity(intent5);
+            }
+        } else if (this.f14338y.m39793L().size() == 0) {
+            if (!PreferenceConnector.m38289b(this.f14574c5).equalsIgnoreCase("KW") && !PreferenceConnector.m38289b(this.f14574c5).equalsIgnoreCase("GCC")) {
+                this.f14577f5 = new NewHomeFragment();
+            } else {
+                this.f14576e5 = new HomeFragment();
+            }
+        } else if (!PreferenceConnector.m38289b(this.f14574c5).equalsIgnoreCase("KW") && !PreferenceConnector.m38289b(this.f14574c5).equalsIgnoreCase("GCC")) {
+            this.f14577f5 = new NewHomeFragment();
+            this.f14334v4.m47425m().m47279u(R.id.container, this.f14577f5).mo47290j();
+        } else {
+            this.f14576e5 = new HomeFragment();
+            this.f14334v4.m47425m().m47279u(R.id.container, this.f14576e5).mo47290j();
+        }
+        PreferenceConnector.m38283e(this.f14574c5).equalsIgnoreCase("kw");
+        Intent intent6 = getIntent();
+        intent6.getAction();
+        intent6.getData();
+        findViewById(R.id.toolbar_layout).setBackgroundColor(getResources().getColor(R.color.ubuy_white));
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, android.app.Activity
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, androidx.appcompat.app.AppCompatActivity, androidx.fragment.app.FragmentActivity, android.app.Activity
+    public void onDestroy() {
+        super.onDestroy();
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, com.app.mazade.ubuy.delegates.ResponseDelegate
+    public void onFailure(String str, BaseRequestData baseRequestData) {
+        super.onFailure(str, baseRequestData);
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, com.app.mazade.ubuy.delegates.NavigationDrawerCallbacks
+    public void onNavigationDrawerItemSelected(BaseResponseData baseResponseData, int i, int i2) {
+        super.onNavigationDrawerItemSelected(baseResponseData, i, i2);
+    }
+
+    @Override // androidx.fragment.app.FragmentActivity, androidx.activity.ComponentActivity, android.app.Activity
+    public void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        this.f14574c5 = this;
+        if (!PreferenceConnector.m38308J(this, "start", false)) {
+            m42404a1(getIntent());
+        } else if (intent.getBooleanExtra("oncreate", false)) {
+        } else {
+            m42415O0(intent);
+        }
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, com.app.mazade.ubuy.delegates.ResponseDelegate
+    public void onNoNetwork(String str, BaseRequestData baseRequestData) {
+        super.onNoNetwork(str, baseRequestData);
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, android.app.Activity
+    public boolean onOptionsItemSelected(MenuItem menuItem) {
+        if (menuItem.getItemId() == R.id.action_settings) {
+            return true;
+        }
+        return super.onOptionsItemSelected(menuItem);
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, androidx.fragment.app.FragmentActivity, android.app.Activity
+    public void onResume() {
+        super.onResume();
+        BusProvider.m38516a().m1690k(new HomePageUpdate());
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, com.app.mazade.ubuy.delegates.ResponseDelegate
+    public void onSuccess(BaseResponseData baseResponseData, BaseRequestData baseRequestData) {
+        super.onSuccess(baseResponseData, baseRequestData);
+        int m38870M = baseRequestData.m38870M();
+        if (m38870M != 100006) {
+            if (m38870M == 1000044) {
+                AppUpdateData appUpdateData = (AppUpdateData) ((BaseData) baseResponseData).m40889n();
+                PreferenceConnector.m38250u0(this, "bucket", appUpdateData.m40891e());
+                PreferenceConnector.m38250u0(this, "api_key", appUpdateData.m40893c());
+                PreferenceConnector.m38250u0(this, "secret_key", appUpdateData.m40892d());
+                UploadAmazonS3.BUCKET_NAME = appUpdateData.m40891e();
+                UploadAmazonS3.API_KEY = appUpdateData.m40893c();
+                UploadAmazonS3.API_SECRET_KEY = appUpdateData.m40892d();
+                Log.e("App_Update", "getLow_version " + appUpdateData.m40894b() + " / " + Utils.m38086m(this));
+                m42366d1(appUpdateData);
+            } else if (m38870M != 10000117) {
+                return;
+            }
+            GCM.m39106b(this, GCM.m39107a(this));
+            return;
+        }
+        this.f14575d5 = (StoresBaseData) baseResponseData;
+        this.f14338y.m39782e();
+        this.f14338y.m39765t0(this.f14575d5.m39950m());
+        if (!PreferenceConnector.m38289b(this.f14574c5).equalsIgnoreCase("KW") && !PreferenceConnector.m38289b(this.f14574c5).equalsIgnoreCase("GCC")) {
+            this.f14334v4.m47425m().m47279u(R.id.container, this.f14577f5).mo47290j();
+        } else {
+            this.f14334v4.m47425m().m47279u(R.id.container, this.f14576e5).mo47290j();
+        }
+    }
+
+    @Override // com.app.mazade.ubuy.BaseActivity, com.app.mazade.ubuy.delegates.ResponseDelegate
+    public void onSuccess(String str, BaseRequestData baseRequestData) {
+    }
+}
