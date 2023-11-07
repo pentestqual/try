@@ -1,0 +1,104 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2023-05-17 07:59:32",
+    "containerVersion": {
+        "path": "accounts/4702312583/containers/115662825/versions/2",
+        "accountId": "4702312583",
+        "containerId": "115662825",
+        "containerVersionId": "2",
+        "container": {
+            "path": "accounts/4702312583/containers/115662825",
+            "accountId": "4702312583",
+            "containerId": "115662825",
+            "name": "Android-App-by-iliyas",
+            "publicId": "GTM-PM9NF76",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1684243917235",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/4702312583/containers/115662825/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true
+            },
+            "tagIds": [
+                "GTM-PM9NF76"
+            ]
+        },
+        "builtInVariable": [
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "PLATFORM",
+                "name": "Platform"
+            },
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "DEVICE_NAME",
+                "name": "Device Name"
+            },
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "RESOLUTION",
+                "name": "Screen Resolution"
+            },
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            },
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "FIREBASE_EVENT_PARAMETER_DYNAMIC_LINK_ACCEPT_TIME",
+                "name": "Dynamic Link Accept Time"
+            },
+            {
+                "accountId": "4702312583",
+                "containerId": "115662825",
+                "type": "FIREBASE_EVENT_PARAMETER_DYNAMIC_LINK_LINKID",
+                "name": "Dynamic Link ID"
+            }
+        ],
+        "fingerprint": "1682657492949",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/4702312583/containers/115662825/versions/2?apiLink=version"
+    }
+}
