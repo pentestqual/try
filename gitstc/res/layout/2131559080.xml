@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <ProgressBar id="@id/2131364860" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" />
+    <com.google.android.material.tabs.TabLayout id="@id/2131365288" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="-2.0dip" layout_below="@id/2131362078" 2130970193="@color/2131099913" 2130970197="2131363324" 2130970203="?2130968978" 2130970210="2131363364" 2130970219="?2130968978" 2130970221="@style/2132083693" />
+    <androidx.viewpager2.widget.ViewPager2 id="@id/2131365290" layout_width="fill_parent" layout_height="fill_parent" layout_below="@id/2131365288" />
+</RelativeLayout>

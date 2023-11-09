@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout id="@id/2131366007" paddingBottom="1.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165325" layout_marginBottom="-16.0dip" paddingStart="@dimen/2131165328" paddingEnd="@dimen/2131165328" 2130969216="true">
+        <com.google.android.material.textfield.TextInputEditText id="@id/2131366004" layout_width="fill_parent" layout_height="wrap_content" hint="@string/redeem_points_enter_points_left_main_number_of" maxLines="1" singleLine="true" maxLength="9" digits="\ 0123456789" drawablePadding="@dimen/2131165516" inputType="number" textAlignment="viewStart" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView id="@id/2131363211" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+</LinearLayout>

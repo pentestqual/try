@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button enabled="false" id="@id/2131362352" layout_width="fill_parent" layout_alignParentBottom="true" style="@style/2132082688" />
+    <androidx.core.widget.NestedScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" layout_above="@id/2131362352" layout_below="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365473" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362697" />
+            <include id="@id/2131362704" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559452" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362697" layout_width="fill_parent" layout_height="wrap_content" layout_below="@id/2131362704" 2130969149="2131363698" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362704" 2130969559="@string/device_contract_contract_summary_left_main_number" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+</RelativeLayout>

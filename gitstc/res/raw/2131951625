@@ -1,0 +1,23 @@
+{
+  "items":[
+    {
+      "id":1,
+      "res_normal_name":"ic_rate_app_bad",
+      "res_selected_name":"ic_rate_app_bad_selected",
+      "isSelected":false
+    },
+    {
+      "id":3,
+      "res_normal_name":"ic_rate_app_normal",
+      "res_selected_name":"ic_rate_app_normal_selected",
+      "isSelected":false
+    },
+    {
+      "id":5,
+      "res_normal_name":"ic_rate_app_good",
+      "res_selected_name":"ic_rate_app_good_selected",
+      "isSelected":false
+    }
+  ],
+  "feedback_based_value":3
+}

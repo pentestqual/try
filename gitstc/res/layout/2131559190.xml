@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView id="@id/2131366422" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout layout_gravity="center_horizontal" orientation="vertical" id="@id/2131363739" visibility="visible" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" />
+        <LinearLayout layout_gravity="center_horizontal" orientation="vertical" id="@id/2131361992" visibility="visible" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" />
+        <LinearLayout layout_gravity="center_horizontal" orientation="vertical" id="@id/2131362415" visibility="visible" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" />
+        <LinearLayout layout_gravity="center_horizontal" orientation="vertical" id="@id/2131365664" visibility="visible" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" />
+        <LinearLayout layout_gravity="center_horizontal" orientation="vertical" id="@id/2131363301" visibility="visible" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" />
+        <LinearLayout layout_gravity="center_horizontal" orientation="vertical" id="@id/2131366431" visibility="visible" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" />
+        <ProgressBar layout_gravity="center" id="@id/2131364860" padding="@dimen/2131165388" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" />
+        <LinearLayout orientation="vertical" id="@id/2131364015" padding="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="fill_parent">
+            <TextView layout_width="fill_parent" layout_height="wrap_content" text="@string/no_package" textAlignment="center" style="@style/2132083885" />
+            <Button layout_gravity="center" id="@id/2131362335" paddingTop="10.0dip" paddingBottom="10.0dip" text="@string/browse_package" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083125" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362383" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+            <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131362382" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130969563="@string/home_details_usage_section_title_other_balance" />
+            <TextView id="@id/2131365187" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" textAlignment="textStart" layout_marginStart="20.0dip" 2130969520="2131364589" 2130969523="@id/2131362382" style="@style/2132083908" />
+            <ProgressBar id="@id/2131364506" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="20.0dip" 2130969494="@id/2131365187" 2130969500="2131364589" 2130969520="2131364589" 2130969524="@id/2131365187" />
+            <Button id="@id/2131365084" visibility="gone" text="@string/home_details_home_button_recharge" onClick="onRechargeViewClicked" layout_marginEnd="20.0dip" 2130969494="@id/2131365187" 2130969500="2131364589" 2130969524="@id/2131365187" style="@style/2132082690" />
+            <TextView textSize="18.0dip" id="@id/2131366370" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_home_right_main_sr" fontFamily="@font/2131296263" textAlignment="textStart" layout_marginStart="8.0dip" 2130969490="@id/2131365187" 2130969519="@id/2131365187" style="@style/2132083689" />
+            <TextView layout_gravity="center" id="@id/2131362384" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_home_button_reload" drawableStart="@drawable/2131231593" 2130969495="@id/2131362199" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362382" />
+            <View id="@id/2131362199" background="#ffdcdcdc" layout_width="0.0dip" layout_height="1.0dip" layout_marginTop="80.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362382" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.cardview.widget.CardView layout_gravity="center" id="@id/2131364246" layout_width="fill_parent" layout_height="146.0dip" layout_margin="@dimen/2131165388" 2130968835="?2130969332" 2130968837="2.0dip" 2130968838="2.0dip">
+            <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="fill_parent">
+                <ImageView layout_gravity="center" layout_width="52.0dip" layout_height="52.0dip" src="@drawable/2131231711" />
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_card_need_help" layout_marginStart="16.0dip" style="@style/2132083897" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

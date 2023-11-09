@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view textAppearance="?android:textAppearanceMedium" textColor="?android:textColorPrimary" gravity="center" id="@id/2131364348" background="@null" paddingLeft="25.0dip" paddingRight="25.0dip" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" class="com.stc.widget.np.NumberPicker$CustomEditText" />
+</merge>

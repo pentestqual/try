@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" background="?2130969981" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/numberIconImageView" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231512" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/labelTextView" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" textAlignment="viewStart" layout_marginStart="@dimen/2131165319" layout_marginEnd="@dimen/2131165319" 2130969495="@id/numberTextView" 2130969501="@id/2131362381" 2130969519="@id/numberIconImageView" 2130969524="2131364589" 2130969526="2131364580" style="@style/2132083927" />
+    <TextView id="@id/numberTextView" layout_width="0.0dip" layout_height="wrap_content" layout_marginStart="@dimen/2131165319" layout_marginEnd="@dimen/2131165319" 2130969494="2131364589" 2130969501="@id/2131362381" 2130969519="@id/numberIconImageView" 2130969523="@id/labelTextView" 2130969526="2131364580" style="@style/2132083927" />
+    <TextView gravity="center_horizontal" id="@id/2131362381" background="@drawable/2131230947" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" layout_marginStart="@dimen/2131165389" layout_marginEnd="@dimen/2131165389" 2130969494="2131364589" 2130969501="@id/2131363955" 2130969519="@id/numberTextView" 2130969524="2131364589" style="@style/2132083828" />
+    <LinearLayout orientation="horizontal" id="@id/2131363955" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589">
+        <ImageView layout_gravity="center_vertical" id="@id/2131362101" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_marginEnd="@dimen/2131165389" />
+        <RadioButton layout_gravity="center_vertical" id="@id/2131365032" visibility="gone" clickable="false" layout_width="wrap_content" layout_height="wrap_content" checked="false" button="@drawable/2131231874" layout_marginEnd="@dimen/2131165389" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131363707" 2130969524="2131364589" />
+    </LinearLayout>
+    <View id="@id/2131364376" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+    <View id="@id/2131364379" visibility="gone" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

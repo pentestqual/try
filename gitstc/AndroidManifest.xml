@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" compileSdkVersion="33" compileSdkVersionCodename="13" package="com.stc" platformBuildVersionCode="33" platformBuildVersionName="13" versionName="4.43.0">
+    <uses-permission name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission name="android.permission.INTERNET"/>
+    <uses-permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
+    <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission name="android.permission.READ_CONTACTS"/>
+    <uses-permission name="android.permission.RECORD_AUDIO"/>
+    <uses-permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission name="com.stc.permission.MAPS_RECEIVE"/>
+    <uses-permission name="android.permission.CAMERA"/>
+    <uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission name="android.permission.SET_DEBUG_APP"/>
+    <uses-feature glEsVersion="0x00020000" required="true"/>
+    <uses-feature name="android.hardware.camera" required="false"/>
+    <uses-feature name="android.hardware.camera.autofocus" required="false"/>
+    <uses-feature name="android.hardware.location" required="false"/>
+    <uses-feature name="android.hardware.fingerprint" required="false"/>
+    <uses-feature name="android.hardware.location.gps" required="false"/>
+    <queries>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.google.android.apps.maps"/>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+    </queries>
+    <permission name="com.stc.permission.MAPS_RECEIVE" protectionLevel="signature"/>
+    <uses-permission name="android.permission.VIBRATE"/>
+    <uses-permission maxSdkVersion="22" name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission maxSdkVersion="22" name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission maxSdkVersion="22" name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission name="android.permission.WAKE_LOCK"/>
+    <uses-permission name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission name="android.permission.REORDER_TASKS"/>
+    <permission name="com.stc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" protectionLevel="signature"/>
+    <uses-permission name="com.stc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-feature name="android.hardware.camera.front" required="false"/>
+    <uses-feature name="android.hardware.camera.flash" required="false"/>
+    <uses-feature name="android.hardware.screen.landscape" required="false"/>
+    <uses-feature name="android.hardware.wifi" required="false"/>
+    <application allowBackup="false" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" appComponentFactory="androidx.core.app.CoreComponentFactory" label="@string/app_name" name="sa.com.stc.MySTCApplication" roundIcon="@mipmap/ic_launcher" supportsRtl="true" theme="@style/2132084065" usesCleartextTraffic="true">
+        <service android:exported="false" enabled="true" name="sa.com.stc.ui.notification.FirebaseNotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="sa.com.stc.ui.change_package.fixed_wireless.ChangePackageActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.purchase_new_landline.landline_change.ChangeNewLandlineActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.seasonal_gifts.TamayouzSeasonalGiftsActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.promotions.QitafPromotionsActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.products.sawaPlans.CompareSawaPackagesActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.stcplay.StcPlayActivity" screenOrientation="portrait"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" resource="@drawable/2131231697"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="@string/default_notification_channel"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.number_details.tabs.usage.other_balance.OtherBalanceActivity"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.product_display_new.PackageOverviewActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="sawa_packages" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.iot_device_packages.IotDevicePackageActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.entertainment.EntertainmentActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.send_a_gift.SendAGiftActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.downpayment.DownPaymentActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="down_payment" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.paybills.PayBillsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="pay_postpaid" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.general_web_view.WebViewActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.unsettled_amounts.UnsettledAmountsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="unsettled_bills" android:scheme="mystc"/>
+                <data android:host="blacklisted_accounts" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.contract_blockers_amounts.ContractBlockersAmountsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="all_bills" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.tire.QitafTireActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="tamayouz_card" android:scheme="mystc"/>
+                <data android:host="tamayouz" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.free_keys.QitafFreeKeysActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="tamayouz_keys" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.history.QitafHistoryActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="qitaf_history" android:scheme="mystc"/>
+                <data android:host="qitaf_donations" android:scheme="mystc"/>
+                <data android:host="qitaf_transfer" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.product_display.devicecontract.ContractActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="device_protection" android:scheme="mystc"/>
+                <data android:host="device_contract" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.support.SupportActivity" screenOrientation="portrait" windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="live_support" android:scheme="mystc"/>
+                <data android:host="chatback" android:scheme="mystc"/>
+                <data android:host="continue_chat" android:scheme="mystc"/>
+                <data android:host="help_center" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.epayment.PaymentActivity" screenOrientation="portrait" theme="@style/2132084067" windowSoftInputMode="adjustPan"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.product_display.econtent.EContentActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.stc_wifi.faq.FAQsActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.stc_wifi.StcWifiActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="wifi_map" android:scheme="mystc"/>
+                <data android:host="wifi_service" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.products.ProductsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="services" android:scheme="mystc"/>
+                <data android:host="keys" android:scheme="mystc"/>
+                <data android:host="internet_packages" android:scheme="mystc"/>
+                <data android:host="landline_key" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.crash_reporter.CrashReporterActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.common.TermsActivity" noHistory="true" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.common.NationalAddressActivity" launchMode="singleTop" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.common.ForceUpdateTermsActivity" launchMode="singleTop" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.DashBoardActivity" launchMode="singleTop" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="dashboard" android:scheme="mystc"/>
+                <data android:host="qitaf_options" android:scheme="mystc"/>
+                <data android:host="home" android:scheme="mystc"/>
+                <data android:host="gamification" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.login.wifi_da.DataDirectAccessActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.registration_wizard.RegistrationWizardActivity" noHistory="true" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.store.StoreOffersActivity" noHistory="true" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.login.LoginActivity" launchMode="singleTop" screenOrientation="portrait" windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.roaming.RoamingActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="roaming_packages" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.login.forget_password.ForgetPasswordActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.menu.settings.SettingsActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="settings" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.menu.profile.ProfileActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="national_address" android:scheme="mystc"/>
+                <data android:host="profile" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.sim_details.SimDetailsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="sim_details" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.mysim_services.multi_sim.MultiSimActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.purchase_new_landline.PurchaseNewLandlineActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="new_landline" android:scheme="mystc"/>
+                <data android:host="landline_package" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.bill_details.BillDetailsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="bill" android:scheme="mystc"/>
+                <data android:host="latest_bill" android:scheme="mystc"/>
+                <data android:host="billed_call_details" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.temporary_disconnection.suspend_landline_temp.SuspendLandlineTemporaryActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.temporary_disconnection.manage_suspend_landline_temp.ManageSuspensionsActivity" screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="sa.com.stc.ui.landing.SplashScreen" label="@string/app_name" noHistory="true" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.joinstc.JoinStcActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="startup" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.number_details.NumberDetailsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="data_usage" android:scheme="mystc"/>
+                <data android:host="budget_control" android:scheme="mystc"/>
+                <data android:host="subscriptions" android:scheme="mystc"/>
+                <data android:host="roaming_usage" android:scheme="mystc"/>
+                <data android:host="content_services" android:scheme="mystc"/>
+                <data android:host="bills" android:scheme="mystc"/>
+                <data android:host="jawway_tiers" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.number_properties.NumberPropertiesActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="number_properties" android:scheme="mystc"/>
+                <data android:host="sim_services" android:scheme="mystc"/>
+                <data android:host="internet_account_info" android:scheme="mystc"/>
+                <data android:host="transfer_ownership_a" android:scheme="mystc"/>
+                <data android:host="stc_tv_account" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.transfer_ownership.request.TransferOwnershipActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.transfer_ownership.accept.AcceptTransferOwnershipActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.deactivate_your_sim.CancelNumberActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="retention_pro" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.schedule_payment.SchedulePaymentActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="schedule_payment" android:scheme="mystc"/>
+                <data android:host="payment_management" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.recharge.RechargeActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="recharge_voucher" android:scheme="mystc"/>
+                <data android:host="recharge_card" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.mysim_services.replace_sim.logged_in.ReplaceSIMActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.mysim_services.replace_sim.anonymous.AnonymousReplaceSIMActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.networkcoverage.NetworkCoverageActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="coverage_map" android:scheme="mystc"/>
+                <data android:host="network_coverage" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.common.MyNumbersAndAllMyContactNumbers.MyNumbersAndAllMyContactNumbersActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.common.vpn_block.VPNBlockActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.product_display.ProductDisplayActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.networkfeedback.NetworkFeedbackActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="network_feedback" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.temporary_disconnection.suspend_sim_temp.SuspendSimTempActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.log_details.usage_details.UsageDetailsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="usage_details" android:scheme="mystc"/>
+                <data android:host="next_bill" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.log_details.call_details.CallDetailsActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.mysim_services.new_sim.SimOrdersActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="new_sim" android:scheme="mystc"/>
+                <data android:host="port_in" android:scheme="mystc"/>
+                <data android:host="prepaid_to_postpaid" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.free_sms.FreeSMSActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="free_sms" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.change_package.ChangePostpaidPackageActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.sawa_sponser.SawaSponserActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.product_display.friendsandfamily.FriendsAndFamilyActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.locations.LocationsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="locations" android:scheme="mystc"/>
+                <data android:host="remote_booking" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.help_center.HelpCenterActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.rewards.QitafRewardsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="qitaf_redeem" android:scheme="mystc"/>
+                <data android:host="qitaf_reward" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.partners.QitafPartnersActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="qitaf_pay_with_points" android:scheme="mystc"/>
+                <data android:host="qitaf_all_partners" android:scheme="mystc"/>
+                <data android:host="qitaf_earn_more_points" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.new_offers.QitafNewOffersActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="qitaf_offer" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.telegram.TelegramActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="telegram" android:scheme="mystc"/>
+                <data android:host="sent_telegram" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.voucher_reward.VoucherRewardActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="voucher_rewards" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.about_stc.AboutStcActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="about" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.customer_support.CustomerSupportHostActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="my_tickets" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.join_qitaf.QitafJoinActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.bill_analytics.BillAnalyticsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="analytics" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.nearby_recommendations.NearbyRecommendationsActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.gamification.GamificationActivity" screenOrientation="portrait" theme="@style/2132084067">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.my_orders.MyOrdersActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="my_orders" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.my_orders.rating.MyOrdersRatingActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="agent_rating" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="sa.com.stc.ui.deeplink.DeeplinkStarterActivity" excludeFromRecents="true" label="start activity for android deeplinks" noHistory="true" screenOrientation="portrait" theme="@style/2132084071">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="packages" android:scheme="mystc"/>
+                <data android:host="change_package" android:scheme="mystc"/>
+                <data android:host="store" android:scheme="mystc"/>
+                <data android:host="store_devices" android:scheme="mystc"/>
+                <data android:host="device_details" android:scheme="mystc"/>
+                <data android:host="replace_sim" android:scheme="mystc"/>
+                <data android:host="transfer_owner" android:scheme="mystc"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="mystc"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="sa.com.stc.ui.deeplink.DeeplinkBranchIOStarterActivity" excludeFromRecents="true" label="start activity for android branch.io" noHistory="true" screenOrientation="portrait" theme="@style/2132084071">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="8m7od.test-app.link" android:scheme="https"/>
+                <data android:host="8m7od.test-app.link" android:scheme="http"/>
+                <data android:host="8m7od-alternate.test-app.link" android:scheme="https"/>
+                <data android:host="8m7od-alternate.test-app.link" android:scheme="http"/>
+                <data android:host="my.stc" android:scheme="https"/>
+                <data android:host="my.stc" android:scheme="http"/>
+                <data android:host="8m7od-alternate.app.link" android:scheme="https"/>
+                <data android:host="8m7od-alternate.app.link" android:scheme="http"/>
+                <data android:host="8m7od.app.link" android:scheme="https"/>
+                <data android:host="8m7od.app.link" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.menu.user_info.UserInfoActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="phoneNumber_profile" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.user_management.UserManagementActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.tamayouz_gifts.TamayouzGiftsActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.reactivate_account.ReactivateAccountActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="temporarily_reconnect" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.number_details.tabs.balance.rechargehistory.RechargeHistoryActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.transfer_and_reguest_balance.TransferAndReuestBalanceActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="balance_transfer" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.package_card.PackageCardActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.common.PreviewURIActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.bill_details.BillUsageTypeDetailsActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.update_password.UpdatePasswordActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.support.survey.SurveyActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.legacy_version.LegacyVersionActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.biometrics.BiometricLoginActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.menu.profile.invite_friend.InviteFriendActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="invite_friend" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.menu.profile.invite_friend.create.CreateInvitationActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.transfer_and_reguest_balance.requested_balance.TransferRequestedBalanceActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="top_me_up" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.contact_us.ContactUsActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="report_problem" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.wishlist.WishlistActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="wish_list" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.gifting_program.GiftingProgramActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="send_gift" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.common.select_contact_number.SelectContactNumberAndOTPActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.costomizable_offers.AlacartActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="customizable_offers" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.whatsnew.WhatsNewActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.fmc.FixedMobileConvergenceActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="fmc" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.FullScreenPopupActivity" screenOrientation="portrait" theme="@style/2132084070">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.UpdateContactPopupActivity" screenOrientation="portrait" theme="@style/2132084067">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.menu.settings.notifications.NotificationsActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="nc" android:scheme="mystc"/>
+                <data android:host="notification_settings" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.light_mode_select.AppThemePopupActivity" screenOrientation="portrait" theme="@style/2132084067">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.menu.location_and_converage.LocationAndCoverageActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="branches" android:scheme="mystc"/>
+                <data android:host="self_service_machines" android:scheme="mystc"/>
+                <data android:host="service_center" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.qr.QitafQRActivity" screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="io.flutter.embedding.android.FlutterActivity" configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize" hardwareAccelerated="true" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.purchase_device.anonymous_user.AnonymousUserActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.purchase_device.da_user.DAUserActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.purchase_device.logged_in_user.LoggedInUserActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.store_payment.purchase_device_payment.PurchaseDevicePaymentActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.cash_refund.CashRefundActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.virtual_cards.TamayouzBenefitsCardActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.number_details.tabs.costs.AllHistoryActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.recommendation.RecommendationActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="special_offers" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.sms_inbox.SmsInboxActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="inbox" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.postpaid_30_day_trial.Postpaid30DayTrialActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.reconnect_disconnected_account.ReconnectIngDisconnectedAccountActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="reconnect_disconnected_account" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.qitaf.status_points.QitafStatusPointsActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="buy_status_points" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.dashboard.store.vouchers.StoreVouchersActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="gift_voucher" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.trade_in_program.TradeInProgramActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="trade_in" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.twitter.TwitterLinkAccountActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.menu.profile.invite_friend_promo.InviteFriendPromoActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.purchase_device.device_details.media_player.MediaPlayerActivity" configChanges="orientation|screenSize" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.common.survey.InAppSurveyActivity" launchMode="singleTop" screenOrientation="portrait" windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="order_rating" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.jawwy_tv.JawwyTVActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.purchase_device.my_cart.MyCartActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="cart" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.mysim_services.manage_sim.ManageSIMActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.mysim_services.lost_sim.LostSIMActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.data_sharing.DataSharingActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.unlock_device.UnlockDeviceActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.add_ons.AddOnsActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.auctions.AuctionsActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="auctions" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.auctions.payment.AuctionPaymentActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.bank_transfer.BankTransferActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.family_plan.FamilyPlanActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.entertainment.product_display.EntertainmentOverviewActivity" screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="dcb-product" android:scheme="mystc"/>
+                <data android:host="entertainment_addon" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.jawal_control.JawalControlActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="access_control" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="sa.com.stc.ui.purchase_device.shop_by_brand.ShopByBrandActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="shop_by_brand" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="sa.com.stc.ui.vouchers_complaints.VoucherComplaintsActivity" windowSoftInputMode="adjustResize"/>
+        <activity android:name="sa.com.stc.ui.spam_fraud_complaints.SpamFraudComplaintsActivity" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="true" android:name="sa.com.stc.ui.mawjood_extra.MawjoodExtraActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="mawjood_extra" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="sa.com.stc.ui.dashboard.qitaf.invite_friend.QitafInviteFriendActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.product_display_jawal_services.ProductDisplayJawalServicesActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.other_services.OtherServicesActivity" screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.search_engine.SearchEngineActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="sa.com.stc.ui.verify_email.VerifyEmailActivity" screenOrientation="portrait" windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.stc.action.ACTION_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="verify_email" android:scheme="mystc"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" name="sa.com.stc.ui.deeplink.DeeplinkIntentService"/>
+        <meta-data android:name="push_kit_auto_init_enabled" android:value="true"/>
+        <provider android:exported="false" authorities="com.stc" grantUriPermissions="true" name="androidx.core.content.FileProvider">
+            <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="@xml/2132213766"/>
+        </provider>
+        <uses-library name="org.apache.http.legacy" required="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/2131427341"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/ic_start"/>
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_mbN31DO1efGDNWCxzCm1VcbczEiFRaMw"/>
+        <meta-data android:name="io.branch.sdk.BranchKey.test" android:value="key_test_pgIX8wVXhiQrNYxzusEupbnjFxaxLfRN"/>
+        <meta-data android:name="io.branch.sdk.TestMode" android:value="false"/>
+        <meta-data android:name="firebase_performance_logcat_enabled" android:value="true"/>
+        <activity android:name="com.app.shake_and_win_stc.ui.predictAndWin.PredictListActivity" configChanges="orientation" screenOrientation="portrait" theme="@style/2132082710"/>
+        <activity android:name="com.app.shake_and_win_stc.ui.predictAndWin.PredictAndWinActivity" configChanges="orientation" screenOrientation="portrait" theme="@style/2132082710"/>
+        <activity android:name="com.app.shake_and_win_stc.ui.guessTheBrand.GuessTheBrandGameActivity" configChanges="orientation" screenOrientation="portrait" theme="@style/2132082710"/>
+        <activity android:name="com.app.shake_and_win_stc.ui.guessTheBrand.GuessTheBrandActivity" configChanges="orientation" screenOrientation="portrait" theme="@style/2132082710"/>
+        <activity android:name="com.app.shake_and_win_stc.ui.ShakeAndWinGameActivity" configChanges="orientation" screenOrientation="portrait" theme="@style/2132082710"/>
+        <activity android:name="com.app.shake_and_win_stc.ui.ShakeAndWinActivity" configChanges="orientation" screenOrientation="portrait" theme="@style/2132082710"/>
+        <activity android:exported="false" android:name=".businesssdk.presentation.navigation.NavigationController">
+            <intent-filter>
+                <action android:name="mybusiness.applink"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name=".businesssdk.presentation.payment.activity.PaymentActivity"/>
+        <service android:exported="false" directBootAware="true" name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data name="com.google.firebase.components:com.google.firebase.perf.ktx.FirebasePerfKtxRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <uses-library name="androidx.window.extensions" required="false"/>
+        <uses-library name="androidx.window.sidecar" required="false"/>
+        <provider android:exported="false" authorities="com.stc.firebaseperfprovider" initOrder="101" name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
+        <meta-data android:name="flutterProjectType" android:value="module"/>
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
+        <receiver android:exported="true" name="com.google.firebase.iid.FirebaseInstanceIdReceiver" permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" directBootAware="true" name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="false" enabled="true" name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:exported="false" enabled="true" name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:exported="false" enabled="true" name="com.google.android.gms.measurement.AppMeasurementJobService" permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:exported="false" authorities="com.stc.firebaseinitprovider" directBootAware="true" initOrder="100" name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <activity android:exported="false" android:name="io.flutter.plugins.urllauncher.WebViewActivity" theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <service android:exported="false" directBootAware="true" name="androidx.room.MultiInstanceInvalidationService"/>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" theme="@android:style/Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" theme="@android:style/Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <provider android:exported="false" authorities="com.stc.androidx-startup" name="androidx.startup.InitializationProvider">
+            <meta-data name="androidx.emoji2.text.EmojiCompatInitializer" value="androidx.startup"/>
+            <meta-data name="androidx.lifecycle.ProcessLifecycleInitializer" value="androidx.startup"/>
+            <meta-data name="androidx.profileinstaller.ProfileInstallerInitializer" value="androidx.startup"/>
+        </provider>
+        <activity android:name="com.journeyapps.barcodescanner.CaptureActivity" clearTaskOnLaunch="true" screenOrientation="sensorLandscape" stateNotNeeded="true" theme="@style/2132084633" windowSoftInputMode="stateAlwaysHidden"/>
+        <service android:exported="false" name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data name="backend:com.google.android.datatransport.cct.CctBackendFactory" value="cct"/>
+        </service>
+        <service android:exported="false" name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <receiver android:exported="true" directBootAware="false" enabled="true" name="androidx.profileinstaller.ProfileInstallReceiver" permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" stateNotNeeded="true" theme="@style/2132084061"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    </application>
+</manifest>

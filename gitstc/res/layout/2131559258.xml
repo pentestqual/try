@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView textSize="16.0sp" textColor="@color/2131099790" id="@id/2131365521" layout_width="wrap_content" layout_height="wrap_content" layout_margin="15.0dip" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083887" />
+    <ImageView id="@id/2131362103" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231194" layout_marginEnd="15.0dip" 2130969494="@id/2131365521" 2130969500="2131364589" />
+    <TextView id="@id/2131362834" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="1.0dip" includeFontPadding="false" layout_marginEnd="8.0dip" 2130969494="@id/2131362103" 2130969501="@id/2131362103" 2130969524="@id/2131362103" style="@style/2132083832" />
+    <TextView textSize="12.0sp" id="@id/2131364115" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="5.0dip" maxLines="1" layout_marginStart="15.0dip" 2130969500="@id/2131362103" 2130969520="2131364589" 2130969523="@id/2131365521" />
+    <View background="@color/2131099923" layout_width="0.0dip" layout_height="0.5dip" layout_marginTop="15.0dip" 2130969520="@id/2131364115" 2130969523="@id/2131364115" />
+</androidx.constraintlayout.widget.ConstraintLayout>

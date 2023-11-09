@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365126" layout_width="fill_parent" layout_height="0.0dip" 2130969481="LinearLayoutManager" 2130969494="2131364589" 2130969524="2131364589" />
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131364291" visibility="gone" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969514="2131364589" 2130969518="2131364589" 2130969524="2131364589">
+        <TextView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/telegram_telegrams_header_title_nothing_yet" style="@style/2132083834" />
+        <TextView gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/telegram_telegrams_header_sub_your_received" layout_marginStart="85.0dip" layout_marginEnd="85.0dip" style="@style/2132083921" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

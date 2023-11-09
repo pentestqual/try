@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363072" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131365501" layout_width="wrap_content" layout_height="wrap_content" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083895" />
+    <SeekBar scrollbarAlwaysDrawHorizontalTrack="false" id="@id/2131365480" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" maxHeight="5.0dip" progressDrawable="@drawable/2131231049" minHeight="5.0dip" thumb="@drawable/2131231050" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365501" />
+    <TextView id="@id/2131365735" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131365480" style="@style/2132083927" />
+    <TextView id="@id/2131363186" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16.0dip" 2130969500="2131364589" 2130969523="@id/2131365480" style="@style/2132083927" />
+</androidx.constraintlayout.widget.ConstraintLayout>

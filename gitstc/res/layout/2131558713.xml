@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/transfer_ownership_transfer_ownership_header_do_you" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365798" paddingBottom="40.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/transfer_ownership_transfer_ownership_header_sub_this_number" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364692" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969523="@id/2131365798" 2130969559="@string/transfer_ownership_transfer_ownership_left_main_number" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131365536" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969523="@id/2131364692" 2130969559="@string/device_summary_header_left_main_service_type" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131365738" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969523="@id/2131365536" 2130969559="@string/transfer_ownership_transfer_ownership_left_main_start_time" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363299" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969523="@id/2131365738" 2130969559="@string/transfer_ownership_transfer_ownership_left_main_expiry_time" />
+    <Button enabled="false" id="@id/2131362694" text="@string/transfer_ownership_receiver_name_message_button_continue" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363299" 2130969525="1.0" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

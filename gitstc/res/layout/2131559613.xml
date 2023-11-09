@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView id="@id/2131364249" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131361983" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <View id="@id/2131363073" background="@color/2131099800" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="40.0dip" 2130969495="@id/2131362148" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView id="@id/2131362148" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32.0dip" text="@string/pay_bill_filter_section_available_bills" layout_marginStart="@dimen/2131165388" 2130969495="@id/divider1" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083837" />
+            <TextView textColor="?2130970328" id="@id/2131362580" padding="5.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_notifications_button_clear_all" layout_marginEnd="@dimen/2131165388" 2130969490="@id/2131362148" 2130969500="2131364589" style="@style/2132083866" />
+            <View id="@id/divider1" layout_marginTop="16.0dip" 2130969495="@id/2131365126" 2130969523="@id/2131362148" style="@style/2132083036" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365126" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="60.0dip" 2130969494="2131364589" 2130969523="@id/divider1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button enabled="false" id="@id/2131361983" text="@string/schedule_payment_add_card_button_add" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

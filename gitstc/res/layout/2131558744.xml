@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar id="@id/2131362479" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130969780="@drawable/2131231430" 2130970359="@string/auctions_number_auctions_title_number_auctions" 2130970360="true" 2130970370="@style/2132083941" 2130970371="@color/2131099656" />
+    <include id="@id/2131362737" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="16.0dip" layout_marginTop="12.0dip" layout_marginRight="16.0dip" layout_marginHorizontal="16.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362479" layout="@layout/2131559277" />
+    <com.google.android.material.tabs.TabLayout id="@id/2131362481" paddingTop="8.0dip" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="24.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362737" style="@style/2132082717" />
+    <View id="@id/2131363030" background="@color/2131099801" layout_width="fill_parent" layout_height="1.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362481" />
+    <androidx.viewpager2.widget.ViewPager2 id="@id/2131362121" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363030" />
+</androidx.constraintlayout.widget.ConstraintLayout>

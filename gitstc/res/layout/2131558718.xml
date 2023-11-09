@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" layout_above="@id/2131362394">
+        <include id="@id/2131362078" layout="@layout/2131559494" />
+        <TextView layout_width="fill_parent" layout_height="wrap_content" text="@string/new_landline_complimentary_services_header_title_wanna_add" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+        <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="15.0dip" text="@string/new_landline_complimentary_services_header_sub_browse_the" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131365127" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" 2130969481="LinearLayoutManager" />
+    </LinearLayout>
+    <FrameLayout id="@id/2131362394" layout_width="fill_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <Button id="@id/2131362691" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" text="@string/new_landline_national_address_button_continue" style="@style/2132082688" />
+        <Button id="@id/2131365635" visibility="gone" layout_width="fill_parent" layout_margin="20.0dip" text="@string/new_landline_wifi_devices_button_skip_for_now" style="@style/2132083123" />
+    </FrameLayout>
+</RelativeLayout>

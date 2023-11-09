@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_gravity="center" orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" />
+    <com.google.android.material.textview.MaterialTextView paddingTop="12.0dip" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/affiliate_link_invite_friend_section_title_how_does" style="@style/2132083844" />
+    <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="12.0dip">
+        <ImageView padding="12.0dip" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231295" />
+        <com.google.android.material.textview.MaterialTextView layout_gravity="center" paddingTop="12.0dip" paddingBottom="12.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/affiliate_link_invite_friend_left_main_share_the" paddingVertical="12.0dip" style="@style/2132083927" />
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="8.0dip" layout_marginStart="12.0dip">
+        <ImageView padding="12.0dip" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231528" />
+        <com.google.android.material.textview.MaterialTextView layout_gravity="center" paddingTop="12.0dip" paddingBottom="12.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/affiliate_link_invite_friend_left_main_enter_code" paddingVertical="12.0dip" style="@style/2132083927" />
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="8.0dip" layout_marginBottom="8.0dip" layout_marginStart="12.0dip" layout_marginVertical="8.0dip">
+        <ImageView padding="12.0dip" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231604" />
+        <com.google.android.material.textview.MaterialTextView layout_gravity="center" padding="12.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/affiliate_link_invite_friend_left_main_get_rewards" style="@style/2132083927" />
+    </LinearLayout>
+</LinearLayout>

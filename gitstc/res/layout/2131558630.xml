@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" padding="10.0dip" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="@dimen/2131165389"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView gravity="start|center" id="@id/2131366255" layout_width="fill_parent" layout_height="wrap_content" text="@string/direct_payment_direct_payment_message_has_been" />
+    <LinearLayout gravity="right" orientation="horizontal" paddingRight="@dimen/2131165328" layout_width="fill_parent" layout_height="wrap_content">
+        <TextView textColor="?colorAccent" id="@id/2131362987" layout_width="wrap_content" layout_height="wrap_content" text="Cancel" style="@style/2132083088" />
+        <TextView textColor="?colorAccent" id="@id/2131362988" layout_width="wrap_content" layout_height="wrap_content" text="@string/new_landline_order_message_button_ok" paddingStart="@dimen/2131165328" style="@style/2132083088" />
+    </LinearLayout>
+</LinearLayout>

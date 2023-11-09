@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" paddingLeft="@dimen/2131166079" paddingTop="16.0dip" paddingRight="@dimen/2131166079" paddingBottom="16.0dip" layout_width="fill_parent" layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout id="@id/2131364186" layout_width="fill_parent" layout_height="wrap_content" layout_weight="1.0">
+            <com.google.android.material.textfield.TextInputEditText layout_width="fill_parent" layout_height="wrap_content" hint="@string/mtrl_picker_text_input_date_range_start_hint" inputType="date" imeOptions="flagNoExtractUi" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Space layout_width="8.0dip" layout_height="0.0dip" />
+        <com.google.android.material.textfield.TextInputLayout id="@id/2131364185" layout_width="fill_parent" layout_height="wrap_content" layout_weight="1.0">
+            <com.google.android.material.textfield.TextInputEditText layout_width="fill_parent" layout_height="wrap_content" hint="@string/mtrl_picker_text_input_date_range_end_hint" inputType="date" imeOptions="flagNoExtractUi" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

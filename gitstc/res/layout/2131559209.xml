@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131362244" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_details_wishlist_header_title_devices_availability" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+            <TextView id="@id/2131365647" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/device_details_wishlist_header_sub_you_can" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362244" style="@style/2132083927" />
+            <TextView id="@id/2131364314" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="60.0dip" text="@string/device_details_wishlist_section_footer_you_dont" textAlignment="center" paddingStart="90.0dip" paddingEnd="90.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365647" style="@style/2132083885" />
+            <LinearLayout orientation="vertical" id="@id/2131363064" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" 2130969520="2131364589" 2130969523="@id/2131365647">
+                <View style="@style/2132083036" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365126" fadingEdge="none" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363064" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

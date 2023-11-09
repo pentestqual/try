@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131366102" layout_marginTop="@dimen/2131165388" text="@string/join_stc_id_info_header_sub_find_your" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083837" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131363012" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363430" 2130969523="@id/2131366102" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365055" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363430" 2130969523="@id/2131363012" />
+</androidx.constraintlayout.widget.ConstraintLayout>

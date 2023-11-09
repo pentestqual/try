@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" src="@drawable/2131231710" />
+    <LinearLayout layout_width="wrap_content" layout_height="wrap_content">
+        <TextView id="@id/2131364207" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/branches_and_ssms_help_center_right_main_hi" style="@style/2132083900" />
+    </LinearLayout>
+    <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20.0dip" text="@string/branches_and_ssms_help_center_how_can" style="@style/2132083909" />
+</LinearLayout>

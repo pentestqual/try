@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView id="@id/2131363370" visibility="gone" layout_width="fill_parent" layout_height="100.0dip" layout_marginTop="10.0dip" 2130968838="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363371" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" 2130969520="2131364589">
+        <TextView textColor="@color/2131099797" gravity="start|center" id="@id/2131363369" layout_width="fill_parent" layout_height="0.0dip" text="@string/device_details_device_button_special_offers" layout_weight="1.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+        <TextView gravity="start|center" id="@id/2131363368" paddingTop="8.0dip" layout_width="fill_parent" layout_height="0.0dip" layout_weight="1.0" 2130969520="2131364589" 2130969523="@id/2131363369" style="@style/2132083918" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

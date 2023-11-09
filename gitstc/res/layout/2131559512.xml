@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131365292" text="@string/home_details_subscriptions_section_title_roaming_packages" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083840" />
+    <androidx.cardview.widget.CardView id="@id/2131365291" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="15.0dip" layout_marginBottom="@dimen/2131165388" backgroundTint="?colorAccent" 2130969520="2131364589" 2130969523="@id/2131365292">
+        <androidx.constraintlayout.widget.ConstraintLayout padding="@dimen/2131165388" layout_width="fill_parent" layout_height="fill_parent" minHeight="?android:listPreferredItemHeight">
+            <ImageView id="@id/2131365293" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231610" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/home_details_subscriptions_enjoy_stc" layout_marginStart="10.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969510="0.0" 2130969519="@id/2131365293" 2130969524="2131364589" style="@style/2132083925" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

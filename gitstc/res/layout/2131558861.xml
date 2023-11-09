@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131364023" background="@color/2131099656" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131363408" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365101" background="@color/2131100836" focusableInTouchMode="true" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="30.0dip" minHeight="60.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363408">
+        <sa.com.stc.ui.free_sms.create.EnterRecipientsSearch scrollbarStyle="insideInset" layout_gravity="center_vertical" id="@id/2131365111" scrollbars="vertical" layout_width="0.0dip" layout_height="wrap_content" hint="@string/send_free_sms_create_new_left_main_search_recipient" overScrollMode="always" layout_marginStart="8.0dip" layout_marginEnd="@dimen/2131165329" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131365425" 2130969524="2131364589" />
+        <ImageView layout_gravity="center_vertical" id="@id/2131365425" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231372" layout_marginStart="@dimen/2131165333" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView id="@id/2131365395" clipToPadding="false" layout_width="fill_parent" layout_height="0.0dip" overScrollMode="never" 2130969495="@id/2131366657" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365101">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364110" background="@color/2131100836" focusable="true" clickable="true" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="@dimen/2131165332" layout_marginBottom="32.0dip" minHeight="300.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <com.google.android.material.textfield.TextInputEditText gravity="start" layout_gravity="center" id="@id/2131364116" background="@color/2131100836" paddingBottom="@dimen/2131165333" focusable="true" focusableInTouchMode="true" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" hint="@string/send_free_sms_create_new_left_main_write_message" inputType="textMultiLine" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083921" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <LinearLayout orientation="horizontal" id="@id/2131366657" background="@color/2131100836" paddingTop="20.0dip" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131363969" 2130969523="@id/2131365395">
+        <TextView id="@id/2131362513" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" text="@string/free_sms_characters_count" layout_marginStart="@dimen/2131165388" style="@style/2132083924" />
+        <TextView id="@id/2131364111" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" text="@string/send_free_sms_drafts_left_main_sms_left" layout_marginStart="5.0dip" style="@style/2132083924" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@id/2131363969" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366657" 2130969525="1.0">
+        <TextView id="@id/2131365522" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" text="@string/send_free_sms_create_new_left_main_sending_from" drawableLeft="@drawable/2131230937" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083882" />
+        <Button id="@id/2131362692" visibility="visible" layout_width="fill_parent" text="@string/send_free_sms_create_new_button_continue" style="@style/2132082688" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

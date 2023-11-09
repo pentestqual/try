@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165333" layout_marginBottom="@dimen/2131165333" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+        <ImageView id="@id/2131363611" background="?2130968978" layout_width="50.0dip" layout_height="50.0dip" scaleType="centerInside" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <TextView textColor="@color/2131099731" id="@id/2131364214" layout_width="0.0dip" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969501="@id/2131364803" 2130969510="0.0" 2130969519="@id/2131363611" 2130969524="2131364589" style="@style/2132083927" />
+        <TextView textColor="@color/2131099731" id="@id/2131364803" layout_width="70.0dip" layout_height="wrap_content" layout_marginEnd="@dimen/2131165328" 2130969494="2131364589" 2130969501="@id/2131362104" 2130969524="2131364589" style="@style/2132083885" />
+        <ImageView id="@id/2131362104" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231194" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View layout_gravity="bottom" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+</FrameLayout>

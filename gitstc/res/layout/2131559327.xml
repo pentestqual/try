@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout id="@id/2131366007" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969216="true" 2130969347="@style/2132083086" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputEditText textColor="?2130968978" id="@id/2131366004" layout_width="fill_parent" layout_height="wrap_content" hint="@string/device_details_discount_left_main_enter_valid" drawablePadding="@dimen/2131165516" inputType="text" textAlignment="viewStart" />
+</com.google.android.material.textfield.TextInputLayout>

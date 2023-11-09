@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362548" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/join_stc_number_type_header_title_choose_a" paddingStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/join_stc_number_type_header_sub_choose_a_number" paddingStart="@dimen/2131165388" 2130969517="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <View id="@id/2131366144" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" style="@style/2132083036" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366144">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131366308" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/replace_sim_get_a_section_title_numbers" paddingStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+            <View id="@id/2131364354" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366308" style="@style/2132083036" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131362152" layout_width="fill_parent" layout_height="wrap_content" 2130969481="LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364354" />
+            <TextView id="@id/txtYourNumberTitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/replace_sim_get_a_section_title_your_numbers" paddingStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362152" style="@style/2132083837" />
+            <View id="@id/yourNumberDivider" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/txtYourNumberTitle" style="@style/2132083036" />
+            <include id="@id/ll_disconnected_numbers_section" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/yourNumberDivider" layout="@layout/2131559503" />
+            <androidx.constraintlayout.widget.Group id="@id/groupDisconnectedSection" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="yourNumberDivider,txtYourNumberTitle,ll_disconnected_numbers_section,groupDisconnectedSection" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

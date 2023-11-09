@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131366256" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="51.0dip" text="@string/change_date_date_change_section_title_select_a" layout_marginStart="21.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083837" />
+    <View id="@id/headerDivider" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366256" style="@style/2132083036" />
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131365306" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/headerDivider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="?2130969024" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout background="?2130969024" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131365766" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589">
+            <com.google.android.material.appbar.CollapsingToolbarLayout id="@id/2131362599" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231">
+                <LinearLayout layout_gravity="bottom" id="@id/2131363646" layout_width="fill_parent" layout_height="90.0dip" layout_marginTop="?2130968594" 2130969485="2131364588">
+                    <TextView gravity="start" layout_width="fill_parent" layout_marginBottom="@dimen/2131165328" text="@string/store_layout_home_title_store" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083850" />
+                </LinearLayout>
+                <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" paddingStart="6.0dip" 2130969485="2131364698" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+            <ImageView layout_gravity="bottom" id="@id/2131365247" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout id="@id/2131365888" background="@color/2131099655" layout_width="fill_parent" layout_height="wrap_content" 2130968768="40.0dip" 2130969484="@string/appbar_scrolling_view_behavior" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365766">
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365473" layout_width="fill_parent" layout_height="wrap_content" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <LinearLayout gravity="end" layout_gravity="bottom" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+            <ImageView id="@id/2131364218" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" scaleType="fitXY" 2130970099="@drawable/2131231471" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView gravity="center" id="@id/titleTextView" layout_width="fill_parent" layout_height="?2130968594" text="@string/store_layout_home_title_store" alpha="0.0" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083901" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/home_details_home_total" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365185" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <View id="@id/divider" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365185" style="@style/2132083036" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131361965" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/divider" 2130969563="@string/home_details_home_active_balance" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131361963" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131361965" />
+    <TextView id="@id/2131361964" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/home_details_home_you_cant" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131361963" style="@style/2132083918" />
+    <androidx.cardview.widget.CardView id="@id/2131364246" layout_width="fill_parent" layout_height="146.0dip" layout_margin="@dimen/2131165388" 2130968835="?2130969332" 2130968837="2.0dip" 2130968838="2.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131361964">
+        <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="fill_parent">
+            <ImageView layout_gravity="center" layout_width="52.0dip" layout_height="52.0dip" src="@drawable/2131231711" />
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_card_need_help" layout_marginStart="16.0dip" style="@style/2132083897" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@android:color/white" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131364364" layout="@layout/2131559494" />
+    <ScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969494="2131364589" 2130969523="@id/2131364364">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969523="@id/2131364364">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364335" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131364333" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                    <ImageView id="@id/2131364334" layout_width="40.0dip" layout_height="40.0dip" src="@drawable/2131231749" 2130969520="2131364589" 2130969524="2131364589" />
+                    <TextView id="@id/2131364339" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969519="@id/2131364334" 2130969524="2131364589" style="@style/2132083921" />
+                </LinearLayout>
+                <LinearLayout gravity="end" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364333">
+                    <TextView id="@id/2131364336" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/temporary_disconnection_home_button_learn_more" style="@style/2132083863" />
+                    <TextView id="@id/2131364338" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/temporary_disconnection_home_button_button" style="@style/2132083863" />
+                </LinearLayout>
+                <View 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362925" background="@color/2131099656" paddingBottom="0.0dip" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364335">
+                <TextView textColor="@color/2131099657" id="@id/headerTextView" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="UNBILLED" 2130969500="2131364589" 2130969520="2131364589" 2130969524="@id/2131362925" />
+                <LinearLayout orientation="vertical" id="@id/2131362162" background="@android:color/white" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/headerTextView">
+                    <LinearLayout layout_width="fill_parent" layout_height="wrap_content">
+                        <TextView id="@id/2131363842" layout_width="wrap_content" layout_height="wrap_content" layout_margin="20.0dip" text="@string/number_properties_section_title_your_landline" style="@style/2132083837" />
+                    </LinearLayout>
+                    <View layout_width="wrap_content" layout_height="1.0dip" style="@style/2132083036" />
+                    <FrameLayout id="@id/2131363735" background="?2130969981" padding="20.0dip" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+                        <TextView layout_gravity="start|center" id="@id/2131363736" layout_width="wrap_content" layout_height="wrap_content" text="@string/number_properties_internet_info_title_Internet_Account_Info" style="@style/2132083927" />
+                        <TextView gravity="center" layout_gravity="end|center" layout_width="wrap_content" layout_height="wrap_content" drawableEnd="@drawable/2131231410" />
+                    </FrameLayout>
+                    <View layout_width="wrap_content" layout_height="1.0dip" style="@style/2132083036" />
+                    <FrameLayout id="@id/2131366212" background="?2130969981" padding="20.0dip" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+                        <TextView layout_gravity="start|center" id="@id/2131366213" layout_width="wrap_content" layout_height="wrap_content" text="@string/number_properties_left_main_stc_tv" style="@style/2132083927" />
+                        <TextView gravity="center" layout_gravity="end|center" layout_width="wrap_content" layout_height="wrap_content" drawableEnd="@drawable/2131231410" />
+                    </FrameLayout>
+                    <View layout_width="wrap_content" layout_height="1.0dip" style="@style/2132083036" />
+                    <LinearLayout orientation="vertical" id="@id/2131363843" layout_width="fill_parent" layout_height="wrap_content">
+                        <LinearLayout paddingTop="32.0dip" paddingBottom="16.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="16.0dip" paddingStart="20.0dip" paddingEnd="20.0dip">
+                            <TextView id="@id/2131363841" layout_width="wrap_content" layout_height="wrap_content" text="@string/number_properties_section_title_landline_services" style="@style/2132083837" />
+                        </LinearLayout>
+                        <View layout_width="wrap_content" layout_height="1.0dip" style="@style/2132083036" />
+                        <LinearLayout orientation="horizontal" id="@id/2131365881" background="?2130969981" padding="20.0dip" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+                            <TextView textSize="17.0dip" id="@id/2131365882" layout_width="0.0dip" layout_height="wrap_content" text="@string/number_properties_lift_main_suspend_landline" layout_weight="0.8" style="@style/2132083877" />
+                            <ImageView layout_gravity="center" id="@id/2131363714" layout_width="0.0dip" layout_height="wrap_content" src="@drawable/2131231395" layout_weight="0.2" />
+                        </LinearLayout>
+                        <View layout_width="wrap_content" layout_height="1.0dip" paddingStart="@dimen/2131165388" style="@style/2132083036" />
+                        <TextView textSize="17.0dip" gravity="center_vertical" id="@id/2131364044" background="?2130969981" layout_width="fill_parent" layout_height="60.0dip" text="@string/number_properties_button_manage_suspensions" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083877" />
+                        <View id="@id/2131364043" layout_width="wrap_content" layout_height="1.0dip" style="@style/2132083036" />
+                        <TextView id="@id/2131365880" layout_width="wrap_content" layout_height="wrap_content" layout_margin="20.0dip" text="@string/number_properties_section_footer_you_can" layout_marginStart="@dimen/2131165388" style="@style/2132083924" />
+                    </LinearLayout>
+                    <TextView id="@id/2131364769" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20.0dip" layout_marginBottom="16.0dip" text="@string/number_properties_section_title_preferences" layout_marginStart="20.0dip" layout_marginEnd="20.0dip" style="@style/2132083837" />
+                    <View layout_width="wrap_content" layout_height="1.0dip" style="@style/2132083036" />
+                    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131362658" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/notification_center_notification_section_title_contact_number" />
+                    <FrameLayout orientation="horizontal" id="@id/2131362667" background="@color/2131099656" padding="20.0dip" layout_width="fill_parent" layout_height="wrap_content">
+                        <TextView layout_gravity="start|center" id="@id/2131362649" layout_width="wrap_content" layout_height="wrap_content" text="@string/number_properties_lift_main_contact_language" style="@style/2132083927" />
+                        <TextView textColor="?2130968978" layout_gravity="end|center" id="@id/2131362652" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083885" />
+                    </FrameLayout>
+                    <View layout_width="wrap_content" layout_height="1.0dip" style="@style/2132083036" />
+                    <LinearLayout orientation="vertical" padding="20.0dip" layout_width="wrap_content" layout_height="wrap_content">
+                        <TextView id="@id/2131362651" layout_width="wrap_content" layout_height="wrap_content" text="@string/number_properties_Section_footer_this_language" style="@style/2132083924" />
+                    </LinearLayout>
+                    <View style="@style/2132083036" />
+                    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131364514" layout_width="fill_parent" layout_height="wrap_content" letterSpacing="0.5" 2130969154="true" 2130969563="@string/number_properties_section_title_other" />
+                    <sa.com.stc.ui.common.more.ListItemView id="@id/2131362502" layout_width="fill_parent" layout_height="wrap_content" 2130970229="@string/number_properties_button_move_to" />
+                    <sa.com.stc.ui.common.more.ListItemView id="@id/2131362856" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130970033="true" 2130970229="@string/number_properties_button_deactivate_your_landline" />
+                    <sa.com.stc.ui.common.more.ListItemView id="@id/2131366186" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130970033="true" 2130970229="@string/number_properties_button_transfer_ownership" />
+                    <sa.com.stc.ui.common.more.ListItemView id="@id/2131363119" layout_width="fill_parent" layout_height="wrap_content" 2130970033="true" 2130970229="@string/number_properties_number_properties_button_e_contract" />
+                    <View style="@style/2132083036" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

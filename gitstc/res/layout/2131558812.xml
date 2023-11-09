@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="24.0dip" text="@string/customer_support_contact_method_header_title_how_can" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083845" />
+    <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/customer_support_contact_us_header_sub_this_will" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083927" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayout id="@id/2131365670" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" 2130969143="2131363698" 2130969462="@string/customer_support_contact_us_button_sms" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayout id="@id/2131363165" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/customer_support_contact_us_button_email" />
+</LinearLayout>

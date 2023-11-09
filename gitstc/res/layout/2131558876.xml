@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="@color/2131099656" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout theme="@style/2132082711" id="@id/2131362078" background="@color/2131099656" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" elevation="0.0dip" 2130969186="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231">
+                <LinearLayout layout_gravity="center|top" orientation="vertical" id="@id/2131363640" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="?2130968594" animateLayoutChanges="true" 2130969485="2131364588">
+                    <androidx.viewpager2.widget.ViewPager2 layout_gravity="center_horizontal" id="@id/2131363466" layout_width="fill_parent" layout_height="190.0dip" layout_marginTop="16.0dip" layout_marginBottom="24.0dip" />
+                    <com.google.android.material.tabs.TabLayout id="@id/2131365899" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="29.0dip" 2130970193="@drawable/2131231958" 2130970197="2131362490" 2130970206="0.0dip" />
+                    <LinearLayout layout_gravity="center_horizontal" orientation="horizontal" id="@id/2131363462" paddingBottom="24.0dip" layout_width="wrap_content" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" />
+                </LinearLayout>
+                <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="@color/2131099656" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" 2130969877="@style/2132082714" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" layout_marginBottom="?2130968594" overScrollMode="never" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969523="@id/2131362078">
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+                <View id="@id/2131363472" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083036" />
+                <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365633" background="?2130969981" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/tamayouz_gifts_summary_lift_main_size" 2130969524="2131364589" />
+                <TextView id="@id/2131363463" paddingTop="55.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969523="@id/2131365633" style="@style/2132083927" />
+                <androidx.constraintlayout.widget.Group id="@id/2131364830" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="productDetailsText,productDetailsDiv,productDetailsRecycler" />
+                <TextView id="@id/productDetailsText" paddingTop="48.0dip" paddingBottom="16.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/tamayouz_gifts_gift_details_section_title_product_details" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969523="@id/2131363463" style="@style/2132083837" />
+                <View id="@id/productDetailsDiv" 2130969520="2131364589" 2130969523="@id/productDetailsText" style="@style/2132083036" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/productDetailsRecycler" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="?2130968594" overScrollMode="never" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969494="2131364589" 2130969523="@id/productDetailsDiv" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+        <Button layout_gravity="bottom" id="@id/2131362543" layout_width="fill_parent" text="@string/tamayouz_gifts_gift_details_button_choose_this" style="@style/2132082688" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView gravity="center" id="@id/2131366139" layout_width="fill_parent" layout_height="?2130968594" style="@style/2132083891" />
+</FrameLayout>

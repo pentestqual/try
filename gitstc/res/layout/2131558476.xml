@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager id="@id/2131364266" layout_width="fill_parent" layout_height="fill_parent" />
+    <com.google.android.material.tabs.TabLayout id="@id/2131364265" layout_width="wrap_content" layout_height="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130970193="@drawable/2131231958" 2130970197="2131362490" 2130970204="false" 2130970206="0.0dip" />
+    <TextView id="@id/2131364264" background="?2130969981" focusable="true" visibility="gone" clickable="true" layout_width="wrap_content" layout_height="wrap_content" text="@string/done" layout_marginEnd="@dimen/2131165388" 2130969494="@id/2131364265" 2130969500="2131364589" 2130969524="@id/2131364265" style="@style/2132083838" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131362318" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131365468" paddingTop="@dimen/2131165388" paddingBottom="10.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/new_landline_subsription_section_title_select_your" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362318" style="@style/2132083837" />
+    <View id="@id/2131365464" 2130969494="@id/2131365468" 2130969520="2131364589" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131364452" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365464" />
+</androidx.constraintlayout.widget.ConstraintLayout>

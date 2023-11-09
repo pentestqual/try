@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView id="@id/2131362245" layout_width="0.0dip" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/join_stc_id_number_header_title_enter_your" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365648" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165328" text="@string/login_and_registrations_enter_id_header_sub_this_is" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362245" style="@style/2132083927" />
+    <EditText gravity="start" id="@id/2131364104" background="@color/2131100766" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="0.0dip" hint="@string/telegram_create_new_left_main_write_message" 2130969495="@id/2131366221" 2130969523="@id/2131365648" />
+    <TextView id="@id/2131366221" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969495="@id/2131366046" 2130969520="@id/2131364104" />
+    <Button id="@id/2131366046" layout_width="fill_parent" text="@string/join_stc_id_number_button_continue" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

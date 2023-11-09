@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="0.0dip">
+        <ImageView id="@id/2131364571" background="@drawable/2131230925" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <include id="@id/2131362078" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+        <TextView textSize="19.0dip" textColor="@color/2131099648" id="@id/2131364796" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/device_contract_contract_section_title_price" lines="1" fontFamily="@font/2131296262" layout_marginStart="@dimen/2131165388" letterSpacing="0.07" 2130969520="2131364589" 2130969523="@id/2131362078" />
+        <TextView textSize="38.0dip" textColor="@color/2131099648" id="@id/2131364807" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" fontFamily="@font/2131296263" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364796" />
+        <TextView textSize="17.0dip" textColor="@color/2131099648" id="@id/2131364813" layout_width="wrap_content" layout_height="wrap_content" fontFamily="@font/2131296263" layout_marginStart="@dimen/2131165388" 2130969490="@id/2131364807" 2130969519="@id/2131364807" 2130969523="@id/2131364796" />
+        <View id="@id/2131364792" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364813" style="@style/2132083036" />
+        <TextView id="@id/2131364568" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" text="Package Details" layout_marginStart="@dimen/2131165388" 2130969495="@id/2131364723" 2130969520="2131364589" 2130969523="@id/2131364807" style="@style/2132084627" />
+        <View id="@id/2131364723" layout_marginTop="7.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364568" style="@style/2132083036" />
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131364030" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="10.0dip" 2130969481="LinearLayoutManager" 2130969495="@id/2131362510" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364723" 2130969525="0.0" />
+        <TextView textSize="17.0dip" id="@id/2131362908" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364792" />
+        <Button id="@id/2131362510" layout_width="fill_parent" text="@string/schedule_payment_message_button_change" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

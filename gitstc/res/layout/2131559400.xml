@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout paddingBottom="10.0dip" layout_width="wrap_content" layout_height="wrap_content" paddingStart="10.0dip" paddingEnd="10.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView layout_gravity="center" id="@id/2131362470" layout_width="145.0dip" layout_height="145.0dip" foreground="?android:selectableItemBackground" elevation="3.0dip" 2130968837="2.0dip" 2130968844="true">
+        <RelativeLayout layout_width="fill_parent" layout_height="fill_parent">
+            <ImageView id="@id/2131363628" layout_width="fill_parent" layout_height="90.0dip" scaleType="fitXY" />
+            <TextView id="@id/2131363019" background="@color/2131099733" paddingTop="10.0dip" paddingBottom="10.0dip" visibility="gone" layout_width="40.0dip" layout_height="40.0dip" layout_above="@id/2131366102" textAlignment="center" style="@style/2132083833" />
+            <TextView ellipsize="end" id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="5.0dip" maxLines="1" layout_below="@id/2131363628" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" letterSpacing="0.02" style="@style/2132083837" />
+            <TextView ellipsize="end" id="@id/subtitle" paddingBottom="5.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="5.0dip" maxLines="1" layout_alignParentBottom="true" textAllCaps="true" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" letterSpacing="0.05" style="@style/2132083828" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

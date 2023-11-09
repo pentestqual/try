@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/2131166209" android:width="@dimen/2131166209" android:viewportWidth="@integer/2131427392" android:viewportHeight="@integer/2131427392"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="@string/mtrl_switch_thumb_group_name" android:pivotX="@integer/2131427391" android:pivotY="@integer/2131427391">
+        <path android:name="@string/mtrl_switch_thumb_path_name" android:fillColor="#ffffffff" android:pathData="@string/mtrl_switch_thumb_path_pressed" />
+    </group>
+</vector>

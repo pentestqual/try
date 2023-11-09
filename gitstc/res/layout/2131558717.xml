@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="0.0dip" layout_above="@id/2131362394" 2130969495="@id/2131362394" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" id="@id/2131362672" layout_width="fill_parent" layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099797" layout_width="fill_parent" layout_height="236.0dip">
+                <ImageView id="@id/2131363611" layout_width="47.0dip" layout_height="47.0dip" 2130969495="@id/2131362494" 2130969514="2131364589" 2130969518="2131364589" />
+                <TextView gravity="center" id="@id/2131364214" padding="15.0dip" layout_width="fill_parent" layout_height="wrap_content" 2130969514="2131364589" 2130969518="2131364589" 2130969523="@id/2131362494" style="@style/2132083905" />
+                <View id="@id/2131362494" visibility="invisible" layout_width="fill_parent" layout_height="1.0dip" 2130969494="2131364589" 2130969514="2131364589" 2130969518="2131364589" 2130969524="2131364589" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView id="@id/2131365855" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083899" />
+            <View id="@id/2131363073" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131364799" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_contract_contract_section_title_price" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+                    <TextView id="@id/2131364802" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083904" />
+                    <TextView id="@id/2131364806" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0" layout_marginStart="@dimen/2131165333" style="@style/2132083927" />
+                </LinearLayout>
+                <TextView id="@id/2131366478" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" text="@string/vat_vattobeadded_vat_wil" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083924" />
+                <View id="@id/2131363075" layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+            </LinearLayout>
+            <TextView id="@id/2131362920" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083927" />
+            <TextView textStyle="bold" id="@id/headerTextView" paddingTop="@dimen/2131165322" paddingBottom="@dimen/2131165329" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" paddingStart="@dimen/2131165329" paddingEnd="@dimen/2131165329" style="@style/2132083927" />
+            <View style="@style/2132083036" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout id="@id/2131362394" layout_width="fill_parent" layout_height="wrap_content" layout_alignParentBottom="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+        <Button id="@id/2131362000" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" text="@string/new_landline_products_button_add_to_order" 2130970232="true" style="@style/2132082688" />
+        <Button id="@id/2131365201" visibility="gone" layout_width="fill_parent" layout_margin="20.0dip" text="@string/new_landline_order_choose_number_button_remove" style="@style/2132083123" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

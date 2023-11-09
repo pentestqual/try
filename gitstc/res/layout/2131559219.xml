@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="start|center" orientation="horizontal" id="@id/2131363613" paddingLeft="0.0dip" paddingTop="4.0dip" paddingRight="8.0dip" paddingBottom="4.0dip" layout_width="wrap_content" layout_height="wrap_content" minWidth="56.0dip" paddingStart="0.0dip" paddingEnd="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.internal.PreferenceImageView id="@android:id/icon" layout_width="wrap_content" layout_height="wrap_content" 2130969676="48.0dip" 2130969680="48.0dip" />
+</LinearLayout>

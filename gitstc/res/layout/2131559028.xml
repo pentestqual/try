@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/iot_home_buy_a_header_title_purchase_summary" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+            <TextView id="@id/subtitle" paddingBottom="40.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+            <LinearLayout orientation="vertical" id="@id/2131364477" layout_width="fill_parent" layout_height="0.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle">
+                <include id="@id/2131364476" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559452" />
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364553" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/iot_home_buy_a_left_main_package_name" />
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363828" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/iot_home_buy_a_left_main_landline_number" />
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363730" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/iot_home_buy_a_left_main_installation_required" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131362942" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364477" />
+            <TextView gravity="start" id="@id/2131362762" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/iot_home_buy_a_footer_limit" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362942" style="@style/2132083688" />
+            <TextView id="@id/2131363579" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="90.0dip" text="@string/device_summary_lift_main_i_accept" paddingStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969523="@id/2131362762" style="@style/2132083927" />
+            <TextView id="@id/2131365964" layout_width="0.0dip" layout_height="wrap_content" text="@string/device_contract_contract_button_terms_and" paddingStart="4.0dip" 2130969494="@id/2131363579" 2130969501="@id/2131365891" 2130969519="@id/2131363579" 2130969524="@id/2131363579" style="@style/2132083877" />
+            <Switch theme="@style/2132083115" id="@id/2131365891" layout_width="wrap_content" layout_height="wrap_content" checked="false" layout_marginEnd="10.0dip" 2130969494="@id/2131363579" 2130969500="2131364589" 2130969519="@id/2131365964" 2130969524="@id/2131363579" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <Button enabled="false" id="@id/2131364705" layout_width="fill_parent" text="@string/device_summary_button_place_order" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

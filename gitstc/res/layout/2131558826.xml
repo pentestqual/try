@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131366133" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView scrollbars="vertical" layout_width="fill_parent" layout_height="0.0dip" overScrollMode="never" 2130969495="@id/2131361898" 2130969523="@id/2131366133" 2130969525="0.0">
+        <LinearLayout gravity="center" orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <TextView id="@id/headerTextView" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+            <TextView id="@id/2131365783" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365127" layout_width="fill_parent" layout_height="wrap_content" foregroundGravity="center_vertical" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131361898" visibility="gone" layout_width="fill_parent" text="@string/data_sharing_data_sharing_button_add_user" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131366146" background="@color/2131100822" layout_width="fill_parent" layout_height="1.0dip" layout_margin="@dimen/2131165388" />
+    <TextView textColor="?2130969578" gravity="center_horizontal" layout_gravity="center" layout_marginBottom="@dimen/2131165388" text="@string/branches_and_ssms_help_center_button_see_support" style="@style/2132083868" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131363935" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView layout_gravity="center" id="@id/2131362465" background="@color/2131099655" layout_width="fill_parent" layout_height="105.0dip" 2130968837="2.0dip" 2130968838="8.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center_vertical" id="@id/2131362441" background="@drawable/2131231884" layout_width="fill_parent" layout_height="fill_parent" backgroundTint="?colorAccent">
+            <LinearLayout id="@id/2131366512" background="@drawable/2131231884" padding="5.0dip" focusable="true" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="10.0dip" layout_marginStart="20.0dip" backgroundTint="@color/2131099656" 2130969494="2131364589" 2130969520="2131364589">
+                <TextView textSize="16.0dip" textColor="?colorAccent" id="@id/2131365991" layout_width="wrap_content" layout_height="wrap_content" text="@string/browse_qitaf_partner_tamayouz_discounts_left_main_view_our" fontFamily="@font/2131296262" layout_marginStart="5.0dip" layout_marginEnd="5.0dip" letterSpacing="0.08" />
+            </LinearLayout>
+            <LinearLayout orientation="horizontal" id="@id/2131363936" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" 2130969520="2131364589" 2130969523="@id/2131366512" 2130969524="2131364589">
+                <TextView textSize="19.0dip" textColor="@color/2131099656" layout_width="0.0dip" layout_height="wrap_content" text="@string/browse_qitaf_partner_tamayouz_discounts_left_main_visit_qitaf" layout_weight="0.8" lineSpacingExtra="-10.0dip" fontFamily="@font/2131296263" layout_marginStart="@dimen/2131165388" />
+                <ImageView layout_gravity="end" id="@id/2131366074" paddingTop="10.0dip" layout_width="0.0dip" layout_height="wrap_content" src="@drawable/2131231435" layout_weight="0.2" 2130969500="2131364589" 2130969524="2131364589" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

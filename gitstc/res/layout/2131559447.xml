@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165915" layout_marginRight="@dimen/2131165915" minHeight="@dimen/2131165977" backgroundTint="@color/2131100892" layout_marginHorizontal="@dimen/2131165915" style="@style/2132083000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+        <FrameLayout layout_width="fill_parent" layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362813" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout_margin="@dimen/2131165926">
+                <ImageView id="@id/2131364549" layout_width="@dimen/2131165944" layout_height="@dimen/2131165944" src="@drawable/2131231322" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                <TextView textColor="@color/2131100687" id="@id/2131366102" layout_width="@dimen/2131166386" layout_height="wrap_content" layout_marginLeft="@dimen/2131165908" layout_marginRight="@dimen/2131165908" textAlignment="viewStart" layout_marginHorizontal="@dimen/2131165908" 2130969494="2131364589" 2130969501="@id/2131362101" 2130969519="@id/2131364549" 2130969524="2131364589" style="@style/2132083290" />
+                <ImageView id="@id/2131362101" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231206" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <include layout_gravity="center_vertical" id="@id/2131363216" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout="@layout/2131559345" />
+            <com.stc.mybusiness.core.presentation.customview.CustomShimmerFrameLayout id="@id/2131365564" visibility="visible" layout_width="fill_parent" layout_height="fill_parent" layout_margin="@dimen/2131165915">
+                <View background="@drawable/2131231901" layout_width="fill_parent" layout_height="fill_parent" translationZ="@dimen/2131165925" backgroundTint="@color/2131100767" />
+            </com.stc.mybusiness.core.presentation.customview.CustomShimmerFrameLayout>
+        </FrameLayout>
+        <View id="@id/divider" background="@color/2131099963" layout_width="fill_parent" layout_height="1.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

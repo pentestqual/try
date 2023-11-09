@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+            <include id="@id/2131363296" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip" 2130969487="true" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559506" />
+            <LinearLayout orientation="vertical" id="@id/2131364901" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="24.0dip" 2130969487="true" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363296">
+                <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip" text="@string/purchase_status_purchase_history_title_purchase_history" layout_marginStart="20.0dip" style="@style/2132083837" />
+                <View layout_marginTop="@dimen/2131165328" layout_marginBottom="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366236" style="@style/2132083036" />
+                <LinearLayout gravity="center" orientation="vertical" id="@id/2131363870" visibility="gone" layout_width="fill_parent" layout_height="200.0dip" layout_margin="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366134">
+                    <TextView id="@id/2131366026" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8.0dip" text="@string/purchase_status_purchase_history_header_title_nothing_yet" style="@style/2132083841" />
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/purchase_status_purchase_history_header_sub_your_purchased" textAlignment="center" style="@style/2132083924" />
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131365132" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

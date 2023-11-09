@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView id="@id/2131365395" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <ImageView id="@id/2131362579" visibility="invisible" layout_width="160.0dip" layout_height="135.0dip" layout_marginTop="10.0dip" src="@drawable/2131231536" 2130969514="2131364589" 2130969518="2131364589" 2130969524="2131364589" />
+            <include id="@id/2131366101" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" 2130969514="2131364589" 2130969518="2131364589" 2130969524="2131364589" layout="@layout/2131559396" />
+            <LinearLayout orientation="vertical" id="@id/2131364959" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073" />
+            <TextView gravity="center" id="@id/2131364958" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/browse_qitaf_partner_tamayouz_discounts_section_title_tamayouz_classic" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366667" style="@style/2132083899" />
+            <TextView gravity="center" id="@id/2131364921" padding="@dimen/2131165333" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364958" style="@style/2132083927" />
+            <TextView gravity="center" id="@id/2131366667" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip" text="@string/collect_qitaf_points_qitaf_header_sub_youre_currently" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366101" style="@style/2132083927" />
+            <View id="@id/2131363073" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364921" style="@style/2132083036" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

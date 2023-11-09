@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="fill_parent" weightSum="3.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton id="@id/2131362363" background="@android:color/transparent" layout_width="0.0dip" layout_height="wrap_content" foreground="?android:selectableItemBackground" src="@drawable/ic_rate_app_bad" layout_weight="1.0" />
+    <androidx.appcompat.widget.AppCompatImageButton id="@id/2131362365" background="@android:color/transparent" layout_width="0.0dip" layout_height="wrap_content" foreground="?android:selectableItemBackground" src="@drawable/ic_rate_app_normal" layout_weight="1.0" />
+    <androidx.appcompat.widget.AppCompatImageButton id="@id/2131362364" background="@android:color/transparent" layout_width="0.0dip" layout_height="wrap_content" foreground="?android:selectableItemBackground" src="@drawable/ic_rate_app_good" layout_weight="1.0" />
+</LinearLayout>

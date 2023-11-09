@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView id="@id/2131364025" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969495="@id/2131362352" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_details_buy_device_section_title_choose_a" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+            <TextView id="@id/2131365788" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/device_details_buy_device_section_sub_you_can" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+            <LinearLayout orientation="vertical" id="@id/2131362671" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365788">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362701" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131362700" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969520="2131364589" 2130969524="2131364589" 2130969563="@string/device_details_buy_device_section_title_contract_duration" />
+                    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131363111" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/device_details_buy_device_left_main_duration" 2130969520="2131364589" 2130969523="@id/2131362700" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131364156" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/device_details_buy_device_section_title_monthly_payment" />
+                <sa.com.stc.uicomponent.SeekbarWithIntervals layout_gravity="center_horizontal" id="@id/2131365481" layout_width="fill_parent" layout_height="120.0dip" layout_marginTop="@dimen/2131165388" 2130969206="100" 2130969983="30" 2130970110="10" />
+                <View style="@style/2132083036" />
+                <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+                    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131362698" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969520="2131364589" 2130969524="2131364589" 2130969563="@string/device_details_buy_device_section_title_contract_details" />
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363083" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969520="2131364589" 2130969523="@id/2131362698" 2130969559="@string/device_payment_amount_lift_main_down_payment" />
+                    <ProgressBar id="@id/2131364862" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="14.0dip" 2130969494="2131364589" 2130969500="@id/2131363083" 2130969524="@id/2131363083" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131362352" text="@string/purchase_subscription_summary_button_continue" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

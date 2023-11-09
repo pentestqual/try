@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="horizontal" id="@id/2131363935" layout_width="fill_parent" layout_height="wrap_content" paddingStart="3.0dip" paddingEnd="3.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView id="@id/2131362465" background="@color/2131099655" layout_width="fill_parent" layout_height="100.0dip" layout_marginTop="5.0dip" layout_marginBottom="5.0dip" 2130968837="2.0dip">
+        <LinearLayout orientation="vertical" id="@id/2131362672" layout_width="fill_parent" layout_height="fill_parent">
+            <ImageView layout_gravity="end" id="@id/2131363628" layout_width="28.0dip" layout_height="35.0dip" layout_marginTop="10.0dip" layout_marginBottom="10.0dip" layout_marginEnd="15.0dip" 2130969500="2131364589" 2130969524="2131364589" />
+            <TextView gravity="bottom" id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="5.0dip" layout_marginStart="10.0dip" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083836" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

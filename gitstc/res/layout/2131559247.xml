@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView orientation="vertical" background="@drawable/2131230966" layout_width="fill_parent" layout_height="wrap_content" 2130968837="2.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tubb.smrv.SwipeHorizontalMenuLayout layout_width="fill_parent" layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365642" layout_width="fill_parent" layout_height="wrap_content">
+            <ImageView layout_gravity="center" id="@id/2131363671" background="?colorAccent" padding="12.0dip" layout_width="60.0dip" layout_height="0.0dip" scaleType="fitCenter" adjustViewBounds="true" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView textColor="?colorAccent" ellipsize="end" id="@id/2131366356" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="16.0dip" maxLines="1" textAllCaps="true" textDirection="locale" layout_marginStart="16.0dip" 2130969501="@id/2131366362" 2130969519="@id/2131363671" 2130969524="2131364589" style="@style/2132083830" />
+            <TextView textColor="@color/2131099650" ellipsize="end" id="@id/2131366362" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" textDirection="locale" paddingStart="4.0dip" paddingEnd="4.0dip" layout_marginEnd="16.0dip" 2130969494="@id/2131366356" 2130969500="2131364589" 2130969519="@id/2131366356" 2130969524="@id/2131366356" style="@style/2132083913" />
+            <TextView ellipsize="end" id="@id/2131366360" layout_width="0.0dip" layout_height="wrap_content" layout_marginBottom="16.0dip" maxLines="2" textDirection="locale" layout_marginEnd="16.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="@id/2131366356" 2130969523="@id/2131366356" style="@style/2132083916" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365645" background="?colorAccent" padding="8.0dip" layout_width="wrap_content" layout_height="fill_parent">
+            <ImageView id="@id/2131363641" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231315" scaleType="fitCenter" adjustViewBounds="true" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView textColor="@color/2131099656" id="@id/2131366066" layout_width="wrap_content" layout_height="wrap_content" text="@string/device_details_wishlist_message_title_delete" 2130969494="2131364589" 2130969500="@id/2131363641" 2130969520="@id/2131363641" 2130969523="@id/2131363641" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365644" background="?colorAccent" padding="8.0dip" layout_width="wrap_content" layout_height="fill_parent">
+            <ImageView id="@id/2131363642" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231315" scaleType="fitCenter" adjustViewBounds="true" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView textColor="@color/2131099656" id="@id/2131366065" layout_width="wrap_content" layout_height="wrap_content" text="@string/device_details_wishlist_message_title_delete" 2130969494="2131364589" 2130969500="@id/2131363642" 2130969520="@id/2131363642" 2130969523="@id/2131363642" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.tubb.smrv.SwipeHorizontalMenuLayout>
+</androidx.cardview.widget.CardView>

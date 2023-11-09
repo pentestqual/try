@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView layout_gravity="center" id="@id/2131364024" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="8.0dip" layout_marginBottom="8.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130968835="@color/2131099789" 2130968837="2.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+        <com.google.android.material.button.MaterialButton orientation="vertical" id="@id/2131364007" background="?2130968986" layout_width="60.0dip" layout_height="60.0dip" 2130968703="?2130968978" 2130969354="@drawable/2131231591" 2130969361="@color/2131100892" 2130969520="2131364589" 2130969524="2131364589" />
+        <com.google.android.material.textview.MaterialTextView textSize="19.0dip" gravity="end" layout_gravity="center_vertical" id="@id/2131362059" layout_width="0.0dip" layout_height="wrap_content" includeFontPadding="false" 2130969494="2131364589" 2130969501="@id/2131362054" 2130969519="@id/2131364007" 2130969524="2131364589" style="@style/2132083837" />
+        <com.google.android.material.textview.MaterialTextView id="@id/2131362054" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="4.0dip" text="@string/currency" includeFontPadding="false" layout_marginStart="5.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131362059" 2130969524="2131364589" style="@style/2132083885" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

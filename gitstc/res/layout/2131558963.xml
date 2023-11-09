@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar id="@id/2131364860" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" />
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131365170" background="@color/2131100892" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout_below="@id/2131362078" layout_centerInParent="true">
+        <ImageView layout_gravity="center_horizontal" id="@id/2131365171" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231598" />
+        <TextView id="@id/2131363219" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/mystc_message_banner_this_service" textAlignment="center" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083885" />
+        <TextView textStyle="bold" textColor="@color/2131099684" layout_gravity="center_horizontal" id="@id/2131365176" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/order_tracking_my_orders_button_reload" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" style="@style/2132083927" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@id/2131362814" layout_width="fill_parent" layout_height="fill_parent" layout_below="@id/2131362078">
+        <com.google.android.material.tabs.TabLayout id="@id/2131364192" layout_width="fill_parent" layout_height="?2130968594" 2130970193="@color/2131100686" 2130970197="2131363324" 2130970203="?2130968978" 2130970210="2131363364" 2130970219="?2130968978" 2130970221="@style/2132083692" />
+        <androidx.viewpager2.widget.ViewPager2 id="@id/2131364193" layout_width="fill_parent" layout_height="fill_parent" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    </LinearLayout>
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+</RelativeLayout>

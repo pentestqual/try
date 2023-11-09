@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362309" background="@drawable/2131231882" layout_width="fill_parent" layout_height="wrap_content" 2130968767="false" 2130969484="com.google.android.material.bottomsheet.BottomSheetBehavior" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362598" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073">
+            <RelativeLayout layout_gravity="center" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.8">
+                <LinearLayout orientation="vertical" id="@id/2131364798" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388">
+                    <TextView id="@id/2131362476" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083921" />
+                    <TextView textColor="?2130968978" id="@id/2131362475" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083843" />
+                    <TextView id="@id/2131362705" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083924" />
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@id/2131364797" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" alpha="0.0" layout_marginStart="@dimen/2131165388">
+                    <TextView textColor="?2130968978" id="@id/2131364815" layout_width="wrap_content" layout_height="wrap_content" 2130969501="@id/2131362401" 2130969520="2131364589" 2130969523="@id/2131362476" style="@style/2132083843" />
+                    <TextView id="@id/2131361801" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969501="@id/2131362401" 2130969520="2131364589" 2130969523="@id/2131362475" style="@style/2132083921" />
+                </LinearLayout>
+            </RelativeLayout>
+            <Button textSize="14.0sp" layout_gravity="end|center" id="@id/2131362401" background="@drawable/2131230986" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="10.0dip" text="@string/device_details_device_button_buy_now" fontFamily="@font/2131296257" textAlignment="center" paddingStart="30.0dip" paddingEnd="30.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132082690" />
+        </LinearLayout>
+        <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131361815" paddingBottom="10.0dip" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362598">
+        <LinearLayout orientation="horizontal" id="@id/2131363064" layout_width="wrap_content" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <View style="@style/2132083036" />
+        </LinearLayout>
+        <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362477" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969520="2131364589" 2130969523="@id/2131363064" 2130969559="@string/device_product_details_lift_main_full_price" />
+        <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362706" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363430" 2130969520="2131364589" 2130969523="@id/2131362477" 2130969559="@string/device_product_details_lift_main_contract_price" />
+        <TextView id="@id/2131366477" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/device_details_device_section_footer_vat_is" textAlignment="viewStart" 2130969520="2131364589" 2130969523="@id/2131362706" style="@style/2132083918" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

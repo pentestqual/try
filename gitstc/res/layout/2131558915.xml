@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131365294" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131363838" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" layout_width="wrap_content" layout_height="0.0dip" text="@string/number_properties_internet_info_lift_main_username" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+            <TextView gravity="center" id="@id/2131363839" layout_width="wrap_content" layout_height="0.0dip" layout_marginEnd="@dimen/2131165388" 2130969490="@id/2131363838" 2130969501="@id/2131362729" style="@style/2132083887" />
+            <ImageView id="@id/2131362729" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231297" layout_marginEnd="@dimen/2131165388" 2130969494="@id/divider1" 2130969500="2131364589" 2130969524="2131364589" />
+            <View id="@id/divider1" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131363838" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            <TextView id="@id/2131363836" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" layout_width="wrap_content" layout_height="0.0dip" text="@string/number_properties_internet_info_lift_main_password" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/divider1" style="@style/2132083927" />
+            <EditText enabled="false" gravity="center" id="@id/2131363837" background="@null" layout_width="wrap_content" layout_height="0.0dip" layout_marginEnd="@dimen/2131165388" 2130969490="@id/2131363836" 2130969501="@id/2131362727" style="@style/2132083887" />
+            <ImageView id="@id/2131362727" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231297" layout_marginEnd="@dimen/2131165388" 2130969494="@id/2131363050" 2130969500="2131364589" 2130969524="@id/divider1" />
+            <View id="@id/2131363050" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131363836" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363835" background="?2130969981" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131363050">
+                <TextView paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/number_properties_internet_info_button_change_password" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083872" />
+                <View 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

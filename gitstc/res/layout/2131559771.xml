@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="60.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ellipsize="end" gravity="center_vertical" id="@id/2131363814" layout_width="0.0dip" layout_height="wrap_content" maxLines="2" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969501="@id/2131366495" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083945" />
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131366495" layout_width="wrap_content" layout_height="fill_parent" 2130969504="0.6" />
+    <ImageView gravity="end|center" layout_gravity="center_vertical" id="@id/2131363707" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231395" layout_marginEnd="10.0dip" 2130969494="2131364589" 2130969501="@id/2131366458" 2130969520="@id/2131366495" 2130969524="2131364589" />
+    <TextView ellipsize="end" gravity="end|center" id="@id/2131366458" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" maxLines="2" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131363707" 2130969524="2131364589" style="@style/2132083885" />
+    <include id="@id/2131363063" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" layout="@layout/2131558601" />
+</androidx.constraintlayout.widget.ConstraintLayout>

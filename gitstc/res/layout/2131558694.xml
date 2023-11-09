@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout layout_gravity="center" id="@id/2131363241" layout_width="fill_parent" layout_height="fill_parent">
+        <View id="@id/2131363274" background="@android:color/black" layout_width="fill_parent" layout_height="fill_parent" />
+        <ImageView id="@id/2131363234" layout_width="fill_parent" layout_height="fill_parent" scaleType="fitXY" />
+        <com.google.android.exoplayer2.ui.SubtitleView id="@id/2131363277" layout_width="fill_parent" layout_height="fill_parent" />
+        <ProgressBar layout_gravity="center" id="@id/2131363238" layout_width="wrap_content" layout_height="wrap_content" indeterminate="true" />
+        <TextView textSize="@dimen/2131165461" textColor="@color/2131099908" gravity="center" layout_gravity="center" id="@id/2131363246" background="@drawable/2131231130" paddingLeft="@dimen/2131165459" paddingTop="@dimen/2131165460" paddingRight="@dimen/2131165459" paddingBottom="@dimen/2131165460" layout_width="wrap_content" layout_height="@dimen/2131165457" layout_marginBottom="@dimen/2131165458" />
+    </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+    <FrameLayout id="@id/2131363233" layout_width="fill_parent" layout_height="fill_parent" />
+    <FrameLayout id="@id/2131363259" layout_width="fill_parent" layout_height="fill_parent" />
+    <View id="@id/2131363243" layout_width="fill_parent" layout_height="fill_parent" />
+</merge>

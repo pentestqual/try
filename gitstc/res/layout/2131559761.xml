@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" background="#ffffffff" layout_width="fill_parent" layout_height="60.0dip" foreground="?android:selectableItemBackground" divider="@drawable/2131231059" showDividers="middle" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131363814" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969511="2131365707" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083945" />
+    <LinearLayout gravity="end" layout_width="0.0dip" layout_height="wrap_content" layout_margin="20.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131363814" 2130969524="2131364589">
+        <EditText id="@id/2131363150" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" singleLine="true" inputType="text" style="@style/2132083042" />
+    </LinearLayout>
+    <include id="@id/2131363063" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" layout="@layout/2131558601" />
+</androidx.constraintlayout.widget.ConstraintLayout>

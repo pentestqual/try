@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ImageView id="@id/2131363655" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165324" scaleType="fitXY" layout_marginStart="@dimen/2131165322" layout_marginEnd="@dimen/2131165322" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" />
+    <TextView gravity="center" id="@id/2131366316" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="16.0dip" text="@string/esim_esim_header_title_congratulations_you" layout_marginStart="40.0dip" layout_marginEnd="40.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363655" style="@style/2132083837" />
+    <TextView gravity="center" id="@id/2131366317" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="16.0dip" text="@string/esim_esim_header_sub_this_device" layout_marginStart="40.0dip" layout_marginEnd="40.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366316" style="@style/2132083927" />
+    <Button enabled="false" id="@id/2131362344" visibility="gone" layout_margin="@dimen/2131165388" text="@string/esim_esim_button_activate" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

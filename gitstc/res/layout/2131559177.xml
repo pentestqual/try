@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131363198" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="150.0dip" layout_marginBottom="592.0dip" text="@string/transfer_ownership_enter_id_header_title_enter_id" layout_marginStart="71.0dip" layout_marginEnd="70.0dip" lineHeight="32.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132084193" />
+    <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="7.0dip" text="@string/transfer_ownership_enter_id_header_sub_enter_we_will" layout_marginStart="27.0dip" layout_marginEnd="26.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363198" style="@style/2132084631" />
+    <androidx.recyclerview.widget.RecyclerView orientation="vertical" id="@id/2131363623" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="62.0dip" layout_marginStart="25.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" />
+    <ProgressBar id="@id/2131364862" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+</androidx.constraintlayout.widget.ConstraintLayout>

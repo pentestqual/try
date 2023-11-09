@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" visibility="gone" layout_width="fill_parent" layout_height="0.0dip">
+        <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+        <LinearLayout orientation="vertical" id="@id/2131362786" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+            <TextView id="@id/2131366102" layout_marginTop="37.0dip" text="@string/change_landline_plan_change_plan_section_title_your_current" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362781" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip">
+                <View 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083036" />
+                <ImageView id="@id/2131362782" layout_width="56.0dip" layout_height="56.0dip" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                <TextView id="@id/2131362783" layout_width="0.0dip" layout_height="fill_parent" textAlignment="viewStart" layout_marginStart="8.0dip" 2130969494="2131364589" 2130969501="@id/2131362784" 2130969512="4.0" 2130969519="@id/2131362782" 2130969524="2131364589" style="@style/2132083927" />
+                <TextView gravity="end|center" id="@id/2131362784" layout_width="wrap_content" layout_height="fill_parent" layout_marginStart="5.0dip" 2130969494="2131364589" 2130969501="@id/2131362785" 2130969519="@id/2131362783" 2130969524="2131364589" style="@style/2132083899" />
+                <TextView gravity="end|center" id="@id/2131362785" layout_width="wrap_content" layout_height="fill_parent" layout_marginStart="5.0dip" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131362784" 2130969524="2131364589" style="@style/2132083885" />
+                <View 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <TextView id="@id/2131364274" layout_marginTop="37.0dip" text="@string/change_plan_change_plan_section_title_your_new" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362786" style="@style/2132083837" />
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364269" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364274">
+            <View 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083036" />
+            <ImageView id="@id/2131364270" layout_width="56.0dip" layout_height="56.0dip" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView id="@id/2131364271" layout_width="0.0dip" layout_height="fill_parent" textAlignment="viewStart" layout_marginStart="8.0dip" 2130969494="2131364589" 2130969501="@id/2131364272" 2130969512="4.0" 2130969519="@id/2131364270" 2130969524="2131364589" style="@style/2132083927" />
+            <TextView gravity="end|center" id="@id/2131364272" layout_width="wrap_content" layout_height="fill_parent" layout_marginStart="5.0dip" 2130969494="2131364589" 2130969501="@id/2131364273" 2130969512="2.0" 2130969519="@id/2131364271" 2130969524="2131364589" style="@style/2132083899" />
+            <TextView gravity="end|center" id="@id/2131364273" layout_width="wrap_content" layout_height="fill_parent" layout_marginStart="5.0dip" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969512="2.0" 2130969519="@id/2131364272" 2130969524="2131364589" style="@style/2132083885" />
+            <View 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView id="@id/2131365009" layout_marginTop="30.0dip" text="@string/change_plan_change_plan_section_title_how_much" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364269" style="@style/2132083837" />
+        <TextView id="@id/2131362075" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/change_plan_change_plan_section_footer_you_will" textAlignment="viewStart" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365009" style="@style/2132083927" />
+        <Button id="@id/2131362691" layout_width="fill_parent" text="@string/change_landline_plan_free_services_button_continue" 2130969494="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

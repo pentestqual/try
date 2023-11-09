@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365549" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362288" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362287" layout_width="0.0dip" layout_height="0.0dip" layout_marginTop="40.0dip" 2130969494="2131364589" 2130969514="2131364589" 2130969518="2131364589" 2130969523="@id/2131362288">
+        <TextView id="@id/2131365551" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/contract_blcoker_bills_section_title_details" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" style="@style/2132083891" />
+        <View id="@id/divider" layout_marginTop="10.0dip" 2130969523="@id/2131365551" style="@style/2132083036" />
+        <TextView textSize="16.0dip" textColor="@color/2131099648" id="@id/2131365555" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969523="@id/divider" />
+        <View id="@id/divider1" layout_marginTop="@dimen/2131165388" 2130969523="@id/2131365555" style="@style/2132083036" />
+        <TextView id="@id/2131365553" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32.0dip" text="@string/contract_blcoker_bills_section_title_unsettled_amounts" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/divider1" style="@style/2132083837" />
+        <View id="@id/2131363050" layout_marginTop="15.0dip" 2130969523="@id/2131365553" style="@style/2132083036" />
+        <ProgressBar id="@id/2131364855" layout_width="wrap_content" layout_height="wrap_content" 2130969495="@id/2131365550" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363050" />
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131365552" layout_width="0.0dip" layout_height="0.0dip" 2130969495="@id/2131365550" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363050" />
+        <View 2130969523="@id/2131365552" style="@style/2132083036" />
+        <Button id="@id/2131365550" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" text="@string/contract_blcoker_bills_button_pay_bills" 2130969494="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131363224" visibility="gone" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362288">
+        <androidx.appcompat.widget.AppCompatImageView layout_width="64.0dip" layout_height="64.0dip" 2130970099="@drawable/2131231750" 2130970356="@color/2131099749" />
+        <com.google.android.material.textview.MaterialTextView gravity="center" id="@id/2131363222" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="14.0dip" text="@string/contract_blcoker_reasons_message_body_sorry_something" layout_marginStart="24.0dip" layout_marginEnd="24.0dip" style="@style/2132083921" />
+        <ImageView layout_gravity="center|top" id="@id/2131362366" background="@drawable/2131231593" padding="@dimen/2131165388" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <ScrollView scrollbars="none" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" overScrollMode="never" 2130969494="2131364589" 2130969524="2131364589">
+            <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131365848" layout_width="fill_parent" layout_height="wrap_content">
+                <LinearLayout orientation="vertical" id="@id/2131363941" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589">
+                    <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="24.0dip" text="@string/tamayouz_gifts_summary_lift_main_summary" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+                    <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364335">
+                        <ImageView id="@id/2131366679" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231362" scaleType="centerInside" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131366680" 2130969520="2131364589" 2130969524="@id/2131366680" />
+                        <TextView id="@id/2131366680" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/tamayouz_gifts_summary_section_title_your_tamayouz" layout_marginStart="10.0dip" 2130969519="@id/2131366679" 2130969524="2131364589" style="@style/2132083837" />
+                        <View layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131366680" style="@style/2132083036" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363461" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/tamayouz_gifts_summary_lift_main_gift" />
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363761" layout_width="fill_parent" layout_height="wrap_content" 2130969559="@string/tamayouz_gifts_summary_lift_main_issuing_fees" />
+                    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364335">
+                        <ImageView id="@id/2131362644" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231514" scaleType="centerInside" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131362659" 2130969520="2131364589" 2130969524="@id/2131362659" />
+                        <TextView id="@id/2131362659" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/tamayouz_gifts_summary_enabled_Contact" layout_marginStart="10.0dip" 2130969519="@id/2131362644" 2130969524="2131364589" style="@style/2132083837" />
+                        <View layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131362659" style="@style/2132083036" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362653" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/tamayouz_gifts_summary_lift_main_contact_number" />
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362885" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969559="@string/tamayouz_gifts_summary_lift_main_delivery_address" />
+                </LinearLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365965" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="57.0dip" layout_marginBottom="57.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969495="@id/2131364705" 2130969523="@id/2131363941" 2130969525="1.0">
+                    <TextView id="@id/2131363579" layout_width="wrap_content" layout_height="fill_parent" text="@string/tamayouz_gifts_summary_lift_main_I_accept" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                    <TextView id="@id/2131365964" layout_width="wrap_content" layout_height="fill_parent" text="@string/tamayouz_gifts_summary_button_terms_and" 2130969490="@id/2131363579" 2130969519="@id/2131363579" style="@style/2132083877" />
+                    <Switch theme="@style/2132083115" id="@id/2131365891" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969510="1.0" 2130969519="@id/2131365964" 2130969524="2131364589" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <Button enabled="false" id="@id/2131364705" layout_width="fill_parent" text="@string/tamayouz_gifts_summary_button_place_your" 2130969494="2131364589" style="@style/2132082688" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

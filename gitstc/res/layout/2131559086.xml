@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" visibility="gone" layout_width="fill_parent" layout_height="0.0dip">
+        <include id="@id/2131362078" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+        <View id="@id/2131366134" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083036" />
+        <LinearLayout orientation="vertical" id="@id/2131364532" background="@drawable/2131230886" layout_width="335.0dip" layout_height="200.0dip" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366134">
+            <androidx.constraintlayout.widget.ConstraintLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                <LinearLayout orientation="vertical" id="@id/2131364351" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="30.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589">
+                    <TextView textColor="@color/2131099656" id="@id/2131364356" layout_width="wrap_content" layout_height="wrap_content" alpha="0.6" style="@style/2132083916" />
+                    <TextView id="@id/2131364370" style="@style/2132083888" />
+                </LinearLayout>
+                <Button id="@id/2131363144" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="30.0dip" text="@string/schedule_payment_payment_button_edit" layout_marginEnd="@dimen/2131165388" 2130969494="@id/2131364351" 2130969500="2131364589" style="@style/2132083211" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388">
+                <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388">
+                    <TextView textColor="@color/2131099656" id="@id/2131365088" layout_width="wrap_content" layout_height="wrap_content" alpha="0.6" style="@style/2132083916" />
+                    <TextView id="@id/2131365097" style="@style/2132083888" />
+                </LinearLayout>
+                <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388">
+                    <TextView textColor="@color/2131099656" id="@id/2131365730" layout_width="wrap_content" layout_height="wrap_content" alpha="0.6" style="@style/2132083916" />
+                    <TextView id="@id/2131365733" style="@style/2132083888" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginStart="@dimen/2131165388">
+                <TextView textColor="@color/2131099656" id="@id/2131366208" layout_width="wrap_content" layout_height="wrap_content" alpha="0.6" style="@style/2132083916" />
+                <TextView id="@id/2131366209" style="@style/2132083888" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" id="@id/2131364434" background="@color/2131100677" layout_width="fill_parent" layout_height="50.0dip" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364532">
+            <TextView layout_marginTop="@dimen/2131165388" text="@string/schedule_payment_summary_section_title_options" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+        </LinearLayout>
+        <View id="@id/divider" 2130969495="@id/2131364632" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364434" style="@style/2132083036" />
+        <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131364632" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/schedule_payment_summary_filter_button_pay_with" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/divider" 2130970448="@string/schedule_payment_summary_button_add_a" />
+        <sa.com.stc.uicomponent.single_row_item.SingleRowSwitch id="@id/2131364344" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/schedule_payment_summary_lift_main_notify_me" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364632" />
+        <LinearLayout orientation="vertical" id="@id/2131364324" background="@color/2131100677" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364344">
+            <TextView id="@id/2131364325" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/schedule_payment_summary_section_footer_you_will" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364344" style="@style/2132083918" />
+        </LinearLayout>
+        <RelativeLayout id="@id/2131362302" background="@color/2131100677" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364324">
+            <View id="@id/2131363050" visibility="gone" layout_alignParentTop="true" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131364612" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_below="@id/2131363050" 2130969143="2131363698" 2130969463="@string/schedule_payment_edit_schedule_button_pause_schedule" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131365202" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_below="@id/2131364612" fontFamily="@font/2131296263" 2130969143="2131363430" 2130969463="@string/schedule_payment_edit_schedule_button_remove_schedule" />
+            <Button enabled="false" id="@id/2131361955" visibility="gone" text="@string/schedule_payment_summary_button_activate_schedule" layout_alignParentBottom="true" style="@style/2132082688" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

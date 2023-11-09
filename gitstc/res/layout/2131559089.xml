@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" background="?2130968978" visibility="invisible" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="fill_parent" layout_height="0.0dip" animateLayoutChanges="true" 2130969495="@id/2131366465" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362079" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingToolbarLayout id="@id/2131362599" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362683" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="?2130968594" animateLayoutChanges="true" 2130969485="2131364588">
+                    <ImageView id="@id/2131364551" layout_width="80.0dip" layout_height="80.0dip" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                    <TextView gravity="center" id="@id/2131364553" paddingBottom="@dimen/2131165388" layout_width="fill_parent" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364551" style="@style/2132083905" />
+                    <TextView textColor="@color/2131099656" gravity="center" id="@id/2131363414" background="@color/2131099733" visibility="gone" layout_width="73.0dip" layout_height="30.0dip" text="@string/device_summary_left_main_free" 2130969494="2131364589" 2130969520="2131364589" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.Toolbar id="@id/2131366140" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView id="@id/2131365391" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" overScrollMode="never" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="0.0dip">
+                <TextView id="@id/2131365854" padding="@dimen/2131165388" visibility="gone" layout_width="fill_parent" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083899" />
+                <View id="@id/2131363073" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365854" style="@style/2132083036" />
+                <LinearLayout orientation="vertical" id="@id/2131364799" layout_width="fill_parent" layout_height="wrap_content" 2130969514="2131364589" 2130969518="2131364589" 2130969523="@id/2131363073">
+                    <TextView id="@id/price" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="10.0dip" text="@string/service_subscription_service_details_section_title_price" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+                    <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388">
+                        <TextView textColor="@color/2131099653" layout_gravity="bottom" id="@id/2131366468" visibility="gone" layout_marginEnd="5.0dip" style="@style/2132083908" />
+                        <TextView layout_gravity="bottom" id="@id/2131364310" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083908" />
+                        <TextView layout_gravity="bottom" id="@id/2131364309" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="5.0dip" style="@style/2132083885" />
+                    </LinearLayout>
+                    <TextView id="@id/2131366471" layout_width="wrap_content" layout_height="wrap_content" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083918" />
+                    <View id="@id/2131363030" layout_marginTop="15.0dip" style="@style/2132083036" />
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@id/2131363934" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364799">
+                    <TextView id="@id/2131362919" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" layout_marginTop="8.0dip" style="@style/2132083927" />
+                    <View id="@id/2131363032" visibility="gone" layout_marginTop="15.0dip" style="@style/2132083036" />
+                    <androidx.recyclerview.widget.RecyclerView id="@id/2131365905" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="@dimen/2131165388" 2130969481="LinearLayoutManager" />
+                    <TextView layout_gravity="start" id="@id/2131365113" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165319" text="@string/sada_details_page_title_recommended" textAlignment="textStart" layout_marginStart="@dimen/2131165319" style="@style/2132083837" />
+                    <View id="@id/2131365119" visibility="gone" layout_marginTop="15.0dip" style="@style/2132083036" />
+                    <androidx.appcompat.widget.AppCompatImageView layout_gravity="center_horizontal" id="@id/2131365237" background="@color/2131100860" visibility="gone" layout_width="32.0dip" layout_height="32.0dip" layout_margin="@dimen/2131165388" src="@drawable/2131231600" text="@string/my_ticket_help_center_button_retry" />
+                    <androidx.recyclerview.widget.RecyclerView id="@id/2131365112" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165319" />
+                    <View id="@id/2131365118" visibility="gone" layout_marginBottom="10.0dip" style="@style/2132083036" />
+                    <Button layout_gravity="center" id="@id/2131366467" visibility="gone" layout_width="fill_parent" layout_marginTop="10.0dip" layout_marginBottom="@dimen/2131165388" text="@string/home_details_button_manage" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083123" />
+                    <Button layout_gravity="center" id="@id/2131366469" visibility="gone" layout_width="fill_parent" layout_marginBottom="@dimen/2131165388" text="@string/service_subscription_service_details_button_unsubscribe" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083123" />
+                    <TextView layout_gravity="center" id="@id/2131366470" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/purchase_subscription_message_body_view_only" textAlignment="center" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083918" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <Button layout_gravity="bottom" id="@id/2131366465" visibility="gone" layout_width="fill_parent" text="@string/button_activate_to" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+    <TextView ellipsize="end" gravity="center" id="@id/2131364566" layout_width="fill_parent" layout_height="?2130968594" maxLines="1" alpha="0.0" paddingStart="50.0dip" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083893" />
+</androidx.constraintlayout.widget.ConstraintLayout>

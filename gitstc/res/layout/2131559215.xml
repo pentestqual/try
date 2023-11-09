@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center_vertical" orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131363814" layout_width="wrap_content" layout_height="fill_parent" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+    <View layout_marginTop="@dimen/2131165333" style="@style/2132083036" />
+</LinearLayout>

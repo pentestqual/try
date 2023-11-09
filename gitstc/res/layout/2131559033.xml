@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <EditText id="@id/2131364920" layout_width="fill_parent" layout_height="@dimen/2131165518" layout_margin="@dimen/2131165388" hint="@string/donate_qitaf_points_donate_left_main_search_for" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132084626" />
+    <TextView id="@id/2131366102" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165324" text="@string/donate_qitaf_points_donate_section_title_charity" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364920" style="@style/2132083837" />
+    <View id="@id/divider" layout_width="fill_parent" layout_marginTop="@dimen/2131165328" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131364919" background="@color/2131099656" layout_width="fill_parent" layout_height="0.0dip" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969494="2131364589" 2130969523="@id/divider" />
+    <TextView id="@id/2131365176" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="60.0dip" text="@string/home_details_home_button_reload" drawablePadding="10.0dip" drawableStart="@drawable/2131231593" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083927" />
+</androidx.constraintlayout.widget.ConstraintLayout>

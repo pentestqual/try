@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364735" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131362941" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <TextView id="@id/2131363202" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/new_landline_plate_id_plate_details_section_title_find_your" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083845" />
+        <TextView id="@id/2131362525" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" layout_marginBottom="14.0dip" text="@string/new_landline_plate_id_plate_details_section_sub_you_can" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363202" style="@style/2132083927" />
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363710" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="31.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362525">
+            <LinearLayout orientation="vertical" id="@id/2131364725" layout_width="250.0dip" layout_height="430.0dip" 2130969500="2131364589" 2130969514="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <ImageView layout_gravity="center_horizontal" id="@id/2131364729" layout_width="fill_parent" layout_height="fill_parent" src="@drawable/2131231696" scaleType="fitCenter" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView id="@id/2131362941" paddingBottom="@dimen/2131165325" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/new_landline_plate_id_plate_details_left_main_plate_id" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364735" style="@style/2132083927" />
+</androidx.constraintlayout.widget.ConstraintLayout>

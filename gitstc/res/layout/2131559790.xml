@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout paddingTop="@dimen/2131165372" paddingBottom="@dimen/2131165372" layout_width="fill_parent" layout_height="wrap_content" stateListAnimator="@anim/2130772022" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView id="@id/2131366123" visibility="visible" layout_width="fill_parent" layout_height="56.0dip" layout_marginLeft="@dimen/2131165915" layout_marginRight="@dimen/2131165915" layout_centerHorizontal="true" layout_centerVertical="true" layout_marginHorizontal="@dimen/2131165915" 2130968837="4.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <RelativeLayout id="@id/2131366122" background="@color/2131100749" focusable="true" visibility="visible" clickable="true" layout_width="fill_parent" layout_height="fill_parent">
+            <ImageView id="@id/2131366121" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165901" src="@drawable/2131231263" layout_centerVertical="true" layout_marginStart="@dimen/2131165915" 2130969520="2131364589" />
+            <TextView ellipsize="end" id="@id/2131366124" layout_width="wrap_content" layout_height="wrap_content" text="@string/toast_success" layout_centerVertical="true" layout_marginStart="45.0dip" 2130969519="@id/2131366121" style="@style/2132083670" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

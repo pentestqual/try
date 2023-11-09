@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131100892" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <loading_progress_bar.LoadingProgressBar id="@id/2131364860" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <androidx.core.widget.NestedScrollView id="@id/2131365404" layout_width="fill_parent" layout_height="wrap_content" fillViewport="true" 2130969520="2131364589" 2130969524="2131364589">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView gravity="center" id="@id/2131364300" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/search_engine_search_page_section_title_no_result" style="@style/2132083927" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365846" background="@color/2131100892" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

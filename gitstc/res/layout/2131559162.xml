@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent" layout_above="@id/2131362352" layout_below="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="42.0dip">
+            <TextView layout_width="fill_parent" layout_height="wrap_content" text="@string/temporary_disconnection_summary_header_title_request_summary" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+            <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/temporary_disconnection_summary_header_sub_please_check" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+            <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/temporary_disconnection_summary_section_title_suspension_details" drawableLeft="@drawable/2131231453" drawablePadding="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+            <View layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+            <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" minHeight="80.0dip">
+                <TextView padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_summary_lift_main_number" layout_weight="0.5" textAlignment="textStart" style="@style/2132083927" />
+                <TextView id="@id/2131366009" padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.5" textAlignment="textEnd" style="@style/2132083885" />
+            </LinearLayout>
+            <View layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" minHeight="80.0dip">
+                <TextView padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_summary_lift_stating_date" layout_weight="0.5" textAlignment="textStart" style="@style/2132083927" />
+                <TextView id="@id/2131366019" padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.5" textAlignment="textEnd" style="@style/2132083885" />
+            </LinearLayout>
+            <View layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" minHeight="80.0dip">
+                <TextView padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_summary_lift_main_end_date" layout_weight="0.5" textAlignment="textStart" style="@style/2132083927" />
+                <TextView id="@id/2131366000" padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.5" textAlignment="textEnd" style="@style/2132083885" />
+            </LinearLayout>
+            <View layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" minHeight="80.0dip">
+                <TextView padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_summary_lift_main_contact_number" layout_weight="0.5" textAlignment="textStart" style="@style/2132083927" />
+                <TextView id="@id/2131365992" padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.5" textAlignment="textEnd" style="@style/2132083885" />
+            </LinearLayout>
+            <View style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithArrowAndValue id="@id/2131365527" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969564="@string/temporary_disconnection_summary_lift_main_service_fees" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131362352" layout_width="fill_parent" text="@string/temporary_disconnection_summary_button_continue" layout_alignParentBottom="true" style="@style/2132082688" />
+</RelativeLayout>

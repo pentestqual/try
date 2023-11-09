@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131362690" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <include id="@id/2131362078" layout="@layout/2131559494" />
+        <TextView id="@id/2131366654" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/new_landline_contact_number_header_title_how_can" layout_marginStart="@dimen/2131165388" style="@style/2132083845" />
+        <TextView id="@id/2131366653" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/new_landline_contact_number_header_sub_we_will" style="@style/2132083927" />
+        <com.google.android.material.textfield.TextInputLayout id="@id/2131362656" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="22.0dip" layout_marginBottom="@dimen/2131165388" hint="@string/new_landline_contact_number_left_main_contact_number" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+            <EditText enabled="false" id="@id/2131362654" layout_width="fill_parent" layout_height="wrap_content" maxLines="1" maxLength="14" drawablePadding="15.0dip" inputType="number" textAllCaps="true" drawableStart="@drawable/2131231454" backgroundTint="?2130968978" style="@style/2132083041" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView id="@id/2131362542" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" text="@string/purchase_new_store_contact_button_choose_other" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083872" />
+    </LinearLayout>
+    <Button id="@id/2131362690" layout_width="fill_parent" text="@string/telegram_summary_button_continue" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

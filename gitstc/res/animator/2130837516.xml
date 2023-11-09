@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_enabled="true" state_hovered="true">
+        <objectAnimator android:interpolator="?2130969752" android:duration="?2130969742" android:valueTo="@dimen/2131165605" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?2130969739" />
+    </item>
+    <item state_enabled="true" 2130970114="true">
+        <objectAnimator android:interpolator="?2130969752" android:duration="?2130969742" android:valueTo="@dimen/2131165603" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?2130969739" />
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:interpolator="?2130969752" android:duration="?2130969736" android:valueTo="0.0dip" android:valueType="floatType" android:propertyName="translationZ" />
+        </set>
+    </item>
+    <item>
+        <objectAnimator android:duration="0" android:valueTo="0.0dip" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+</selector>

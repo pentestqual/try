@@ -1,0 +1,129 @@
+.class public final Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel$Creator;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Landroid/os/Parcelable$Creator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Creator"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroid/os/Parcelable$Creator<",
+        "Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x6,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final createFromParcel(Landroid/os/Parcel;)Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel;
+    .locals 7
+
+    const-string v0, ""
+
+    .line 65353
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->valueOf(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    move v2, v0
+
+    new-instance v0, Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel;
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
+
+    move-result v6
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v6}, Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel;-><init>(ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    .locals 0
+
+    .line 65352
+    invoke-virtual {p0, p1}, Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel$Creator;->createFromParcel(Landroid/os/Parcel;)Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final newArray(I)[Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel;
+    .locals 0
+
+    .line 65351
+    new-array p1, p1, [Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic newArray(I)[Ljava/lang/Object;
+    .locals 0
+
+    .line 65350
+    invoke-virtual {p0, p1}, Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel$Creator;->newArray(I)[Lcom/stc/mybusiness/databaseroom/domain/model/SuccessAndErrorScreenModel;
+
+    move-result-object p1
+
+    return-object p1
+.end method

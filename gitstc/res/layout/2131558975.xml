@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@android:color/white" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362087" layout="@layout/2131559494" />
+    <LinearLayout gravity="top" orientation="horizontal" background="@drawable/2131230946" layout_width="fill_parent" layout_height="50.0dip" layout_margin="@dimen/2131165388" weightSum="1.0">
+        <EditText textColor="@color/2131099648" textColorHint="#40000000" id="@id/2131365403" background="@drawable/2131230946" layout_width="0.0dip" layout_height="fill_parent" hint="@string/service_coverage_search_lift_main_search_a" lines="1" singleLine="true" drawablePadding="5.0dip" layout_weight="0.9" windowSoftInputMode="adjustNothing" drawableStart="@drawable/2131231626" fontFamily="@font/2131296263" paddingStart="10.0dip" />
+        <FrameLayout layout_width="0.0dip" layout_height="fill_parent" layout_weight="0.1" layout_marginEnd="8.0dip">
+            <ImageView layout_gravity="center" id="@id/2131365419" visibility="gone" clickable="true" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231281" />
+            <ProgressBar layout_gravity="center" id="@id/2131361829" visibility="gone" layout_width="24.0dip" layout_height="24.0dip" indeterminateTint="@color/2131099793" backgroundTintMode="src_atop" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@id/2131363548" background="@drawable/2131230946" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+        <TextView textSize="@dimen/2131165318" textColor="@color/2131099648" paddingTop="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/service_coverage_search_lift_main_search_a" lineSpacingExtra="5.0dip" fontFamily="@font/2131296263" layout_marginStart="@dimen/2131165388" />
+        <LinearLayout orientation="vertical" id="@id/2131365407" background="@android:color/white" layout_width="fill_parent" layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@id/2131365410" layout_width="fill_parent" layout_height="wrap_content" />
+</LinearLayout>

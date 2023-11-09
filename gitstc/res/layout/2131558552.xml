@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131361978" padding="20.0dip" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131366607" layout_width="264.0dip" layout_height="300.0dip" layout_marginTop="32.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView gravity="center" id="@id/2131366029" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="32.0dip" text="@string/legacy_version_action_section_title_you_cant" textAlignment="center" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366607" style="@style/2132083938" />
+    <TextView gravity="center" layout_width="0.0dip" layout_height="wrap_content" text="@string/legacy_version_action_section_sub_please_close" textAlignment="center" 2130969500="2131364589" 2130969510="0.4" 2130969520="2131364589" 2130969523="@id/2131366029" style="@style/2132083936" />
+    <Button id="@id/2131362591" layout_width="fill_parent" layout_marginBottom="20.0dip" text="@string/legacy_version_action_button_close" 2130969495="@id/2131363483" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+    <Button id="@id/2131363483" visibility="gone" layout_width="fill_parent" text="@string/legacy_version_action_button_go" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083123" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="@dimen/2131165319" layout_marginBottom="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView textColor="?2130968937" id="@id/2131362509" background="?2130969981" padding="@dimen/2131165388" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" text="@string/jtv_tiered_packages_jawwy_tv_button_change_your" textAlignment="viewStart" style="@style/2132083837" />
+    <View layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+    <TextView textColor="?2130968937" id="@id/2131366387" background="?2130969981" padding="@dimen/2131165388" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" text="@string/jtv_tiered_packages_jawwy_tv_button_unsubscribe" textAlignment="viewStart" style="@style/2132083837" />
+    <View layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+</LinearLayout>

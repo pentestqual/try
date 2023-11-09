@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <loading_progress_bar.LoadingProgressBar id="@id/2131364979" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="60.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364980" 2130969908="?2130970329" />
+    <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@id/2131364978" paddingBottom="10.0dip" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="5.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" nestedScrollingEnabled="false" 2130969520="2131364589" 2130969523="@id/2131364980" />
+    <include id="@id/2131364606" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364980" layout="@layout/2131559288" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131364980" layout_width="fill_parent" layout_height="wrap_content" 2130969154="false" 2130969520="2131364589" 2130969524="2131364589" 2130969560="?2130969899" 2130969563="@string/browse_qitaf_partner_tamayouz_discounts_section_title_nearby_recommendations" />
+</androidx.constraintlayout.widget.ConstraintLayout>

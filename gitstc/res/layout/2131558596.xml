@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131364023" visibility="visible" layout_width="fill_parent" layout_height="600.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <EditText id="@id/2131365400" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" hint="@string/assign_a_number_assign_nationality_left_main_search" drawablePadding="5.0dip" drawableStart="@drawable/2131231626" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365127" clipToPadding="false" layout_width="fill_parent" layout_height="0.0dip" layout_weight="0.99" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365400" />
+</LinearLayout>

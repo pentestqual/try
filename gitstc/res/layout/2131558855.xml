@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content">
+        <VideoView id="@id/2131363316" visibility="invisible" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131363315" 2130969499="1:1" 2130969514="2131364589" 2130969518="2131364589" 2130969524="2131364589" 2130969525="0.2" />
+        <ImageView id="@id/2131363313" visibility="invisible" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131363315" 2130969499="1:1" 2130969514="2131364589" 2130969518="2131364589" 2130969524="2131364589" 2130969525="0.2" />
+        <TextView gravity="center" id="@id/2131363315" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/update_activity_header" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969495="@id/2131363314" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363316" 2130969525="0.1" style="@style/2132083899" />
+        <TextView gravity="center" id="@id/2131363314" layout_width="0.0dip" layout_height="wrap_content" text="@string/update_activity_sub_header" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363315" 2130969525="0.1" style="@style/2132083927" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

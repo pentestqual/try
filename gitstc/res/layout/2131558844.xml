@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364403" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" 2130969494="2131364589">
+        <LinearLayout orientation="vertical" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131361836">
+            <Button id="@id/2131362371" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" style="@style/2132082688" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131361836" layout_width="fill_parent" layout_height="fill_parent" 2130969520="2131364589" 2130969524="2131364589">
+            <TextView id="@id/2131361839" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131361838" style="@style/2132083927" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131361838" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969520="2131364589" 2130969524="2131364589" 2130969563="@string/browse_qitaf_partner_qitaf_section_title_about" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

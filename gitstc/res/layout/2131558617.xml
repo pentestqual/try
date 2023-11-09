@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131364023" visibility="visible" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center_horizontal" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" />
+    <TextView id="@id/headerTextView" layout_margin="@dimen/2131165319" text="@string/device_select_package_section_title_select" style="@style/2132083837" />
+    <View id="@id/2131363032" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@id/2131364576" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" />
+    <Button enabled="false" id="@id/2131362609" text="@string/device_select_package_section_button_compare" layout_weight="0.01" style="@style/2132082688" />
+</LinearLayout>

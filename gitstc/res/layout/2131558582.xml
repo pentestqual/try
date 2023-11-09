@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131365496" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/home_details_entertainment_section_title_select_type" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083837" />
+    <TextView textColor="?2130970328" id="@id/2131365484" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_entertainment_button_select_all" textAlignment="textEnd" layout_marginEnd="@dimen/2131165388" 2130969494="@id/2131365496" 2130969500="2131364589" 2130969524="@id/2131365496" style="@style/2132083865" />
+    <View id="@id/2131363075" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365496" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131363331" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969495="@id/2131362623" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363075" />
+    <Button id="@id/2131362623" text="@string/new_landline_order_button_confirm" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363331" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

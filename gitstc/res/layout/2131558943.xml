@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="0.0dip" layout_marginBottom="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364464" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+            <ImageView id="@id/2131364463" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231488" scaleType="centerInside" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131364461" 2130969520="2131364589" 2130969524="@id/2131364461" />
+            <TextView id="@id/2131364461" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="46.0dip" text="@string/purchase_vouchers_my_orders_section_title_order_details" layout_marginStart="10.0dip" 2130969519="@id/2131364463" 2130969524="2131364589" style="@style/2132083837" />
+            <TextView textColor="@color/2131100707" gravity="center" id="@id/2131364471" background="@drawable/2131230951" layout_width="wrap_content" layout_height="wrap_content" text="@string/enroll_rewards_program_home_lift_main_pending" textAllCaps="true" layout_marginEnd="@dimen/2131165388" 2130969494="@id/2131364461" 2130969500="2131364589" 2130969524="@id/2131364461" style="@style/2132083827" />
+            <View id="@id/2131364458" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364461" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131363962" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364458">
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131366309" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/purchase_vouchers_my_orders_left_main_order_number" />
+                <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366340" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969462="@string/purchase_vouchers_my_orders_left_main_voucher_number" 2130970446="@color/2131099787" 2130970448="hjkhfjhjfkjdhf" />
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131366325" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/purchase_vouchers_my_orders_left_main_serial_number" />
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131366310" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/purchase_vouchers_my_orders_left_main_order_time" />
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131366318" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363430" 2130969559="@string/purchase_vouchers_my_orders_left_main_reason" />
+            </LinearLayout>
+            <ImageView id="@id/2131366568" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231488" scaleType="centerInside" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131366567" 2130969520="2131364589" 2130969524="@id/2131366567" />
+            <TextView id="@id/2131366567" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="46.0dip" text="@string/purchase_vouchers_my_orders_section_title_voucher_details" layout_marginStart="10.0dip" 2130969519="@id/2131366568" 2130969523="@id/2131363962" style="@style/2132083837" />
+            <LinearLayout orientation="vertical" id="@id/2131363967" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131366567">
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131366339" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/purchase_vouchers_my_orders_left_main_voucher_name" />
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131366292" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/purchase_vouchers_my_orders_left_main_expiry_date" />
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131366342" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363430" 2130969559="@string/purchase_vouchers_my_orders_left_main_price" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

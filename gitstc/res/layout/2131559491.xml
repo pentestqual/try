@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" layout_marginStart="@dimen/2131165388"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083927" />
+    <com.google.android.material.textview.MaterialTextView id="@id/2131363379" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4.0dip" style="@style/2132083882" />
+    <View layout_marginTop="12.0dip" style="@style/2132083036" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape padding="10.0dip" shape="rectangle">
+            <corners topLeftRadius="3.0dip" topRightRadius="3.0dip" />
+            <solid color="@color/2131099656" />
+            <padding left="10.0dip" top="10.0dip" right="10.0dip" bottom="10.0dip" />
+        </shape>
+    </item>
+    <item drawable="@drawable/2131231444" />
+</layer-list>

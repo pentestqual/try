@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" paddingTop="5.0dip" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131363452" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.Guideline orientation="horizontal" id="@id/2131363506" layout_width="wrap_content" layout_height="fill_parent" 2130969504="0.3" />
+    <ImageView id="@id/2131363451" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231652" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363506" />
+    <TextView gravity="center" id="@id/2131365783" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165325" text="@string/main_menu_gamification_section_footer_all_you" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363451" style="@style/2132083927" />
+    <Button id="@id/2131363201" layout_width="fill_parent" text="@string/gamification_quiz_button_enter_the_draw" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

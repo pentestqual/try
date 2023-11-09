@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" background="?2130968978" visibility="visible" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout id="@id/2131362719" layout_width="fill_parent" layout_height="0.0dip" animateLayoutChanges="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362078" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingToolbarLayout id="@id/2131362599" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362683" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="?2130968594" animateLayoutChanges="true" 2130969485="2131364588">
+                    <ImageView id="@id/2131364551" layout_width="80.0dip" layout_height="80.0dip" layout_marginTop="@dimen/2131165388" src="@drawable/2131231331" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                    <TextView gravity="center" id="@id/2131364553" paddingBottom="@dimen/2131165388" layout_width="fill_parent" text="@string/purchase_subscription_apple_watch_left_main_apple_watch" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364551" style="@style/2132083905" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" 2130969780="@drawable/2131231430" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView id="@id/2131365395" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" overScrollMode="never" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <LinearLayout orientation="vertical" background="@color/2131099656" paddingBottom="30.0dip" layout_width="fill_parent" layout_height="fill_parent" layout_marginBottom="@dimen/2131165388">
+                <TextView id="@id/2131365854" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" style="@style/2132083899" />
+                <View style="@style/2132083036" />
+                <TextView textColor="@color/2131099648" id="@id/price" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/purchase_subscription_apple_watch_left_main_price" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+                <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                    <TextView id="@id/2131364814" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" style="@style/2132083908" />
+                    <TextView id="@id/2131362765" layout_width="wrap_content" layout_height="wrap_content" text="@string/service_subscription_service_details_lift_main_sr_month" layout_marginStart="8.0dip" style="@style/2132083885" />
+                </LinearLayout>
+                <TextView id="@id/2131366479" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" text="@string/service_subscription_service_details_section_footer_5_vat" layout_marginStart="@dimen/2131165388" style="@style/2132083918" />
+                <View style="@style/2132083036" />
+                <TextView id="@id/2131362910" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                <TextView id="@id/2131362713" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/purchase_subscription_apple_watch_section_title_esim_details" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+                <View layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131363122" layout_width="fill_parent" layout_height="wrap_content" />
+                <View id="@id/2131363851" visibility="gone" style="@style/2132083036" />
+                <Button id="@id/2131362429" visibility="invisible" layout_margin="@dimen/2131165388" text="@string/purchase_subscription_message_button_unsubscribe" style="@style/2132083123" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView gravity="center" id="@id/2131364566" layout_width="fill_parent" layout_height="?2130968594" alpha="0.0" 2130969524="@id/2131362719" style="@style/2132083893" />
+</androidx.constraintlayout.widget.ConstraintLayout>

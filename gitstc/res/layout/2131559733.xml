@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131363865" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginBottom="56.0dip" paddingStart="60.0dip" paddingEnd="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button enabled="false" id="@id/2131365804" paddingTop="15.0dip" paddingBottom="15.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/telegram_create_new_button_send" style="@style/2132082688" />
+    <Button id="@id/2131363148" paddingTop="15.0dip" paddingBottom="15.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/telegram_create_new_button_edit_draft" style="@style/2132083125" />
+    <Button id="@id/2131362878" paddingTop="15.0dip" paddingBottom="15.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/telegram_create_new_button_delete_draft" style="@style/2132083125" />
+</LinearLayout>

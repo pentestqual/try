@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362465" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView layout_width="fill_parent" layout_height="wrap_content" 2130968837="2.0dip" 2130968838="8.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <LinearLayout orientation="horizontal" background="@drawable/2131231884" layout_width="fill_parent" layout_height="fill_parent" backgroundTint="@color/2131099656" 2130969520="2131364589" 2130969524="2131364589">
+            <LinearLayout orientation="vertical" layout_width="0.0dip" layout_height="fill_parent" layout_weight="0.55">
+                <TextView ellipsize="end" id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="" maxLines="2" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+                <TextView id="@id/2131365798" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083883" />
+                <LinearLayout layout_gravity="center_vertical" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                    <ImageView layout_gravity="end" id="@id/2131363628" layout_width="16.0dip" layout_height="32.0dip" src="@drawable/2131231433" layout_marginStart="@dimen/2131165388" />
+                    <TextView gravity="center_vertical" id="@id/2131363813" layout_width="wrap_content" layout_height="fill_parent" layout_marginStart="5.0dip" style="@style/2132083883" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="wrap_content" layout_height="fill_parent">
+                <ImageView layout_gravity="end|center" id="@id/2131362101" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231210" layout_marginEnd="@dimen/2131165388" />
+                <Button id="@id/2131364230" visibility="gone" layout_width="wrap_content" layout_height="60.0dip" layout_marginTop="@dimen/2131165388" layout_marginBottom="10.0dip" layout_marginEnd="10.0dip" style="@style/2132082690" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView id="@id/2131364023" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363132" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <TextView id="@id/2131363131" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="46.0dip" text="@string/partial_payment_payment_settings_section_title_ewallet" layout_marginStart="10.0dip" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                <View id="@id/2131363130" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363131" style="@style/2132083036" />
+                <androidx.constraintlayout.widget.ConstraintLayout paddingLeft="10.0dip" paddingTop="@dimen/2131165388" paddingRight="10.0dip" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" paddingHorizontal="10.0dip" paddingVertical="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363130">
+                    <TextView id="@id/2131363128" layout_width="0.0dip" layout_height="wrap_content" textAlignment="viewStart" layout_marginEnd="@dimen/2131165391" 2130969501="@id/2131363912" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083921" />
+                    <ImageView layout_gravity="center" id="@id/2131363912" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231395" paddingStart="@dimen/2131165389" paddingEnd="@dimen/2131165442" 2130969494="2131364589" 2130969501="@id/2131363129" 2130969524="2131364589" />
+                    <TextView id="@id/2131363129" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_usage_daily_limit_lift_main_until" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083921" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View id="@id/2131366134" 2130969494="@id/2131363132" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131364590" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366134">
+                <LinearLayout orientation="horizontal" id="@id/2131361985" background="@color/2131100677" layout_width="fill_parent" layout_height="wrap_content">
+                    <TextView layout_margin="@dimen/2131165388" text="@string/schedule_payment_payment_section_title_your_cards" layout_weight="1.0" style="@style/2132083837" />
+                    <TextView textColor="?2130968936" id="@id/2131366050" layout_margin="@dimen/2131165388" text="@string/schedule_payment_payment_button_add_card" layout_weight="1.0" textAlignment="viewEnd" style="@style/2132083882" />
+                </LinearLayout>
+                <View id="@id/divider" style="@style/2132083036" />
+                <LinearLayout orientation="vertical" id="@id/2131362757" layout_width="fill_parent" layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView id="@id/2131362761" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+                    <TextView gravity="center" id="@id/2131364290" visibility="gone" layout_width="fill_parent" layout_height="100.0dip" text="@string/schedule_payment_payment_header_title_no_cards" textAlignment="center" style="@style/2132083918" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131364592" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364590">
+                <LinearLayout orientation="horizontal" id="@id/2131363978" background="@color/2131100677" layout_width="fill_parent" layout_height="50.0dip">
+                    <TextView textSize="15.0dip" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/manage_credit_cards_payment_section_title_payment_services" layout_weight="1.0" fontFamily="@font/2131296257" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" letterSpacing="0.09" />
+                </LinearLayout>
+                <View id="@id/2131366612" style="@style/2132083036" />
+                <LinearLayout orientation="vertical" id="@id/2131363973" layout_width="fill_parent" layout_height="wrap_content">
+                    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithArrowAndValue id="@id/2131366348" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969564="@string/manage_credit_cards_payment_lift_main_direct_payment" />
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364594" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364592">
+                <LinearLayout orientation="horizontal" id="@id/2131361997" background="@color/2131100677" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131363050" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                    <TextView layout_margin="@dimen/2131165388" text="@string/schedule_payment_payment_section_title_scheduled_payment" layout_weight="1.0" style="@style/2132083837" />
+                    <TextView textColor="?2130968936" id="@id/2131361998" layout_margin="@dimen/2131165388" text="@string/schedule_payment_payment_button_add_new" layout_weight="1.0" textAlignment="viewEnd" style="@style/2132083882" />
+                </LinearLayout>
+                <View id="@id/2131363050" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131361997" style="@style/2132083036" />
+                <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@id/2131365387" background="@color/2131100677" paddingBottom="48.0dip" visibility="gone" clipToPadding="false" layout_width="0.0dip" layout_height="wrap_content" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363050" />
+                <LinearLayout gravity="center_vertical" orientation="vertical" id="@id/2131364306" background="@color/2131100677" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365387">
+                    <TextView textColor="@color/2131100768" layout_width="fill_parent" layout_height="wrap_content" text="@string/schedule_payment_payment_header_title_nothing_yet" textAlignment="center" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+                    <TextView textSize="14.0dip" gravity="center" layout_gravity="center_vertical" layout_width="fill_parent" layout_height="wrap_content" text="@string/schedule_payment_payment_header_sub_with_scheduled" textAlignment="center" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083918" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

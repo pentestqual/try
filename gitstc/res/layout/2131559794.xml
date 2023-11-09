@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView gravity="center_vertical" id="@id/2131365515" background="?2130969981" focusable="true" clickable="true" layout_width="0.0dip" layout_height="62.0dip" text="@string/transfer_balance_select_type_button_send" drawablePadding="5.0dip" onClick="onItemTransferBalanceOptionSelected" drawableStart="@drawable/2131231641" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+    <View id="@id/2131362197" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365515" />
+    <TextView gravity="center_vertical" id="@id/2131365213" background="?2130969981" focusable="true" clickable="true" layout_width="0.0dip" layout_height="62.0dip" text="@string/upgrade_to_postpaid_summary_lift_main_request" drawablePadding="5.0dip" onClick="onItemTransferBalanceOptionSelected" drawableStart="@drawable/2131231602" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362197" style="@style/2132083927" />
+</androidx.constraintlayout.widget.ConstraintLayout>

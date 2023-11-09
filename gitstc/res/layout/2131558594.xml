@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131364023" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131364974" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/qitaf_history_balance_filter_section_title_postpaid_numbers" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083837" />
+    <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165389" text="@string/qitaf_history_balance_filter_section_footer_these_numbers" includeFontPadding="false" layout_marginStart="@dimen/2131165388" style="@style/2132083918" />
+    <View id="@id/2131363075" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364974" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131364930" clipToPadding="false" layout_width="fill_parent" layout_height="fill_parent" layout_marginBottom="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363075" />
+</LinearLayout>

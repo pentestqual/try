@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131363620" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="150.0dip" layout_marginBottom="577.0dip" text="@string/transfer_ownership_enter_id_header_title_enter_id" layout_marginStart="29.0dip" layout_marginEnd="29.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132084193" />
+    <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="7.0dip" text="@string/transfer_ownership_enter_id_header_sub_enter_we_will" layout_marginStart="29.0dip" layout_marginEnd="29.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363620" style="@style/2132084631" />
+    <com.google.android.material.textfield.TextInputEditText textSize="19.0dip" textColor="?2130969011" id="@id/2131363724" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" hint="@string/join_stc_id_number_left_main_id_number" singleLine="true" drawablePadding="12.0dip" lineSpacingExtra="18.0dip" drawableStart="@mipmap/2131755015" textAlignment="viewStart" layout_marginStart="20.0dip" layout_marginEnd="20.0dip" letterSpacing="0.08" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" />
+    <Button id="@id/2131362352" text="@string/transfer_ownership_delivery_address_button_continue" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

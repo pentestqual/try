@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <View background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginBottom="50.0dip" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+            <TextView textColor="@android:color/black" layout_width="wrap_content" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_section_title_about" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+            <View layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="15.0dip" layout_marginBottom="20.0dip" style="@style/2132083036" />
+            <TextView textColor="@color/2131099648" layout_width="wrap_content" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_section_footer_you_can" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083916" />
+            <View layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="15.0dip" layout_marginBottom="50.0dip" style="@style/2132083036" />
+            <TextView textColor="@android:color/black" layout_width="wrap_content" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_section_title_service_fees" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+            <View layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="15.0dip" layout_marginBottom="20.0dip" style="@style/2132083036" />
+            <LinearLayout orientation="horizontal" background="#4ce5e5e5" padding="10.0dip" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_lift_main_package" layout_weight="0.5" layout_marginStart="23.0dip" style="@style/2132083887" />
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_right_main_summer" layout_weight="0.25" layout_marginStart="23.0dip" style="@style/2132083887" />
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_right_main_other" layout_weight="0.25" layout_marginStart="23.0dip" style="@style/2132083887" />
+            </LinearLayout>
+            <LinearLayout orientation="horizontal" padding="10.0dip" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_lift_main_voice_package" layout_weight="0.5" layout_marginStart="23.0dip" style="@style/2132083927" />
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_right_main_10_sr" layout_weight="0.25" layout_marginStart="23.0dip" style="@style/2132083895" />
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_right_main_20_sr" layout_weight="0.25" layout_marginStart="23.0dip" style="@style/2132083895" />
+            </LinearLayout>
+            <LinearLayout orientation="horizontal" padding="10.0dip" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_lift_main_internet_package" layout_weight="0.5" layout_marginStart="23.0dip" style="@style/2132083927" />
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_right_main_10_sr" layout_weight="0.25" layout_marginStart="23.0dip" style="@style/2132083895" />
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/temporary_disconnection_landline_suspension_right_main_internet_package_other_price" layout_weight="0.25" layout_marginStart="23.0dip" style="@style/2132083895" />
+            </LinearLayout>
+            <TextView layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/temporary_disconnection_landline_suspension_section_footer_summer_refers" style="@style/2132083916" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362279" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.Group id="@id/2131362061" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="billsAmount,billsDueAmount,currency_tv,ofTotalAmount,divider1,outstandingBill,addBill" />
+    <TextView id="@id/billsAmount" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/pay_bill_select_bill_header_title_amount" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362279" style="@style/2132083927" />
+    <TextView gravity="bottom" id="@id/billsDueAmount" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/billsAmount" style="@style/2132083908" />
+    <TextView id="@id/currency_tv" layout_width="wrap_content" layout_height="wrap_content" text="@string/pay_bill_select_bill_right_main_sr" layout_marginStart="6.0dip" 2130969490="@id/billsDueAmount" 2130969519="@id/billsDueAmount" style="@style/2132083885" />
+    <TextView id="@id/ofTotalAmount" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="9.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/billsDueAmount" />
+    <View id="@id/divider1" layout_marginTop="13.0dip" 2130969523="@id/ofTotalAmount" style="@style/2132083036" />
+    <TextView id="@id/outstandingBill" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/pay_bill_select_bill_section_title_outstanding_bills" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/divider1" style="@style/2132083837" />
+    <TextView gravity="end" id="@id/addBill" padding="5.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/pay_bill_select_bill_right_main_add_bill" layout_marginEnd="@dimen/2131165388" 2130969490="@id/outstandingBill" 2130969500="2131364589" style="@style/2132083866" />
+    <View id="@id/2131363050" layout_marginTop="@dimen/2131165388" 2130969523="@id/outstandingBill" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131362278" background="@color/2131099913" paddingTop="10.0dip" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131362274" 2130969523="@id/2131363050" />
+    <Button enabled="false" id="@id/2131362274" text="@string/pay_bill_select_bill_button_continue" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

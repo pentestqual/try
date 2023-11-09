@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363650" layout_width="60.0dip" layout_height="90.0dip" src="@drawable/2131231321" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131366290" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" textAllCaps="true" layout_marginStart="25.0dip" 2130969519="@id/2131363650" 2130969524="2131364589" style="@style/2132083883" />
+    <TextView id="@id/2131366285" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" layout_marginStart="25.0dip" 2130969519="@id/2131363650" 2130969523="@id/2131366290" style="@style/2132083891" />
+    <TextView ellipsize="end" id="@id/2131366288" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="4.0dip" maxLines="1" singleLine="true" layout_marginStart="25.0dip" 2130969500="2131364589" 2130969519="@id/2131363650" 2130969523="@id/2131366285" style="@style/2132083921" />
+    <TextView id="@id/2131366287" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4.0dip" maxLines="1" layout_marginStart="25.0dip" 2130969519="@id/2131363650" 2130969523="@id/2131366288" style="@style/2132083875" />
+    <com.google.android.material.textview.MaterialTextView id="@id/2131362971" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="6.0dip" layout_marginStart="25.0dip" 2130969500="2131364589" 2130969519="@id/2131363650" 2130969523="@id/2131366287" style="@style/2132083921" />
+    <include id="@id/2131361954" layout_width="wrap_content" layout_height="wrap_content" 2130969500="2131364589" 2130969523="@id/2131366288" layout="@layout/2131559269" />
+</androidx.constraintlayout.widget.ConstraintLayout>

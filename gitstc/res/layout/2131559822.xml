@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView textColor="@color/2131100892" gravity="center" layout_gravity="center_horizontal" id="@id/2131363759" background="@drawable/2131231884" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/sawa_tag_sawa_packages_left_main_popular" paddingStart="2.0dip" paddingEnd="2.0dip" layout_alignStart="@id/2131364550" layout_alignEnd="@id/2131364550" backgroundTint="@color/2131099684" />
+    <ImageView id="@id/2131364550" layout_width="100.0dip" layout_height="92.0dip" layout_below="@id/2131363759" />
+</RelativeLayout>

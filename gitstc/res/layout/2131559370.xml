@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout padding="16.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="12.0dip" layout_marginTop="16.0dip" layout_marginRight="12.0dip" layout_marginBottom="16.0dip" layout_marginHorizontal="12.0dip" layout_marginVertical="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar id="@id/2131364854" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" indeterminateTint="?2130968978" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <com.google.android.material.textview.MaterialTextView id="@id/2131363228" layout_width="0.0dip" layout_height="wrap_content" maxLines="3" layout_marginEnd="8.0dip" 2130969494="2131364589" 2130969501="@id/2131365237" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083916" />
+    <androidx.appcompat.widget.AppCompatImageView id="@id/2131365237" background="@color/2131100860" layout_width="32.0dip" layout_height="32.0dip" src="@drawable/2131231600" text="@string/my_ticket_help_center_button_retry" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+</androidx.constraintlayout.widget.ConstraintLayout>

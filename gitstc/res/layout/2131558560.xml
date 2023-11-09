@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView textColor="?2130968978" id="@id/2131366458" layout_width="fill_parent" layout_height="wrap_content" singleLine="true" textAlignment="viewEnd" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+    <CheckedTextView textColor="?2130968978" id="@id/price" layout_width="fill_parent" layout_height="wrap_content" singleLine="true" alpha="0.6" textAlignment="viewEnd" 2130969500="2131364589" 2130969523="@id/2131366458" style="@style/2132083834" />
+    <CheckedTextView textColor="?2130968978" id="@id/2131364207" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083834" />
+</merge>

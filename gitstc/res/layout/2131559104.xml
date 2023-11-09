@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" />
+    <com.google.android.material.textview.MaterialTextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/auctions_bank_account_section_title_select_your" layout_marginStart="@dimen/2131165388" letterSpacing="0.05" style="@style/2132083837" />
+    <View background="@color/2131099799" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="8.0dip" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131362181" layout_width="fill_parent" layout_height="300.0dip" layout_marginStart="@dimen/2131165388" />
+</LinearLayout>

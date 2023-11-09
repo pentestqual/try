@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="wrap_content" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131366051" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginBottom="@dimen/2131165388" text="@string/network_feedback_select_number_section_title_postpaid" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+    <View id="@id/2131366501" background="#ffcccccc" layout_width="fill_parent" layout_height="1.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <com.google.android.material.tabs.TabLayout id="@id/2131365900" background="@color/2131100686" layout_width="fill_parent" layout_height="?2130968594" layout_marginTop="?2130968594" 2130969524="2131364589" 2130970193="@color/2131100686" 2130970203="?2130968978" 2130970204="false" 2130970210="2131363364" 2130970219="?2130968978" />
+    <View id="@id/2131362198" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" 2130969523="@id/2131365900" />
+    <androidx.viewpager2.widget.ViewPager2 id="@id/2131366514" background="@color/2131100766" layout_width="fill_parent" layout_height="0.0dip" layout_marginTop="1.0dip" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969495="@id/2131362752" 2130969523="@id/2131362198" />
+    <Button id="@id/2131362752" visibility="visible" layout_width="fill_parent" text="@string/telegram_telegrams_button_create_new" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

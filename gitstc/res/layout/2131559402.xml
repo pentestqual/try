@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364976" paddingTop="1.0dip" paddingBottom="1.0dip" layout_width="wrap_content" layout_height="wrap_content" paddingStart="20.0dip" paddingEnd="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131364678" layout_width="wrap_content" layout_height="wrap_content" alpha="0.5" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083886" />
+    <Button id="@id/2131362378" visibility="gone" layout_width="wrap_content" text="@string/enroll_rewards_program_home_button_register" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364678" style="@style/2132082690" />
+    <loading_progress_bar.LoadingProgressBar id="@id/2131364867" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" elevation="2.0dip" 2130969494="@id/2131362378" 2130969500="@id/2131362378" 2130969520="@id/2131362378" 2130969524="@id/2131362378" />
+    <TextView textColor="?colorAccent" id="@id/2131364747" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969520="2131364589" 2130969523="@id/2131364678" style="@style/2132083899" />
+    <TextView textColor="?colorAccent" id="@id/2131366370" layout_width="wrap_content" layout_height="wrap_content" text="@string/transfer_qitaf_main_menu_right_main_pts" layout_alignBaseline="@id/2131364747" textAllCaps="true" layout_marginStart="5.0dip" 2130969490="@id/2131364747" 2130969519="@id/2131364747" style="@style/2132083882" />
+</androidx.constraintlayout.widget.ConstraintLayout>

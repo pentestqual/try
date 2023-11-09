@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="fill_parent" fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" text="@string/new_landline_complimentary_services_header_title_get_your" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+            <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="15.0dip" text="@string/new_landline_complimentary_services_header_sub_choose_atleast" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969517="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+            <TextView id="@id/2131364758" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/new_landline_complimentary_services_left_main_service_bundles" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/subtitle" style="@style/2132083837" />
+            <View id="@id/2131364759" visibility="visible" layout_marginTop="15.0dip" layout_marginBottom="15.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364758" style="@style/2132083036" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131362620" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip" layout_marginBottom="10.0dip" 2130969481="LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364758" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

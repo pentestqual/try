@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="0.0dip" layout_marginBottom="10.0dip" 2130969495="@id/2131363381" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <include id="@id/2131365856" layout="@layout/2131559494" />
+        <TextView gravity="start" id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/transfer_balance_transfer_summary_section_title_summary" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+        <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/temporary_disconnection_summary_header_sub_please_check" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131365343" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" />
+    </LinearLayout>
+    <TextView id="@id/2131363381" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/transfer_ownership_summary_section_footer_the_new" 2130969495="@id/2131362352" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083927" />
+    <Button id="@id/2131362352" layout_width="fill_parent" text="@string/temporary_disconnection_summary_button_continue" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

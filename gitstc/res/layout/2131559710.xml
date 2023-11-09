@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="fill_parent">
+        <TextView gravity="start|center" id="@id/labelTextView" layout_width="0.0dip" layout_height="fill_parent" layout_weight="1.0" textAlignment="viewStart" style="@style/2132083927" />
+        <LinearLayout gravity="end" layout_gravity="center" orientation="horizontal" layout_width="0.0dip" layout_height="fill_parent" layout_weight="1.0">
+            <ImageView gravity="center" id="@id/2131362918" visibility="gone" layout_width="wrap_content" layout_height="fill_parent" src="@drawable/2131231380" layout_marginEnd="@dimen/2131165388" style="@style/2132083885" />
+            <TextView id="@id/2131366459" layout_width="wrap_content" layout_height="fill_parent" textAlignment="viewEnd" style="@style/2132083895" />
+        </LinearLayout>
+    </LinearLayout>
+    <include id="@id/2131363063" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" layout="@layout/2131558601" />
+</LinearLayout>

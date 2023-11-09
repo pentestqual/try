@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+        <View id="@id/2131363378" layout_width="10.0dip" layout_height="10.0dip" 2130969520="2131364589" 2130969524="2131364589" />
+        <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+        <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_details_delivery_options_header_title_how_would" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+        <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/device_details_delivery_options_header_sub_choose_the" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+        <sa.com.stc.uicomponent.single_row_item.SingleRowWithInfoLayout id="@id/2131362327" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969143="2131363698" 2130969163="@drawable/2131231244" 2130969462="@string/device_details_delivery_options_left_main_branch_pickup" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" />
+        <sa.com.stc.uicomponent.single_row_item.SingleRowWithInfoLayout id="@id/2131362886" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969163="@drawable/2131231320" 2130969462="@string/device_details_delivery_options_left_main_delivery_at" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362327" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView id="@id/2131362465" layout_width="122.0dip" layout_height="101.0dip" layout_margin="5.0dip" foreground="?android:selectableItemBackground" 2130968837="3.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center" id="@id/2131362672" background="@drawable/2131230862" focusable="true" clickable="true" layout_width="fill_parent" layout_height="fill_parent">
+        <ImageView layout_gravity="center" id="@id/2131363660" layout_width="36.0dip" layout_height="36.0dip" src="@drawable/2131231310" 2130969495="@id/2131363513" 2130969500="2131364589" 2130969520="2131364589" />
+        <androidx.constraintlayout.widget.Guideline orientation="horizontal" id="@id/2131363513" layout_width="wrap_content" layout_height="wrap_content" 2130969504="0.5" />
+        <TextView textColor="@color/2131100878" ellipsize="end" gravity="center" id="@id/2131366323" layout_width="fill_parent" layout_height="wrap_content" maxLines="1" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363513" style="@style/2132083885" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

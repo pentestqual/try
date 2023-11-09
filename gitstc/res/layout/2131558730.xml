@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131362628" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131365859" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/ala_cart_summary_header_title_upgrade_summary" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+            <TextView id="@id/2131365858" layout_width="wrap_content" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131365859" style="@style/2132083927" />
+            <TextView id="@id/2131366174" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="30.0dip" text="@string/ala_cart_summary_section_title_total" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131365858" style="@style/2132083927" />
+            <TextView id="@id/2131366175" layout_width="wrap_content" layout_height="wrap_content" paddingStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131366174" style="@style/2132083908" />
+            <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" paddingEnd="@dimen/2131165388" layout_marginStart="5.0dip" 2130969490="@id/2131366175" 2130969519="@id/2131366175" style="@style/2132083885" />
+            <View id="@id/2131366113" 2130969520="2131364589" 2130969523="@id/2131366175" style="@style/2132083036" />
+            <ImageView id="@id/2131362792" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231488" paddingStart="@dimen/2131165388" 2130969494="@id/2131362793" 2130969520="2131364589" 2130969524="@id/2131362793" />
+            <TextView id="@id/2131362793" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="46.0dip" text="@string/ala_cart_summary_title_prepaid_bundle" layout_marginStart="10.0dip" 2130969519="@id/2131362792" 2130969523="@id/2131366113" style="@style/2132083837" />
+            <View id="@id/2131362791" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362793" style="@style/2132083036" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131364850" paddingBottom="46.0dip" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969520="2131364589" 2130969523="@id/2131362791" />
+            <androidx.constraintlayout.widget.Group id="@id/2131365197" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="payment_img,payment_text,payment_div,remaining_balance_text,remaining_balance_value" />
+            <ImageView id="@id/payment_img" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231218" paddingStart="@dimen/2131165388" 2130969494="@id/payment_text" 2130969520="2131364589" 2130969524="@id/payment_text" />
+            <TextView id="@id/payment_text" layout_width="wrap_content" layout_height="wrap_content" text="@string/ala_cart_summary_section_title_payment" layout_marginStart="10.0dip" 2130969519="@id/payment_img" 2130969523="@id/2131364850" style="@style/2132083837" />
+            <View id="@id/payment_div" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/payment_text" style="@style/2132083036" />
+            <TextView id="@id/remaining_balance_text" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/ala_cart_summary_left_main_remaining_balance" 2130969520="2131364589" 2130969523="@id/payment_div" style="@style/2132083927" />
+            <TextView id="@id/remaining_balance_value" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" 2130969490="@id/remaining_balance_text" 2130969500="2131364589" style="@style/2132083885" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <Button id="@id/2131362628" layout_width="fill_parent" layout_height="wrap_content" text="@string/ala_cart_summary_button_confirm" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout id="@id/2131362671" background="?2130968978" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362079" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131362421" 2130969524="2131364589">
+            <com.google.android.material.appbar.CollapsingToolbarLayout id="@id/2131362599" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362683" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="?2130968594" animateLayoutChanges="true" 2130969485="2131364588">
+                    <TextView id="@id/2131364409" paddingTop="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969524="2131364589" style="@style/2132083850" />
+                    <TextView textColor="@color/2131099914" ellipsize="end" id="@id/2131364603" paddingTop="8.0dip" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364409" style="@style/2132083834" />
+                    <ImageView id="@id/2131364401" layout_width="fill_parent" layout_height="0.0dip" layout_marginTop="23.0dip" scaleType="centerCrop" 2130969499="375:226" 2130969523="@id/2131364603" />
+                    <View id="@id/2131364601" background="@color/2131099656" layout_width="80.0dip" layout_height="80.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="@id/2131364401" />
+                    <ImageView id="@id/2131364602" padding="5.0dip" layout_width="0.0dip" layout_height="0.0dip" 2130969494="@id/2131364601" 2130969500="@id/2131364601" 2130969520="@id/2131364601" 2130969524="@id/2131364601" />
+                    <View id="@id/2131364604" background="?2130968986" layout_width="80.0dip" layout_height="80.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364601" />
+                    <LinearLayout gravity="center" orientation="vertical" layout_width="0.0dip" layout_height="0.0dip" 2130969494="@id/2131364604" 2130969500="@id/2131364604" 2130969520="@id/2131364604" 2130969524="@id/2131364604">
+                        <TextView textSize="27.0dip" id="@id/2131364407" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083848" />
+                        <TextView id="@id/2131364406" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_home_right_sub_points" style="@style/2132083833" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" 2130969780="@drawable/2131231430" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView id="@id/2131365391" background="@color/2131099656" paddingBottom="40.0dip" layout_width="fill_parent" layout_height="fill_parent" layout_marginBottom="?2130968594" overScrollMode="never" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <TextView ellipsize="end" id="@id/2131364402" paddingTop="16.0dip" paddingBottom="16.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083927" />
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout layout_gravity="bottom" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content">
+            <Button id="@id/2131364408" layout_margin="@dimen/2131165388" text="@string/special_offers_offer_page_button_redeem_now" style="@style/2132082688" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView gravity="center" id="@id/2131364600" layout_width="fill_parent" layout_height="?2130968594" alpha="0.0" style="@style/2132083893" />
+</FrameLayout>

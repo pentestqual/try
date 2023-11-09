@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131362833" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <RelativeLayout layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent">
+            <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+                <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="45.0dip" text="@string/temporary_disconnection_choose_date_header_title_when_you" textAlignment="textStart" layout_marginStart="20.0dip" layout_marginEnd="20.0dip" lineHeight="32.0dip" style="@style/2132083845" />
+                <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="7.0dip" text="@string/temporary_disconnection_choose_date_header_sub_please_select" textAlignment="textStart" layout_marginStart="20.0dip" layout_marginEnd="20.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+                <com.prolificinteractive.materialcalendarview.MaterialCalendarView id="@id/2131362409" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginBottom="50.0dip" 2130969684="@style/2132083916" 2130969686="@style/2132083843" 2130969687="@drawable/2131231201" 2130969689="@drawable/2131231207" 2130969690="?2130968978" 2130969693="50.0dip" 2130969696="@array/2130903041" 2130969697="@style/2132083832" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <Button id="@id/2131362352" layout_width="fill_parent" text="@string/cancel_my_numbercontact_number_button_continue" layout_alignParentBottom="true" style="@style/2132082688" />
+    </RelativeLayout>
+</LinearLayout>

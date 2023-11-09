@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="@color/2131099656" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <ScrollView id="@id/2131362671" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131361898" 2130969523="@id/2131362078">
+            <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/home_details_roaming_header_title_where_is" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+                <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/home_details_roaming_header_sub_you_can" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+                <TextView id="@id/2131362740" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/home_details_roaming_left_main_out_of" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" style="@style/2132083837" />
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365402" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362740">
+                    <EditText id="@id/2131365403" background="@drawable/2131230949" layout_width="fill_parent" layout_height="50.0dip" layout_margin="@dimen/2131165388" layout_marginBottom="60.0dip" hint="@string/assign_a_number_assign_nationality_left_main_search" maxLines="1" drawablePadding="5.0dip" inputType="text" imeOptions="actionDone" drawableStart="@drawable/2131231629" paddingStart="10.0dip" 2130969520="2131364589" 2130969524="2131364589" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366545" layout_width="fill_parent" layout_height="wrap_content" 2130969514="2131364589" 2130969518="2131364589" 2130969523="@id/2131365402">
+                    <TextView id="@id/2131366544" paddingTop="@dimen/2131165388" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/home_details_roaming_section_title_most_visited" paddingStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131366543" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366544" />
+                    <androidx.recyclerview.widget.RecyclerView orientation="vertical" id="@id/2131364163" scrollbars="none" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131366543" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362633" layout_width="fill_parent" layout_height="wrap_content" 2130969514="2131364589" 2130969518="2131364589" 2130969523="@id/2131366545">
+                    <TextView id="@id/2131362045" paddingTop="40.0dip" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/customer_support_history_ticket_details_filter_lift_main_all" paddingStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131363073" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362045" />
+                    <androidx.recyclerview.widget.RecyclerView orientation="vertical" id="@id/2131362041" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363073" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362078" background="?2130968978" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <com.google.android.material.appbar.CollapsingToolbarLayout background="?2130968978" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231">
+                <androidx.appcompat.widget.Toolbar gravity="center" layout_gravity="center|top" id="@id/2131366132" background="@color/2131099656" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" 2130969780="@drawable/2131231200" 2130969877="@style/2132082714" style="@style/2132083837" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <Button enabled="false" id="@id/2131361898" layout_width="fill_parent" text="@string/home_details_roaming_button_choose_roaming" 2130969494="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout gravity="center" layout_gravity="center|top" orientation="horizontal" id="@id/2131364380" layout_width="wrap_content" layout_height="?2130968594">
+        <TextView layout_gravity="center" id="@id/2131366139" style="@style/2132083940" />
+    </LinearLayout>
+</FrameLayout>

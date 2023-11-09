@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView id="@id/2131365396" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content">
+        <include id="@id/2131362078" layout="@layout/2131559494" />
+        <androidx.appcompat.widget.SearchView id="@id/2131365413" background="@drawable/2131230949" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" iconifiedByDefault="false" paddingStart="-10.0dip" 2130969374="false" 2130969914="@string/branches__ssms_kiosk_history_left_main_search_by" />
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131365236" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" 2130969481="LinearLayoutManager" />
+    </LinearLayout>
+</ScrollView>

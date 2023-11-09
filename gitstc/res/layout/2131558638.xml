@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_gravity="center_horizontal" orientation="vertical" layout_width="270.0dip" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout layout_gravity="center_horizontal" orientation="horizontal" id="@id/2131364589" layout_width="wrap_content" layout_height="wrap_content">
+        <com.stc.widget.np.NumberPicker id="@id/2131364149" focusable="true" focusableInTouchMode="true" layout_width="80.0dip" layout_height="wrap_content" layout_marginLeft="1.0dip" layout_marginRight="1.0dip" layout_marginStart="1.0dip" layout_marginEnd="1.0dip" />
+        <com.stc.widget.np.NumberPicker id="@id/2131362847" focusable="true" focusableInTouchMode="true" layout_width="80.0dip" layout_height="wrap_content" layout_marginLeft="1.0dip" layout_marginRight="1.0dip" layout_marginStart="1.0dip" layout_marginEnd="1.0dip" />
+        <com.stc.widget.np.NumberPicker id="@id/2131366665" focusable="true" focusableInTouchMode="true" layout_width="95.0dip" layout_height="wrap_content" layout_marginLeft="1.0dip" layout_marginRight="1.0dip" layout_marginStart="1.0dip" layout_marginEnd="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

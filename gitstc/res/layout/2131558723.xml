@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131365396" background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <RelativeLayout layout_width="fill_parent" layout_height="fill_parent">
+        <ScrollView id="@id/2131365395" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" layout_above="@id/2131364016">
+            <LinearLayout orientation="vertical" id="@id/2131364017" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent">
+                <LinearLayout gravity="center" orientation="vertical" background="?2130968978" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content">
+                    <ImageView id="@id/2131364551" layout_width="80.0dip" layout_height="80.0dip" src="@drawable/2131231608" />
+                    <TextView gravity="center" id="@id/2131364553" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="Service Name" style="@style/2132083905" />
+                </LinearLayout>
+                <TextView id="@id/2131365854" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083899" />
+                <View id="@id/2131363073" style="@style/2132083036" />
+                <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+                    <LinearLayout orientation="vertical" id="@id/2131364799" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                        <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="Price starting from" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                        <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+                            <TextView id="@id/2131364802" layout_width="wrap_content" layout_height="wrap_content" text="120" style="@style/2132083904" />
+                            <TextView id="@id/2131364806" layout_width="wrap_content" layout_height="wrap_content" text="SR Monthly" layout_weight="1.0" style="@style/2132083927" />
+                        </LinearLayout>
+                        <TextView id="@id/2131366478" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" text="@string/vat_vattobeadded_vat_wil" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083924" />
+                        <View id="@id/2131363075" layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+                    </LinearLayout>
+                    <TextView id="@id/2131362919" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout orientation="vertical" id="@id/2131364016" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+            <Button id="@id/2131365200" visibility="gone" layout_width="fill_parent" layout_margin="20.0dip" text="@string/new_landline_order_choose_number_button_remove" style="@style/2132083123" />
+            <Button id="@id/2131361999" visibility="gone" layout_width="fill_parent" layout_marginTop="@dimen/2131165388" text="@string/new_landline_products_button_add_to_order" 2130970232="true" style="@style/2132082688" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

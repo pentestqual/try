@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView id="@id/2131365398" layout_width="fill_parent" layout_height="0.0dip" layout_marginBottom="10.0dip" 2130969495="@id/2131362063" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" id="@id/2131364669" layout_width="fill_parent" layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" paddingStart="20.0dip" paddingEnd="20.0dip">
+                <TextView gravity="start" id="@id/2131366214" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15.0dip" text="@string/partial_payment_payment_page_left_main_total_amount" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                <LinearLayout orientation="horizontal" id="@id/2131362053" layout_width="wrap_content" layout_height="wrap_content" 2130969500="2131364589" 2130969524="2131364589">
+                    <TextView id="@id/2131362052" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083899" />
+                    <TextView layout_width="fill_parent" layout_height="wrap_content" text="@string/device_contract_summary_right_main_sr" layout_marginStart="10.0dip" style="@style/2132083885" />
+                </LinearLayout>
+                <TextView id="@id/2131362060" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/pay_bill_select_bill_section_footer_of_sr" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969523="@id/2131362053" />
+                <TextView textSize="11.0sp" textColor="@color/2131100768" id="@id/2131364810" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969520="@id/2131362053" 2130969523="@id/2131362053" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View id="@id/2131363074" layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363132" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <TextView id="@id/2131363131" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="46.0dip" text="@string/partial_payment_payment_page_button_pay_with" layout_marginStart="10.0dip" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                <View id="@id/2131363130" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363131" style="@style/2132083036" />
+                <include id="@id/2131365307" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363130" layout="@layout/2131559707" />
+                <View 2130969520="2131364589" 2130969523="@id/2131365307" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131361819" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363132">
+                <TextView id="@id/2131361818" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="46.0dip" text="@string/qitaf_payment_payment_page_section_title_pay_with" layout_marginStart="10.0dip" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                <View id="@id/2131361817" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131361818" style="@style/2132083036" />
+                <include id="@id/2131361816" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131361817" layout="@layout/2131559713" />
+                <View 2130969520="2131364589" 2130969523="@id/2131361816" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364627" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131361819" 2130969524="2131364589">
+                <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="45.0dip" text="@string/partial_payment_payment_page_section_title_payment_option" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                <TextView gravity="end" id="@id/2131361984" padding="5.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/partial_payment_payment_page_button_add_a" layout_marginEnd="@dimen/2131165388" 2130969490="@id/2131366102" 2130969500="2131364589" style="@style/2132083866" />
+                <View id="@id/2131363075" layout_marginTop="15.0dip" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout orientation="vertical" id="@id/2131365360" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip">
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131362761" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" />
+                <TextView layout_gravity="start" id="@id/2131366432" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/device_pay_button_use_another" drawablePadding="10.0dip" drawableStart="@drawable/2131231182" layout_marginStart="20.0dip" style="@style/2132083871" />
+                <TextView textColor="#ff8e9aa0" layout_gravity="center" id="@id/2131363221" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" style="@style/2132083837" />
+                <TextView gravity="center" layout_gravity="center" id="@id/2131363214" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083924" />
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131362186" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView id="@id/2131364505" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="45.0dip" text="@string/device_contract_pay_section_title_other" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+                <View background="@color/2131099799" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="8.0dip" />
+                <TextView id="@id/2131362183" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/auctions_get_a_header_title_bank_transfer" includeFontPadding="false" drawablePadding="10.0dip" drawableStart="@drawable/2131231182" layout_marginStart="20.0dip" style="@style/2132083871" />
+                <View background="@color/2131099799" layout_width="fill_parent" layout_height="1.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include id="@id/2131362063" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131362628" 2130969500="2131364589" 2130969520="2131364589" layout="@layout/2131559668" />
+    <Button enabled="false" id="@id/2131362628" layout_width="fill_parent" text="@string/partial_payment_payment_page_button_confirm_payment" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

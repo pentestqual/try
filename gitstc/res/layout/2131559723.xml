@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" orientation="vertical" layout_width="fill_parent" layout_height="80.0dip" divider="@drawable/2131231059" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox id="@id/2131363769" focusable="false" focusableInTouchMode="false" layout_width="wrap_content" layout_height="wrap_content" checked="false" button="@drawable/2131231021" layout_marginStart="@dimen/2131166367" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <ImageView layout_gravity="center_vertical" id="@id/2131362758" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231426" 2130969494="2131364589" 2130969519="@id/2131363769" 2130969524="2131364589" />
+    <TextView gravity="center_vertical" id="@id/2131362759" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="10.0dip" 2130969494="2131364589" 2130969519="@id/2131362758" 2130969524="2131364589" style="@style/2132083927" />
+    <TextView gravity="center_vertical" id="@id/2131362760" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="14.0dip" layout_marginStart="10.0dip" 2130969494="2131364589" 2130969519="@id/2131362758" 2130969523="@id/2131362759" style="@style/2132083883" />
+    <TextView gravity="center_vertical" id="@id/2131362508" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/partial_payment_payment_page_button_change" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083865" />
+    <ImageView gravity="center_vertical" id="@id/2131362461" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231636" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    <View id="@id/divider" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+    <View id="@id/2131363067" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

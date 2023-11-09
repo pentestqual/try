@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" id="@id/2131365299" background="#ffffffff" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <ImageView id="@id/2131363897" layout_width="50.0dip" layout_height="50.0dip" scaleType="centerInside" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <ImageView id="@id/2131362101" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+        <TextView gravity="start|center" id="@id/2131363909" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" singleLine="false" textAlignment="viewStart" layout_marginStart="8.0dip" 2130969495="@id/2131363814" 2130969501="@id/2131365252" 2130969519="@id/2131363897" 2130969524="2131364589" style="@style/2132083927" />
+        <TextView id="@id/2131363814" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16.0dip" layout_marginStart="8.0dip" 2130969494="2131364589" 2130969501="@id/2131365252" 2130969510="0.0" 2130969519="@id/2131363897" 2130969523="@id/2131363909" style="@style/2132083883" />
+        <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131366492" layout_width="wrap_content" layout_height="wrap_content" 2130969504="0.62" />
+        <LinearLayout gravity="end" orientation="horizontal" id="@id/2131365252" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" 2130969494="2131364589" 2130969501="@id/2131362101" 2130969519="@id/2131366492" 2130969524="2131364589">
+            <TextView textColor="@color/2131099733" id="@id/2131365264" background="@drawable/2131230954" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" textAllCaps="true" textAlignment="center" style="@style/2132083827" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include id="@id/2131363063" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" layout="@layout/2131558601" />
+</androidx.constraintlayout.widget.ConstraintLayout>

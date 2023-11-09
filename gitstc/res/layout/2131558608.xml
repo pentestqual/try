@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout focusable="true" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131363768" layout_width="0.0dip" layout_height="wrap_content" layout_margin="20.0dip" textAlignment="viewStart" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <View layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363768" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

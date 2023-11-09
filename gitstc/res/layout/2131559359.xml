@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout orientation="vertical" id="@id/2131363934" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131362962" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" src="@drawable/2131231453" scaleType="fitCenter" adjustViewBounds="true" />
+    <ImageView layout_gravity="center" id="@id/2131366496" background="@color/2131099648" visibility="visible" layout_width="fill_parent" layout_height="230.0dip" layout_marginLeft="32.0dip" layout_marginRight="32.0dip" scaleType="centerInside" adjustViewBounds="true" layout_marginHorizontal="32.0dip" />
+    <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" id="@id/2131364739" background="@color/2131099787" visibility="visible" layout_width="70.0dip" layout_height="70.0dip">
+        <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" layout_width="42.0dip" layout_height="42.0dip" 2130970099="@drawable/2131231519" 2130970356="@color/2131099656" />
+    </LinearLayout>
+</FrameLayout>

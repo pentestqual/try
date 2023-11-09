@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969495="@id/2131362295" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362093" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388">
+                <ImageView id="@id/2131362413" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231749" layout_marginStart="20.0dip" 2130969520="2131364589" 2130969524="2131364589" />
+                <TextView id="@id/2131362091" layout_width="0.0dip" layout_height="wrap_content" text="@string/book_an_appointment_stc_store_section_footer_you_have" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969519="@id/2131362413" 2130969524="2131364589" style="@style/2132083921" />
+                <TextView gravity="end" id="@id/2131362089" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/book_an_appointment_stc_store_button_appointment_details" layout_marginEnd="@dimen/2131165388" 2130969495="@id/2131364888" 2130969500="2131364589" 2130969523="@id/2131362091" style="@style/2132083863" />
+                <View id="@id/2131364888" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView id="@id/2131364413" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" style="@style/2132083904" />
+            <LinearLayout orientation="horizontal" id="@id/2131363004" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388">
+                <Button id="@id/2131363006" layout_width="wrap_content" layout_height="wrap_content" text="@string/branches_and_ssms_map_button_directions" style="@style/2132082688" />
+                <ImageView layout_gravity="center_vertical" id="@id/2131364703" layout_width="wrap_content" layout_height="32.0dip" src="@drawable/2131231437" layout_marginStart="@dimen/2131165388" />
+                <TextView layout_gravity="center_vertical" id="@id/2131363028" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" style="@style/2132083885" />
+            </LinearLayout>
+            <View layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <RelativeLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/book_an_appointment_stc_store_left_main_toll_free" layout_alignParentStart="true" style="@style/2132083891" />
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="\ 8001243020" layout_alignParentEnd="true" style="@style/2132083837" />
+            </RelativeLayout>
+            <View layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+            <TextView id="@id/2131365537" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/service_subscription_services_title_services" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+            <View layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364033" layout_width="fill_parent" layout_height="wrap_content" 2130969553="@drawable/2131231441" 2130969559="@string/book_an_appointment_stc_store_left_main_maintenance" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362294" layout_width="fill_parent" layout_height="wrap_content" 2130969553="@drawable/2131231237" 2130969559="@string/book_an_appointment_stc_store_left_main_book_appointment" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364424" layout_width="fill_parent" layout_height="wrap_content" 2130969553="@drawable/2131231276" 2130969559="@string/customer_support_live_chat_section_title_open" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363340" layout_width="fill_parent" layout_height="wrap_content" 2130969553="@drawable/2131231351" 2130969559="@string/book_an_appointment_stc_store_left_main_fingerprint" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363011" layout_width="fill_parent" layout_height="wrap_content" 2130969553="@drawable/2131231324" 2130969559="@string/book_an_appointment_stc_store_left_main_Disabled" />
+            <TextView id="@id/2131364430" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/book_an_appointment_stc_store_section_title_opening_hours" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+            <View layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131364429" layout_width="fill_parent" layout_height="wrap_content" />
+            <TextView padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/book_an_appointment_stc_store_section_footer_the_store" style="@style/2132083918" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131362295" visibility="gone" text="@string/book_an_appointment_stc_store_button_book_an" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

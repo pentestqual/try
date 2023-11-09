@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector drawable="@drawable/2131231830" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:interpolator="@interpolator/2131492871" android:shareInterpolator="true">
+        <target name="@string/mtrl_switch_thumb_path_name" animation="@drawable/2131230777" />
+        <target name="@string/mtrl_switch_thumb_path_name" animation="@drawable/2131230778" />
+    </set>
+</animated-vector>

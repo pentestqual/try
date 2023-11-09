@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131366135" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView id="@id/2131364250" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" layout_weight="1.0">
+        <TextView id="@id/2131365969" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="fill_parent" fontFamily="@font/2131296257" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

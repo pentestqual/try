@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View background="@android:color/black" layout_width="fill_parent" layout_height="fill_parent" alpha="0.7" />
+    <androidx.cardview.widget.CardView layout_gravity="center" id="@id/2131362465" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="25.0dip" layout_marginRight="25.0dip" 2130968837="3.0dip" 2130968838="5.0dip" 2130968844="true">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="15.0dip" layout_marginTop="20.0dip" layout_marginRight="15.0dip" layout_marginBottom="20.0dip">
+            <TextView textSize="22.0sp" textColor="@android:color/black" layout_gravity="center" id="@id/2131363538" layout_width="wrap_content" layout_height="wrap_content" text="@string/congratulation" singleLine="true" fontFamily="@font/2131296257" />
+            <TextView textSize="14.0sp" textColor="@android:color/black" layout_gravity="center" id="@id/2131363305" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5.0dip" text="@string/you_couldnt_win_any_rewards_this_time" />
+            <FrameLayout id="@id/2131365841" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip">
+                <ImageView background="@drawable/2131231923" layout_width="fill_parent" layout_height="120.0dip" layout_marginLeft="20.0dip" layout_marginRight="20.0dip" />
+            </FrameLayout>
+            <FrameLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip">
+                <ImageView layout_gravity="center" id="@id/2131362158" background="@drawable/2131231923" visibility="gone" layout_width="fill_parent" layout_height="120.0dip" layout_marginLeft="10.0dip" layout_marginRight="10.0dip" />
+                <ImageView layout_gravity="center" id="@id/2131363632" layout_width="170.0dip" layout_height="170.0dip" scaleType="centerCrop" />
+            </FrameLayout>
+            <TextView textSize="19.0sp" textColor="@color/2131099927" layout_gravity="center" id="@id/2131362906" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20.0dip" fontFamily="@font/2131296262" />
+            <TextView textSize="22.0sp" textColor="@color/2131099924" layout_gravity="center" id="@id/2131364938" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="" singleLine="true" fontFamily="@font/2131296257" />
+            <LinearLayout layout_gravity="center" orientation="horizontal" id="@id/2131366576" background="@drawable/2131231061" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20.0dip">
+                <TextView textSize="14.0sp" textColor="@color/2131099927" layout_gravity="center" id="@id/2131366557" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10.0dip" singleLine="true" fontFamily="@font/2131296257" />
+                <ImageView layout_gravity="center" id="@id/2131362728" background="@drawable/2131231046" layout_width="24.0dip" layout_height="24.0dip" layout_marginLeft="20.0dip" layout_marginRight="10.0dip" />
+            </LinearLayout>
+            <Button textColor="@android:color/white" layout_gravity="center" id="@id/2131364414" background="@drawable/2131230988" layout_width="wrap_content" layout_height="35.0dip" layout_marginTop="30.0dip" text="@string/close" fontFamily="@font/2131296263" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

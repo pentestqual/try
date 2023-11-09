@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" foreground="?2130969981" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView textColor="?colorAccent" ellipsize="end" id="@id/2131362404" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/purchase_status_status_points_button_purchase_status" maxLines="1" textDirection="locale" textAlignment="gravity" layout_marginStart="@dimen/2131165388" 2130969495="@id/2131365685" 2130969520="2131364589" 2130969524="2131364589" 2130969526="2131364580" style="@style/2132083889" />
+    <Space id="@id/2131365685" layout_width="fill_parent" layout_height="0.0dip" minHeight="20.0dip" 2130969523="@id/2131362404" />
+    <ImageView layout_gravity="center_vertical" id="@id/2131364283" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    <View id="@id/2131364107" background="@color/2131099883" layout_width="0.0dip" layout_height="1.0dip" 2130969494="2131364589" 2130969500="2131364589" />
+</androidx.constraintlayout.widget.ConstraintLayout>

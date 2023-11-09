@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout orientation="vertical" id="@id/2131364023" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" layout_below="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" text="@string/new_landline_complimentary_services_header_title_wanna_add" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+            <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/new_landline_complimentary_services_header_sub_browse_the" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969517="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+            <TextView id="@id/2131365510" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginBottom="@dimen/2131165388" text="@string/new_landline_complimentary_services_section_title_selected" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/subtitle" style="@style/2132083837" />
+            <View id="@id/2131365512" visibility="gone" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365510" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131365509" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="9.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365512" />
+            <TextView id="@id/2131365528" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="42.0dip" layout_marginBottom="@dimen/2131165388" text="@string/new_landline_complimentary_services_header_left_main_services" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131365509" style="@style/2132083837" />
+            <View id="@id/2131365532" visibility="gone" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365528" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131365526" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="9.0dip" layout_marginBottom="30.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365532" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <Button id="@id/2131365636" visibility="visible" layout_width="fill_parent" layout_marginBottom="@dimen/2131165388" text="@string/new_landline_wifi_devices_button_skip_for_now" layout_alignParentBottom="true" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083123" />
+    <Button id="@id/2131361999" visibility="gone" layout_width="fill_parent" text="@string/new_landline_national_address_button_continue" layout_alignParentBottom="true" 2130969494="2131364589" 2130970232="true" style="@style/2132082688" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362564" background="@color/2131099833" layout_width="fill_parent" layout_height="fill_parent" layoutDirection="locale" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <LinearLayout orientation="vertical" paddingBottom="@dimen/2131165926" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165926">
+            <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131100729" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165915">
+                <ImageView id="@id/2131363792" layout_width="@dimen/2131165932" layout_height="@dimen/2131165932" layout_marginTop="@dimen/2131165908" layout_marginBottom="@dimen/2131165908" src="@drawable/2131231846" layout_marginEnd="@dimen/2131165932" layout_marginVertical="@dimen/2131165908" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+                <TextView textColor="@color/2131100892" id="@id/2131364203" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165908" layout_marginBottom="@dimen/2131165908" text="Open Store in MySTC" layout_marginEnd="16.0dip" layout_marginVertical="@dimen/2131165908" 2130969494="2131364589" 2130969501="@id/2131363792" 2130969524="2131364589" />
+                <TextView textColor="@color/2131100892" id="@id/2131364200" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165908" layout_marginBottom="@dimen/2131165908" text="Open Subsc via App Link" layout_marginEnd="16.0dip" layout_marginVertical="@dimen/2131165908" 2130969494="2131364589" 2130969501="@id/2131364203" 2130969524="2131364589" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <include id="@id/2131362247" layout="@layout/2131559308" />
+            <include id="@id/2131362160" layout="@layout/2131559308" />
+            <include id="@id/2131364715" layout="@layout/2131559311" />
+            <include id="@id/2131361996" layout="@layout/2131559311" />
+            <include id="@id/2131365815" layout="@layout/2131559447" />
+            <include id="@id/2131364051" layout="@layout/2131559310" />
+            <LinearLayout orientation="vertical" id="@id/2131362191" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165946" layout_marginBottom="@dimen/2131165946" layout_marginVertical="@dimen/2131165946" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363523" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362078" 2130969524="2131364589">
+        <TextView id="@id/2131366297" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165324" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+        <TextView id="@id/2131366158" layout_width="wrap_content" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131366297" style="@style/2132083908" />
+        <TextView id="@id/currencyTextView" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" layout_marginStart="8.0dip" 2130969490="@id/2131366158" 2130969519="@id/2131366158" style="@style/2132083885" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@id/divider" layout_marginTop="@dimen/2131165324" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363523" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365035" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/divider" />
+    <include id="@id/2131363877" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365035" layout="@layout/2131559458" />
+</LinearLayout>

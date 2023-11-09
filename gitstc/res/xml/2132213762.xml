@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Transition app:constraintSetEnd="@id/2131363182" app:constraintSetStart="@id/2131365726" app:motionInterpolator="2131363934">
+        <OnSwipe app:dragDirection="2131363102" app:limitBoundsTo="@id/2131365461" app:onTouchUp="2131365763" app:touchAnchorId="@id/2131365461" app:touchAnchorSide="2131366142" />
+    </Transition>
+    <ConstraintSet android:id="@id/2131365726">
+        <Constraint android:id="@id/2131366132" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toTopOf="2131364589">
+            <CustomAttribute app:attributeName="titleTextColor" app:customColorValue="@android:color/transparent" />
+        </Constraint>
+        <Constraint android:id="@id/2131366466" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toBottomOf="@id/2131366132" />
+        <Constraint android:id="@id/2131365461" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/2131362400" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toBottomOf="@id/2131366466" />
+        <Constraint android:id="@id/2131362400" android:layout_width="fill_parent" android:layout_height="0.0dip" android:elevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/2131364022" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" />
+        <Constraint android:id="@id/2131364022" android:layout_width="fill_parent" android:layout_height="@dimen/2131165305" app:layout_constraintBottom_toBottomOf="2131364589" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:visibilityMode="2131363626" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131363182">
+        <Constraint android:id="@id/2131366132" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toTopOf="2131364589">
+            <CustomAttribute app:attributeName="titleTextColor" app:customColorValue="@color/2131100892" />
+        </Constraint>
+        <Constraint android:id="@id/2131366466" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/2131366132" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" />
+        <Constraint android:id="@id/2131365461" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/2131362400" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toBottomOf="@id/2131366466" />
+        <Constraint android:id="@id/2131362400" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/2131364022" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" />
+        <Constraint android:id="@id/2131364022" android:layout_width="fill_parent" android:layout_height="@dimen/2131165305" app:layout_constraintBottom_toBottomOf="2131364589" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:visibilityMode="2131363626" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131364577">
+        <Constraint android:id="@id/2131366132" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toTopOf="2131364589" />
+        <Constraint android:id="@id/2131364575" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="3.0dip" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toBottomOf="@id/2131366132" />
+        <Constraint android:id="@id/2131365461" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="45.0dip" android:elevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/2131362400" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toBottomOf="@id/2131366132" />
+        <Constraint android:id="@id/2131362400" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:layout_constraintBottom_toTopOf="@id/2131364022" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" />
+        <Constraint android:id="@id/2131364022" android:layout_width="fill_parent" android:layout_height="@dimen/2131165305" app:layout_constraintBottom_toBottomOf="2131364589" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:visibilityMode="2131363626" />
+    </ConstraintSet>
+</MotionScene>

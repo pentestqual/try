@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView gravity="center" id="@id/2131366321" layout_width="wrap_content" layout_height="wrap_content" text="@string/personal_profile_profile_button_save" textAllCaps="true" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083871" />
+</LinearLayout>

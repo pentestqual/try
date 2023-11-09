@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131366102" layout_marginTop="@dimen/2131165388" text="@string/join_stc_id_type_header_title_which_id" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+            <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/join_stc_id_type_header_sub_title_this_is" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+            <LinearLayout orientation="vertical" id="@id/2131363621" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

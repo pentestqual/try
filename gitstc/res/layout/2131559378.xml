@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" orientation="vertical" id="@id/2131365299" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center" orientation="horizontal" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <ImageView id="@id/2131363103" layout_width="50.0dip" layout_height="50.0dip" src="@drawable/2131231310" scaleType="centerInside" />
+        <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="1.0" layout_marginStart="10.0dip">
+            <TextView id="@id/2131364026" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083945" />
+            <TextView id="@id/2131365784" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083883" />
+        </LinearLayout>
+        <TextView gravity="end" id="@id/price" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="5.0dip" style="@style/2132083885" />
+        <TextView gravity="end" id="@id/2131362765" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="10.0dip" style="@style/2132083885" />
+        <ImageView gravity="end" id="@id/2131362101" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@id/2131363071" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+        <View style="@style/2132083036" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

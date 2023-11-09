@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131362126" background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.motion.widget.MotionLayout orientation="vertical" id="@id/2131365839" background="@color/2131100686" visibility="gone" clipToPadding="false" layout_width="fill_parent" layout_height="fill_parent" 2130969479="@xml/2132213761">
+        <com.google.android.material.appbar.MaterialToolbar id="@id/2131362127" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" 2130969780="@drawable/2131231202" 2130970370="@style/2132083942" />
+        <LinearLayout orientation="vertical" id="@id/2131366145" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366148" layout_width="fill_parent" layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView id="@id/2131362460" layout_width="wrap_content" layout_height="wrap_content" 2130969500="2131364589" 2130969520="@id/2131366148" 2130969524="@id/2131366148" 2130969525="0.494" 2130970099="@drawable/2131231215" />
+                <com.google.android.material.textview.MaterialTextView textColor="@color/2131099656" ellipsize="end" gravity="center" id="@id/2131362136" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="8.0dip" layout_marginBottom="6.0dip" maxLines="1" includeFontPadding="false" letterSpacing="0.1" 2130969500="@id/2131362460" 2130969520="@id/2131362460" 2130969523="@id/2131362460" style="@style/2132083907" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <include id="@id/2131362125" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout="@layout/2131559277" />
+            <com.google.android.material.textview.MaterialTextView id="@id/2131364350" paddingTop="12.0dip" paddingBottom="12.0dip" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" includeFontPadding="false" textAllCaps="true" paddingStart="8.0dip" paddingEnd="8.0dip" letterSpacing="0.1" style="@style/2132083829" />
+            <com.google.android.material.textview.MaterialTextView textColor="@color/2131100892" gravity="center" id="@id/2131365747" background="@color/2131100768" paddingLeft="@dimen/2131165388" paddingTop="16.0dip" paddingRight="@dimen/2131165388" paddingBottom="16.0dip" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" elevation="2.0dip" letterSpacing="0.03" paddingHorizontal="@dimen/2131165388" paddingVertical="16.0dip" style="@style/2132083882" />
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@id/2131362305" background="@color/2131100686" layout_width="fill_parent" layout_height="0.0dip">
+            <include id="@id/2131363880" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout="@layout/2131559279" />
+            <include id="@id/2131363879" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout="@layout/2131559278" />
+            <include id="@id/2131363882" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout="@layout/2131559281" />
+            <include id="@id/2131363881" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout="@layout/2131559280" />
+        </LinearLayout>
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+    <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" id="@id/2131363212" background="@color/2131100686" visibility="gone" layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231215" tint="@color/2131099731" />
+        <com.google.android.material.textview.MaterialTextView gravity="center" id="@id/2131364422" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/auctions_home_message_header_ops" style="@style/2132083921" />
+        <com.google.android.material.textview.MaterialTextView gravity="center" id="@id/2131363228" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/auctions_home_message_body_the_data" style="@style/2132083921" />
+        <androidx.appcompat.widget.AppCompatImageView id="@id/2131365237" padding="8.0dip" layout_width="wrap_content" layout_height="wrap_content" 2130970099="@drawable/2131231600" />
+    </LinearLayout>
+</LinearLayout>

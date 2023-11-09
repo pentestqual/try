@@ -1,0 +1,65 @@
+.class public Lkotlin/collections/CollectionsKt__IteratorsJVMKt;
+.super Lkotlin/collections/CollectionsKt__IterablesKt;
+.source ""
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010(\n\u0002\u0008\u0002\u001a&\u0010\u0003\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0002\"\u0004\u0008\u0000\u0010\u0000*\u0008\u0012\u0004\u0012\u00028\u00000\u0001H\u0086\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004"
+    }
+    d2 = {
+        "T",
+        "Ljava/util/Enumeration;",
+        "",
+        "valueOf",
+        "(Ljava/util/Enumeration;)Ljava/util/Iterator;"
+    }
+    k = 0x5
+    mv = {
+        0x1,
+        0x6,
+        0x0
+    }
+    xi = 0x31
+    xs = "kotlin/collections/CollectionsKt"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Lkotlin/collections/CollectionsKt__IterablesKt;-><init>()V
+
+    return-void
+.end method
+
+.method public static final valueOf(Ljava/util/Enumeration;)Ljava/util/Iterator;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Enumeration<",
+            "TT;>;)",
+            "Ljava/util/Iterator<",
+            "TT;>;"
+        }
+    .end annotation
+
+    const-string v0, ""
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->valueOf(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 15
+    new-instance v0, Lkotlin/collections/CollectionsKt__IteratorsJVMKt$iterator$1;
+
+    invoke-direct {v0, p0}, Lkotlin/collections/CollectionsKt__IteratorsJVMKt$iterator$1;-><init>(Ljava/util/Enumeration;)V
+
+    check-cast v0, Ljava/util/Iterator;
+
+    return-object v0
+.end method

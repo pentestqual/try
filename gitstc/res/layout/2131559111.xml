@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/book_an_appointment_select_services_header_title_which_type" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131366364" scrollbars="vertical" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="40.0dip" layout_marginBottom="10.0dip" 2130969481="LinearLayoutManager" />
+</LinearLayout>

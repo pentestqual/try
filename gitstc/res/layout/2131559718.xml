@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout id="@id/2131363606" background="#ffa54ee1" layout_width="64.0dip" layout_height="64.0dip" 2130969520="2131364589" 2130969524="2131364589">
+        <ImageView layout_gravity="center" id="@id/2131363611" layout_width="24.0dip" layout_height="24.0dip" src="@drawable/2131231680" />
+    </FrameLayout>
+    <LinearLayout gravity="start" orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="4.0" layout_marginStart="8.0dip" layout_marginEnd="16.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131363606" 2130969524="2131364589">
+        <TextView textColor="@color/2131099798" ellipsize="end" id="@id/titleTextView" layout_width="fill_parent" layout_height="wrap_content" maxLines="1" textAlignment="viewStart" style="@style/2132083885" />
+        <TextView textColor="@color/2131100768" id="@id/2131365789" layout_width="fill_parent" layout_height="wrap_content" maxLines="1" textAlignment="viewStart" style="@style/2132083921" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131362133" paddingTop="8.0dip" visibility="gone" clipToPadding="false" layout_width="fill_parent" layout_height="fill_parent" />
+    <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131366632" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24.0dip" 2130969908="@color/2131099927" 2130970039="false" />
+    <com.google.android.material.button.MaterialButton textAppearance="@style/2132083885" textColor="@color/2131099731" layout_gravity="center" id="@id/2131362134" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" text="@string/auctions_home_message_body_the_data" stateListAnimator="@null" 2130968703="@android:color/transparent" 2130969354="@drawable/2131231593" 2130969356="2131366142" 2130969358="48.0dip" 2130969361="@color/2131099731" 2130969951="@android:color/transparent" />
+    <com.google.android.material.button.MaterialButton textAppearance="@style/2132083885" textColor="@color/2131099731" layout_gravity="center" id="@id/2131363224" visibility="gone" clickable="false" layout_width="fill_parent" layout_height="wrap_content" text="@string/auctions_number_auctions_message_there_are" stateListAnimator="@null" 2130968703="@android:color/transparent" 2130969354="@drawable/2131231750" 2130969356="2131366142" 2130969358="48.0dip" 2130969361="@color/2131099731" style="@style/2132083885" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

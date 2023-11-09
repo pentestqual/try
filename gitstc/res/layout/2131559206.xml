@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131361971" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView id="@id/2131361973" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/voucher_rewards_active_vouchers_section_title_active_vouchers" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969495="@id/2131363342" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                <ImageView id="@id/2131366599" padding="@dimen/2131165388" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231545" 2130969494="@id/2131361973" 2130969500="2131364589" 2130969524="@id/2131361973" />
+                <View id="@id/2131363342" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131361973" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131361972" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+            <View id="@id/2131363847" visibility="gone" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131363168" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <ImageView layout_gravity="center" layout_width="40.0dip" layout_height="40.0dip" src="@drawable/2131231747" scaleType="fitCenter" tint="@color/2131100768" />
+                <TextView textColor="@color/2131100768" gravity="center" layout_width="fill_parent" layout_height="wrap_content" text="@string/manage_credit_cards_payment_section_title_nothing_yet" style="@style/2132083891" />
+            </LinearLayout>
+            <ProgressBar layout_gravity="center" id="@id/2131361970" padding="@dimen/2131165388" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363552" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView id="@id/2131363554" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/history_voucher_rewards" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                <View id="@id/2131363346" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131363554" style="@style/2132083036" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131363553" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969523="@id/2131363346" />
+                <View id="@id/2131363852" visibility="gone" 2130969520="2131364589" 2130969523="@id/2131363553" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout orientation="vertical" id="@id/2131363171" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <ImageView layout_gravity="center" layout_width="40.0dip" layout_height="40.0dip" src="@drawable/2131231276" />
+                <TextView textColor="@color/2131100768" gravity="center" layout_width="fill_parent" layout_height="wrap_content" text="@string/nothing_yet" style="@style/2132083891" />
+            </LinearLayout>
+            <ProgressBar layout_gravity="center" id="@id/2131363550" padding="@dimen/2131165388" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

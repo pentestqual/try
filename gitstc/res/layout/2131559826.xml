@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363072" layout_width="fill_parent" layout_height="60.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131363355" layout_width="wrap_content" layout_height="wrap_content" text="@string/down_payment_get_a_new_sim_card_i_accept" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+    <TextView textColor="?colorAccent" id="@id/2131365969" layout_width="wrap_content" layout_height="wrap_content" text="@string/transfer_ownership_delivery_summary_button_terms_and" layout_marginStart="5.0dip" 2130969494="2131364589" 2130969519="@id/2131363355" 2130969524="2131364589" style="@style/2132083927" />
+    <Switch theme="@style/2132083115" id="@id/2131365897" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+</androidx.constraintlayout.widget.ConstraintLayout>

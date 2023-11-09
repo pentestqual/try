@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131364586" background="@android:color/black" focusable="true" clickable="true" layout_width="fill_parent" layout_height="fill_parent" />
+    <RelativeLayout id="@id/2131362717" background="@android:color/transparent" layout_width="fill_parent" layout_height="fill_parent">
+        <View id="@id/2131363106" background="@drawable/2131230876" layout_width="fill_parent" layout_height="64.0dip" layout_alignParentTop="true" />
+        <View id="@id/2131363105" background="@drawable/2131230875" layout_width="fill_parent" layout_height="64.0dip" layout_alignParentBottom="true" />
+        <TextView textSize="14.0sp" textColor="@android:color/white" ellipsize="end" id="@id/2131366498" padding="8.0dip" layout_width="wrap_content" layout_height="wrap_content" text="" lines="1" layout_alignParentTop="true" layout_toStartOf="@id/2131363302" layout_alignParentStart="true" />
+        <LinearLayout orientation="horizontal" id="@id/2131363302" padding="8.0dip" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentTop="true" layout_alignParentEnd="true">
+            <ImageView id="@id/2131364099" background="@drawable/2131230874" focusable="true" visibility="gone" clickable="true" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131230879" contentDescription="@string/ayp_open_video_in_youtube" />
+        </LinearLayout>
+        <ImageView id="@id/2131364740" background="@drawable/2131230874" padding="8.0dip" focusable="true" visibility="invisible" clickable="true" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131230881" layout_centerInParent="true" contentDescription="@string/ayp_play_button" />
+        <ProgressBar id="@id/2131364854" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" style="@style/2132084257" />
+        <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_alignParentBottom="true" layout_alignParentStart="true" layout_alignParentEnd="true">
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.ui.views.YouTubePlayerSeekBar id="@id/2131366684" layout_width="0.0dip" layout_height="wrap_content" maxHeight="100.0dip" layout_weight="1.0" 2130968934="@color/2131099703" 2130969306="12.0sp" />
+            <TextView textSize="12.0sp" textColor="@android:color/white" gravity="center_vertical" id="@id/2131363953" padding="8.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/ayp_live" />
+            <ImageView id="@id/2131366683" background="@drawable/2131230874" padding="8.0dip" focusable="true" clickable="true" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131230882" contentDescription="@string/ayp_open_video_in_youtube" />
+            <ImageView id="@id/2131363438" background="@drawable/2131230874" padding="8.0dip" focusable="true" clickable="true" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131230877" contentDescription="@string/ayp_full_screen_button" />
+        </LinearLayout>
+        <ImageView id="@id/2131362798" background="@drawable/2131230874" padding="8.0dip" focusable="true" visibility="gone" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_margin="32.0dip" src="@drawable/2131230881" layout_centerVertical="true" contentDescription="@string/ayp_custom_action_left" layout_toStartOf="@id/2131364740" />
+        <ImageView id="@id/2131362799" background="@drawable/2131230874" padding="8.0dip" focusable="true" visibility="gone" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_margin="32.0dip" src="@drawable/2131230881" layout_centerVertical="true" contentDescription="@string/ayp_custom_action_right" layout_toEndOf="@id/2131364740" />
+    </RelativeLayout>
+</FrameLayout>

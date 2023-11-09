@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <include id="@id/2131362078" layout="@layout/2131559494" />
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131364620" 2130969523="@id/2131362078">
+            <TextView gravity="start" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/donate_qitaf_points_donate_header_title_amount" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+            <LinearLayout gravity="start" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165388">
+                <TextView layout_gravity="bottom" id="@id/2131364915" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083908" />
+                <TextView layout_gravity="bottom" id="@id/2131364916" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="5.0dip" style="@style/2132083885" />
+            </LinearLayout>
+            <View id="@id/2131362198" layout_marginTop="@dimen/2131165333" style="@style/2132083036" />
+            <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165322" text="@string/donate_qitaf_points_donate_section_title_summary" layout_marginStart="20.0dip" style="@style/2132083837" />
+            <View id="@id/2131362199" layout_marginTop="@dimen/2131165333" style="@style/2132083036" />
+            <LinearLayout gravity="center" layout_width="fill_parent" layout_height="@dimen/2131165305" layout_marginStart="20.0dip" layout_marginEnd="20.0dip">
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/donate_qitaf_points_donate_left_main_equals_to" layout_weight="1.0" style="@style/2132083927" />
+                <TextView gravity="end" id="@id/2131364917" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083885" />
+            </LinearLayout>
+            <View id="@id/2131362200" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <LinearLayout gravity="center" layout_width="fill_parent" layout_height="@dimen/2131165305" layout_marginStart="20.0dip" layout_marginEnd="20.0dip">
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/donate_qitaf_points_donate_left_main_donate_to" layout_weight="1.0" style="@style/2132083927" />
+                <TextView gravity="end" id="@id/2131364914" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083885" />
+            </LinearLayout>
+            <View id="@id/2131362202" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <LinearLayout gravity="center" layout_width="fill_parent" layout_height="@dimen/2131165305" layout_marginStart="20.0dip" layout_marginEnd="20.0dip">
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/donate_qitaf_points_donate_left_main_remaining_points" layout_weight="1.0" style="@style/2132083927" />
+                <TextView gravity="end" id="@id/2131364918" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083885" />
+            </LinearLayout>
+            <View layout_gravity="bottom" id="@id/2131362203" style="@style/2132083036" />
+        </LinearLayout>
+        <Button id="@id/2131364620" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/home_details_button_pay" 2130969494="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

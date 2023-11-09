@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131362171" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar id="@id/2131364860" padding="@dimen/2131165388" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <androidx.core.widget.NestedScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969495="@id/2131362270" 2130969524="2131364589" 2130969525="0.0">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@id/2131366125" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView textSize="19.0dip" textColor="@color/2131099648" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="@dimen/2131165388" text="@string/home_details_cost_to_be" fontFamily="@font/2131296257" />
+                <View background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="15.0dip" layout_marginBottom="15.0dip" />
+                <TextView textSize="19.0dip" textColor="@color/2131099648" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="@dimen/2131165388" text="@string/home_details_usage_cost_lift_main_due_amount" fontFamily="@font/2131296262" />
+                <View background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="15.0dip" layout_marginBottom="15.0dip" />
+                <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165388">
+                    <ImageView layout_gravity="center" layout_width="0.0dip" layout_height="wrap_content" src="@drawable/2131231327" layout_weight="0.1" />
+                    <LinearLayout orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_marginLeft="15.0dip" layout_weight="0.5">
+                        <TextView textSize="18.0dip" textColor="@color/2131099648" id="@id/2131363109" layout_width="wrap_content" layout_height="wrap_content" fontFamily="@font/2131296263" />
+                        <TextView textSize="14.0dip" textColor="#fff16545" id="@id/2131363110" layout_width="wrap_content" layout_height="wrap_content" text="@string/pay_bill_filter_section_footer_due_in" fontFamily="@font/2131296257" />
+                    </LinearLayout>
+                    <TextView textSize="19.0dip" textColor="@color/2131099648" layout_gravity="center" id="@id/2131363108" layout_width="0.0dip" layout_height="wrap_content" layout_marginLeft="@dimen/2131165388" layout_weight="0.3" fontFamily="@font/2131296262" />
+                    <ImageView layout_gravity="center" layout_width="0.0dip" layout_height="wrap_content" src="@drawable/2131231410" layout_weight="0.1" />
+                </LinearLayout>
+                <View background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="15.0dip" layout_marginBottom="45.0dip" />
+            </LinearLayout>
+            <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" layout_marginBottom="16.0dip" text="@string/home_details_cost_section_title_current_consumption" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+            <View style="@style/2132083036" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366517" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" minHeight="80.0dip">
+                <ImageView id="@id/2131362253" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231276" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/bill_details_usage_details_title_usage_details" layout_marginStart="16.0dip" 2130969494="2131364589" 2130969510="0.0" 2130969519="@id/2131362253" 2130969524="2131364589" 2130969526="2131364580" style="@style/2132083927" />
+                <ImageView id="@id/2131362106" padding="5.0dip" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_marginEnd="15.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+                <View 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365094" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView id="@id/2131362161" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" layout_marginBottom="16.0dip" text="@string/home_details_cost_section_title_recharge_history" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                <TextView id="@id/2131365092" padding="5.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_subscriptions_right_main_see_all" layout_marginEnd="15.0dip" 2130969490="@id/2131362161" 2130969500="2131364589" style="@style/2132083865" />
+                <View id="@id/divider" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView gravity="center" layout_gravity="center" id="@id/2131363227" padding="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" text="@string/Create_Invitation_code_invalid_An_error_has_occured" style="@style/2132083927" />
+            <ImageView layout_gravity="center" id="@id/2131365145" padding="10.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="10.0dip" src="@drawable/2131231593" />
+            <LinearLayout orientation="vertical" id="@id/2131365089" layout_width="fill_parent" layout_height="wrap_content" />
+            <View id="@id/2131365090" visibility="gone" layout_marginBottom="@dimen/2131165388" style="@style/2132083036" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362270" background="@color/2131099913" padding="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589">
+        <TextView id="@id/2131362269" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_cost_right_main_billing_account" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+        <TextView id="@id/2131362271" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969501="@id/2131363661" 2130969510="0.0" 2130969519="@id/2131362269" 2130969524="2131364589" style="@style/2132083927" />
+        <ImageView id="@id/2131363661" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231655" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

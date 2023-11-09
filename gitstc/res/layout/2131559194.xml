@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" style="@style/2132084601" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131363696" layout="@layout/2131559329" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365127" clipToPadding="false" layout_width="fill_parent" layout_height="@dimen/2131166386" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969494="2131364589" 2130969523="@id/2131363696" />
+    <include layout_gravity="center_vertical" id="@id/2131363216" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout="@layout/2131559345" />
+    <include layout_gravity="center_vertical" id="@id/2131363170" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout="@layout/2131559344" />
+</androidx.constraintlayout.widget.ConstraintLayout>

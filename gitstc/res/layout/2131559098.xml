@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131363522" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/roaming_lost_sim_manage_sim_header_title_what_do" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365794" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/roaming_lost_sim_manage_sim_header_sub_select" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363522" style="@style/2132083921" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365216" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365794">
+        <ImageView id="@id/2131365217" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231488" scaleType="centerInside" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131365215" 2130969520="2131364589" 2130969524="@id/2131365215" />
+        <TextView id="@id/2131365215" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="46.0dip" text="@string/retention_offers_my_order_section_title_deactivate_details" layout_marginStart="10.0dip" 2130969519="@id/2131365217" 2130969524="2131364589" style="@style/2132083837" />
+        <View id="@id/2131365214" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131365215" style="@style/2132083036" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView gravity="start|center" id="@id/2131365210" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" minHeight="60.0dip" text="@string/roaming_lost_sim_manage_sim_left_main_replace_sim" drawablePadding="10.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969167="@drawable/2131231663" 2130969523="@id/2131365216" style="@style/2132083945" />
+</androidx.constraintlayout.widget.ConstraintLayout>

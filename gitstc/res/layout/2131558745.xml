@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout background="@color/2131100686" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout id="@id/2131365146" layout_width="fill_parent" layout_height="wrap_content" 2130969482="@id/2131363215" 2130969483="2131362490">
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131362122" paddingTop="8.0dip" paddingBottom="@dimen/2131165388" clipToPadding="false" layout_width="fill_parent" layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" id="@id/2131363215" background="@color/2131100686" visibility="gone" layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231215" tint="@color/2131099731" />
+        <com.google.android.material.textview.MaterialTextView gravity="center" id="@id/2131364422" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/auctions_home_message_header_ops" style="@style/2132083921" />
+        <com.google.android.material.textview.MaterialTextView gravity="center" id="@id/2131363228" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/auctions_home_message_body_the_data" style="@style/2132083921" />
+        <androidx.appcompat.widget.AppCompatImageView id="@id/2131365237" padding="8.0dip" layout_width="wrap_content" layout_height="wrap_content" 2130970099="@drawable/2131231600" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

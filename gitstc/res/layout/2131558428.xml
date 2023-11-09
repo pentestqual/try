@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" minHeight="80.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/billImg" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231497" paddingEnd="16.0dip" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/billMonth" layout_width="wrap_content" layout_height="wrap_content" 2130969494="@id/billImg" 2130969501="@id/2131362105" 2130969510="0.0" 2130969519="@id/billImg" 2130969524="@id/billImg" 2130969526="2131364580" style="@style/2132083927" />
+    <ImageView id="@id/2131362105" padding="5.0dip" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_marginEnd="15.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    <View id="@id/divider" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

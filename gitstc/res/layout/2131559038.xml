@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362078" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingToolbarLayout background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231" 2130969780="@drawable/2131231200">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362925" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="?2130968594" animateLayoutChanges="true" 2130969485="2131364588" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+                    <LinearLayout gravity="center" orientation="horizontal" id="@id/2131364679" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                        <TextView id="@id/2131364936" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083932" />
+                        <TextView textColor="?2130968978" id="@id/2131364937" background="@drawable/2131230964" paddingTop="2.0dip" layout_width="wrap_content" layout_height="wrap_content" paddingStart="6.0dip" paddingEnd="6.0dip" layout_marginStart="10.0dip" 2130969519="@id/2131364936" 2130969524="2131364589" style="@style/2132083827" />
+                    </LinearLayout>
+                    <loading_progress_bar.LoadingProgressBar id="@id/2131364927" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364679" />
+                    <LinearLayout orientation="horizontal" id="@id/2131362162" layout_width="wrap_content" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364679">
+                        <TextView id="@id/2131364940" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083854" />
+                        <TextView id="@id/2131366313" layout_width="wrap_content" layout_height="wrap_content" text="@string/transfer_qitaf_main_menu_right_main_pts" textAllCaps="true" layout_marginStart="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/headerTextView" style="@style/2132083888" />
+                    </LinearLayout>
+                    <TextView textColor="?2130969316" id="@id/2131364939" visibility="visible" layout_width="wrap_content" layout_height="29.0dip" text="@string/transfer_qitaf_main_menu_section_footer_points_expiring" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362162" style="@style/2132083925" />
+                    <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_centerInParent="true" animateLayoutChanges="true" layout_alignParentStart="true" layout_alignParentEnd="true" 2130969494="@id/2131362925" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364939">
+                        <LinearLayout gravity="center" orientation="vertical" id="@id/2131364953" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388">
+                            <ImageView layout_gravity="center_horizontal" background="@drawable/2131231731" layout_width="wrap_content" layout_height="wrap_content" />
+                            <TextView textColor="?2130968937" layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/home_details_button_transfer" style="@style/2132083889" />
+                        </LinearLayout>
+                        <LinearLayout gravity="center" orientation="vertical" id="@id/2131364913" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388">
+                            <ImageView layout_gravity="center_horizontal" background="@drawable/2131231374" layout_width="wrap_content" layout_height="wrap_content" />
+                            <TextView textColor="?2130968937" layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/transfer_qitaf_main_menu_button_donate" style="@style/2132083889" />
+                        </LinearLayout>
+                        <LinearLayout gravity="center" orientation="vertical" id="@id/2131362403" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388">
+                            <ImageView layout_gravity="center_horizontal" background="@drawable/2131231219" layout_width="wrap_content" layout_height="wrap_content" />
+                            <TextView textColor="?2130968937" layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/purchase_qitaf_your_qitaf_section_title_buy_points" style="@style/2132083889" />
+                        </LinearLayout>
+                        <LinearLayout orientation="vertical" id="@id/2131364908" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_margin="@dimen/2131165388" layout_weight="1.0">
+                            <ImageView layout_gravity="center_horizontal" background="@drawable/2131231182" layout_width="wrap_content" layout_height="wrap_content" />
+                            <TextView layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/transfer_qitaf_main_menu_button_Buy" style="@style/2132083871" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.Toolbar gravity="center" layout_gravity="center|top" id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+            <FrameLayout background="@color/2131099656" layout_width="fill_parent" layout_height="?2130968594">
+                <LinearLayout orientation="horizontal" id="@id/2131366102" layout_width="fill_parent" layout_height="?2130968594" paddingStart="@dimen/2131165388" paddingEnd="10.0dip">
+                    <TextView layout_gravity="center" layout_width="0.0dip" layout_height="wrap_content" text="@string/transfer_qitaf_main_menu_section_title_history" layout_weight="1.0" style="@style/2132083837" />
+                    <ImageView layout_gravity="center" id="@id/2131364925" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231545" />
+                </LinearLayout>
+                <View layout_gravity="bottom" id="@id/2131362198" layout_width="fill_parent" style="@style/2132083036" />
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131364929" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView gravity="center|top" id="@id/2131363950" background="@color/2131099656" paddingTop="100.0dip" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" text="@string/branches_and_ssms_help_center_section_footer_no_history" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083895" />
+            <ProgressBar layout_gravity="center|top" id="@id/2131364928" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView layout_gravity="center|top" id="@id/2131365176" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="60.0dip" text="@string/home_details_home_button_reload" drawablePadding="10.0dip" drawableStart="@drawable/2131231593" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+            <LinearLayout gravity="center|top" orientation="vertical" id="@id/2131364293" background="@color/2131099656" paddingTop="60.0dip" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <ImageView id="@id/2131363784" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231749" />
+                <TextView id="@id/2131366242" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/transfer_qitaf_main_menu_section_footer_you_dont" style="@style/2132083927" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout gravity="center" layout_gravity="center|top" orientation="horizontal" id="@id/2131366136" layout_width="wrap_content" layout_height="?2130968594">
+        <TextView id="@id/2131366139" layout_width="wrap_content" layout_height="wrap_content" text="@string/transfer_qitaf_main_menu_title_your_qitaf" style="@style/2132084192" />
+    </LinearLayout>
+</FrameLayout>

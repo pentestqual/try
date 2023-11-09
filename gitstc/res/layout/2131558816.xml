@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView scrollbars="vertical" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never">
+        <androidx.constraintlayout.widget.ConstraintLayout gravity="center" orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <LinearLayout gravity="center" orientation="horizontal" id="@id/2131363528" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <ImageView id="@id/2131365056" background="@color/2131099815" layout_width="50.0dip" layout_height="50.0dip" src="@drawable/2131231289" scaleType="centerInside" layout_marginEnd="16.0dip" />
+                <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.7">
+                    <TextView id="@id/2131363909" layout_width="wrap_content" layout_height="wrap_content" text="@string/contract_blcoker_reasons_left_main_your_account" style="@style/2132083945" />
+                </LinearLayout>
+            </LinearLayout>
+            <View id="@id/2131366510" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363528" style="@style/2132083036" />
+            <TextView id="@id/2131365782" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="80.0dip" text="@string/contract_blcoker_reasons_section_title_reasons" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363528" style="@style/2132083837" />
+            <View id="@id/2131366515" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365782" style="@style/2132083036" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365064" layout_width="fill_parent" layout_height="wrap_content" foregroundGravity="center_vertical" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969494="2131364589" 2130969520="2131364589" 2130969523="@id/2131366515" />
+            <View id="@id/2131366499" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

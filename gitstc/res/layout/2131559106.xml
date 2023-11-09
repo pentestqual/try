@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362086" layout="@layout/2131559494" />
+    <TextView id="@id/2131363534" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/just_play_modem_header_title_do_you" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083845" />
+    <TextView id="@id/2131365796" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/just_play_modem_header_sub_if_you" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083927" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131366666" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="32.0dip" 2130969150="2131363698" 2130969463="@string/just_play_modem_button_yes" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131364316" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363698" 2130969463="@string/just_play_modem_button_no" />
+</LinearLayout>

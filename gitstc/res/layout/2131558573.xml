@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <ImageView id="@id/2131362521" layout_width="48.0dip" layout_height="48.0dip" layout_margin="@dimen/2131165388" src="@drawable/2131231264" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073" 2130970356="@color/2131099924" />
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_marginTop="@dimen/2131165388" text="@string/bill_details_bill_details_sheet_title_request_received" textAlignment="center" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362521" style="@style/2132083845" />
+    <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165333" text="@string/bill_details_bill_details_sheet_body_once_the" textAlignment="center" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <TextView id="@id/2131364321" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/bill_details_bill_details_sheet_footer_note_to" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" style="@style/2132083916" />
+    <Button id="@id/2131362587" layout_width="0.0dip" layout_marginBottom="30.0dip" text="@string/bill_details_bill_details_sheet_button_close" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364321" style="@style/2132083123" />
+</androidx.constraintlayout.widget.ConstraintLayout>

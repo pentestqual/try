@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView background="@color/2131099789" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <include id="@id/2131362078" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+        <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/transfer_ownership_landing_page_section_title_trnasfer_number" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+        <TextView textSize="16.0dip" id="@id/detailsDesc" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/transfer_ownership_landing_page_section_body_transfer_your" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083921" />
+        <Button id="@id/2131364285" layout_marginTop="@dimen/2131165388" text="@string/transfer_ownership_landing_page_button_continue" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

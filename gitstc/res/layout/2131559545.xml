@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView ellipsize="marquee" gravity="center|left" id="@android:id/text1" paddingLeft="@dimen/2131165250" paddingRight="?2130969127" layout_width="fill_parent" layout_height="wrap_content" minHeight="?2130969589" drawablePadding="20.0dip" textAlignment="viewStart" paddingStart="@dimen/2131165250" paddingEnd="?2130969127" 2130969164="?android:listChoiceIndicatorSingle" 2130969167="?android:listChoiceIndicatorSingle" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

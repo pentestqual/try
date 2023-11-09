@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation id="@id/2131364666" 2130970102="@id/2131365364" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment label="fragment_sawa_recharge" name="com.stc.businesssdk.presentation.payment.sawa.SawaRechargeFragment" id="@id/2131365364" />
+</navigation>

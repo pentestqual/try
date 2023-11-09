@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView id="@id/2131362795" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="1.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" backgroundTint="@color/2131099656" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout background="?2130969981" paddingTop="10.0dip" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" minHeight="80.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388">
+        <androidx.constraintlayout.widget.Group id="@id/2131364570" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="package_detail_img,package_detail_name,package_detail_arrow" />
+        <ImageView id="@id/package_detail_img" layout_width="56.0dip" layout_height="56.0dip" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <TextView id="@id/package_detail_name" layout_width="0.0dip" layout_height="wrap_content" maxLines="2" layout_marginStart="10.0dip" 2130969494="2131364589" 2130969501="@id/package_detail_arrow" 2130969519="@id/package_detail_img" 2130969524="2131364589" style="@style/2132083885" />
+        <ImageView id="@id/package_detail_arrow" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231370" paddingStart="@dimen/2131165388" paddingEnd="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+        <com.facebook.shimmer.ShimmerFrameLayout orientation="vertical" id="@id/2131364565" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130970012="1000">
+            <TextView background="@color/2131100716" layout_marginTop="5.0dip" text="                           " 2130969520="2131364589" 2130969523="@id/2131363528" style="@style/2132083901" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

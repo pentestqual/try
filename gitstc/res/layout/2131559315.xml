@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="@dimen/2131165970" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362813" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout_marginLeft="@dimen/2131165926" layout_marginTop="@dimen/2131165915" layout_marginRight="@dimen/2131165926" layout_marginBottom="@dimen/2131165915" layout_marginHorizontal="@dimen/2131165926" layout_marginVertical="@dimen/2131165915">
+        <CheckBox id="@id/2131362520" layout_width="wrap_content" layout_height="wrap_content" button="@drawable/2131231020" 2130969494="2131364589" 2130969501="@id/2131363605" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083641" />
+        <ImageView id="@id/2131363605" layout_width="@dimen/2131165932" layout_height="@dimen/2131165932" src="@drawable/2131231322" layout_marginEnd="@dimen/2131165908" 2130969494="2131364589" 2130969501="@id/2131366112" 2130969519="@id/2131362520" 2130969524="2131364589" />
+        <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131366112" layout_width="@dimen/2131166386" layout_height="fill_parent" weightSum="3.0" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131363605" 2130969524="2131364589">
+            <TextView ellipsize="end" gravity="start|center" id="@id/2131366102" layout_width="fill_parent" layout_height="fill_parent" maxLines="1" layout_weight="1.0" style="@style/2132083559" />
+            <TextView ellipsize="end" gravity="end|center" id="@id/2131366458" layout_width="fill_parent" layout_height="fill_parent" maxLines="1" layout_weight="2.0" layout_marginEnd="@dimen/2131165908" style="@style/2132083400" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@id/2131363928" background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" layout_marginStart="@dimen/2131165926" 2130969494="2131364589" />
+    <View id="@id/2131363853" background="@color/2131099963" visibility="gone" layout_width="fill_parent" layout_height="@dimen/2131165900" 2130969494="2131364589" />
+    <com.stc.mybusiness.core.presentation.customview.CustomShimmerFrameLayout id="@id/2131365564" visibility="visible" layout_width="fill_parent" layout_height="fill_parent" layout_margin="@dimen/2131165915">
+        <View background="@drawable/2131231901" layout_width="fill_parent" layout_height="fill_parent" translationZ="@dimen/2131165925" backgroundTint="@color/2131100767" />
+    </com.stc.mybusiness.core.presentation.customview.CustomShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

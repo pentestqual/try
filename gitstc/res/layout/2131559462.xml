@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130968835="@color/2131099656" 2130968837="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <ImageView id="@id/2131362993" layout_width="0.0dip" layout_height="0.0dip" layout_marginBottom="30.0dip" scaleType="centerCrop" 2130969495="@id/2131362991" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <TextView textSize="14.0dip" textColor="@color/2131099656" id="@id/2131362995" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" letterSpacing="0.09" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083888" />
+        <TextView id="@id/2131362994" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="60.0dip" layout_marginStart="@dimen/2131165388" 2130969495="@id/2131362991" 2130969520="2131364589" 2130969523="@id/2131362995" style="@style/2132083905" />
+        <TextView id="@id/2131362992" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="30.0dip" 2130969494="@id/2131362991" 2130969520="2131364589" 2130969524="@id/2131362991" style="@style/2132083887" />
+        <Button id="@id/2131362991" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="20.0dip" layout_marginEnd="30.0dip" 2130969494="2131364589" 2130969500="2131364589" style="@style/2132082690" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

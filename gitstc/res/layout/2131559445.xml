@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363666" layout_width="48.0dip" layout_height="48.0dip" layout_margin="@dimen/2131165388" src="@drawable/2131231310" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <View id="@id/divider1" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+    <TextView ellipsize="end" id="@id/2131366339" layout_width="0.0dip" layout_height="wrap_content" maxLines="1" layout_marginStart="@dimen/2131165388" 2130969501="@id/2131363509" 2130969519="@id/2131363666" 2130969524="@id/2131363666" style="@style/2132083921" />
+    <TextView ellipsize="end" id="@id/2131366344" layout_width="0.0dip" layout_height="wrap_content" maxLines="1" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131363666" 2130969501="@id/2131363509" 2130969519="@id/2131363666" 2130969523="@id/2131366339" style="@style/2132083883" />
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131363509" layout_width="wrap_content" layout_height="fill_parent" 2130969504="0.65" />
+    <TextView gravity="end" id="@id/2131366345" layout_width="0.0dip" layout_height="wrap_content" maxLines="2" layout_weight="0.3" layout_marginEnd="5.0dip" 2130969494="2131364589" 2130969501="@id/2131366279" 2130969519="@id/2131363509" 2130969524="2131364589" style="@style/2132083891" />
+    <TextView gravity="end" id="@id/2131366279" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="6.0dip" 2130969494="2131364589" 2130969501="@id/2131362101" 2130969524="2131364589" style="@style/2132083882" />
+    <ImageView id="@id/2131362101" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+</androidx.constraintlayout.widget.ConstraintLayout>

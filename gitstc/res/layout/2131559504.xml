@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131365013" text="@string/home_details_section_title_quick_actions" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083840" />
+    <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@id/2131365012" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="15.0dip" layout_marginBottom="@dimen/2131165388" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365013" />
+    <ImageView gravity="center" id="@id/2131365011" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_margin="@dimen/2131165388" src="@drawable/2131231594" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365013" />
+    <ProgressBar id="@id/2131364862" visibility="gone" layout_width="30.0dip" layout_height="30.0dip" layout_margin="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365013" />
+</androidx.constraintlayout.widget.ConstraintLayout>

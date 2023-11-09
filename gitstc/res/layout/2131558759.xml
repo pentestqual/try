@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" style="@style/2132084601" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131363696" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559329" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362249" layout_width="fill_parent" layout_height="@dimen/2131166386" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363696">
+        <LinearLayout orientation="vertical" id="@id/2131362260" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589">
+            <include id="@id/2131363685" layout="@layout/2131559385" />
+            <View id="@id/2131362262" background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" />
+            <include id="@id/2131363689" layout="@layout/2131559321" />
+        </LinearLayout>
+        <com.stc.mybusiness.core.presentation.customview.CustomProgressBar id="@id/2131362264" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165926" indeterminateTint="@color/2131100729" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <include layout_gravity="center_vertical" id="@id/2131362254" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559345" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364643" layout_width="fill_parent" layout_height="@dimen/2131166386" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362249">
+        <LinearLayout orientation="vertical" id="@id/2131364651" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165938" 2130969524="2131364589">
+            <TextView layout_gravity="start" id="@id/2131364661" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165926" layout_marginTop="@dimen/2131165915" layout_marginRight="@dimen/2131165926" layout_marginBottom="@dimen/2131165915" layout_marginHorizontal="@dimen/2131165926" layout_marginVertical="@dimen/2131165915" style="@style/2132083299" />
+            <View id="@id/2131364653" background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" />
+        </LinearLayout>
+        <include id="@id/2131363690" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131364651" layout="@layout/2131559322" />
+        <com.stc.mybusiness.core.presentation.customview.CustomProgressBar id="@id/2131364656" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165926" indeterminateTint="@color/2131100729" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364651" />
+        <include layout_gravity="center_vertical" id="@id/2131364650" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131364651" layout="@layout/2131559345" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatButton textColor="@color/2131100892" gravity="center" id="@id/2131362392" paddingTop="@dimen/2131165929" paddingBottom="@dimen/2131165929" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131166386" text="@string/pay_bill" textAllCaps="false" backgroundTint="@color/2131099816" paddingVertical="@dimen/2131165929" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083559" />
+</androidx.constraintlayout.widget.ConstraintLayout>

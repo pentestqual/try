@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131366177" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231729" scaleType="centerInside" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131362024" 2130969520="2131364589" 2130969524="@id/2131362024" />
+    <TextView textColor="@color/2131100738" id="@id/2131362024" layout_width="wrap_content" layout_height="wrap_content" text="@string/order_tracking_my_orders_my_order_left_main_track_caption" layout_marginStart="@dimen/2131165319" 2130969494="2131364589" 2130969519="@id/2131366177" 2130969524="2131364589" style="@style/2132083837" />
+    <View layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362024" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

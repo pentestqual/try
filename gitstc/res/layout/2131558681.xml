@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" id="@id/2131362084" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <include id="@id/2131362078" layout="@layout/2131559494" />
+            <ImageView layout_gravity="center_horizontal" id="@id/2131364551" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231241" />
+            <TextView gravity="center" id="@id/2131364553" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" style="@style/2132083905" />
+        </LinearLayout>
+        <TextView id="@id/2131365854" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" style="@style/2132083899" />
+        <View visibility="gone" style="@style/2132083036" />
+        <TextView textColor="@color/2131099648" id="@id/price" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_contract_contract_section_title_price" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+        <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131364807" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" style="@style/2132083908" />
+            <TextView id="@id/2131362765" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" layout_marginStart="8.0dip" style="@style/2132083885" />
+        </LinearLayout>
+        <TextView id="@id/2131366479" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" text="@string/special_offers_offer_page_section_footer_5_vat" layout_marginStart="@dimen/2131165388" style="@style/2132083918" />
+        <View style="@style/2132083036" />
+        <TextView id="@id/2131362919" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" layout_marginTop="@dimen/2131165388" style="@style/2132083927" />
+        <TextView visibility="gone" layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+        <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362511" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363430" />
+        <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131365566" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363430" />
+        <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131361961" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363430" />
+        <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363188" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363430" />
+        <TextView gravity="center_horizontal" id="@id/2131365831" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" style="@style/2132083921" />
+        <Button id="@id/2131366388" layout_margin="@dimen/2131165388" text="@string/e_contract_contract_page_button_unsubscribe" style="@style/2132083123" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

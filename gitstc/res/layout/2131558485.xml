@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131363400" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <com.jsibbold.zoomage.ZoomageView id="@id/2131364826" layout_width="fill_parent" layout_height="fill_parent" 2130970501="true" 2130970502="true" 2130970503="2131361834" 2130970506="8.0" 2130970507="0.8" 2130970508="false" 2130970509="true" 2130970510="true" />
+</LinearLayout>

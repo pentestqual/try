@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" id="@id/2131364946" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364999">
+        <include id="@id/2131364998" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559394" />
+    </LinearLayout>
+    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131364999" layout_width="fill_parent" layout_height="wrap_content" 2130969154="false" 2130969520="2131364589" 2130969524="2131364589" 2130969560="?2130969899" 2130969563="@string/browse_qitaf_partner_tamayouz_discounts_section_title_stc_reward" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131365953" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="24.0dip" text="@string/telegram_telegrams_header_title_how_does" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365758" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="24.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365953" style="@style/2132083891" />
+    <TextView id="@id/2131365762" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="12.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365758" style="@style/2132083891" />
+    <TextView id="@id/2131365760" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="12.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365762" style="@style/2132083891" />
+    <TextView id="@id/2131365757" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="12.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365760" style="@style/2132083891" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131362671" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/new_landline_compare_plan_choose_a_plan_header_title_choose_a_plan" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+    <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="@dimen/2131165388" text="@string/new_landline_compare_plan_choose_a_plan_header_sub_choose_one" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+    <FrameLayout layout_width="fill_parent" layout_height="fill_parent">
+        <ProgressBar layout_gravity="center" id="@id/2131364862" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" />
+        <ScrollView layout_width="fill_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+                <LinearLayout orientation="vertical" id="@id/2131364575" layout_width="fill_parent" layout_height="fill_parent" />
+                <TextView layout_gravity="center" id="@id/2131363540" visibility="gone" layout_marginTop="30.0dip" text="@string/browse_and_compare_change_package_section_footer_need_help" style="@style/2132083885" />
+                <Button layout_gravity="center" id="@id/2131362610" visibility="gone" layout_marginBottom="@dimen/2131165388" text="@string/browse_and_compare_change_package_button_compare_plans" style="@style/2132083125" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

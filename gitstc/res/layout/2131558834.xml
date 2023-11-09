@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <View id="@id/2131362080" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083036" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362080">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="0.0dip">
+            <LinearLayout orientation="vertical" id="@id/2131363482" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView id="@id/2131363000" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/direct_payment_direct_payment_section_footer_you_need" layout_weight="1.0" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363482" style="@style/2132083921" />
+            <TextView id="@id/2131362854" layout_width="fill_parent" layout_height="wrap_content" text="@string/direct_payment_direct_payment_section_title_direct_payment_list" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363000" style="@style/2132083837" />
+            <View id="@id/2131366611" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362854" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131363974" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366611" />
+            <TextView id="@id/2131366349" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/direct_payment_direct_payment_section_footer_when_activating" layout_weight="1.0" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363974" style="@style/2132083921" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

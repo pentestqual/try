@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131363224" visibility="visible" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <TextView id="@id/2131365176" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="60.0dip" text="@string/home_details_home_button_reload" drawablePadding="10.0dip" drawableStart="@drawable/2131231593" style="@style/2132083927" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" backgroundTint="@color/2131099656" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <sa.com.stc.uicomponent.single_row_item.SingleRowSwitch id="@id/2131365624" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/notification_center_profile_page_left_main_do_you" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131366231" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="26.0dip" text="@string/home_details_usage_daily_limit_section_title_daily_limit" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083837" />
+    <View id="@id/2131366233" layout_marginTop="24.0dip" 2130969520="2131364589" 2130969523="@id/2131366231" style="@style/2132083036" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366550" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/fup_available_data" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366233" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365670" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/home_details_usage_daily_limit_lift_main_until_speed_limit" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366550" />
+    <TextView id="@id/2131364131" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" layout_marginBottom="17.0dip" text="@string/fup_info_warning" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365670" style="@style/2132083916" />
+</androidx.constraintlayout.widget.ConstraintLayout>

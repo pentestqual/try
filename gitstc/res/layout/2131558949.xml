@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <com.google.android.material.tabs.TabLayout layout_gravity="center_horizontal" id="@id/2131365900" layout_width="fill_parent" layout_height="?2130968594" 2130970193="@color/2131100836" 2130970197="2131363324" 2130970203="@color/2131099795" 2130970219="?2130968978" 2130970222="#ff6e6e6e" />
+    <androidx.viewpager2.widget.ViewPager2 id="@id/2131366514" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+</LinearLayout>

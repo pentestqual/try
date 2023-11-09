@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar id="@id/2131362237" layout_width="fill_parent" layout_height="wrap_content" paddingEnd="4.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130969780="@drawable/2131231200" 2130970360="true" 2130970370="@style/2132083940" />
+    <include id="@id/2131363885" visibility="gone" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131362623" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362237" layout="@layout/2131559292" />
+    <include id="@id/2131363884" visibility="gone" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131362623" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362237" layout="@layout/2131559291" />
+    <include id="@id/2131363883" visibility="gone" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131362623" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362237" layout="@layout/2131559293" />
+    <com.google.android.material.button.MaterialButton enabled="false" id="@id/2131362623" paddingTop="22.0dip" paddingBottom="22.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/auctions_get_a_button_confirm" includeFontPadding="false" paddingVertical="22.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

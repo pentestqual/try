@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" />
+    <ScrollView layout_width="fill_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@id/2131365495" visibility="visible" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView id="@id/2131365494" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="26.0dip" text="@string/app_preferences_app_preferences_section_title_app_preferences" layout_marginStart="@dimen/2131165388" style="@style/2132083843" />
+                <View id="@id/2131363354" background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="@dimen/2131165388" />
+            </LinearLayout>
+            <Button enabled="false" id="@id/2131362623" text="@string/change_language_filter_button_Continue" style="@style/2132082688" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

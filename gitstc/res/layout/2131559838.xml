@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout id="@id/2131364967" background="@drawable/2131231551" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <ImageView id="@id/2131364964" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231548" layout_alignParentEnd="true" />
+        <ProgressBar id="@id/2131364969" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" />
+        <TextView id="@id/2131364963" layout_width="wrap_content" layout_height="wrap_content" text="@string/browse_qitaf_partner_tamayouz_discounts_button_tab_to" layout_below="@id/2131364971" alpha="0.6" layout_marginStart="30.0dip" style="@style/2132083829" />
+        <TextView id="@id/2131364971" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginStart="30.0dip" style="@style/2132083842" />
+    </RelativeLayout>
+    <LinearLayout orientation="horizontal" id="@id/divider" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364967">
+        <View style="@style/2132083038" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

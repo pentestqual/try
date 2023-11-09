@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <com.google.android.material.appbar.AppBarLayout theme="@style/2132082711" id="@id/2131362078" background="@color/2131100860" layout_width="fill_parent" layout_height="wrap_content" elevation="0.0dip" 2130969186="0.0dip">
+            <androidx.appcompat.widget.Toolbar id="@id/2131366132" layout_width="fill_parent" layout_height="?2130968594" 2130969780="@drawable/2131231200" 2130969877="@style/2132082714">
+                <TextView layout_gravity="center" id="@id/2131366139" text="@string/purchase_status_status_points_title_status_points" style="@style/2132083940" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView id="@id/2131365391" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" overScrollMode="never" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362634" background="@drawable/2131231065" padding="16.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_margin="20.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                    <TextView id="@id/2131366023" layout_width="wrap_content" layout_height="wrap_content" text="@string/purchase_status_status_points_left_main_current_tier" 2130969501="@id/2131363514" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                    <TextView gravity="center" id="@id/2131366025" layout_width="0.0dip" layout_height="wrap_content" text="@string/purchase_status_status_points_title_status_points" 2130969500="2131364589" 2130969520="@id/2131363514" 2130969524="2131364589" style="@style/2132083837" />
+                    <TextView textColor="?2130968978" id="@id/2131365996" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16.0dip" text="Classic" 2130969501="@id/2131363514" 2130969520="2131364589" 2130969523="@id/2131366023" style="@style/2132083845" />
+                    <TextView textColor="?2130968978" id="@id/2131366020" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16.0dip" text="0" 2130969500="2131364589" 2130969520="@id/2131363514" 2130969523="@id/2131366025" style="@style/2132083845" />
+                    <TextView textColor="?2130968978" id="@id/2131366015" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_marginBottom="4.0dip" text="@string/status_point_unit" layout_marginStart="1.0dip" 2130969494="@id/2131366020" 2130969500="2131364589" 2130969519="@id/2131366020" style="@style/2132083834" />
+                    <View id="@id/2131366502" background="?2130968978" layout_width="1.0dip" layout_height="0.0dip" 2130969494="@id/2131365996" 2130969501="@id/2131363514" 2130969524="@id/2131365996" />
+                    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131363514" layout_width="wrap_content" layout_height="wrap_content" 2130969504="0.5" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365990" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969500="@id/2131362634" 2130969520="@id/2131362634" 2130969523="@id/2131362634" 2130969563="@string/purchase_status_status_points_section_title_about_status" />
+                <View id="@id/2131366503" background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365990" />
+                <TextView id="@id/2131365989" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="20.0dip" text="@string/purchase_status_status_points_left_main_buy_more" layout_marginStart="20.0dip" layout_marginEnd="20.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366503" style="@style/2132083927" />
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363869" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365989">
+                    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131366008" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130969563="@string/purchase_status_status_points_section_title_next_tiers" />
+                    <View id="@id/2131366504" background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366008" />
+                    <androidx.appcompat.widget.AppCompatImageView id="@id/2131365237" padding="8.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366504" 2130970099="@drawable/2131231600" />
+                    <androidx.recyclerview.widget.RecyclerView id="@id/2131365135" layout_width="fill_parent" layout_height="fill_parent" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365237" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131366102" layout_marginTop="@dimen/2131165388" text="@string/cash_refund_bank_guarantees_header_title_bank_guarantees" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083845" />
+            <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/cash_refund_bank_guarantees_header_sub_select_from" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365148" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/2132083019"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/2132083687" />
+    <com.archit.calendardaterangepicker.customviews.CustomTextView id="@id/2131362848" text="0" style="@style/2132083031" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView id="@id/2131362911" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" layout_width="fill_parent" layout_height="wrap_content">
+        <Button id="@id/2131362088" layout_width="fill_parent" text="@string/device_details_discount_button_apply" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+        <TextView id="@id/2131365647" layout_width="fill_parent" layout_height="wrap_content" text="@string/device_details_discount_header_sub_you_can" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362244" style="@style/2132083927" />
+        <TextView id="@id/2131362244" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_details_discount_header_title_discount_coupon" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083845" />
+        <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <com.google.android.material.textfield.TextInputEditText textColor="?2130968978" id="@id/2131366004" paddingBottom="16.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="33.0dip" layout_marginBottom="60.0dip" hint="@string/device_details_discount_left_main_enter_valid" drawablePadding="@dimen/2131165516" inputType="text" drawableStart="@drawable/2131231529" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" backgroundTint="@color/2131099737" 2130969495="@id/2131362088" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365647" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

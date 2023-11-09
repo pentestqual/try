@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center_horizontal" orientation="vertical" id="@id/2131364179" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131559564" />
+    <androidx.fragment.app.FragmentContainerView id="@id/2131364169" paddingLeft="@dimen/2131166079" paddingRight="@dimen/2131166079" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131166079" paddingEnd="@dimen/2131166079" />
+</LinearLayout>

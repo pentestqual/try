@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" id="@id/2131365299" layout_width="fill_parent" layout_height="60.0dip" foreground="?android:selectableItemBackground" showDividers="middle" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="fill_parent" 2130969511="2131365707" 2130969520="2131364589" 2130969524="2131364589">
+        <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="0.0dip" layout_height="fill_parent" layout_weight="0.6">
+            <TextView id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" style="@style/2132083945" />
+            <TextView id="@id/2131363545" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="20.0dip" style="@style/2132083883" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@id/divider" layout_width="fill_parent" layout_height="1.0dip" paddingStart="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+        <View background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" style="@style/2132083036" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

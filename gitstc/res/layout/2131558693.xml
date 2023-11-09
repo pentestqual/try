@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363244" background="@color/2131099902" layout_width="0.0dip" layout_height="0.0dip" />
+    <FrameLayout layout_gravity="bottom" id="@id/2131363237" background="@color/2131099904" layout_width="fill_parent" layout_height="@dimen/2131165481" layout_marginTop="@dimen/2131165482" layoutDirection="ltr">
+        <LinearLayout layout_gravity="start|center" id="@id/2131363279" paddingLeft="@dimen/2131165483" paddingRight="@dimen/2131165483" layout_width="wrap_content" layout_height="wrap_content" layoutDirection="ltr" paddingStart="@dimen/2131165483" paddingEnd="@dimen/2131165483">
+            <TextView id="@id/2131363264" style="@style/2132083076" />
+            <TextView style="@style/2132083077" />
+            <TextView id="@id/2131363245" style="@style/2132083075" />
+        </LinearLayout>
+        <LinearLayout layout_gravity="end|center" id="@id/2131363236" layout_width="wrap_content" layout_height="wrap_content" layoutDirection="ltr">
+            <ImageButton id="@id/2131363281" style="@style/2132083066" />
+            <ImageButton id="@id/2131363273" style="@style/2132083065" />
+            <ImageButton id="@id/2131363268" style="@style/2132083063" />
+            <ImageButton id="@id/2131363276" style="@style/2132083058" />
+            <ImageButton id="@id/2131363271" style="@style/2132083064" />
+            <ImageButton id="@id/2131363251" style="@style/2132083059" />
+            <ImageButton id="@id/2131363258" style="@style/2132083061" />
+        </LinearLayout>
+        <HorizontalScrollView layout_gravity="end|center" id="@id/2131363248" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content">
+            <LinearLayout id="@id/2131363247" layout_width="wrap_content" layout_height="wrap_content" layoutDirection="ltr">
+                <ImageButton id="@id/2131363257" style="@style/2132083060" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+    <View layout_gravity="bottom" id="@id/2131363267" layout_width="fill_parent" layout_height="@dimen/2131165489" layout_marginBottom="@dimen/2131165490" />
+    <LinearLayout gravity="center_vertical" layout_gravity="end|bottom|center" orientation="horizontal" id="@id/2131363254" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165485" layoutDirection="ltr">
+        <ImageButton id="@id/2131363255" style="@style/2132083059" />
+    </LinearLayout>
+    <LinearLayout gravity="center" layout_gravity="center" id="@id/2131363239" background="@android:color/transparent" padding="@dimen/2131165484" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content" layoutDirection="ltr">
+        <ImageButton id="@id/2131363265" style="@style/2132083071" />
+        <include layout="@layout/2131558692" />
+        <ImageButton id="@id/2131363262" style="@style/2132083070" />
+        <include layout="@layout/2131558691" />
+        <ImageButton id="@id/2131363256" style="@style/2132083069" />
+    </LinearLayout>
+</merge>

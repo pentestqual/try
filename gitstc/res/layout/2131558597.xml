@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131366231" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130969563="@string/purchase_vouchers_all_vouchers_section_title_filter_by" 2130969947="@string/bill_details_usage_details_filter_button_select_all" />
+    <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@id/2131366600" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165319" layout_marginEnd="@dimen/2131165319" 2130969495="@id/2131362355" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366231" />
+    <Button id="@id/2131362355" text="@string/purchase_vouchers_all_vouchers_button_confirm" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

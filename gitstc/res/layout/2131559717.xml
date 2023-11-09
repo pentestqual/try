@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView textSize="19.0dip" gravity="center" id="@id/2131363628" background="@drawable/2131230926" layout_width="48.0dip" layout_height="48.0dip" layout_marginTop="15.0dip" layout_marginBottom="15.0dip" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083901" />
+    <TextView id="@id/2131365079" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969519="@id/2131363628" 2130969524="2131364589" style="@style/2132083927" />
+    <TextView id="@id/2131365096" textAllCaps="true" layout_marginStart="@dimen/2131165388" 2130969519="@id/2131363628" 2130969523="@id/2131365079" style="@style/2132083883" />
+    <View id="@id/divider" layout_marginTop="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="2131364589" style="@style/2132083036" />
+    <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15.0dip" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969524="2131364589">
+        <TextView layout_gravity="bottom" id="@id/2131365080" style="@style/2132083895" />
+        <LinearLayout orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="2.0">
+            <TextView layout_gravity="top" id="@id/2131365081" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_button_pay" fontFamily="@font/2131296262" letterSpacing="0.03" style="@style/2132083883" />
+            <TextView layout_gravity="bottom" id="@id/2131365078" layout_marginBottom="3.0dip" text="@string/bill_details_section_right_main_sr" layout_marginStart="5.0dip" firstBaselineToTopHeight="@dimen/2131165388" style="@style/2132083885" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

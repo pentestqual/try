@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton id="@id/2131365517" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/send_free_sms_create_new_button_send_now" drawablePadding="@dimen/2131165328" drawableStart="@drawable/2131231533" layout_marginStart="@dimen/2131165388" stateListAnimator="@null" style="@style/2132084197" />
+    <View background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" layout_marginStart="@dimen/2131165388" />
+    <androidx.appcompat.widget.AppCompatButton id="@id/2131365385" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" text="@string/send_free_sms_create_new_button_schedule" drawablePadding="@dimen/2131165328" drawableStart="@drawable/2131231251" layout_marginStart="@dimen/2131165388" stateListAnimator="@null" style="@style/2132084197" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132082791" parent="@style/2132082893" />
+    <style name="2132082798" parent="@style/2132082894" />
+    <style name="2132082962" parent="@style/2132082895" />
+    <style name="2132084070" parent="@style/2132084065">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="2132084276" parent="@android:style/Widget">
+        <item name="android:background">?2130968978</item>
+        <item name="android:stateListAnimator">@animator/2130837504</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="2132082893" parent="@style/2132082887">
+        <item name="2130968949">?android:colorError</item>
+    </style>
+    <style name="2132082894" parent="@style/2132082888">
+        <item name="2130968949">?android:colorError</item>
+    </style>
+    <style name="2132082895" parent="@style/2132082905">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

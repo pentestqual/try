@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout focusable="true" clickable="true" layout_width="fill_parent" layout_height="?android:listPreferredItemHeight" layout_marginTop="14.0dip" layout_marginBottom="14.0dip" foreground="?android:selectableItemBackground" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <include id="@id/2131362608" layout_width="0.0dip" layout_height="0.0dip" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969501="@id/2131364793" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559718" />
+        <LinearLayout layout_gravity="center" orientation="vertical" id="@id/2131364793" layout_width="70.0dip" layout_height="wrap_content" layout_marginEnd="4.0dip" 2130969494="2131364589" 2130969501="@id/2131362104" 2130969524="2131364589">
+            <LinearLayout gravity="center" layout_gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView textColor="@color/2131099749" gravity="center" layout_gravity="bottom" id="@id/2131364803" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" layout_weight="0.8" letterSpacing="0.03" style="@style/2132083834" />
+                <TextView textColor="@color/2131099749" gravity="bottom" layout_gravity="bottom" id="@id/2131364795" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" maxLines="2" layout_weight="0.4" letterSpacing="0.05" style="@style/2132083827" />
+            </LinearLayout>
+            <TextView textColor="@color/2131100768" gravity="bottom" layout_gravity="bottom|center" id="@id/2131364503" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" letterSpacing="0.05" style="@style/2132083920" />
+        </LinearLayout>
+        <ImageView id="@id/2131362104" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_marginEnd="20.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

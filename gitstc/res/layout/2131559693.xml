@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363612" layout_width="40.0dip" layout_height="40.0dip" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" src="@drawable/2131231402" scaleType="fitCenter" adjustViewBounds="true" layout_marginStart="@dimen/2131165388" 2130969501="@id/2131364215" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131364215" layout_width="0.0dip" layout_height="wrap_content" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131363612" 2130969501="@id/2131364804" 2130969519="@id/2131363612" 2130969524="@id/2131363612" style="@style/2132083927" />
+    <TextView id="@id/2131364804" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="@id/2131364215" 2130969500="2131364589" 2130969519="@id/2131364215" 2130969524="@id/2131364215" style="@style/2132083837" />
+    <View id="@id/2131363030" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363612" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

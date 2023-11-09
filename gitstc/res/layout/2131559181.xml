@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131364619" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="fill_parent" layout_below="@id/2131364619">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+            <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="30.0dip">
+                <TextView textSize="38.0dip" textColor="@color/2131099648" id="@id/2131366165" layout_width="wrap_content" layout_height="wrap_content" fontFamily="@font/2131296262" layout_marginStart="@dimen/2131165388" />
+                <TextView textSize="17.0dip" textColor="@color/2131099648" id="@id/currencyTextView" layout_width="wrap_content" layout_height="wrap_content" text="@string/bill_details_section_right_main_sr" fontFamily="@font/2131296262" layout_marginStart="5.0dip" />
+            </LinearLayout>
+            <ProgressBar id="@id/2131365194" layout_width="fill_parent" layout_height="10.0dip" max="100" progress="30" indeterminate="false" progressDrawable="@drawable/2131231869" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083177" />
+            <TextView textSize="14.0dip" textColor="@color/2131099648" id="@id/2131362267" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/home_details_home_left_main_bill_will" fontFamily="@font/2131296263" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" />
+            <LinearLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="47.0dip" layout_marginStart="@dimen/2131165388">
+                <ImageView layout_gravity="center" layout_width="12.0dip" layout_height="12.0dip" src="@drawable/2131230937" />
+                <TextView textSize="19.0dip" textColor="@color/2131099648" layout_width="wrap_content" layout_height="wrap_content" text="@string/bill_details_section_title_subscriptions" drawableStart="@drawable/2131230937" fontFamily="@font/2131296257" layout_marginStart="10.0dip" />
+            </LinearLayout>
+            <View background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="10.0dip" />
+            <LinearLayout orientation="vertical" id="@id/2131365822" layout_width="fill_parent" layout_height="wrap_content" />
+            <View background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="10.0dip" />
+            <View background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="10.0dip" />
+            <ImageView layout_gravity="center" id="@id/2131364248" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="30.0dip" layout_marginBottom="30.0dip" 2130970099="@mipmap/2131755020" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

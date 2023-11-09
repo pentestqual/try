@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector exitFadeDuration="@android:integer/config_shortAnimTime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_pressed="true" drawable="@drawable/2131231606" />
+    <item drawable="@drawable/2131231605" />
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView layout_width="fill_parent" layout_height="wrap_content" 2130968838="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout background="#07222222" layout_width="fill_parent" layout_height="wrap_content">
+        <LinearLayout background="@color/2131100892" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" elevation="20.0dip" 2130969500="2131364589" 2130969519="@id/2131366073" 2130969524="2131364589">
+                <ImageView id="@id/2131363306" layout_width="60.0dip" layout_height="wrap_content" layout_marginStart="10.0dip" 2130969520="2131364589" 2130969524="2131364589" />
+                <TextView textColor="@color/2131099797" id="@id/2131365682" layout_width="0.0dip" layout_height="wrap_content" textAlignment="viewStart" paddingStart="3.0dip" layout_marginStart="@dimen/2131165388" 2130969501="@id/2131365764" 2130969519="@id/2131363306" 2130969524="2131364589" style="@style/2132083886" />
+                <com.google.android.exoplayer2.ui.PlayerView id="@id/2131363232" layout_width="0.0dip" layout_height="40.0dip" layout_marginEnd="10.0dip" 2130969043="@layout/2131558689" 2130969343="false" 2130969501="@id/2131365764" 2130969520="@id/2131365682" 2130969523="@id/2131365682" 2130970054="0" 2130970057="@color/2131099656" 2130970443="false" />
+                <ImageView id="@id/2131365764" layout_width="24.0dip" layout_height="24.0dip" src="@drawable/2131231520" layout_marginEnd="@dimen/2131165388" 2130969494="@id/2131363232" 2130969500="2131364589" 2130969524="@id/2131365682" 2130970356="@color/2131099797" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <ImageView id="@id/2131366073" background="@color/2131100892" paddingTop="10.0dip" layout_width="58.0dip" layout_height="75.0dip" layout_marginTop="-12.0dip" src="@drawable/2131231613" scaleType="fitCenter" layout_marginStart="10.0dip" 2130969520="2131364589" 2130969524="2131364589" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

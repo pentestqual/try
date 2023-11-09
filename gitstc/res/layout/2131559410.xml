@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView id="@id/2131365852" layout_width="wrap_content" layout_height="wrap_content" text="@string/mystc_message_banner_this_service" drawableTop="@drawable/2131231598" drawablePadding="@dimen/2131165388" textAlignment="center" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083891" />
+    <TextView id="@id/2131365169" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_details_buy_a_message_button_ok" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365852" style="@style/2132083872" />
+</androidx.constraintlayout.widget.ConstraintLayout>

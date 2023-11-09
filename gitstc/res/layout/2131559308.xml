@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165915" layout_marginRight="@dimen/2131165915" layout_marginBottom="@dimen/2131165926" minHeight="@dimen/2131165903" layout_marginHorizontal="@dimen/2131165915" style="@style/2132083000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362813" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout_margin="@dimen/2131165926">
+        <TextView textColor="@color/2131100853" id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" textAlignment="viewStart" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083400" />
+        <TextView textColor="@color/2131100720" id="@id/2131362052" layout_width="wrap_content" layout_height="wrap_content" textAlignment="viewStart" 2130969495="@id/subtitle" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083303" />
+        <TextView textColor="@color/2131100720" id="@id/2131362054" layout_width="wrap_content" layout_height="wrap_content" textAlignment="viewStart" layout_marginStart="@dimen/2131165300" 2130969494="@id/2131362052" 2130969519="@id/2131362052" style="@style/2132083303" />
+        <TextView textColor="@color/2131100853" id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" textAlignment="viewStart" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083406" />
+        <androidx.appcompat.widget.AppCompatButton textSize="@dimen/2131166321" textColor="@color/2131099763" id="@id/2131362392" paddingLeft="@dimen/2131165915" paddingTop="@dimen/2131165980" paddingRight="@dimen/2131165915" paddingBottom="@dimen/2131165980" layout_width="wrap_content" layout_height="wrap_content" textAllCaps="false" backgroundTint="@color/2131099754" paddingHorizontal="@dimen/2131165915" paddingVertical="@dimen/2131165980" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083411" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout_gravity="center_vertical" id="@id/2131363216" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout="@layout/2131559345" />
+    <com.stc.mybusiness.core.presentation.customview.CustomShimmerFrameLayout layout_gravity="center_vertical" id="@id/2131365564" visibility="visible" layout_width="fill_parent" layout_height="@dimen/2131165962" layout_margin="@dimen/2131165926">
+        <View background="@drawable/2131231901" layout_width="fill_parent" layout_height="fill_parent" translationZ="@dimen/2131165925" backgroundTint="@color/2131100767" />
+    </com.stc.mybusiness.core.presentation.customview.CustomShimmerFrameLayout>
+</androidx.cardview.widget.CardView>

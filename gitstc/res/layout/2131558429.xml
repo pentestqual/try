@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/headerTextView" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="STC HOTSPOT" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083084" />
+    <TextView textSize="24.0dip" id="@id/2131365189" layout_width="wrap_content" layout_height="wrap_content" text="0.50" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/headerTextView" style="@style/2132083084" />
+    <TextView textSize="13.0dip" textColor="@color/2131099648" id="@id/2131362146" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="  GB" 2130969519="@id/2131365189" 2130969523="@id/headerTextView" />
+    <TextView textSize="13.0dip" id="@id/2131366159" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" hint="1 GB" textAlignment="viewEnd" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969523="@id/headerTextView" />
+    <ProgressBar id="@id/2131365194" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" max="100" progress="25" indeterminate="false" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" progressTint="?colorAccent" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365189" style="@style/2132084258" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <View id="@id/divider" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083036" />
+    <ImageView layout_gravity="center" id="@id/2131364007" layout_width="90.0dip" layout_height="90.0dip" layout_marginTop="@dimen/2131165388" src="@drawable/2131231684" />
+    <TextView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165390" text="@string/about_mystc_about_header_titler_app_version" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/divider" style="@style/2132083899" />
+    <TextView layout_gravity="center" id="@id/2131366489" background="@color/2131099913" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165390" paddingStart="8.0dip" paddingEnd="8.0dip" style="@style/2132083891" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365127" layout_width="fill_parent" layout_height="0.0dip" layout_marginTop="@dimen/2131165390" layout_weight="1.0" 2130969481="LinearLayoutManager" />
+</LinearLayout>

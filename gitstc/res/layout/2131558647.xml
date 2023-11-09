@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/titleTextView" layout_width="fill_parent" layout_height="wrap_content" text="@string/sawa_sponsor_unsubscribe_message_title_do_you" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+    <TextView id="@id/2131365837" layout_width="fill_parent" layout_height="wrap_content" text="@string/sawa_sponsor_unsubscribe_message_body_you_are" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/titleTextView" style="@style/2132083927" />
+</androidx.constraintlayout.widget.ConstraintLayout>

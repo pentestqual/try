@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131364023" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" layout_marginBottom="@dimen/2131165388" layout_below="@id/2131362078" 2130969495="@id/2131365636" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" text="@string/upgrade_to_multi_sim_header_title_do_you" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+            <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/change_plan_change_plan_header_sub_explore_and" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+            <TextView id="@id/2131365510" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginBottom="@dimen/2131165328" text="@string/upgrade_to_postpaid_select_services_section_title_service" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+            <View id="@id/2131365512" visibility="visible" style="@style/2132083036" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365034" layout_width="fill_parent" layout_height="fill_parent" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+        </LinearLayout>
+    </ScrollView>
+    <Button id="@id/2131365636" layout_width="fill_parent" layout_marginBottom="@dimen/2131165388" text="@string/device_contract_buy_a_button_skip_for" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083123" />
+</androidx.constraintlayout.widget.ConstraintLayout>

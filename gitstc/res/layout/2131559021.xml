@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" background="@color/2131099656" padding="12.0dip" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131365802" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131363526" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8.0dip" text="@string/trade_in_summary_header_title_product_summary" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083219" />
+            <TextView id="@id/2131365781" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8.0dip" text="@string/trade_in_summary_header_sub_book_an" 2130969520="2131364589" 2130969523="@id/2131363526" style="@style/2132083220" />
+            <TextView id="@id/2131363284" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16.0dip" text="@string/trade_in_summary_left_main_expected_price" 2130969520="2131364589" 2130969523="@id/2131365781" style="@style/2132084627" />
+            <LinearLayout orientation="horizontal" id="@id/2131364793" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363284">
+                <TextView id="@id/2131364814" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" style="@style/2132083908" />
+                <TextView id="@id/2131362765" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" layout_marginStart="8.0dip" style="@style/2132083885" />
+            </LinearLayout>
+            <View id="@id/2131365699" background="@color/2131099923" layout_width="fill_parent" layout_height="1.0dip" 2130969523="@id/2131364793" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131363783" layout_width="fill_parent" layout_height="wrap_content" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969501="2131364589" 2130969520="2131364589" 2130969523="@id/2131365699" />
+            <RelativeLayout id="@id/2131365966" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="10.0dip" layout_marginStart="@dimen/2131165388">
+                <TextView id="@id/2131365964" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="8.0dip" text="@string/new_landline_place_order_I_accept_the_Terms__Copy" layout_toStartOf="@id/2131361894" 2130969501="@id/2131361894" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083220" />
+                <Switch theme="@style/2132083115" id="@id/2131361894" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" layout_alignParentEnd="true" 2130969494="@id/2131365964" 2130969500="2131364589" 2130969524="@id/2131365964" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131365802" layout_marginTop="8.0dip" text="@string/trade_in_summary_button_book_appointment" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

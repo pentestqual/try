@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131365658" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131365660" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="60.0dip" text="@string/home_details_home_button_reload" drawablePadding="10.0dip" drawableStart="@drawable/2131231594" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365657" style="@style/2132083932" />
+    <loading_progress_bar.LoadingProgressBar id="@id/2131365659" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_margin="60.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130969908="?2130970329" />
+    <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@id/2131362982" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="10.0dip" nestedScrollingEnabled="false" 2130969520="2131364589" 2130969523="@id/2131365657" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365657" layout_width="fill_parent" layout_height="wrap_content" 2130969154="false" 2130969520="2131364589" 2130969524="2131364589" 2130969560="?2130969899" 2130969563="@string/device_product_home_section_title_smartphone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

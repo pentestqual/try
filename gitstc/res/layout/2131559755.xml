@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_marginTop="@dimen/2131165388" text="@string/new_landline_new_baity_header_title_choose_your" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083845" />
+    <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/new_landline_new_baity_header_sub_what_is" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+    <TextView id="@id/2131365468" paddingTop="60.0dip" paddingBottom="10.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/new_landline_new_baity_header_section_title" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+    <View id="@id/2131361841" style="@style/2132083036" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364755" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969553="@drawable/2131231509" 2130969559="@string/new_landline_new_baity_left_main_postpaid" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364780" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969553="@drawable/2131231509" 2130969559="@string/new_landline_new_baity_left_main_prepaid" />
+</LinearLayout>

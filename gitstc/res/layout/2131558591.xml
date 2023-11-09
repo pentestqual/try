@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_marginTop="@dimen/2131165388" text="@string/purchase_new_store_contact_header_title_what_is" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView gravity="start" id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/join_stc_language_header_sub_this_is" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" orientation="vertical" id="@id/2131363192" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/subtitle">
+        <TextView gravity="start" id="@id/2131363191" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/upgrade_to_postpaid_select_language_lift_main_english" textAlignment="viewStart" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+        <ImageView gravity="center_vertical" id="@id/2131363194" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" src="@drawable/2131231636" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@id/divider" layout_width="fill_parent" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363192" style="@style/2132083036" />
+    <androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" orientation="vertical" id="@id/2131362097" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/divider">
+        <TextView gravity="start" id="@id/2131362096" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/upgrade_to_postpaid_select_language_lift_main_arabic" textAlignment="viewStart" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+        <ImageView gravity="center_vertical" id="@id/2131362099" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231636" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View layout_width="fill_parent" layout_marginBottom="100.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362097" style="@style/2132083036" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView id="@id/2131364025" layout_width="fill_parent" layout_height="0.0dip" layout_marginBottom="@dimen/2131165320" 2130969494="2131364589" 2130969495="@id/2131362352" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362671" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/purchase_subscription_summary_header_title_summary" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+            <TextView id="@id/2131364453" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165333" text="@string/purchase_subscription_summary_header_sub_this_is" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+            <LinearLayout orientation="horizontal" id="@id/deviceInfoContainer" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364453">
+                <ImageView layout_gravity="center" id="@id/2131364483" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231506" scaleType="centerInside" />
+                <TextView layout_gravity="center" id="@id/2131364454" layout_width="wrap_content" layout_height="wrap_content" text="@string/device_contract_contract_section_title_device_details" layout_marginStart="16.0dip" style="@style/2132083837" />
+            </LinearLayout>
+            <View id="@id/divider1" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/deviceInfoContainer" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/deviceBrand" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969149="2131363698" 2130969520="2131364589" 2130969523="@id/deviceInfoContainer" 2130969559="@string/device_contract_contract_lift_main_brand" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/deviceModel" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/deviceBrand" 2130969559="@string/device_contract_contract_lift_main_model" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/deviceCapacity" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/deviceModel" 2130969559="@string/device_contract_contract_lift_main_size" />
+            <androidx.constraintlayout.widget.Group id="@id/2131362953" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="deviceInfoContainer,divider1,deviceBrand,deviceModel,deviceCapacity" />
+            <LinearLayout orientation="horizontal" id="@id/2131362698" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/deviceCapacity">
+                <ImageView layout_gravity="center" id="@id/2131362714" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231290" scaleType="centerInside" />
+                <TextView layout_gravity="center" id="@id/2131362699" layout_width="wrap_content" layout_height="wrap_content" text="@string/device_contract_contract_section_title_contract_details" layout_marginStart="16.0dip" style="@style/2132083837" />
+            </LinearLayout>
+            <View layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362698" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362711" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969149="2131363698" 2130969520="2131364589" 2130969523="@id/2131362698" 2130969559="@string/device_contract_contract_lift_main_contract_start" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362702" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362711" 2130969559="@string/device_contract_contract_lift_main_contract_end" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362700" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362702" 2130969559="@string/device_contract_contract_lift_main_contract_duration" />
+            <LinearLayout orientation="horizontal" id="@id/2131362055" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362700">
+                <ImageView layout_gravity="center" id="@id/2131362712" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231748" scaleType="centerInside" />
+                <TextView layout_gravity="center" id="@id/2131362696" layout_width="wrap_content" layout_height="wrap_content" text="@string/purchase_subscription_summary_section_title_amount_details" layout_marginStart="16.0dip" style="@style/2132083837" />
+            </LinearLayout>
+            <View layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362055" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131365180" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362055" 2130969559="@string/purchase_subscription_summary_left_main_remaining_amount" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131362352" text="@string/purchase_subscription_summary_button_continue" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

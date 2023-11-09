@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView layout_width="168.0dip" layout_height="95.0dip" layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView layout_gravity="center" id="@id/2131366022" layout_width="wrap_content" layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>

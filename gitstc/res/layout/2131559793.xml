@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout id="@id/2131365676" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout background="@color/2131099736" layout_width="fill_parent" layout_height="wrap_content" layout_margin="10.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <LinearLayout orientation="horizontal" padding="16.0dip" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content">
+            <ImageView layout_gravity="center" id="@id/2131365674" visibility="gone" layout_width="20.0dip" layout_height="20.0dip" layout_marginEnd="8.0dip" />
+            <TextView gravity="center_vertical" layout_gravity="center" id="@id/2131365675" layout_width="wrap_content" layout_height="wrap_content" maxLines="3" style="@style/2132083932" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" id="@id/2131365299" background="#ffffffff" layout_width="fill_parent" layout_height="80.0dip" foreground="?android:selectableItemBackground" divider="@drawable/2131231059" showDividers="middle" 2130968749="2131365726" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363897" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231326" layout_marginStart="16.0dip" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <LinearLayout orientation="vertical" id="@id/2131363820" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16.0dip" 2130969494="2131364589" 2130969519="@id/2131363897" 2130969524="2131364589">
+        <TextView id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083927" />
+        <TextView id="@id/2131363545" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083918" />
+    </LinearLayout>
+    <ImageView id="@id/2131363717" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231395" layout_marginEnd="8.0dip" 2130969494="2131364589" 2130969519="@id/2131366491" 2130969524="2131364589" />
+    <TextView id="@id/2131362052" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="6.0dip" 2130969494="2131364589" 2130969519="@id/2131363717" 2130969524="2131364589" style="@style/2132083895" />
+    <TextView id="@id/2131365710" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_roaming_country_info_right_main_sr" layout_marginStart="@dimen/2131165333" 2130969494="@id/2131362052" 2130969519="@id/2131362052" style="@style/2132083885" />
+    <View id="@id/divider" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+    <ImageView id="@id/2131362109" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231370" layout_marginEnd="@dimen/2131165477" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131366491" layout_width="wrap_content" layout_height="wrap_content" 2130969504="0.6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

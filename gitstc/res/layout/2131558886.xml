@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131363727" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131362244" layout_margin="20.0dip" text="@string/join_stc_id_number_header_title_enter_your" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+            <TextView gravity="start" id="@id/2131365647" padding="10.0dip" layout_width="0.0dip" layout_height="wrap_content" text="@string/login_and_registrations_enter_id_header_sub_this_is" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362244" style="@style/2132083927" />
+            <FrameLayout id="@id/2131363404" layout_width="fill_parent" layout_height="0.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365647">
+                <LinearLayout gravity="center" orientation="vertical" id="@id/2131365306" layout_width="fill_parent" layout_height="wrap_content" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <TextView id="@id/2131363727" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" text="@string/join_stc_id_number_left_sub_where_can" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083871" />
+</androidx.constraintlayout.widget.ConstraintLayout>

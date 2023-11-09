@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" padding="@dimen/2131165331" paddingTop="@dimen/2131165323" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165328" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView id="@id/2131363645" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165328" layout_marginBottom="@dimen/2131165328" 2130969495="@id/2131366274" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView gravity="start" id="@id/2131366274" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165391" minLines="1" textAlignment="gravity" 2130969495="@id/2131366273" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083025" />
+    <TextView gravity="start" id="@id/2131366273" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165328" maxLines="5" textAlignment="gravity" 2130969495="@id/2131363954" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083026" />
+    <LinearLayout gravity="end" orientation="horizontal" id="@id/2131363954" layout_width="0.0dip" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+        <androidx.appcompat.widget.AppCompatButton id="@id/2131362346" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083024" />
+        <androidx.appcompat.widget.AppCompatButton id="@id/2131362347" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083024" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

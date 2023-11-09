@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView gravity="bottom" paddingBottom="10.0dip" layout_width="wrap_content" layout_height="fill_parent" layout_marginTop="26.0dip" text="@string/app_preferences_section_title_switch_to" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083837" />
+            <View style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365320" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/app_preferences_left_main_app_language" 2130970448="@string/change_plan_preferred_language_button_english" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365333" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/app_preferences_left_main_app_appearance" 2130970448="@string/app_preferences_left_main_colorful_mode" />
+            <TextView gravity="center" id="@id/2131362387" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" 2130969494="2131364589" style="@style/2132083924" />
+            <TextView gravity="center" id="@id/2131365167" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" 2130969494="2131364589" style="@style/2132083924" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

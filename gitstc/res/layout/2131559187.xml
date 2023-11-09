@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <include layout="@layout/2131558601" />
+    <ScrollView id="@id/2131366399" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" id="@id/2131366398" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView textColor="@color/2131099648" gravity="bottom" id="@id/2131366397" background="@color/2131100766" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/manage_credit_cards_add_card_section_title_card_details" textAllCaps="true" style="@style/2132083837" />
+            <include layout="@layout/2131558601" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutValue id="@id/2131366393" layout_width="fill_parent" layout_height="wrap_content" inputType="textPersonName" 2130969143="2131363698" 2130969462="@string/manage_credit_cards_add_card_left_main_aias" 2130970447="@string/manage_credit_cards_add_card_right_main_required_optional" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutValue id="@id/2131366394" layout_width="fill_parent" layout_height="wrap_content" inputType="number" 2130969143="2131363698" 2130969462="@string/manage_credit_cards_add_card_left_main_card_number" 2130970447="@string/manage_credit_cards_edit_card_right_main_required" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutValue id="@id/2131366396" layout_width="fill_parent" layout_height="wrap_content" maxLength="4" inputType="number" textDirection="ltr" 2130969143="2131363698" 2130969462="@string/manage_credit_cards_add_card_left_main_expiry_date" 2130970447="@string/manage_credit_cards_edit_card_right_main_required" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowSwitch id="@id/2131366400" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/schedule_payment_add_card_lift_main_set_as" />
+            <TextView textColor="@color/2131099648" gravity="bottom" background="@color/2131100766" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/manage_credit_cards_edit_card_section_title_manage" textAllCaps="true" style="@style/2132083837" />
+            <include layout="@layout/2131558601" />
+            <TextView textColor="@color/2131100729" id="@id/2131366401" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/schedule_payment_edit_card_button_stop_card" 2130969143="2131363430" style="@style/2132083934" />
+            <include layout="@layout/2131558601" />
+            <TextView id="@id/2131366395" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/send_free_sms_draft_sms_message_button_delete" 2130969143="2131363430" style="@style/2132083934" />
+            <LinearLayout orientation="vertical" background="@color/2131100766" paddingTop="20.0dip" layout_width="fill_parent" layout_height="0.0dip" layout_weight="1.0">
+                <TextView textSize="14.0dip" textColor="#ff000000" layout_gravity="center" id="@id/2131366392" layout_width="wrap_content" layout_height="wrap_content" text="@string/editMyCreditCards_hint" paddingStart="20.0dip" paddingEnd="20.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165915" layout_marginRight="@dimen/2131165915" backgroundTint="@color/2131100892" layout_marginHorizontal="@dimen/2131165915" style="@style/2132083000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364312" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165352" layout_marginTop="@dimen/2131165941" layout_marginRight="@dimen/2131165352" layout_marginBottom="@dimen/2131165941" layout_marginHorizontal="@dimen/2131165352" layout_marginVertical="@dimen/2131165941" 2130969495="@id/2131364038" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <TextView textColor="@color/2131100768" id="@id/2131364165" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165353" text="@string/package_does_not_have_freebies" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083400" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366419" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131364038" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <include id="@id/2131363356" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559500" />
+            <LinearLayout gravity="bottom" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165932" weightSum="2.0" 2130969494="2131364589" 2130969523="@id/2131363356">
+                <include id="@id/2131365456" layout_width="fill_parent" layout_height="wrap_content" layout_weight="1.0" layout="@layout/2131559500" />
+                <include id="@id/2131366071" layout_width="fill_parent" layout_height="wrap_content" layout_weight="1.0" layout="@layout/2131559500" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include id="@id/2131363216" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131364038" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559345" />
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364038" background="@drawable/2131231902" paddingTop="@dimen/2131165926" paddingBottom="@dimen/2131165926" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165352" paddingStart="@dimen/2131165915" paddingEnd="@dimen/2131165908" backgroundTint="@color/2131099816" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+            <TextView textColor="@color/2131100892" id="@id/2131364053" layout_width="fill_parent" layout_height="wrap_content" text="@string/manage" textAlignment="viewStart" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083297" />
+            <TextView textColor="@color/2131100892" id="@id/2131364052" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165901" text="@string/usage_subscriptions_balance" textAlignment="viewStart" 2130969520="2131364589" 2130969523="@id/2131364053" style="@style/2132083561" />
+            <ImageView id="@id/2131362101" layout_width="@dimen/2131165932" layout_height="@dimen/2131165932" src="@drawable/2131231206" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" 2130970356="@color/2131100892" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" id="@id/2131364018" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131363533" paddingTop="11.0dip" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20.0dip" layout_marginBottom="10.0dip" text="@string/app_preferences_section_title_access_control" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083837" />
+            <View id="@id/2131361853" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131362506" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363698" 2130969463="@string/personal_profile_profile_button_change_password" 2130969520="2131364589" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131364038" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363698" 2130969463="@string/settings_section_title_access_management" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowSwitch id="@id/2131365896" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/face_id_authentication_message_title_use_fingerprint" />
+            <TextView id="@id/2131362283" paddingTop="11.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/app_preferences_section_footer_when_turned" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083924" />
+            <TextView gravity="bottom" id="@id/2131364779" paddingBottom="10.0dip" layout_width="wrap_content" layout_height="fill_parent" layout_marginTop="26.0dip" text="@string/app_preferences_section_title_switch_to" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083837" />
+            <View id="@id/2131364776" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365311" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/app_preferences_left_main_app_language" 2130970448="@string/change_plan_preferred_language_button_english" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365312" paddingTop="@dimen/2131165389" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/app_preferences_left_main_app_appearance" 2130970448="@string/app_preferences_left_main_colorful_mode" />
+            <TextView gravity="bottom" id="@id/2131364778" paddingBottom="10.0dip" layout_width="wrap_content" layout_height="fill_parent" layout_marginTop="26.0dip" text="@string/app_preferences_section_title_log_out" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083837" />
+            <View style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayout id="@id/2131365322" layout_width="fill_parent" layout_height="wrap_content" 2130969460="?2130968936" 2130969462="@string/app_preferences_button_log_out" />
+            <TextView gravity="center" id="@id/2131362386" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" 2130969494="2131364589" style="@style/2132083924" />
+            <TextView gravity="center" id="@id/2131365166" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" 2130969494="2131364589" style="@style/2132083924" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

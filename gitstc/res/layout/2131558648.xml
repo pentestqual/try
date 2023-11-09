@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sa.com.stc.ui.common.swipe_layout.SwipeLayout id="@id/2131365886" layout_width="fill_parent" layout_height="wrap_content" 2130969159="@id/2131365642" 2130969558="@id/2131365644" 2130969944="@id/2131365645" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView gravity="center" layout_gravity="start" id="@id/2131365644" background="@color/2131099913" padding="@dimen/2131165334" layout_width="wrap_content" layout_height="fill_parent" src="@drawable/2131231317" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365642" background="@color/2131100892" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" minHeight="60.0dip">
+        <FrameLayout id="@id/2131363891" background="@color/2131099656" layout_width="wrap_content" layout_height="0.0dip" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <include layout_gravity="center_vertical" id="@id/2131363890" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout="@layout/2131559324" />
+        </FrameLayout>
+        <LinearLayout orientation="vertical" id="@id/2131365993" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165319" layout_marginBottom="@dimen/2131165319" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969494="2131364589" 2130969501="@id/2131366180" 2130969519="@id/2131363891" 2130969524="2131364589">
+            <TextView id="@id/titleTextView" layout_width="wrap_content" layout_height="wrap_content" text="Title" style="@style/2132083927" />
+            <TextView id="@id/2131365837" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="Subtitle" style="@style/2132083883" />
+        </LinearLayout>
+        <FrameLayout id="@id/2131366180" background="@color/2131099656" layout_width="wrap_content" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131365993" 2130969524="2131364589">
+            <include layout_gravity="center_vertical" id="@id/2131366179" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="@dimen/2131165388" layout="@layout/2131559324" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView gravity="center" layout_gravity="end" id="@id/2131365645" background="@color/2131099913" padding="@dimen/2131165334" layout_width="wrap_content" layout_height="fill_parent" src="@drawable/2131231317" />
+</sa.com.stc.ui.common.swipe_layout.SwipeLayout>

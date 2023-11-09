@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout id="@id/2131364596" background="@color/2131100892" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362078" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589">
+            <com.google.android.material.appbar.CollapsingToolbarLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231" 2130969780="@drawable/2131231200">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362925" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="?2130968594" animateLayoutChanges="true" 2130969485="2131364588" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+                    <TextView id="@id/2131364599" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" textDirection="locale" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083850" />
+                    <TextView id="@id/2131362482" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="@dimen/2131165388" alpha="0.5" textDirection="locale" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364599" style="@style/2132083842" />
+                    <ImageView id="@id/2131362158" layout_width="fill_parent" layout_height="0.0dip" layout_marginTop="20.0dip" scaleType="centerCrop" 2130969499="375:226" 2130969520="2131364589" 2130969523="@id/2131362482" />
+                    <View id="@id/2131364597" background="@color/2131099656" layout_width="80.0dip" layout_height="80.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="@id/2131362158" />
+                    <ImageView id="@id/2131364598" background="@color/2131100892" padding="5.0dip" layout_width="0.0dip" layout_height="0.0dip" 2130969494="@id/2131364597" 2130969500="@id/2131364597" 2130969520="@id/2131364597" 2130969524="@id/2131364597" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" 2130969780="@drawable/2131231430" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView id="@id/2131365391" background="@color/2131099656" paddingBottom="40.0dip" layout_width="fill_parent" layout_height="fill_parent" layout_marginBottom="?2130968594" overScrollMode="never" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <LinearLayout orientation="vertical" id="@id/details" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131364390" layout_width="fill_parent" layout_height="wrap_content" textDirection="locale" textAlignment="viewStart" 2130969154="true" 2130969563="@string/qitaf_promotions_promotions_details_section_title_offer_details" />
+                <TextView id="@id/2131364391" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" lineSpacingExtra="2.0dip" textDirection="locale" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083927" />
+                <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+                    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131364873" layout_width="fill_parent" layout_height="wrap_content" textDirection="locale" textAlignment="viewStart" 2130969154="true" 2130969524="2131364589" 2130969563="@string/qitaf_promotions_promotions_details_section_title_promo_code" />
+                    <TextView id="@id/2131364399" padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" lineSpacingExtra="2.0dip" textDirection="locale" textAlignment="viewStart" 2130969501="@id/2131364871" 2130969520="2131364589" 2130969523="@id/2131364873" style="@style/2132083927" />
+                    <TextView textColor="@color/2131100729" id="@id/2131364871" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" drawablePadding="@dimen/2131165517" lineSpacingExtra="2.0dip" textDirection="locale" textAlignment="viewStart" layout_marginEnd="10.0dip" 2130969162="@drawable/2131231298" 2130969490="@id/2131364399" 2130969500="2131364589" 2130969523="@id/2131364873" style="@style/2132083927" />
+                    <include layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" layout="@layout/2131558601" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout layout_gravity="bottom" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content">
+            <Button id="@id/2131366541" layout_margin="@dimen/2131165388" text="@string/qitaf_promotions_promotions_details_button_visit_partner" style="@style/2132082688" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView gravity="center" id="@id/2131366139" layout_width="fill_parent" layout_height="?2130968594" alpha="0.0" style="@style/2132083893" />
+</FrameLayout>

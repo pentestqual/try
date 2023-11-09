@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" paddingTop="15.0dip" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388">
+        <TextView id="@id/2131362296" layout_width="0.0dip" layout_height="wrap_content" textAlignment="viewStart" layout_marginEnd="@dimen/2131165391" 2130969501="@id/2131363912" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083834" />
+        <ImageView layout_gravity="center" id="@id/2131363912" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231395" paddingStart="@dimen/2131165389" paddingEnd="@dimen/2131165442" 2130969494="2131364589" 2130969501="@id/2131362297" 2130969524="2131364589" />
+        <TextView id="@id/2131362297" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_usage_daily_limit_lift_main_until" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083924" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View layout_marginTop="15.0dip" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+    <androidx.constraintlayout.widget.ConstraintLayout paddingTop="15.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388">
+        <TextView id="@id/2131366412" layout_width="0.0dip" layout_height="wrap_content" text="@string/home_details_usage_left_main_upload_speed" textAlignment="viewStart" layout_marginEnd="@dimen/2131165391" 2130969501="@id/2131366413" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+        <TextView id="@id/2131366413" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_usage_daily_limit_lift_main_until" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083921" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View layout_marginTop="15.0dip" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+    <androidx.constraintlayout.widget.ConstraintLayout paddingTop="15.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388">
+        <TextView id="@id/2131363088" layout_width="0.0dip" layout_height="wrap_content" text="@string/home_details_usage_left_main_download_speed" textAlignment="viewStart" layout_marginEnd="@dimen/2131165391" 2130969501="@id/2131363089" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+        <TextView id="@id/2131363089" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_usage_daily_limit_lift_main_until" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083921" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@id/2131363431" visibility="gone" layout_marginTop="15.0dip" style="@style/2132083036" />
+</LinearLayout>

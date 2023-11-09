@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView id="@id/2131362244" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/upgrade_to_postpaid_offer_header_title_wait_a" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365647" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/retention_offers_special_offers_header_sub_why_dont_you_check" 2130969520="2131364589" 2130969523="@id/2131362244" style="@style/2132083927" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365133" layout_width="fill_parent" layout_height="0.0dip" 2130969481="LinearLayoutManager" 2130969495="@id/2131362343" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365647" />
+    <Button id="@id/2131362343" visibility="gone" layout_width="fill_parent" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

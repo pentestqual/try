@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131366135" layout="@layout/2131559494" />
+    <TextView id="@id/2131363084" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/esim_payment_header_title_activation_fees" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131366135" style="@style/2132083219" />
+    <TextView id="@id/2131363085" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131363084" style="@style/2132083173" />
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131364630" background="?2130969981" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969523="@id/2131363085">
+        <TextView gravity="center_vertical" id="@id/2131364631" background="?2130969981" layout_width="0.0dip" layout_height="62.0dip" text="@string/esim_payment_button_pay_now" drawablePadding="16.0dip" layout_weight="1.0" drawableStart="@drawable/2131231300" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083927" />
+    </LinearLayout>
+    <View id="@id/2131362983" layout_width="fill_parent" layout_marginStart="@dimen/2131165388" 2130969523="@id/2131364630" style="@style/2132083036" />
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131364625" background="?2130969981" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131364630">
+        <TextView gravity="center_vertical" id="@id/2131364626" background="?2130969981" layout_width="0.0dip" layout_height="62.0dip" text="@string/esim_payment_button_pay_later" drawablePadding="16.0dip" layout_weight="1.0" drawableStart="@drawable/2131231300" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083927" />
+    </LinearLayout>
+    <View id="@id/2131362984" layout_width="fill_parent" 2130969523="@id/2131364625" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

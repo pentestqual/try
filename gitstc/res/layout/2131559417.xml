@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout theme="@style/2132082714" layout_width="fill_parent" layout_height="wrap_content" elevation="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" 2130969780="@drawable/2131231202" 2130969877="@style/2132082714">
+        <androidx.appcompat.widget.SearchView theme="@style/2132083212" id="@id/2131366137" background="@drawable/2131230965" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165319" layout_marginBottom="@dimen/2131165319" inputType="text" imeOptions="actionSearch" iconifiedByDefault="false" queryHint="@string/search_engine_search_page_left_main_search_here" layout_marginEnd="@dimen/2131165388" queryBackground="@color/2131100892" 2130969374="false" 2130969913="@color/2131100892" 2130969914="@string/search_engine_search_page_left_main_search_here" 2130969969="@drawable/2131231626" style="@style/2132083212" />
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>

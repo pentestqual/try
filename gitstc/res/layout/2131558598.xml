@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/titleTextView" layout_margin="@dimen/2131165388" text="@string/details" style="@style/2132083837" />
+    <View id="@id/2131363933" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView autoLink="web" id="@id/2131362933" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" style="@style/2132083927" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

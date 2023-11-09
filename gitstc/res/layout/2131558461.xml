@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout orientation="vertical" background="@color/2131100729" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout layout_width="fill_parent" layout_height="wrap_content" layout_margin="20.0dip">
+        <TextView textSize="18.0sp" textColor="@android:color/white" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/guess_the_picture" fontFamily="@font/2131296263" />
+        <ImageView layout_gravity="end" id="@id/2131363707" background="@drawable/2131231225" padding="5.0dip" layout_width="30.0dip" layout_height="30.0dip" />
+    </FrameLayout>
+    <ScrollView layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="60.0dip">
+        <FrameLayout orientation="vertical" id="@id/2131363504" layout_width="fill_parent" layout_height="fill_parent">
+            <TextView textSize="18.0sp" textColor="@android:color/white" layout_gravity="right" id="@id/2131366099" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="20.0dip" layout_marginBottom="10.0dip" text="timer" fontFamily="@font/2131296263" />
+            <androidx.viewpager.widget.ViewPager id="@id/2131366513" layout_width="fill_parent" layout_height="700.0dip" layout_marginTop="30.0dip" />
+        </FrameLayout>
+    </ScrollView>
+    <ProgressBar layout_gravity="center" id="@id/2131364857" layout_width="wrap_content" layout_height="wrap_content" />
+</FrameLayout>

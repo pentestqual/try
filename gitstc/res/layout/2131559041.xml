@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131365395" background="?2130969024" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364966" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <RelativeLayout id="@id/2131364967" background="@drawable/2131231551" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                    <ImageView id="@id/2131364964" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231548" layout_alignParentEnd="true" />
+                    <ProgressBar id="@id/2131364969" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" />
+                    <TextView id="@id/2131364963" layout_width="wrap_content" layout_height="wrap_content" text="@string/browse_qitaf_partner_tamayouz_discounts_button_tab_to" layout_below="@id/2131364971" alpha="0.6" layout_marginStart="30.0dip" style="@style/2132083829" />
+                    <TextView id="@id/2131364971" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15.0dip" layout_marginStart="30.0dip" style="@style/2132083842" />
+                </RelativeLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView id="@id/2131364983" paddingBottom="10.0dip" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" letterSpacing="0.05" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364966" style="@style/2132083930" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131364935" layout_width="fill_parent" layout_height="fill_parent" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" nestedScrollingEnabled="false" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969520="2131364589" 2130969523="@id/2131364983" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

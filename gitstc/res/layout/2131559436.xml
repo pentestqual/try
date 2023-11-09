@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="16.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" backgroundTint="@color/2131100707" 2130968837="2.0dip" 2130968838="2.0dip" 2130969032="18.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" id="@id/2131362139" layout_width="fill_parent" layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView id="@id/2131363667" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231214" />
+        <com.google.android.material.textview.MaterialTextView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/auctions_store_button_number_auction" layout_marginStart="10.0dip" style="@style/2132083888" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

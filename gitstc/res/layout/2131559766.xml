@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" minHeight="?android:listPreferredItemHeight" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363104" layout_width="25.0dip" layout_height="25.0dip" scaleType="centerInside" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="0.0dip" layout_height="0.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969512="4.0" 2130969519="@id/2131363104" 2130969524="2131364589" 2130969527="2.0">
+        <TextView gravity="center_vertical" id="@id/2131363814" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083946" />
+        <TextView id="@id/2131363545" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083883" />
+    </LinearLayout>
+    <include id="@id/2131363063" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" layout="@layout/2131558601" />
+</androidx.constraintlayout.widget.ConstraintLayout>

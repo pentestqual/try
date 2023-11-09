@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout id="@id/2131365676" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout background="?2130968940" layout_width="fill_parent" layout_height="wrap_content" layout_margin="10.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <TextView gravity="start" layout_gravity="start" id="@id/2131365675" padding="16.0dip" layout_width="wrap_content" layout_height="wrap_content" maxLines="5" style="@style/2132083932" />
+    </FrameLayout>
+</FrameLayout>

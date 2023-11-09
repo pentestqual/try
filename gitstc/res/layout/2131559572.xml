@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView background="@color/2131099923" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tubb.smrv.SwipeHorizontalMenuLayout id="@id/2131365886" layout_width="fill_parent" layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365642" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginStart="10.0dip" layout_marginEnd="10.0dip">
+            <FrameLayout id="@id/2131366073" layout_width="64.0dip" layout_height="64.0dip" 2130969520="2131364589" 2130969524="2131364589">
+                <ImageView id="@id/2131366074" layout_width="fill_parent" layout_height="fill_parent" src="@drawable/2131231310" />
+                <ImageView layout_gravity="center" id="@id/2131364737" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231079" 2130970356="#e6ffffff" />
+            </FrameLayout>
+            <TextView id="@id/2131365682" layout_width="0.0dip" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969501="@id/2131361901" 2130969519="@id/2131366073" 2130969524="@id/2131366073" style="@style/2132083220" />
+            <TextView id="@id/2131362110" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4.0dip" 2130969520="@id/2131365682" 2130969523="@id/2131365682" style="@style/2132083913" />
+            <TextView id="@id/2131363286" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="4.0dip" textAlignment="textStart" 2130969501="@id/2131361901" 2130969520="@id/2131362110" 2130969523="@id/2131362110" style="@style/2132083913" />
+            <FrameLayout id="@id/2131361901" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589">
+                <Button id="@id/2131361897" layout_width="wrap_content" layout_height="wrap_content" text="@string/sada_details_manage_page_button_activate" layout_marginEnd="4.0dip" 2130968703="@color/2131099787" style="@style/2132084217" />
+                <TextView id="@id/2131361960" background="@drawable/2131230950" paddingTop="6.0dip" paddingBottom="6.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/sada_details_manage_page_button_active" paddingStart="10.0dip" paddingEnd="10.0dip" layout_marginEnd="4.0dip" style="@style/2132083913" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365645" background="@color/2131100738" padding="10.0dip" layout_width="wrap_content" layout_height="fill_parent">
+            <ImageView id="@id/2131363641" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231316" scaleType="fitCenter" adjustViewBounds="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130970356="@color/2131100892" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.tubb.smrv.SwipeHorizontalMenuLayout>
+</androidx.cardview.widget.CardView>

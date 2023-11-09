@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+        <include id="@id/2131362078" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+        <TextView id="@id/2131366102" layout_marginTop="@dimen/2131165388" text="@string/purchase_new_sim_type_header_title_choose_your" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+        <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/purchase_new_sim_type_header_sub_whats_better" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+        <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131364140" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" 2130969517="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle">
+            <TextView id="@id/2131364133" text="@string/redeem_qitaf_points_select_service_title_mobile" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+            <View layout_marginTop="16.0dip" layout_marginBottom="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364133" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364139" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364133" 2130969553="@drawable/2131231452" 2130969559="@string/purchase_new_choose_number_section_title_prepaid" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364138" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364139" 2130969553="@drawable/2131231452" 2130969559="@string/purchase_new_choose_number_section_title_postpaid" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131362825" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364140">
+            <TextView id="@id/2131362816" text="@string/purchase_new_sim_type_left_main_quick_data" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+            <View layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362816" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362823" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362816" 2130969553="@drawable/2131231452" 2130969559="@string/purchase_new_choose_number_section_title_prepaid" />
+            <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362822" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362823" 2130969553="@drawable/2131231452" 2130969559="@string/purchase_new_choose_number_section_title_postpaid" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

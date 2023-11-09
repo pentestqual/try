@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099648" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView id="@id/2131366682" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" 2130970035="false" 2130970046="false" 2130970442="true" />
+    <com.google.android.exoplayer2.ui.PlayerView id="@id/2131363232" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" />
+</LinearLayout>

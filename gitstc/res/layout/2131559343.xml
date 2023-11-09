@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="horizontal" id="@id/2131363935" background="@color/2131100860" layout_width="wrap_content" layout_height="wrap_content" paddingStart="3.0dip" paddingEnd="3.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView id="@id/2131362465" layout_width="110.0dip" layout_height="110.0dip" layout_margin="2.0dip" 2130968835="@color/2131099656" 2130968837="2.0dip" 2130968838="5.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362672" focusable="true" clickable="true" layout_width="fill_parent" layout_height="fill_parent">
+            <ImageView layout_gravity="end" id="@id/2131363605" background="@drawable/2131231180" padding="@dimen/2131165388" layout_width="24.0dip" layout_height="24.0dip" layout_marginTop="10.0dip" layout_marginEnd="10.0dip" 2130969500="2131364589" 2130969524="2131364589" />
+            <TextView gravity="bottom" id="@id/2131365610" layout_width="85.0dip" layout_height="wrap_content" layout_marginBottom="5.0dip" text="@string/number_properties_button_add_secondary" layout_marginStart="10.0dip" breakStrategy="simple" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083835" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131366102" layout_marginTop="@dimen/2131165388" text="@string/join_stc_id_info_header_sub_find_your" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083845" />
+    <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" text="@string/join_stc_id_info_header_sub_locate_the" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <ImageView id="@id/2131363618" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" src="@drawable/2131231391" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/subtitle" />
+    <TextView padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/join_stc_id_info_section_footer_your_saudi" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363618" style="@style/2132083916" />
+</androidx.constraintlayout.widget.ConstraintLayout>

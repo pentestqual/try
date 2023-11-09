@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout background="#ffffffff" layout_width="fill_parent" layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout gravity="center_vertical" id="@id/2131365279" padding="8.0dip" layout_width="fill_parent" layout_height="wrap_content">
+        <com.archit.calendardaterangepicker.customviews.CustomTextView textSize="18.0sp" textStyle="bold" textColor="@color/2131099836" id="@id/2131366235" layout_width="wrap_content" layout_height="wrap_content" text="@string/title_time_picker" layout_centerHorizontal="true" />
+        <com.archit.calendardaterangepicker.customviews.CustomTextView textSize="18.0sp" textStyle="bold" textColor="@color/2131099836" id="@id/2131366232" layout_width="wrap_content" layout_height="wrap_content" text="@string/cancel" />
+        <com.archit.calendardaterangepicker.customviews.CustomTextView textSize="18.0sp" textStyle="bold" textColor="@color/2131099836" id="@id/2131366234" layout_width="wrap_content" layout_height="wrap_content" text="@string/done" layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout gravity="center" layout_width="fill_parent" layout_height="fill_parent" layout_below="@id/2131365279">
+        <TimePicker id="@id/2131366096" layout_width="fill_parent" layout_height="fill_parent" numbersTextColor="@color/2131099769" timePickerMode="spinner" />
+    </RelativeLayout>
+</RelativeLayout>

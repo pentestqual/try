@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.internal.NavigationMenuItemView paddingLeft="?2130969591" paddingRight="?2130969592" focusable="true" layout_width="fill_parent" layout_height="wrap_content" foreground="?2130969981" minHeight="?2130969589" defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_gravity="bottom" orientation="vertical" background="#cc000000" layout_width="fill_parent" layout_height="wrap_content" layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center" orientation="horizontal" paddingTop="4.0dip" layout_width="fill_parent" layout_height="wrap_content">
+        <ImageButton id="@id/2131363265" style="@style/2132083051" />
+        <ImageButton id="@id/2131363269" style="@style/2132083052" />
+        <ImageButton id="@id/2131363273" style="@style/2132083046" />
+        <ImageButton id="@id/2131363268" style="@style/2132083046" />
+        <ImageButton id="@id/2131363261" style="@style/2132083050" />
+        <ImageButton id="@id/2131363260" style="@style/2132083049" />
+        <ImageButton id="@id/2131363249" style="@style/2132083047" />
+        <ImageButton id="@id/2131363256" style="@style/2132083048" />
+        <ImageButton id="@id/2131363281" style="@style/2132083053" />
+    </LinearLayout>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="4.0dip">
+        <TextView textSize="14.0sp" textStyle="bold" textColor="#ffbebebe" id="@id/2131363264" paddingLeft="4.0dip" paddingRight="4.0dip" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" />
+        <View id="@id/2131363267" layout_width="0.0dip" layout_height="26.0dip" layout_weight="1.0" />
+        <TextView textSize="14.0sp" textStyle="bold" textColor="#ffbebebe" id="@id/2131363245" paddingLeft="4.0dip" paddingRight="4.0dip" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

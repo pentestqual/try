@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView id="@id/2131364025" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+            <include id="@id/2131365174" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559410" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365848" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/tamayouz_seasonal_gifts_summary_header_title_order_summary" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+                <TextView id="@id/2131364453" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/tamayouz_seasonal_gifts_summary_header_sub_please_check" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083921" />
+                <LinearLayout orientation="horizontal" id="@id/2131364455" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364453">
+                    <ImageView layout_gravity="center" id="@id/2131364483" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231633" scaleType="centerInside" />
+                    <TextView layout_gravity="center" id="@id/2131364454" layout_width="wrap_content" layout_height="wrap_content" text="@string/tamayouz_seasonal_gifts_summary_section_title_gift_details" layout_marginStart="16.0dip" style="@style/2132083837" />
+                </LinearLayout>
+                <View layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364455" style="@style/2132083036" />
+                <LinearLayout orientation="horizontal" id="@id/2131365529" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364455">
+                    <TextView gravity="start|center" id="@id/2131363909" paddingTop="10.0dip" paddingBottom="10.0dip" layout_width="wrap_content" layout_height="wrap_content" minHeight="?android:listPreferredItemHeight" text="@string/tamayouz_seasonal_gifts_summary_left_main_service_provider" maxLines="2" singleLine="false" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+                    <TextView gravity="end|center" id="@id/2131365530" paddingTop="10.0dip" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" singleLine="false" textAlignment="viewEnd" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083885" />
+                </LinearLayout>
+                <View id="@id/2131365535" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365529" style="@style/2132083036" />
+                <LinearLayout orientation="horizontal" id="@id/2131363469" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365529">
+                    <TextView gravity="start|center" id="@id/2131363471" paddingTop="10.0dip" paddingBottom="10.0dip" layout_width="wrap_content" layout_height="wrap_content" minHeight="?android:listPreferredItemHeight" text="@string/tamayouz_seasonal_gifts_summary_left_main_gift_name" maxLines="2" singleLine="false" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+                    <TextView gravity="end|center" id="@id/2131363470" paddingTop="10.0dip" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" singleLine="false" textAlignment="viewEnd" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083885" />
+                </LinearLayout>
+                <View 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363469" style="@style/2132083036" />
+                <LinearLayout orientation="horizontal" id="@id/2131362642" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="60.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363469">
+                    <ImageView layout_gravity="center" id="@id/2131362641" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231453" scaleType="centerInside" />
+                    <TextView layout_gravity="center" id="@id/2131362640" text="@string/tamayouz_seasonal_gifts_summary_section_title_contact" layout_marginStart="16.0dip" style="@style/2132083837" />
+                </LinearLayout>
+                <View id="@id/2131362662" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362642" style="@style/2132083036" />
+                <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362653" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362662" 2130969559="@string/tamayouz_seasonal_gifts_summary_left_main_contact_number" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <View layout_marginTop="10.0dip" 2130969495="@id/2131365965" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+    <androidx.constraintlayout.widget.ConstraintLayout orientation="horizontal" id="@id/2131365965" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip" 2130969494="2131364589" 2130969495="@id/2131362623" 2130969500="2131364589" 2130969520="2131364589">
+        <TextView id="@id/2131363579" layout_width="wrap_content" layout_height="wrap_content" text="@string/device_summary_lift_main_i_accept" 2130969494="2131364589" 2130969511="2131365707" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+        <TextView id="@id/2131365964" layout_width="wrap_content" layout_height="wrap_content" text="@string/device_summary_button_terms_and" fontFamily="@font/2131296263" layout_marginStart="3.0dip" 2130969494="2131364589" 2130969519="@id/2131363579" 2130969524="2131364589" style="@style/2132083877" />
+        <Switch theme="@style/2132083115" id="@id/2131365891" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button enabled="false" id="@id/2131362623" layout_marginTop="@dimen/2131165388" text="@string/tamayouz_seasonal_gifts_summary_button_confirm" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

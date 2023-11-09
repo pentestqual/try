@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView clipToPadding="true" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="4.0dip" 2130968838="3.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" padding="14.0dip" layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatButton enabled="true" gravity="center" layout_gravity="center" id="@id/2131364538" paddingTop="@dimen/2131165915" paddingBottom="@dimen/2131165915" layout_width="100.0dip" layout_height="0.0dip" text="@string/choose" layout_weight="1.0" paddingVertical="@dimen/2131165915" style="@style/2132083416" />
+        </LinearLayout>
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatButton gravity="center" layout_gravity="center" id="@id/2131364541" paddingTop="@dimen/2131165915" paddingBottom="@dimen/2131165915" layout_width="100.0dip" layout_height="0.0dip" text="@string/choose" layout_weight="1.0" paddingVertical="@dimen/2131165915" style="@style/2132083416" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

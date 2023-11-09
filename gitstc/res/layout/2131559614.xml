@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center" orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="80.0dip" foreground="?android:selectableItemBackground" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox layout_gravity="center" id="@id/2131361987" clickable="false" layout_width="wrap_content" layout_height="wrap_content" checked="false" button="@drawable/2131231860" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <LinearLayout gravity="start" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969519="@id/2131361987" 2130969524="2131364589">
+        <TextView id="@id/2131362272" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083927" />
+        <TextView id="@id/2131364297" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083883" />
+    </LinearLayout>
+    <TextView gravity="end" id="@id/2131362052" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="6.0dip" 2130969494="2131364589" 2130969501="@id/2131361827" 2130969524="2131364589" style="@style/2132083895" />
+    <TextView gravity="start" id="@id/2131361827" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="2.0dip" layout_marginEnd="@dimen/2131165388" 2130969494="@id/2131362052" 2130969500="2131364589" style="@style/2132083885" />
+    <View id="@id/2131364376" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

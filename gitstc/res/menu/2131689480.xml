@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item icon="@drawable/2131231728" id="@id/2131363776" title="" 2130970031="2131362051" />
+    <item icon="@drawable/2131231630" id="@id/2131363779" visible="false" title="" iconTint="@android:color/white" 2130970031="2131362051" />
+</menu>

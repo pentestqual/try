@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="?2130968978" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131363810" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <ImageView id="@id/2131363785" visibility="gone" layout_width="wrap_content" layout_height="40.0dip" layout_marginBottom="8.0dip" src="@drawable/2131231749" 2130969495="@id/2131364294" 2130969500="2131364589" 2130969520="2131364589" />
+        <TextView id="@id/2131364294" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/browse_qitaf_partner_tamayouz_keys_secton_footer_there_are" textAlignment="center" paddingStart="90.0dip" paddingEnd="90.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083885" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

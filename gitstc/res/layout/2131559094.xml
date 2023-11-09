@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" 2130969484="@string/appbar_scrolling_view_behavior">
+        <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" layout_marginBottom="10.0dip" 2130969514="2131364589" 2130969518="2131364589" 2130969524="2131364589" />
+        <FrameLayout layout_width="fill_parent" layout_height="fill_parent">
+            <WebView id="@id/2131365475" layout_width="fill_parent" layout_height="fill_parent" 2130969494="2131364589" 2130969523="@id/2131363073" />
+            <LinearLayout gravity="center" id="@id/2131364862" background="?android:colorForegroundInverse" visibility="gone" layout_width="fill_parent" layout_height="fill_parent">
+                <ProgressBar layout_width="wrap_content" layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

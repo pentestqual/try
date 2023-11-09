@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="2131165184">17.0dip</dimen>
+    <dimen name="2131165185">14.0dip</dimen>
+    <dimen name="2131165186">18.0dip</dimen>
+    <dimen name="2131165187">16.0dip</dimen>
+    <dimen name="2131165188">28.0dip</dimen>
+    <dimen name="2131165189">24.0dip</dimen>
+    <dimen name="2131165190">16.0dip</dimen>
+    <dimen name="2131165191">18.0dip</dimen>
+    <dimen name="2131165192">16.0dip</dimen>
+    <dimen name="2131165193">72.0dip</dimen>
+    <dimen name="2131165194">56.0dip</dimen>
+    <dimen name="2131165195">0.0dip</dimen>
+    <dimen name="2131165196">0.0dip</dimen>
+    <dimen name="2131165197">4.0dip</dimen>
+    <dimen name="2131165198">16.0dip</dimen>
+    <dimen name="2131165199">10.0dip</dimen>
+    <dimen name="2131165200">6.0dip</dimen>
+    <dimen name="2131165201">48.0dip</dimen>
+    <dimen name="2131165202">180.0dip</dimen>
+    <dimen name="2131165203">5.0dip</dimen>
+    <dimen name="2131165204">-3.0dip</dimen>
+    <dimen name="2131165205">48.0dip</dimen>
+    <dimen name="2131165206">48.0dip</dimen>
+    <dimen name="2131165207">36.0dip</dimen>
+    <dimen name="2131165208">48.0dip</dimen>
+    <dimen name="2131165209">48.0dip</dimen>
+    <item type="dimen" name="2131165210">@dimen/2131165217</item>
+    <dimen name="2131165211">6.0dip</dimen>
+    <dimen name="2131165212">8.0dip</dimen>
+    <item type="dimen" name="2131165213">@dimen/2131165218</item>
+    <dimen name="2131165214">720.0dip</dimen>
+    <dimen name="2131165215">320.0dip</dimen>
+    <dimen name="2131165216">2.0dip</dimen>
+    <dimen name="2131165217">4.0dip</dimen>
+    <dimen name="2131165218">4.0dip</dimen>
+    <dimen name="2131165219">2.0dip</dimen>
+    <item type="dimen" name="2131165220">79.99999%</item>
+    <item type="dimen" name="2131165221">100.0%</item>
+    <dimen name="2131165222">320.0dip</dimen>
+    <dimen name="2131165223">320.0dip</dimen>
+    <dimen name="2131165224">8.0dip</dimen>
+    <dimen name="2131165225">8.0dip</dimen>
+    <item type="dimen" name="2131165226">65.0%</item>
+    <item type="dimen" name="2131165227">95.00001%</item>
+    <dimen name="2131165228">24.0dip</dimen>
+    <dimen name="2131165229">18.0dip</dimen>
+    <dimen name="2131165230">8.0dip</dimen>
+    <item type="dimen" name="2131165231">0.3</item>
+    <item type="dimen" name="2131165232">0.26</item>
+    <dimen name="2131165233">32.0dip</dimen>
+    <dimen name="2131165234">8.0dip</dimen>
+    <dimen name="2131165235">8.0dip</dimen>
+    <dimen name="2131165236">7.0dip</dimen>
+    <dimen name="2131165237">4.0dip</dimen>
+    <dimen name="2131165238">10.0dip</dimen>
+    <dimen name="2131165239">16.0dip</dimen>
+    <dimen name="2131165240">80.0dip</dimen>
+    <dimen name="2131165241">64.0dip</dimen>
+    <dimen name="2131165242">48.0dip</dimen>
+    <item type="dimen" name="2131165243">@dimen/2131165192</item>
+    <dimen name="2131165244">296.0dip</dimen>
+    <dimen name="2131165245">4.0dip</dimen>
+    <dimen name="2131165246">48.0dip</dimen>
+    <dimen name="2131165247">320.0dip</dimen>
+    <dimen name="2131165248">2.0dip</dimen>
+    <dimen name="2131165249">2.0dip</dimen>
+    <dimen name="2131165250">20.0dip</dimen>
+    <dimen name="2131165251">48.0dip</dimen>
+    <dimen name="2131165252">36.0dip</dimen>
+    <dimen name="2131165253">16.0dip</dimen>
+    <dimen name="2131165254">0.0px</dimen>
+    <dimen name="2131165255">14.0sp</dimen>
+    <dimen name="2131165256">14.0sp</dimen>
+    <dimen name="2131165257">14.0sp</dimen>
+    <dimen name="2131165258">12.0sp</dimen>
+    <dimen name="2131165259">34.0sp</dimen>
+    <dimen name="2131165260">45.0sp</dimen>
+    <dimen name="2131165261">56.0sp</dimen>
+    <dimen name="2131165262">112.0sp</dimen>
+    <dimen name="2131165263">24.0sp</dimen>
+    <dimen name="2131165264">22.0sp</dimen>
+    <dimen name="2131165265">18.0sp</dimen>
+    <dimen name="2131165266">14.0sp</dimen>
+    <dimen name="2131165267">16.0sp</dimen>
+    <dimen name="2131165268">14.0sp</dimen>
+    <dimen name="2131165269">16.0sp</dimen>
+    <dimen name="2131165270">16.0dip</dimen>
+    <dimen name="2131165271">20.0sp</dimen>
+    <dimen name="2131165272">20.0dip</dimen>
+    <dimen name="2131165273">17.0dip</dimen>
+    <dimen name="2131165274">45.0dip</dimen>
+    <dimen name="2131165275">156.0dip</dimen>
+    <dimen name="2131165276">13.5dip</dimen>
+    <dimen name="2131165277">37.0dip</dimen>
+    <dimen name="2131165278">27.0dip</dimen>
+    <dimen name="2131165279">14.0dip</dimen>
+    <dimen name="2131165280">128.0dip</dimen>
+    <dimen name="2131165281">52.0dip</dimen>
+    <dimen name="2131165282">34.0dip</dimen>
+    <dimen name="2131165283">40.0dip</dimen>
+    <dimen name="2131165284">130.0dip</dimen>
+    <dimen name="2131165285">59.0dip</dimen>
+    <dimen name="2131165286">16.0dip</dimen>
+    <dimen name="2131165287">40.0dip</dimen>
+    <dimen name="2131165288">12.0sp</dimen>
+    <dimen name="2131165289">8.0dip</dimen>
+    <dimen name="2131165290">8.0dip</dimen>
+    <dimen name="2131165291">12.0dip</dimen>
+    <dimen name="2131165292">16.0sp</dimen>
+    <dimen name="2131165293">10.0dip</dimen>
+    <dimen name="2131165294">68.0dip</dimen>
+    <dimen name="2131165295">1.0dip</dimen>
+    <dimen name="2131165296">10.0dip</dimen>
+    <dimen name="2131165297">12.0dip</dimen>
+    <dimen name="2131165298">2.0dip</dimen>
+    <dimen name="2131165299">3.0dip</dimen>
+    <dimen name="2131165300">4.0dip</dimen>
+    <dimen name="2131165301">6.0dip</dimen>
+    <dimen name="2131165302">8.0dip</dimen>
+    <dimen name="2131165303">500.0dip</dimen>
+    <dimen name="2131165304">20.0dip</dimen>
+    <dimen name="2131165305">60.0dip</dimen>
+    <item type="dimen" name="2131165306">@dimen/2131165364</item>
+    <item type="dimen" name="2131165307">@dimen/2131165365</item>
+    <dimen name="2131165308">42.0dip</dimen>
+    <dimen name="2131165309">35.0dip</dimen>
+    <dimen name="2131165310">393.0dip</dimen>
+    <dimen name="2131165311">34.0dip</dimen>
+    <dimen name="2131165312">30.0dip</dimen>
+    <dimen name="2131165313">252.0dip</dimen>
+    <dimen name="2131165314">1.0dip</dimen>
+    <dimen name="2131165315">2.0dip</dimen>
+    <dimen name="2131165316">2.0dip</dimen>
+    <dimen name="2131165317">10.0dip</dimen>
+    <dimen name="2131165318">19.0dip</dimen>
+    <dimen name="2131165319">10.0dip</dimen>
+    <dimen name="2131165320">26.0dip</dimen>
+    <dimen name="2131165321">28.0dip</dimen>
+    <dimen name="2131165322">30.0dip</dimen>
+    <dimen name="2131165323">32.0dip</dimen>
+    <dimen name="2131165324">36.0dip</dimen>
+    <dimen name="2131165325">50.0dip</dimen>
+    <dimen name="2131165326">80.0dip</dimen>
+    <dimen name="2131165327">96.0dip</dimen>
+    <dimen name="2131165328">16.0dip</dimen>
+    <dimen name="2131165329">18.0dip</dimen>
+    <dimen name="2131165330">20.0dip</dimen>
+    <dimen name="2131165331">22.0dip</dimen>
+    <dimen name="2131165332">24.0dip</dimen>
+    <dimen name="2131165333">8.0dip</dimen>
+    <dimen name="2131165334">14.0dip</dimen>
+    <dimen name="2131165335">2.0dip</dimen>
+    <dimen name="2131165336">30.0dip</dimen>
+    <dimen name="2131165337">36.0dip</dimen>
+    <dimen name="2131165338">25.0dip</dimen>
+    <dimen name="2131165339">64.0dip</dimen>
+    <dimen name="2131165340">31.0dip</dimen>
+    <dimen name="2131165341">38.0dip</dimen>
+    <dimen name="2131165342">4.0dip</dimen>
+    <dimen name="2131165343">6.0dip</dimen>
+    <dimen name="2131165344">8.0dip</dimen>
+    <dimen name="2131165345">4.0dip</dimen>
+    <dimen name="2131165346">2.0dip</dimen>
+    <dimen name="2131165347">320.0dip</dimen>
+    <dimen name="2131165348">320.0dip</dimen>
+    <dimen name="2131165349">1.0dip</dimen>
+    <dimen name="2131165350">10.0dip</dimen>
+    <dimen name="2131165351">12.0dip</dimen>
+    <dimen name="2131165352">16.0dip</dimen>
+    <dimen name="2131165353">2.0dip</dimen>
+    <dimen name="2131165354">3.0dip</dimen>
+    <dimen name="2131165355">4.0dip</dimen>
+    <dimen name="2131165356">6.0dip</dimen>
+    <dimen name="2131165357">63.0dip</dimen>
+    <dimen name="2131165358">7.0dip</dimen>
+    <dimen name="2131165359">7.5dip</dimen>
+    <dimen name="2131165360">8.0dip</dimen>
+    <dimen name="2131165361">12.0dip</dimen>
+    <dimen name="2131165362">8.0dip</dimen>
+    <dimen name="2131165363">24.0dip</dimen>
+    <dimen name="2131165364">4.0dip</dimen>
+    <dimen name="2131165365">2.0dip</dimen>
+    <dimen name="2131165366">183.0dip</dimen>
+    <dimen name="2131165367">18.0dip</dimen>
+    <dimen name="2131165368">200.0dip</dimen>
+    <dimen name="2131165369">36.0dip</dimen>
+    <dimen name="2131165370">13.0dip</dimen>
+    <dimen name="2131165371">17.0dip</dimen>
+    <dimen name="2131165372">70.0dip</dimen>
+    <dimen name="2131165373">28.0dip</dimen>
+    <dimen name="2131165374">40.0dip</dimen>
+    <dimen name="2131165375">5.0dip</dimen>
+    <dimen name="2131165377">44.0dip</dimen>
+    <dimen name="2131165378">32.0dip</dimen>
+    <dimen name="2131165379">4.0dip</dimen>
+    <dimen name="2131165380">0.0dip</dimen>
+    <dimen name="2131165381">50.0dip</dimen>
+    <dimen name="2131165382">0.0dip</dimen>
+    <dimen name="2131165383">34.0dip</dimen>
+    <dimen name="2131165386">10.0dip</dimen>
+    <dimen name="2131165387">50.0dip</dimen>
+    <dimen name="2131165388">20.0dip</dimen>
+    <dimen name="2131165389">8.0dip</dimen>
+    <dimen name="2131165390">4.0dip</dimen>
+    <dimen name="2131165391">5.0dip</dimen>
+    <dimen name="2131165392">14.0sp</dimen>
+    <dimen name="2131165393">9.0dip</dimen>
+    <dimen name="2131165394">4.0dip</dimen>
+    <dimen name="2131165395">168.0dip</dimen>
+    <dimen name="2131165396">96.0dip</dimen>
+    <dimen name="2131165397">14.0sp</dimen>
+    <dimen name="2131165398">8.0dip</dimen>
+    <dimen name="2131165399">56.0dip</dimen>
+    <dimen name="2131165400">24.0dip</dimen>
+    <dimen name="2131165401">96.0dip</dimen>
+    <dimen name="2131165402">56.0dip</dimen>
+    <dimen name="2131165403">10.0dip</dimen>
+    <dimen name="2131165404">8.0dip</dimen>
+    <dimen name="2131165405">1.0dip</dimen>
+    <dimen name="2131165406">12.0sp</dimen>
+    <dimen name="2131165407">8.0dip</dimen>
+    <dimen name="2131165408">16.0dip</dimen>
+    <dimen name="2131165409">64.0dip</dimen>
+    <dimen name="2131165410">0.5dip</dimen>
+    <dimen name="2131165411">6.0dip</dimen>
+    <dimen name="2131165412">24.0dip</dimen>
+    <dimen name="2131165413">40.0dip</dimen>
+    <dimen name="2131165414">56.0dip</dimen>
+    <dimen name="2131165415">6.0dip</dimen>
+    <dimen name="2131165416">6.0dip</dimen>
+    <dimen name="2131165417">16.0dip</dimen>
+    <dimen name="2131165418">32.0dip</dimen>
+    <dimen name="2131165419">24.0dip</dimen>
+    <dimen name="2131165420">16.0dip</dimen>
+    <dimen name="2131165421">32.0dip</dimen>
+    <dimen name="2131165422">4.0dip</dimen>
+    <dimen name="2131165423">280.0dip</dimen>
+    <dimen name="2131165424">8.0dip</dimen>
+    <dimen name="2131165425">8.0dip</dimen>
+    <dimen name="2131165426">128.0dip</dimen>
+    <item type="dimen" name="2131165427">1.0</item>
+    <dimen name="2131165428">0.0dip</dimen>
+    <dimen name="2131165429">6.0dip</dimen>
+    <dimen name="2131165430">0.0dip</dimen>
+    <dimen name="2131165431">-1.0px</dimen>
+    <dimen name="2131165432">-1.0px</dimen>
+    <dimen name="2131165433">12.0dip</dimen>
+    <dimen name="2131165434">14.0dip</dimen>
+    <dimen name="2131165435">16.0dip</dimen>
+    <dimen name="2131165436">14.0sp</dimen>
+    <dimen name="2131165437">264.0dip</dimen>
+    <dimen name="2131165438">72.0dip</dimen>
+    <dimen name="2131165439">14.0sp</dimen>
+    <dimen name="2131165440">12.0sp</dimen>
+    <dimen name="2131165441">5.0dip</dimen>
+    <dimen name="2131165442">12.0dip</dimen>
+    <dimen name="2131165443">130.0dip</dimen>
+    <dimen name="2131165444">50.0dip</dimen>
+    <dimen name="2131165445">110.0dip</dimen>
+    <dimen name="2131165446">90.0dip</dimen>
+    <dimen name="2131165447">17.0dip</dimen>
+    <item type="dimen" name="2131165448">0.3</item>
+    <item type="dimen" name="2131165449">0.26</item>
+    <dimen name="2131165450">1.0dip</dimen>
+    <dimen name="2131165451">2.0dip</dimen>
+    <dimen name="2131165452">1.0dip</dimen>
+    <dimen name="2131165453">140.0dip</dimen>
+    <dimen name="2131165454">48.0dip</dimen>
+    <dimen name="2131165455">38.0dip</dimen>
+    <dimen name="2131165456">60.0dip</dimen>
+    <dimen name="2131165457">32.0dip</dimen>
+    <dimen name="2131165458">64.0dip</dimen>
+    <dimen name="2131165459">12.0dip</dimen>
+    <dimen name="2131165460">4.0dip</dimen>
+    <dimen name="2131165461">14.0sp</dimen>
+    <dimen name="2131165462">5.0dip</dimen>
+    <dimen name="2131165463">2.0dip</dimen>
+    <dimen name="2131165464">18.0dip</dimen>
+    <dimen name="2131165465">52.0dip</dimen>
+    <dimen name="2131165466">9.0dip</dimen>
+    <dimen name="2131165467">52.0dip</dimen>
+    <dimen name="2131165468">71.0dip</dimen>
+    <dimen name="2131165469">150.0dip</dimen>
+    <dimen name="2131165470">52.0dip</dimen>
+    <dimen name="2131165471">24.0dip</dimen>
+    <dimen name="2131165472">14.0sp</dimen>
+    <dimen name="2131165473">8.0dip</dimen>
+    <dimen name="2131165474">12.0sp</dimen>
+    <dimen name="2131165475">24.0dip</dimen>
+    <dimen name="2131165476">48.0dip</dimen>
+    <dimen name="2131165477">2.0dip</dimen>
+    <dimen name="2131165478">12.0dip</dimen>
+    <dimen name="2131165479">12.0dip</dimen>
+    <dimen name="2131165480">48.0dip</dimen>
+    <dimen name="2131165481">60.0dip</dimen>
+    <dimen name="2131165482">10.0dip</dimen>
+    <dimen name="2131165483">10.0dip</dimen>
+    <dimen name="2131165484">24.0dip</dimen>
+    <dimen name="2131165485">4.0dip</dimen>
+    <dimen name="2131165486">2.0dip</dimen>
+    <dimen name="2131165487">14.0dip</dimen>
+    <dimen name="2131165488">10.0dip</dimen>
+    <dimen name="2131165489">48.0dip</dimen>
+    <dimen name="2131165490">52.0dip</dimen>
+    <dimen name="2131165491">48.0dip</dimen>
+    <dimen name="2131165492">28.0dip</dimen>
+    <dimen name="2131165493">16.0dip</dimen>
+    <dimen name="2131165494">8.0dip</dimen>
+    <dimen name="2131165495">0.0dip</dimen>
+    <dimen name="2131165496">50.0dip</dimen>
+    <dimen name="2131165497">64.0dip</dimen>
+    <dimen name="2131165498">163.0dip</dimen>
+    <item type="dimen" name="2131165499">0.26</item>
+    <item type="dimen" name="2131165500">0.2</item>
+    <item type="dimen" name="2131165501">0.12</item>
+    <item type="dimen" name="2131165502">0.5</item>
+    <item type="dimen" name="2131165503">0.38</item>
+    <item type="dimen" name="2131165504">0.7</item>
+    <item type="dimen" name="2131165505">0.54</item>
+    <dimen name="2131165506">24.0dip</dimen>
+    <dimen name="2131165507">40.0dip</dimen>
+    <dimen name="2131165508">50.0dip</dimen>
+    <dimen name="2131165509">180.0dip</dimen>
+    <dimen name="2131165510">155.0dip</dimen>
+    <dimen name="2131165511">120.0dip</dimen>
+    <dimen name="2131165512">132.0dip</dimen>
+    <dimen name="2131165513">356.0dip</dimen>
+    <dimen name="2131165514">100.0dip</dimen>
+    <dimen name="2131165515">212.0dip</dimen>
+    <dimen name="2131165516">5.0dip</dimen>
+    <dimen name="2131165517">10.0dip</dimen>
+    <dimen name="2131165518">50.0dip</dimen>
+    <dimen name="2131165519">240.0dip</dimen>
+    <dimen name="2131165520">60.0dip</dimen>
+    <dimen name="2131165521">20.0dip</dimen>
+    <dimen name="2131165522">800.0dip</dimen>
+    <dimen name="2131165523">120.0dip</dimen>
+    <dimen name="2131165524">156.0dip</dimen>
+    <dimen name="2131165525">52.0dip</dimen>
+    <dimen name="2131165526">191.0dip</dimen>
+    <dimen name="2131165527">38.0dip</dimen>
+    <dimen name="2131165528">80.0dip</dimen>
+    <dimen name="2131165529">3.0dip</dimen>
+    <dimen name="2131165530">4.0dip</dimen>
+    <dimen name="2131165531">5.0dip</dimen>
+    <dimen name="2131165532">6.0dip</dimen>
+    <dimen name="2131165533">12.0dip</dimen>
+    <dimen name="2131165534">14.0dip</dimen>
+    <dimen name="2131165535">40.0dip</dimen>
+    <dimen name="2131165536">28.0dip</dimen>
+    <dimen name="2131165537">14.0dip</dimen>
+    <dimen name="2131165538">14.0dip</dimen>
+    <dimen name="2131165539">28.0dip</dimen>
+    <item type="dimen" name="2131165540">@dimen/2131165853</item>
+    <dimen name="2131165541">16.0dip</dimen>
+    <dimen name="2131165542">24.0dip</dimen>
+    <dimen name="2131165543">16.0dip</dimen>
+    <dimen name="2131165544">16.0dip</dimen>
+    <dimen name="2131165545">16.0dip</dimen>
+    <dimen name="2131165546">96.0dip</dimen>
+    <dimen name="2131165547">112.0dip</dimen>
+    <dimen name="2131165548">112.0dip</dimen>
+    <item type="dimen" name="2131165549">@dimen/2131165786</item>
+    <item type="dimen" name="2131165550">@dimen/2131165783</item>
+    <item type="dimen" name="2131165551">@dimen/2131165784</item>
+    <dimen name="2131165552">1.5dip</dimen>
+    <dimen name="2131165553">6.0dip</dimen>
+    <item type="dimen" name="2131165554">@dimen/2131165628</item>
+    <dimen name="2131165555">1.5dip</dimen>
+    <dimen name="2131165556">3.0dip</dimen>
+    <dimen name="2131165557">12.0dip</dimen>
+    <item type="dimen" name="2131165558">@dimen/2131165627</item>
+    <dimen name="2131165559">4.0dip</dimen>
+    <item type="dimen" name="2131165560">@dimen/2131165681</item>
+    <dimen name="2131165561">4.0dip</dimen>
+    <item type="dimen" name="2131165562">@dimen/2131165682</item>
+    <dimen name="2131165563">16.0dip</dimen>
+    <dimen name="2131165564">12.0dip</dimen>
+    <item type="dimen" name="2131165565">@dimen/2131165684</item>
+    <dimen name="2131165566">20.0dip</dimen>
+    <item type="dimen" name="2131165567">@dimen/2131165851</item>
+    <item type="dimen" name="2131165568">@dimen/2131165851</item>
+    <dimen name="2131165569">6.0dip</dimen>
+    <dimen name="2131165570">4.0dip</dimen>
+    <dimen name="2131165571">12.0dip</dimen>
+    <dimen name="2131165572">16.0dip</dimen>
+    <item type="dimen" name="2131165573">@dimen/2131165630</item>
+    <dimen name="2131165574">4.0dip</dimen>
+    <dimen name="2131165575">64.0dip</dimen>
+    <dimen name="2131165576">8.0dip</dimen>
+    <dimen name="2131165577">0.0dip</dimen>
+    <dimen name="2131165578">0.0dip</dimen>
+    <item type="dimen" name="2131165579">@dimen/2131165634</item>
+    <dimen name="2131165580">0.0dip</dimen>
+    <dimen name="2131165581">16.0dip</dimen>
+    <dimen name="2131165582">24.0dip</dimen>
+    <dimen name="2131165583">10.0dip</dimen>
+    <dimen name="2131165584">20.0dip</dimen>
+    <dimen name="2131165585">0.0dip</dimen>
+    <dimen name="2131165586">20.0dip</dimen>
+    <dimen name="2131165587">4.0dip</dimen>
+    <dimen name="2131165588">320.0dip</dimen>
+    <dimen name="2131165589">6.0dip</dimen>
+    <dimen name="2131165590">24.0dip</dimen>
+    <dimen name="2131165591">24.0dip</dimen>
+    <dimen name="2131165592">6.0dip</dimen>
+    <dimen name="2131165593">1.0dip</dimen>
+    <dimen name="2131165594">12.0dip</dimen>
+    <dimen name="2131165595">16.0dip</dimen>
+    <dimen name="2131165596">12.0dip</dimen>
+    <dimen name="2131165597">12.0dip</dimen>
+    <dimen name="2131165598">0.0dip</dimen>
+    <dimen name="2131165599">1.0dip</dimen>
+    <dimen name="2131165600">0.0dip</dimen>
+    <dimen name="2131165601">6.0dip</dimen>
+    <dimen name="2131165602">0.0dip</dimen>
+    <dimen name="2131165603">7.0dip</dimen>
+    <item type="dimen" name="2131165604">@dimen/2131165636</item>
+    <dimen name="2131165605">2.0dip</dimen>
+    <item type="dimen" name="2131165606">@dimen/2131165850</item>
+    <dimen name="2131165607">1.0dip</dimen>
+    <dimen name="2131165608">1.0dip</dimen>
+    <dimen name="2131165609">2.0dip</dimen>
+    <dimen name="2131165610">10.0dip</dimen>
+    <dimen name="2131165611">1.0dip</dimen>
+    <dimen name="2131165612">28.0dip</dimen>
+    <dimen name="2131165613">56.0dip</dimen>
+    <dimen name="2131165614">40.0dip</dimen>
+    <dimen name="2131165615">1.0dip</dimen>
+    <dimen name="2131165616">8.0dip</dimen>
+    <dimen name="2131165617">-1.0dip</dimen>
+    <dimen name="2131165618">7.0dip</dimen>
+    <dimen name="2131165619">1.0dip</dimen>
+    <dimen name="2131165620">2.0dip</dimen>
+    <dimen name="2131165621">18.0dip</dimen>
+    <dimen name="2131165622">32.0dip</dimen>
+    <item type="dimen" name="2131165623">@dimen/2131165851</item>
+    <item type="dimen" name="2131165624">@dimen/2131165850</item>
+    <dimen name="2131165625">1.0dip</dimen>
+    <dimen name="2131165626">18.0dip</dimen>
+    <dimen name="2131165627">16.0dip</dimen>
+    <dimen name="2131165628">6.0dip</dimen>
+    <item type="dimen" name="2131165629">@dimen/2131165852</item>
+    <dimen name="2131165630">80.0dip</dimen>
+    <item type="dimen" name="2131165631">0.38</item>
+    <dimen name="2131165632">4.0dip</dimen>
+    <dimen name="2131165633">1.0dip</dimen>
+    <item type="dimen" name="2131165634">@dimen/2131165851</item>
+    <item type="dimen" name="2131165635">@dimen/2131165850</item>
+    <item type="dimen" name="2131165636">@dimen/2131165851</item>
+    <dimen name="2131165637">24.0dip</dimen>
+    <item type="dimen" name="2131165638">@dimen/2131165853</item>
+    <dimen name="2131165639">56.0dip</dimen>
+    <item type="dimen" name="2131165640">@dimen/2131165853</item>
+    <item type="dimen" name="2131165641">@dimen/2131165893</item>
+    <item type="dimen" name="2131165642">@dimen/2131165854</item>
+    <item type="dimen" name="2131165643">@dimen/2131165894</item>
+    <dimen name="2131165644">24.0dip</dimen>
+    <item type="dimen" name="2131165645">@dimen/2131165853</item>
+    <item type="dimen" name="2131165646">@dimen/2131165895</item>
+    <item type="dimen" name="2131165647">@dimen/2131165853</item>
+    <dimen name="2131165648">56.0dip</dimen>
+    <item type="dimen" name="2131165649">@dimen/2131165893</item>
+    <item type="dimen" name="2131165650">@dimen/2131165854</item>
+    <item type="dimen" name="2131165651">@dimen/2131165894</item>
+    <dimen name="2131165652">24.0dip</dimen>
+    <dimen name="2131165653">96.0dip</dimen>
+    <dimen name="2131165654">36.0dip</dimen>
+    <item type="dimen" name="2131165655">@dimen/2131165853</item>
+    <item type="dimen" name="2131165656">@dimen/2131165895</item>
+    <dimen name="2131165657">40.0dip</dimen>
+    <dimen name="2131165658">24.0dip</dimen>
+    <item type="dimen" name="2131165659">@dimen/2131165852</item>
+    <item type="dimen" name="2131165660">@dimen/2131165850</item>
+    <dimen name="2131165661">18.0dip</dimen>
+    <item type="dimen" name="2131165662">@dimen/2131165850</item>
+    <item type="dimen" name="2131165663">@dimen/2131165892</item>
+    <item type="dimen" name="2131165664">@dimen/2131165893</item>
+    <item type="dimen" name="2131165665">@dimen/2131165894</item>
+    <dimen name="2131165666">24.0dip</dimen>
+    <item type="dimen" name="2131165667">@dimen/2131165895</item>
+    <item type="dimen" name="2131165668">0.38</item>
+    <dimen name="2131165669">32.0dip</dimen>
+    <item type="dimen" name="2131165670">@dimen/2131165851</item>
+    <item type="dimen" name="2131165671">@dimen/2131165850</item>
+    <dimen name="2131165672">1.0dip</dimen>
+    <dimen name="2131165673">18.0dip</dimen>
+    <item type="dimen" name="2131165674">@dimen/2131165850</item>
+    <dimen name="2131165675">32.0dip</dimen>
+    <dimen name="2131165676">1.0dip</dimen>
+    <dimen name="2131165677">24.0dip</dimen>
+    <dimen name="2131165678">18.0dip</dimen>
+    <dimen name="2131165679">4.0dip</dimen>
+    <item type="dimen" name="2131165680">@dimen/2131165852</item>
+    <dimen name="2131165681">32.0dip</dimen>
+    <dimen name="2131165682">64.0dip</dimen>
+    <item type="dimen" name="2131165683">@dimen/2131165852</item>
+    <dimen name="2131165684">80.0dip</dimen>
+    <item type="dimen" name="2131165685">@dimen/2131165893</item>
+    <item type="dimen" name="2131165686">@dimen/2131165894</item>
+    <dimen name="2131165687">24.0dip</dimen>
+    <item type="dimen" name="2131165688">@dimen/2131165895</item>
+    <dimen name="2131165689">360.0dip</dimen>
+    <item type="dimen" name="2131165690">@dimen/2131165893</item>
+    <item type="dimen" name="2131165691">@dimen/2131165894</item>
+    <dimen name="2131165692">24.0dip</dimen>
+    <item type="dimen" name="2131165693">@dimen/2131165851</item>
+    <item type="dimen" name="2131165694">@dimen/2131165895</item>
+    <item type="dimen" name="2131165695">@dimen/2131165850</item>
+    <dimen name="2131165696">32.0dip</dimen>
+    <dimen name="2131165697">56.0dip</dimen>
+    <item type="dimen" name="2131165698">@dimen/2131165850</item>
+    <dimen name="2131165699">80.0dip</dimen>
+    <dimen name="2131165700">24.0dip</dimen>
+    <item type="dimen" name="2131165701">@dimen/2131165852</item>
+    <item type="dimen" name="2131165702">0.12</item>
+    <dimen name="2131165703">1.0dip</dimen>
+    <item type="dimen" name="2131165704">@dimen/2131165850</item>
+    <item type="dimen" name="2131165705">0.12</item>
+    <dimen name="2131165706">24.0dip</dimen>
+    <dimen name="2131165707">1.0dip</dimen>
+    <dimen name="2131165708">1.0dip</dimen>
+    <item type="dimen" name="2131165709">0.38</item>
+    <item type="dimen" name="2131165710">0.38</item>
+    <item type="dimen" name="2131165711">0.38</item>
+    <dimen name="2131165712">2.0dip</dimen>
+    <dimen name="2131165713">1.0dip</dimen>
+    <item type="dimen" name="2131165714">@dimen/2131165893</item>
+    <item type="dimen" name="2131165715">@dimen/2131165894</item>
+    <dimen name="2131165716">3.0dip</dimen>
+    <item type="dimen" name="2131165717">@dimen/2131165895</item>
+    <dimen name="2131165718">1.0dip</dimen>
+    <item type="dimen" name="2131165719">@dimen/2131165893</item>
+    <item type="dimen" name="2131165720">@dimen/2131165894</item>
+    <item type="dimen" name="2131165721">@dimen/2131165895</item>
+    <dimen name="2131165722">24.0dip</dimen>
+    <item type="dimen" name="2131165723">0.38</item>
+    <item type="dimen" name="2131165724">0.38</item>
+    <item type="dimen" name="2131165725">@dimen/2131165893</item>
+    <item type="dimen" name="2131165726">@dimen/2131165894</item>
+    <item type="dimen" name="2131165727">@dimen/2131165895</item>
+    <item type="dimen" name="2131165728">@dimen/2131165893</item>
+    <item type="dimen" name="2131165729">@dimen/2131165894</item>
+    <item type="dimen" name="2131165730">@dimen/2131165895</item>
+    <dimen name="2131165731">30.0dip</dimen>
+    <item type="dimen" name="2131165732">@dimen/2131165853</item>
+    <dimen name="2131165733">56.0dip</dimen>
+    <item type="dimen" name="2131165734">@dimen/2131165894</item>
+    <item type="dimen" name="2131165735">@dimen/2131165895</item>
+    <item type="dimen" name="2131165736">@dimen/2131165853</item>
+    <dimen name="2131165737">56.0dip</dimen>
+    <dimen name="2131165738">72.0dip</dimen>
+    <dimen name="2131165739">2.0dip</dimen>
+    <item type="dimen" name="2131165740">@dimen/2131165893</item>
+    <item type="dimen" name="2131165741">@dimen/2131165894</item>
+    <item type="dimen" name="2131165742">@dimen/2131165895</item>
+    <item type="dimen" name="2131165743">@dimen/2131165851</item>
+    <item type="dimen" name="2131165744">@dimen/2131165851</item>
+    <dimen name="2131165745">256.0dip</dimen>
+    <item type="dimen" name="2131165746">@dimen/2131165851</item>
+    <item type="dimen" name="2131165747">@dimen/2131165850</item>
+    <item type="dimen" name="2131165748">0.38</item>
+    <item type="dimen" name="2131165749">0.38</item>
+    <item type="dimen" name="2131165750">0.12</item>
+    <dimen name="2131165751">4.0dip</dimen>
+    <item type="dimen" name="2131165752">@dimen/2131165853</item>
+    <dimen name="2131165753">32.0dip</dimen>
+    <item type="dimen" name="2131165754">@dimen/2131165851</item>
+    <item type="dimen" name="2131165755">@dimen/2131165850</item>
+    <dimen name="2131165756">1.0dip</dimen>
+    <dimen name="2131165757">18.0dip</dimen>
+    <item type="dimen" name="2131165758">1.0</item>
+    <item type="dimen" name="2131165759">0.38</item>
+    <item type="dimen" name="2131165760">0.12</item>
+    <item type="dimen" name="2131165761">0.38</item>
+    <item type="dimen" name="2131165762">0.38</item>
+    <item type="dimen" name="2131165763">@dimen/2131165893</item>
+    <item type="dimen" name="2131165764">@dimen/2131165894</item>
+    <item type="dimen" name="2131165765">@dimen/2131165895</item>
+    <dimen name="2131165766">32.0dip</dimen>
+    <dimen name="2131165767">52.0dip</dimen>
+    <item type="dimen" name="2131165768">@dimen/2131165893</item>
+    <item type="dimen" name="2131165769">@dimen/2131165894</item>
+    <item type="dimen" name="2131165770">@dimen/2131165895</item>
+    <item type="dimen" name="2131165771">@dimen/2131165893</item>
+    <item type="dimen" name="2131165772">@dimen/2131165894</item>
+    <item type="dimen" name="2131165773">@dimen/2131165895</item>
+    <dimen name="2131165774">2.0dip</dimen>
+    <item type="dimen" name="2131165775">@dimen/2131165853</item>
+    <item type="dimen" name="2131165776">@dimen/2131165893</item>
+    <item type="dimen" name="2131165777">@dimen/2131165894</item>
+    <dimen name="2131165778">1.0dip</dimen>
+    <item type="dimen" name="2131165779">@dimen/2131165895</item>
+    <item type="dimen" name="2131165780">@dimen/2131165893</item>
+    <item type="dimen" name="2131165781">@dimen/2131165894</item>
+    <item type="dimen" name="2131165782">@dimen/2131165895</item>
+    <dimen name="2131165783">152.0dip</dimen>
+    <dimen name="2131165784">112.0dip</dimen>
+    <item type="dimen" name="2131165785">@dimen/2131165850</item>
+    <dimen name="2131165786">64.0dip</dimen>
+    <item type="dimen" name="2131165787">@dimen/2131165852</item>
+    <item type="dimen" name="2131165788">@dimen/2131165853</item>
+    <dimen name="2131165789">8.0dip</dimen>
+    <dimen name="2131165790">8.0dip</dimen>
+    <dimen name="2131165791">20.0dip</dimen>
+    <dimen name="2131165792">12.0dip</dimen>
+    <dimen name="2131165793">56.0dip</dimen>
+    <dimen name="2131165794">16.0dip</dimen>
+    <dimen name="2131165795">8.0dip</dimen>
+    <dimen name="2131165796">0.0dip</dimen>
+    <item type="dimen" name="2131165797">29.999996%</item>
+    <dimen name="2131165798">2.0dip</dimen>
+    <dimen name="2131165799">6.0dip</dimen>
+    <dimen name="2131165800">36.0dip</dimen>
+    <dimen name="2131165801">96.0dip</dimen>
+    <item type="dimen" name="2131165802">@dimen/2131165680</item>
+    <dimen name="2131165803">16.0dip</dimen>
+    <dimen name="2131165804">28.0dip</dimen>
+    <dimen name="2131165805">12.0dip</dimen>
+    <dimen name="2131165806">0.0dip</dimen>
+    <dimen name="2131165807">12.0dip</dimen>
+    <dimen name="2131165808">12.0dip</dimen>
+    <dimen name="2131165809">0.0dip</dimen>
+    <dimen name="2131165810">4.0dip</dimen>
+    <dimen name="2131165811">28.0dip</dimen>
+    <dimen name="2131165812">28.0dip</dimen>
+    <item type="dimen" name="2131165813">@dimen/2131165699</item>
+    <item type="dimen" name="2131165814">@dimen/2131165698</item>
+    <item type="dimen" name="2131165815">@dimen/2131165700</item>
+    <item type="dimen" name="2131165816">@dimen/2131165696</item>
+    <dimen name="2131165817">4.0dip</dimen>
+    <item type="dimen" name="2131165818">@dimen/2131165697</item>
+    <dimen name="2131165819">60.0dip</dimen>
+    <dimen name="2131165820">8.0dip</dimen>
+    <dimen name="2131165821">4.0dip</dimen>
+    <item type="dimen" name="2131165822">@dimen/2131165892</item>
+    <item type="dimen" name="2131165823">@dimen/2131165893</item>
+    <item type="dimen" name="2131165824">@dimen/2131165894</item>
+    <item type="dimen" name="2131165825">@dimen/2131165895</item>
+    <item type="dimen" name="2131165826">@dimen/2131165895</item>
+    <item type="dimen" name="2131165827">@dimen/2131165732</item>
+    <item type="dimen" name="2131165828">@dimen/2131165733</item>
+    <dimen name="2131165829">16.0dip</dimen>
+    <dimen name="2131165830">16.0dip</dimen>
+    <dimen name="2131165831">1.0dip</dimen>
+    <dimen name="2131165832">4.0dip</dimen>
+    <dimen name="2131165833">16.0dip</dimen>
+    <dimen name="2131165834">16.0sp</dimen>
+    <dimen name="2131165835">1.0dip</dimen>
+    <item type="dimen" name="2131165836">@dimen/2131165736</item>
+    <item type="dimen" name="2131165837">@dimen/2131165738</item>
+    <dimen name="2131165838">16.0dip</dimen>
+    <item type="dimen" name="2131165839">@dimen/2131165746</item>
+    <item type="dimen" name="2131165840">@dimen/2131165747</item>
+    <item type="dimen" name="2131165841">@dimen/2131165745</item>
+    <item type="dimen" name="2131165842">0.08</item>
+    <item type="dimen" name="2131165843">0.12</item>
+    <item type="dimen" name="2131165844">@dimen/2131165751</item>
+    <dimen name="2131165845">2.0dip</dimen>
+    <dimen name="2131165846">24.0dip</dimen>
+    <dimen name="2131165847">40.0dip</dimen>
+    <item type="dimen" name="2131165848">1.0</item>
+    <dimen name="2131165849">8.0dip</dimen>
+    <dimen name="2131165850">0.0dip</dimen>
+    <dimen name="2131165851">1.0dip</dimen>
+    <dimen name="2131165852">3.0dip</dimen>
+    <dimen name="2131165853">6.0dip</dimen>
+    <dimen name="2131165854">8.0dip</dimen>
+    <dimen name="2131165855">12.0dip</dimen>
+    <item type="dimen" name="2131165856">0.3</item>
+    <item type="dimen" name="2131165857">0.8</item>
+    <item type="dimen" name="2131165858">0.0</item>
+    <item type="dimen" name="2131165859">0.2</item>
+    <item type="dimen" name="2131165860">0.1</item>
+    <item type="dimen" name="2131165861">0.1</item>
+    <item type="dimen" name="2131165862">0.7</item>
+    <item type="dimen" name="2131165863">1.0</item>
+    <item type="dimen" name="2131165864">0.4</item>
+    <item type="dimen" name="2131165865">1.0</item>
+    <item type="dimen" name="2131165866">0.0</item>
+    <item type="dimen" name="2131165867">1.0</item>
+    <item type="dimen" name="2131165868">0.4</item>
+    <item type="dimen" name="2131165869">0.2</item>
+    <item type="dimen" name="2131165870">0.0</item>
+    <item type="dimen" name="2131165871">1.0</item>
+    <item type="dimen" name="2131165872">0.0</item>
+    <item type="dimen" name="2131165873">0.2</item>
+    <item type="dimen" name="2131165874">0.0</item>
+    <item type="dimen" name="2131165875">1.0</item>
+    <item type="dimen" name="2131165876">0.0</item>
+    <item type="dimen" name="2131165877">1.0</item>
+    <item type="dimen" name="2131165878">0.0</item>
+    <item type="dimen" name="2131165879">1.0</item>
+    <item type="dimen" name="2131165880">0.3</item>
+    <item type="dimen" name="2131165881">1.0</item>
+    <item type="dimen" name="2131165882">0.0</item>
+    <item type="dimen" name="2131165883">1.0</item>
+    <item type="dimen" name="2131165884">0.2</item>
+    <item type="dimen" name="2131165885">0.0</item>
+    <item type="dimen" name="2131165886">0.0</item>
+    <item type="dimen" name="2131165887">1.0</item>
+    <item type="dimen" name="2131165888">0.0</item>
+    <item type="dimen" name="2131165889">0.0</item>
+    <item type="dimen" name="2131165890">0.0</item>
+    <item type="dimen" name="2131165891">1.0</item>
+    <item type="dimen" name="2131165892">0.32</item>
+    <item type="dimen" name="2131165893">0.24</item>
+    <item type="dimen" name="2131165894">0.16</item>
+    <item type="dimen" name="2131165895">0.24</item>
+    <dimen name="2131165896">2.0dip</dimen>
+    <item type="dimen" name="2131165897">@dimen/2131165775</item>
+    <dimen name="2131165898">20.0dip</dimen>
+    <dimen name="2131165899">390.0dip</dimen>
+    <dimen name="2131165900">1.0dip</dimen>
+    <dimen name="2131165901">10.0dip</dimen>
+    <dimen name="2131165902">100.0dip</dimen>
+    <dimen name="2131165903">104.0dip</dimen>
+    <dimen name="2131165904">106.0dip</dimen>
+    <dimen name="2131165905">107.0dip</dimen>
+    <dimen name="2131165906">11.0dip</dimen>
+    <dimen name="2131165907">110.0dip</dimen>
+    <dimen name="2131165908">12.0dip</dimen>
+    <dimen name="2131165909">120.0dip</dimen>
+    <dimen name="2131165910">13.0dip</dimen>
+    <dimen name="2131165911">132.0dip</dimen>
+    <dimen name="2131165912">14.0dip</dimen>
+    <dimen name="2131165913">15.0dip</dimen>
+    <dimen name="2131165914">152.0dip</dimen>
+    <dimen name="2131165915">16.0dip</dimen>
+    <dimen name="2131165916">160.0dip</dimen>
+    <dimen name="2131165917">168.0dip</dimen>
+    <dimen name="2131165918">17.0dip</dimen>
+    <dimen name="2131165919">173.0dip</dimen>
+    <dimen name="2131165920">18.0dip</dimen>
+    <dimen name="2131165921">180.0dip</dimen>
+    <dimen name="2131165922">184.0dip</dimen>
+    <dimen name="2131165923">19.0dip</dimen>
+    <dimen name="2131165924">196.0dip</dimen>
+    <dimen name="2131165925">2.0dip</dimen>
+    <dimen name="2131165926">20.0dip</dimen>
+    <dimen name="2131165927">200.0dip</dimen>
+    <dimen name="2131165928">21.0dip</dimen>
+    <dimen name="2131165929">22.0dip</dimen>
+    <dimen name="2131165930">23.0dip</dimen>
+    <dimen name="2131165931">231.0dip</dimen>
+    <dimen name="2131165932">24.0dip</dimen>
+    <dimen name="2131165933">240.0dip</dimen>
+    <dimen name="2131165934">25.0dip</dimen>
+    <dimen name="2131165935">250.0dip</dimen>
+    <dimen name="2131165936">26.0dip</dimen>
+    <dimen name="2131165937">27.0dip</dimen>
+    <dimen name="2131165938">28.0dip</dimen>
+    <dimen name="2131165939">29.0dip</dimen>
+    <dimen name="2131165940">3.0dip</dimen>
+    <dimen name="2131165941">30.0dip</dimen>
+    <dimen name="2131165942">300.0dip</dimen>
+    <dimen name="2131165943">31.0dip</dimen>
+    <dimen name="2131165944">32.0dip</dimen>
+    <dimen name="2131165945">33.0dip</dimen>
+    <dimen name="2131165946">34.0dip</dimen>
+    <dimen name="2131165947">35.0dip</dimen>
+    <dimen name="2131165948">350.0dip</dimen>
+    <dimen name="2131165949">36.0dip</dimen>
+    <dimen name="2131165950">36.0px</dimen>
+    <dimen name="2131165951">37.0dip</dimen>
+    <dimen name="2131165952">38.0dip</dimen>
+    <dimen name="2131165953">39.0dip</dimen>
+    <dimen name="2131165954">4.0dip</dimen>
+    <dimen name="2131165955">40.0dip</dimen>
+    <dimen name="2131165956">400.0dip</dimen>
+    <dimen name="2131165957">42.0dip</dimen>
+    <dimen name="2131165958">43.0dip</dimen>
+    <dimen name="2131165959">45.0dip</dimen>
+    <dimen name="2131165960">450.0dip</dimen>
+    <dimen name="2131165961">46.0dip</dimen>
+    <dimen name="2131165962">47.0dip</dimen>
+    <dimen name="2131165963">48.0dip</dimen>
+    <dimen name="2131165964">5.0dip</dimen>
+    <dimen name="2131165965">50.0dip</dimen>
+    <dimen name="2131165966">512.0dip</dimen>
+    <dimen name="2131165967">54.0dip</dimen>
+    <dimen name="2131165968">55.0dip</dimen>
+    <dimen name="2131165969">55.0px</dimen>
+    <dimen name="2131165970">57.0dip</dimen>
+    <dimen name="2131165971">58.0dip</dimen>
+    <dimen name="2131165972">6.0dip</dimen>
+    <dimen name="2131165973">60.0dip</dimen>
+    <dimen name="2131165974">61.0dip</dimen>
+    <dimen name="2131165975">64.0dip</dimen>
+    <dimen name="2131165976">65.0dip</dimen>
+    <dimen name="2131165977">66.0dip</dimen>
+    <dimen name="2131165978">67.0dip</dimen>
+    <dimen name="2131165979">68.0dip</dimen>
+    <dimen name="2131165980">7.0dip</dimen>
+    <dimen name="2131165981">70.0dip</dimen>
+    <dimen name="2131165982">73.0dip</dimen>
+    <dimen name="2131165983">74.0dip</dimen>
+    <dimen name="2131165984">76.0dip</dimen>
+    <dimen name="2131165985">8.0dip</dimen>
+    <dimen name="2131165986">80.0dip</dimen>
+    <dimen name="2131165987">82.0dip</dimen>
+    <dimen name="2131165988">9.0dip</dimen>
+    <dimen name="2131165989">90.0dip</dimen>
+    <dimen name="2131165990">95.0dip</dimen>
+    <dimen name="2131165991">0.5dip</dimen>
+    <dimen name="2131165992">-1.0dip</dimen>
+    <dimen name="2131165993">54.0dip</dimen>
+    <dimen name="2131165994">640.0dip</dimen>
+    <dimen name="2131165995">80.0dip</dimen>
+    <dimen name="2131165996">24.0dip</dimen>
+    <dimen name="2131165997">96.0dip</dimen>
+    <dimen name="2131165998">44.0dip</dimen>
+    <dimen name="2131165999">4.0dip</dimen>
+    <dimen name="2131166000">4.0dip</dimen>
+    <dimen name="2131166001">2.0dip</dimen>
+    <dimen name="2131166002">15.0sp</dimen>
+    <dimen name="2131166003">96.0dip</dimen>
+    <dimen name="2131166004">12.0dip</dimen>
+    <dimen name="2131166005">12.0dip</dimen>
+    <dimen name="2131166006">52.0dip</dimen>
+    <dimen name="2131166007">256.0dip</dimen>
+    <dimen name="2131166008">-4.0dip</dimen>
+    <dimen name="2131166009">2.0dip</dimen>
+    <dimen name="2131166010">1.0dip</dimen>
+    <item type="dimen" name="2131166011">0.38</item>
+    <item type="dimen" name="2131166012">0.12</item>
+    <item type="dimen" name="2131166013">0.87</item>
+    <item type="dimen" name="2131166014">0.6</item>
+    <dimen name="2131166015">12.0dip</dimen>
+    <dimen name="2131166016">23.0dip</dimen>
+    <dimen name="2131166017">8.0dip</dimen>
+    <dimen name="2131166018">32.0dip</dimen>
+    <dimen name="2131166019">4.0dip</dimen>
+    <dimen name="2131166020">8.0dip</dimen>
+    <dimen name="2131166021">4.0dip</dimen>
+    <dimen name="2131166022">12.0dip</dimen>
+    <dimen name="2131166023">8.0dip</dimen>
+    <dimen name="2131166024">2.0dip</dimen>
+    <dimen name="2131166025">245.0dip</dimen>
+    <dimen name="2131166026">488.0dip</dimen>
+    <dimen name="2131166027">56.0dip</dimen>
+    <dimen name="2131166028">560.0dip</dimen>
+    <dimen name="2131166029">340.0dip</dimen>
+    <dimen name="2131166030">24.0dip</dimen>
+    <dimen name="2131166031">40.0dip</dimen>
+    <dimen name="2131166032">80.0dip</dimen>
+    <dimen name="2131166033">24.0dip</dimen>
+    <dimen name="2131166034">24.0dip</dimen>
+    <dimen name="2131166035">80.0dip</dimen>
+    <dimen name="2131166036">24.0dip</dimen>
+    <dimen name="2131166037">4.0dip</dimen>
+    <dimen name="2131166038">4.0dip</dimen>
+    <dimen name="2131166039">8.0dip</dimen>
+    <dimen name="2131166040">6.0dip</dimen>
+    <dimen name="2131166041">10.0sp</dimen>
+    <dimen name="2131166042">12.0dip</dimen>
+    <dimen name="2131166043">12.0dip</dimen>
+    <dimen name="2131166044">16.0dip</dimen>
+    <dimen name="2131166045">60.0dip</dimen>
+    <dimen name="2131166046">16.0dip</dimen>
+    <dimen name="2131166047">5.0dip</dimen>
+    <dimen name="2131166048">8.0dip</dimen>
+    <dimen name="2131166049">0.0dip</dimen>
+    <dimen name="2131166050">56.0dip</dimen>
+    <dimen name="2131166051">4.0dip</dimen>
+    <dimen name="2131166052">64.0dip</dimen>
+    <dimen name="2131166053">0.0dip</dimen>
+    <dimen name="2131166054">0.0dip</dimen>
+    <dimen name="2131166055">2.0dip</dimen>
+    <dimen name="2131166056">2.0dip</dimen>
+    <dimen name="2131166057">2.0dip</dimen>
+    <dimen name="2131166058">12.0dip</dimen>
+    <dimen name="2131166059">8.0dip</dimen>
+    <dimen name="2131166060">6.0dip</dimen>
+    <item type="dimen" name="2131166061">0.07</item>
+    <dimen name="2131166062">320.0dip</dimen>
+    <dimen name="2131166063">4.0dip</dimen>
+    <dimen name="2131166064">16.0dip</dimen>
+    <dimen name="2131166065">16.0dip</dimen>
+    <dimen name="2131166066">4.0dip</dimen>
+    <dimen name="2131166067">6.0dip</dimen>
+    <dimen name="2131166068">8.0dip</dimen>
+    <dimen name="2131166069">1.0dip</dimen>
+    <dimen name="2131166070">4.0dip</dimen>
+    <dimen name="2131166071">8.0dip</dimen>
+    <dimen name="2131166072">8.0dip</dimen>
+    <dimen name="2131166073">14.0sp</dimen>
+    <dimen name="2131166074">0.0dip</dimen>
+    <dimen name="2131166075">64.0dip</dimen>
+    <dimen name="2131166076">52.0dip</dimen>
+    <dimen name="2131166077">8.0dip</dimen>
+    <dimen name="2131166078">0.0dip</dimen>
+    <dimen name="2131166079">12.0dip</dimen>
+    <dimen name="2131166080">15.0dip</dimen>
+    <dimen name="2131166081">32.0dip</dimen>
+    <dimen name="2131166082">3.0dip</dimen>
+    <dimen name="2131166083">1.0dip</dimen>
+    <dimen name="2131166084">1.0dip</dimen>
+    <dimen name="2131166085">36.0dip</dimen>
+    <dimen name="2131166086">24.0dip</dimen>
+    <dimen name="2131166087">16.0dip</dimen>
+    <dimen name="2131166088">12.0dip</dimen>
+    <dimen name="2131166089">4.0dip</dimen>
+    <dimen name="2131166090">1.0dip</dimen>
+    <dimen name="2131166091">120.0dip</dimen>
+    <dimen name="2131166092">128.0dip</dimen>
+    <dimen name="2131166093">32.0dip</dimen>
+    <dimen name="2131166094">12.0dip</dimen>
+    <dimen name="2131166095">8.0dip</dimen>
+    <dimen name="2131166096">24.0dip</dimen>
+    <dimen name="2131166097">0.0dip</dimen>
+    <dimen name="2131166098">480.0dip</dimen>
+    <dimen name="2131166099">2.0dip</dimen>
+    <dimen name="2131166100">0.0dip</dimen>
+    <dimen name="2131166101">4.0dip</dimen>
+    <dimen name="2131166102">48.0dip</dimen>
+    <dimen name="2131166103">4.0dip</dimen>
+    <dimen name="2131166104">0.0dip</dimen>
+    <dimen name="2131166105">104.0dip</dimen>
+    <dimen name="2131166106">20.0dip</dimen>
+    <dimen name="2131166107">24.0dip</dimen>
+    <dimen name="2131166108">100.0dip</dimen>
+    <dimen name="2131166109">16.0dip</dimen>
+    <dimen name="2131166110">28.0dip</dimen>
+    <dimen name="2131166111">68.0dip</dimen>
+    <dimen name="2131166112">18.0dip</dimen>
+    <dimen name="2131166113">52.0dip</dimen>
+    <dimen name="2131166114">8.0dip</dimen>
+    <dimen name="2131166115">8.0dip</dimen>
+    <dimen name="2131166116">88.0dip</dimen>
+    <dimen name="2131166117">8.0dip</dimen>
+    <dimen name="2131166118">24.0dip</dimen>
+    <dimen name="2131166119">4.0dip</dimen>
+    <dimen name="2131166120">5.0dip</dimen>
+    <dimen name="2131166121">1.0dip</dimen>
+    <dimen name="2131166122">8.0dip</dimen>
+    <dimen name="2131166123">3.0dip</dimen>
+    <dimen name="2131166124">14.0sp</dimen>
+    <dimen name="2131166125">8.0dip</dimen>
+    <dimen name="2131166126">1.0dip</dimen>
+    <dimen name="2131166127">8.0dip</dimen>
+    <dimen name="2131166128">12.0dip</dimen>
+    <dimen name="2131166129">0.0dip</dimen>
+    <dimen name="2131166130">0.0dip</dimen>
+    <dimen name="2131166131">6.0dip</dimen>
+    <dimen name="2131166132">20.0dip</dimen>
+    <dimen name="2131166133">20.0dip</dimen>
+    <dimen name="2131166134">24.0dip</dimen>
+    <dimen name="2131166135">12.0dip</dimen>
+    <dimen name="2131166136">48.0dip</dimen>
+    <dimen name="2131166137">120.0dip</dimen>
+    <dimen name="2131166138">20.0dip</dimen>
+    <dimen name="2131166139">12.0dip</dimen>
+    <dimen name="2131166140">12.0dip</dimen>
+    <dimen name="2131166141">0.0dip</dimen>
+    <dimen name="2131166142">2.0dip</dimen>
+    <dimen name="2131166143">6.0dip</dimen>
+    <dimen name="2131166144">6.0dip</dimen>
+    <dimen name="2131166145">48.0dip</dimen>
+    <dimen name="2131166146">2.0dip</dimen>
+    <dimen name="2131166147">6.0dip</dimen>
+    <item type="dimen" name="2131166148">0.48</item>
+    <item type="dimen" name="2131166149">0.48</item>
+    <item type="dimen" name="2131166150">0.16</item>
+    <item type="dimen" name="2131166151">0.48</item>
+    <item type="dimen" name="2131166152">0.24</item>
+    <item type="dimen" name="2131166153">0.24</item>
+    <item type="dimen" name="2131166154">0.08</item>
+    <item type="dimen" name="2131166155">0.24</item>
+    <dimen name="2131166156">48.0dip</dimen>
+    <dimen name="2131166157">24.0dip</dimen>
+    <dimen name="2131166158">8.0dip</dimen>
+    <dimen name="2131166159">0.0dip</dimen>
+    <dimen name="2131166160">22.0dip</dimen>
+    <dimen name="2131166161">14.0dip</dimen>
+    <dimen name="2131166162">24.0dip</dimen>
+    <dimen name="2131166163">8.0dip</dimen>
+    <dimen name="2131166164">4.0dip</dimen>
+    <dimen name="2131166165">14.0dip</dimen>
+    <dimen name="2131166166">56.0dip</dimen>
+    <dimen name="2131166167">72.0dip</dimen>
+    <dimen name="2131166168">8.0dip</dimen>
+    <dimen name="2131166169">14.0dip</dimen>
+    <dimen name="2131166170">24.0dip</dimen>
+    <dimen name="2131166171">8.0dip</dimen>
+    <dimen name="2131166172">16.0dip</dimen>
+    <dimen name="2131166173">12.0dip</dimen>
+    <dimen name="2131166174">4.0dip</dimen>
+    <dimen name="2131166175">2.0dip</dimen>
+    <dimen name="2131166176">4.0dip</dimen>
+    <dimen name="2131166177">4.0dip</dimen>
+    <dimen name="2131166178">18.0dip</dimen>
+    <dimen name="2131166179">40.0dip</dimen>
+    <dimen name="2131166180">20.0dip</dimen>
+    <dimen name="2131166181">40.0dip</dimen>
+    <dimen name="2131166182">28.0dip</dimen>
+    <dimen name="2131166183">2.5dip</dimen>
+    <dimen name="2131166184">4.0dip</dimen>
+    <dimen name="2131166185">3.0dip</dimen>
+    <dimen name="2131166186">2.0dip</dimen>
+    <dimen name="2131166187">4.0dip</dimen>
+    <dimen name="2131166188">0.0dip</dimen>
+    <dimen name="2131166189">4.0dip</dimen>
+    <dimen name="2131166190">4.0dip</dimen>
+    <dimen name="2131166191">24.0dip</dimen>
+    <dimen name="2131166192">4.0dip</dimen>
+    <dimen name="2131166193">13.0dip</dimen>
+    <dimen name="2131166194">26.0dip</dimen>
+    <dimen name="2131166195">1.0dip</dimen>
+    <dimen name="2131166196">10.0dip</dimen>
+    <dimen name="2131166197">1.0dip</dimen>
+    <dimen name="2131166198">4.0dip</dimen>
+    <dimen name="2131166199">16.0dip</dimen>
+    <dimen name="2131166200">48.0dip</dimen>
+    <item type="dimen" name="2131166201">0.5</item>
+    <dimen name="2131166202">4.0dip</dimen>
+    <item type="dimen" name="2131166203">0.8</item>
+    <dimen name="2131166204">8.0dip</dimen>
+    <dimen name="2131166205">8.0dip</dimen>
+    <dimen name="2131166206">8.0dip</dimen>
+    <dimen name="2131166207">16.0dip</dimen>
+    <dimen name="2131166208">4.0dip</dimen>
+    <dimen name="2131166209">32.0dip</dimen>
+    <item type="dimen" name="2131166210">@dimen/2131165766</item>
+    <item type="dimen" name="2131166211">@dimen/2131165767</item>
+    <dimen name="2131166212">4.0dip</dimen>
+    <dimen name="2131166213">0.0dip</dimen>
+    <dimen name="2131166214">4.0dip</dimen>
+    <item type="dimen" name="2131166215">@dimen/2131165713</item>
+    <item type="dimen" name="2131166216">@dimen/2131165712</item>
+    <dimen name="2131166217">16.0dip</dimen>
+    <dimen name="2131166218">4.0dip</dimen>
+    <dimen name="2131166219">16.0dip</dimen>
+    <dimen name="2131166220">4.0dip</dimen>
+    <dimen name="2131166221">56.0dip</dimen>
+    <dimen name="2131166222">14.0dip</dimen>
+    <dimen name="2131166223">4.0dip</dimen>
+    <dimen name="2131166224">32.0dip</dimen>
+    <dimen name="2131166225">32.0dip</dimen>
+    <dimen name="2131166226">12.0dip</dimen>
+    <dimen name="2131166227">30.0dip</dimen>
+    <dimen name="2131166228">60.0dip</dimen>
+    <dimen name="2131166229">32.0dip</dimen>
+    <dimen name="2131166230">13.0sp</dimen>
+    <dimen name="2131166231">12.0dip</dimen>
+    <dimen name="2131166232">0.0dip</dimen>
+    <dimen name="2131166233">64.0dip</dimen>
+    <dimen name="2131166234">64.0dip</dimen>
+    <dimen name="2131166235">0.0dip</dimen>
+    <dimen name="2131166236">12.0dip</dimen>
+    <dimen name="2131166237">16.0dip</dimen>
+    <dimen name="2131166238">4.0dip</dimen>
+    <dimen name="2131166239">3.0dip</dimen>
+    <dimen name="2131166240">24.0dip</dimen>
+    <dimen name="2131166241">13.0sp</dimen>
+    <dimen name="2131166242">10.0dip</dimen>
+    <dimen name="2131166243">5.0dip</dimen>
+    <dimen name="2131166244">278.0dip</dimen>
+    <dimen name="2131166245">27.0dip</dimen>
+    <dimen name="2131166246">60.0dip</dimen>
+    <dimen name="2131166247">48.0dip</dimen>
+    <dimen name="2131166248">44.0dip</dimen>
+    <dimen name="2131166249">25.0dip</dimen>
+    <dimen name="2131166250">120.0dip</dimen>
+    <dimen name="2131166251">42.0dip</dimen>
+    <dimen name="2131166252">16.0dip</dimen>
+    <dimen name="2131166253">40.0dip</dimen>
+    <dimen name="2131166254">16.0dip</dimen>
+    <dimen name="2131166255">72.0dip</dimen>
+    <dimen name="2131166256">16.0dip</dimen>
+    <dimen name="2131166257">16.0sp</dimen>
+    <dimen name="2131166258">14.0sp</dimen>
+    <dimen name="2131166259">16.0dip</dimen>
+    <dimen name="2131166260">24.0dip</dimen>
+    <dimen name="2131166261">72.0dip</dimen>
+    <dimen name="2131166262">72.0dip</dimen>
+    <dimen name="2131166263">0.0dip</dimen>
+    <dimen name="2131166264">0.0dip</dimen>
+    <dimen name="2131166265">15.0dip</dimen>
+    <dimen name="2131166266">36.0dip</dimen>
+    <dimen name="2131166267">300.0dip</dimen>
+    <dimen name="2131166268">384.0dip</dimen>
+    <dimen name="2131166269">16.0dip</dimen>
+    <dimen name="2131166270">106.0dip</dimen>
+    <dimen name="2131166271">95.0dip</dimen>
+    <dimen name="2131166272">130.0dip</dimen>
+    <dimen name="2131166273">30.0dip</dimen>
+    <dimen name="2131166274">150.0dip</dimen>
+    <dimen name="2131166275">42.0dip</dimen>
+    <dimen name="2131166276">280.0dip</dimen>
+    <dimen name="2131166277">140.0dip</dimen>
+    <dimen name="2131166278">150.0dip</dimen>
+    <dimen name="2131166279">16.0dip</dimen>
+    <dimen name="2131166280">38.0dip</dimen>
+    <dimen name="2131166281">24.0sp</dimen>
+    <dimen name="2131166282">10.0dip</dimen>
+    <dimen name="2131166283">44.0dip</dimen>
+    <dimen name="2131166284">19.0dip</dimen>
+    <dimen name="2131166285">16.0dip</dimen>
+    <dimen name="2131166286">16.0dip</dimen>
+    <dimen name="2131166287">150.0dip</dimen>
+    <dimen name="2131166288">300.0dip</dimen>
+    <dimen name="2131166289">70.0dip</dimen>
+    <dimen name="2131166290">300.0dip</dimen>
+    <dimen name="2131166291">26.0dip</dimen>
+    <dimen name="2131166292">140.0dip</dimen>
+    <dimen name="2131166293">276.0dip</dimen>
+    <dimen name="2131166294">12.0dip</dimen>
+    <item type="dimen" name="2131166295">@dimen/2131165915</item>
+    <item type="dimen" name="2131166296">@dimen/2131165915</item>
+    <item type="dimen" name="2131166297">@dimen/2131165915</item>
+    <item type="dimen" name="2131166298">@dimen/2131165915</item>
+    <dimen name="2131166299">24.0dip</dimen>
+    <dimen name="2131166300">52.0dip</dimen>
+    <dimen name="2131166301">103.0dip</dimen>
+    <dimen name="2131166302">42.0dip</dimen>
+    <dimen name="2131166303">28.0dip</dimen>
+    <dimen name="2131166304">15.0dip</dimen>
+    <dimen name="2131166305">30.0dip</dimen>
+    <dimen name="2131166306">116.0dip</dimen>
+    <dimen name="2131166307">20.0dip</dimen>
+    <dimen name="2131166308">15.0dip</dimen>
+    <dimen name="2131166309">40.0dip</dimen>
+    <dimen name="2131166310">3.0dip</dimen>
+    <dimen name="2131166311">18.0dip</dimen>
+    <dimen name="2131166312">300.0dip</dimen>
+    <item type="dimen" name="2131166313">0.05</item>
+    <dimen name="2131166314">10.0sp</dimen>
+    <dimen name="2131166315">11.0sp</dimen>
+    <dimen name="2131166316">12.0sp</dimen>
+    <dimen name="2131166317">13.0sp</dimen>
+    <dimen name="2131166318">14.0sp</dimen>
+    <dimen name="2131166319">15.0sp</dimen>
+    <dimen name="2131166320">16.0sp</dimen>
+    <dimen name="2131166321">17.0sp</dimen>
+    <dimen name="2131166322">18.0sp</dimen>
+    <dimen name="2131166323">19.0sp</dimen>
+    <dimen name="2131166324">20.0sp</dimen>
+    <dimen name="2131166325">21.0sp</dimen>
+    <dimen name="2131166326">22.0sp</dimen>
+    <dimen name="2131166327">23.0sp</dimen>
+    <dimen name="2131166328">24.0sp</dimen>
+    <dimen name="2131166329">26.0sp</dimen>
+    <dimen name="2131166330">27.0sp</dimen>
+    <dimen name="2131166331">29.0sp</dimen>
+    <dimen name="2131166332">30.0sp</dimen>
+    <dimen name="2131166333">31.0sp</dimen>
+    <dimen name="2131166334">32.0sp</dimen>
+    <dimen name="2131166335">34.0sp</dimen>
+    <dimen name="2131166336">35.0sp</dimen>
+    <dimen name="2131166337">36.0sp</dimen>
+    <dimen name="2131166338">38.0sp</dimen>
+    <dimen name="2131166339">39.0sp</dimen>
+    <dimen name="2131166340">4.0sp</dimen>
+    <dimen name="2131166341">40.0sp</dimen>
+    <dimen name="2131166342">42.0sp</dimen>
+    <dimen name="2131166343">44.0sp</dimen>
+    <dimen name="2131166344">46.0sp</dimen>
+    <dimen name="2131166345">48.0sp</dimen>
+    <dimen name="2131166346">5.0sp</dimen>
+    <dimen name="2131166347">50.0sp</dimen>
+    <dimen name="2131166348">8.0sp</dimen>
+    <dimen name="2131166349">9.0sp</dimen>
+    <dimen name="2131166350">16.0dip</dimen>
+    <dimen name="2131166351">18.0sp</dimen>
+    <dimen name="2131166352">22.0sp</dimen>
+    <dimen name="2131166353">15.0sp</dimen>
+    <dimen name="2131166354">20.0dip</dimen>
+    <dimen name="2131166355">16.0dip</dimen>
+    <dimen name="2131166356">2.0dip</dimen>
+    <dimen name="2131166357">16.0dip</dimen>
+    <dimen name="2131166358">8.0dip</dimen>
+    <dimen name="2131166359">8.0dip</dimen>
+    <dimen name="2131166360">96.0dip</dimen>
+    <dimen name="2131166361">6.5dip</dimen>
+    <dimen name="2131166362">0.0dip</dimen>
+    <dimen name="2131166363">16.0dip</dimen>
+    <dimen name="2131166364">270.0dip</dimen>
+    <dimen name="2131166365">36.0dip</dimen>
+    <dimen name="2131166366">140.0dip</dimen>
+    <dimen name="2131166367">25.0dip</dimen>
+    <dimen name="2131166368">19.0dip</dimen>
+    <dimen name="2131166369">18.0dip</dimen>
+    <dimen name="2131166370">300.0dip</dimen>
+    <dimen name="2131166371">212.0dip</dimen>
+    <dimen name="2131166372">36.0dip</dimen>
+    <dimen name="2131166373">218.0dip</dimen>
+    <dimen name="2131166374">110.0dip</dimen>
+    <dimen name="2131166375">110.0dip</dimen>
+    <dimen name="2131166376">115.0dip</dimen>
+    <dimen name="2131166377">66.0dip</dimen>
+    <dimen name="2131166378">116.0dip</dimen>
+    <dimen name="2131166379">62.0dip</dimen>
+    <dimen name="2131166380">40.0dip</dimen>
+    <dimen name="2131166381">0.0dip</dimen>
+    <dimen name="2131166382">44.0dip</dimen>
+    <dimen name="2131166383">14.0dip</dimen>
+    <dimen name="2131166384">18.0dip</dimen>
+    <dimen name="2131166385">28.0dip</dimen>
+    <dimen name="2131166386">0.0dip</dimen>
+</resources>

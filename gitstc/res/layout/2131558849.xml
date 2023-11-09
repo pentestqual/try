@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <include id="@id/2131362078" layout="@layout/2131559494" />
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131365802" 2130969523="@id/2131362078" 2130969525="0.0">
+            <LinearLayout gravity="start" orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165388">
+                <TextView id="@id/2131364915" layout_width="wrap_content" layout_height="wrap_content" text="@string/redeem_points_summary_header_title_summary" style="@style/2132083845" />
+                <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165333" text="@string/redeem_points_summary_header_body_please_double" style="@style/2132083927" />
+            </LinearLayout>
+            <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165322" text="@string/redeem_points_summary_section_title_details" layout_marginStart="20.0dip" style="@style/2132083837" />
+            <View id="@id/2131362199" layout_marginTop="@dimen/2131165333" style="@style/2132083036" />
+            <LinearLayout gravity="center" layout_width="fill_parent" layout_height="@dimen/2131165305" layout_marginStart="20.0dip" layout_marginEnd="20.0dip">
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/redeem_points_summary_left_main_points" layout_weight="1.0" style="@style/2132083927" />
+                <TextView gravity="end" id="@id/2131364751" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083885" />
+            </LinearLayout>
+            <View id="@id/2131362200" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <LinearLayout gravity="center" layout_width="fill_parent" layout_height="@dimen/2131165305" layout_marginStart="20.0dip" layout_marginEnd="20.0dip">
+                <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/redeem_points_summary_left_main_partner" layout_weight="1.0" style="@style/2132083927" />
+                <TextView gravity="end" id="@id/2131364605" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083885" />
+            </LinearLayout>
+            <View id="@id/2131362202" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+        </LinearLayout>
+        <Button id="@id/2131365802" layout_width="fill_parent" text="@string/redeem_points_summary_button_submit" 2130969494="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

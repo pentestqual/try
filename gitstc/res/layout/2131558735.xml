@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <ScrollView id="@id/2131365396" layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <ProgressBar id="@id/alacarte_progress" padding="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" />
+            <androidx.constraintlayout.widget.Group id="@id/2131362030" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="alacarte_header,alacarte_top_div,alacarte_row,alacarte_bottom_div" />
+            <androidx.constraintlayout.widget.Barrier id="@id/2131362036" layout_width="wrap_content" layout_height="wrap_content" 2130968749="2131362300" 2130969020="alacarte_progress,alacarte_bottom_div" />
+            <TextView id="@id/alacarte_header" paddingTop="15.0dip" paddingBottom="15.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/ala_cart_sawa_packages_section_title_ala_cart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969524="2131364589" style="@style/2132083837" />
+            <View id="@id/alacarte_top_div" 2130969520="2131364589" 2130969523="@id/alacarte_header" style="@style/2132083036" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/alacarte_row" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/alacarte_top_div">
+                <ImageView id="@id/2131362034" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+                <TextView id="@id/2131362035" padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" text="@string/ala_cart_sawa_packages_button_create_your" textAlignment="viewStart" 2130969501="@id/2131362034" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View id="@id/alacarte_bottom_div" 2130969520="2131364589" 2130969523="@id/alacarte_row" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131364849" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362036" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

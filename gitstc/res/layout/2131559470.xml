@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_gravity="end" id="@id/2131365871" background="@drawable/2131231945" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131166307" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView gravity="start" id="@id/2131365872" layout_width="wrap_content" layout_height="wrap_content" 2130969501="@id/2131365869" 2130969510="1.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083932" />
+    <ImageView id="@id/2131365869" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231333" layout_marginStart="@dimen/2131165334" layout_marginEnd="@dimen/2131165333" 2130969500="2131364589" 2130969519="@id/2131365872" 2130969524="2131364589" />
+    <TextView layout_gravity="bottom" id="@id/2131365873" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5.0dip" layout_marginStart="5.0dip" 2130969500="@id/2131365872" 2130969510="1.0" 2130969520="2131364589" 2130969523="@id/2131365872" style="@style/2132083829" />
+</androidx.constraintlayout.widget.ConstraintLayout>

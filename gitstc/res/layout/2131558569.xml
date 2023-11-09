@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="horizontal" background="?2130969981" padding="@dimen/2131165291" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView textSize="@dimen/2131165292" textColor="@color/2131099702" gravity="center" id="@id/2131365986" layout_width="fill_parent" layout_height="wrap_content" drawablePadding="12.0dip" />
+</LinearLayout>

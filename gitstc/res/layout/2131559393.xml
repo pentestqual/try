@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" minHeight="?android:listPreferredItemHeight" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout id="@id/2131366505" layout_width="fill_parent" layout_height="fill_parent">
+        <FrameLayout layout_width="fill_parent" layout_height="fill_parent" layout_centerInParent="true">
+            <View layout_gravity="end|center|top" id="@id/2131365138" background="#ffc80025" layout_width="0.0dip" layout_height="fill_parent" />
+            <RelativeLayout gravity="center_vertical" layout_width="fill_parent" layout_height="fill_parent">
+                <LinearLayout gravity="center" orientation="vertical" id="@id/2131362879" layout_width="wrap_content" layout_height="fill_parent" layout_centerVertical="true" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" layout_alignParentEnd="true">
+                    <ImageView id="@id/2131362882" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231315" />
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2.0dip" text="@string/device_details_wishlist_button_delete" style="@style/2132083884" />
+                </LinearLayout>
+                <loading_progress_bar.LoadingProgressBar id="@id/2131364855" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout id="@id/2131366509" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365642" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginStart="10.0dip" layout_marginEnd="10.0dip">
+            <FrameLayout id="@id/2131366073" layout_width="64.0dip" layout_height="64.0dip" 2130969520="2131364589" 2130969524="2131364589">
+                <ImageView id="@id/2131366074" layout_width="fill_parent" layout_height="fill_parent" src="@drawable/2131231613" />
+                <ImageView layout_gravity="center" id="@id/2131364737" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231079" 2130970356="#e6ffffff" />
+            </FrameLayout>
+            <TextView id="@id/2131365682" layout_width="0.0dip" layout_height="wrap_content" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" 2130969501="@id/2131361901" 2130969519="@id/2131366073" 2130969524="@id/2131366073" style="@style/2132083927" />
+            <TextView id="@id/2131362110" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4.0dip" 2130969520="@id/2131365682" 2130969523="@id/2131365682" style="@style/2132083913" />
+            <TextView id="@id/2131363286" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="4.0dip" textAlignment="textStart" 2130969501="@id/2131361901" 2130969520="@id/2131362110" 2130969523="@id/2131362110" style="@style/2132083913" />
+            <FrameLayout id="@id/2131361901" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589">
+                <Button id="@id/2131361897" paddingTop="7.0dip" paddingBottom="7.0dip" layout_width="wrap_content" layout_height="42.0dip" text="@string/sada_details_manage_page_button_activate" paddingStart="11.0dip" paddingEnd="11.0dip" layout_marginEnd="4.0dip" 2130968703="@color/2131099787" style="@style/2132083884" />
+                <TextView id="@id/2131361960" background="@drawable/2131230950" paddingTop="6.0dip" paddingBottom="6.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/sada_details_manage_page_button_active" paddingStart="10.0dip" paddingEnd="10.0dip" layout_marginEnd="4.0dip" style="@style/2132083913" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</FrameLayout>

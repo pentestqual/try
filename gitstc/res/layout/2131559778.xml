@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center_vertical" orientation="vertical" background="#ffffffff" layout_width="fill_parent" layout_height="wrap_content" divider="@drawable/2131231059"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView textSize="18.0dip" textColor="@color/2131099648" gravity="center_vertical" id="@id/2131365825" layout_width="wrap_content" layout_height="fill_parent" layout_margin="@dimen/2131165388" text="@string/home_details_subscriptions_sawa_button_subscription_renewal" />
+    <View layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+    <TextView textSize="18.0dip" textColor="@color/2131099648" gravity="center_vertical" id="@id/2131366386" layout_width="wrap_content" layout_height="fill_parent" layout_margin="@dimen/2131165388" text="@string/home_details_subscriptions_sawa_button_unsubscribe" />
+</LinearLayout>

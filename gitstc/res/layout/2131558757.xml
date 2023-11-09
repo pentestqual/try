@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar id="@id/2131365975" layout_width="fill_parent" layout_height="wrap_content" 2130969780="@drawable/2131231200" 2130970359="@string/transfer_ownership_delivery_summary_button_terms_and" 2130970360="true" 2130970370="@style/2132083941" 2130970371="@color/2131099731" />
+    <ScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <com.google.android.material.textview.MaterialTextView id="@id/2131365970" padding="16.0dip" layout_width="fill_parent" layout_height="wrap_content" lineSpacingExtra="4.0dip" style="@style/2132083920" />
+    </ScrollView>
+</LinearLayout>

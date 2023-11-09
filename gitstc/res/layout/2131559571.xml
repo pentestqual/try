@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131365437" background="?2130969961" layout_width="fill_parent" layout_height="fill_parent" alpha="0.0" />
+    <com.google.android.material.internal.ClippableRoundedCornerLayout id="@id/2131365436" focusable="true" focusableInTouchMode="true" visibility="gone" layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" id="@id/2131365429" layout_width="fill_parent" layout_height="fill_parent">
+            <View id="@id/2131365439" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" />
+            <FrameLayout id="@id/2131365435" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" />
+            <FrameLayout id="@id/2131365441" layout_width="fill_parent" layout_height="wrap_content">
+                <com.google.android.material.appbar.MaterialToolbar layout_gravity="end" id="@id/2131365433" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132084419" />
+                <com.google.android.material.appbar.MaterialToolbar id="@id/2131365440" clipChildren="false" layout_width="fill_parent" layout_height="wrap_content" 2130969779="@string/searchview_navigation_content_description" 2130969780="@drawable/2131231197" style="@style/2132084419">
+                    <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="fill_parent" layout_height="@dimen/2131165837">
+                        <TextView id="@id/2131365438" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="?2130969665" />
+                        <EditText id="@id/2131365434" background="@null" layout_width="0.0dip" layout_height="fill_parent" layout_weight="1.0" inputType="textNoSuggestions" imeOptions="actionSearch|flagNoExtractUi" textDirection="firstStrong" importantForAutofill="no" />
+                        <ImageButton id="@id/2131365430" background="?2130968592" padding="16.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" contentDescription="@string/searchview_clear_text_content_description" 2130970099="@drawable/2131231270" />
+                    </LinearLayout>
+                </com.google.android.material.appbar.MaterialToolbar>
+            </FrameLayout>
+            <View id="@id/2131365432" background="?2130968976" layout_width="fill_parent" layout_height="@dimen/2131165835" />
+            <com.google.android.material.internal.TouchObserverFrameLayout id="@id/2131365431" layout_width="fill_parent" layout_height="fill_parent" />
+        </LinearLayout>
+    </com.google.android.material.internal.ClippableRoundedCornerLayout>
+</merge>

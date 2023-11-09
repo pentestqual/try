@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView id="@id/2131365833" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131365827" layout_width="fill_parent" layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365022" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+            <LinearLayout orientation="vertical" id="@id/2131365306" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365025" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/home_details_subscriptions_section_title_your_plan" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131365024" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131365372" layout_width="fill_parent" layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363307" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131365653" 2130969520="2131364589" 2130969523="@id/2131365022">
+            <LinearLayout orientation="vertical" id="@id/2131363308" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131363309" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969520="2131364589" 2130969524="2131364589" 2130969563="@string/family_packages_subscription_section_title_family_packages" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365653" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363307">
+            <LinearLayout orientation="vertical" id="@id/2131365655" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365656" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/iot_subscription_section_title_smart_home" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131365654" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365649" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365653">
+            <LinearLayout orientation="vertical" id="@id/2131365651" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365652" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/iot_subscription_section_title_smat_home_add" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131365650" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout orientation="vertical" id="@id/2131363798" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365649">
+            <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/jtv_tiered_packages_jawwy_tv_title_jawwy_tv" />
+            <androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" id="@id/2131363801" background="#ffffffff" visibility="gone" layout_width="fill_parent" layout_height="80.0dip" foreground="?android:selectableItemBackground">
+                <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="fill_parent" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                    <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="0.0dip" layout_height="fill_parent" layout_weight="0.7">
+                        <TextView id="@id/2131363799" layout_width="wrap_content" layout_height="wrap_content" text="@string/jtv_tiered_packages_jawwy_tv_title_jawwy_tv" maxLines="2" layout_marginStart="@dimen/2131165388" style="@style/2132083945" />
+                        <TextView id="@id/2131363802" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" style="@style/2132083883" />
+                    </LinearLayout>
+                    <TextView gravity="end" id="@id/2131363803" layout_width="0.0dip" layout_height="wrap_content" maxLines="2" layout_weight="0.3" layout_marginEnd="5.0dip" style="@style/2132083895" />
+                    <ImageView id="@id/2131362101" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_marginEnd="@dimen/2131165388" />
+                </LinearLayout>
+                <View 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131363800" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362715" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363798">
+            <LinearLayout orientation="vertical" id="@id/2131362709" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131362710" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/home_details_subscriptions_section_title_contract" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131362707" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363120" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362715">
+            <LinearLayout orientation="vertical" id="@id/2131363124" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131363125" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/purchase_subscription_apple_watch_section_title_esim_details" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131363121" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365818" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363120">
+            <LinearLayout orientation="vertical" id="@id/2131365819" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365539" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/home_details_subscriptions_section_title_services" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131365820" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362682" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365818">
+            <LinearLayout orientation="vertical" id="@id/2131365816" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131362686" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/e_contract_subscription_section_title_content_services" 2130969947="@string/e_contract_subscription_button_history" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131365821" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363205" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362682">
+            <LinearLayout orientation="vertical" id="@id/2131363206" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131363208" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/device_details_store_section_title_entertainment" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131363207" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365282" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363205">
+            <LinearLayout orientation="vertical" id="@id/2131365284" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365287" layout_width="fill_parent" layout_height="wrap_content" 2130969154="false" 2130969563="@string/redeem_qitaf_points_select_service_roaming_packages" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131365286" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363807" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365282">
+            <LinearLayout orientation="vertical" id="@id/2131363808" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131363806" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/home_details_subscriptions_section_title_add_keys" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131363809" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363737" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363807">
+            <LinearLayout orientation="vertical" id="@id/2131363740" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131363743" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/home_details_subscriptions_section_title_add_internet" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131363741" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363374" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363737">
+            <LinearLayout orientation="vertical" id="@id/2131363375" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131363377" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/fmc_discount_fmc_discount_title_fmc_discount" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131363376" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365922" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363374">
+            <LinearLayout orientation="vertical" id="@id/2131365925" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365927" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/home_details_home_tamayouz_discounts" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131365926" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365817" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365922">
+            <LinearLayout orientation="vertical" id="@id/2131361966" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131361969" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/home_details_home_active_offers" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131361967" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131361968" layout_width="fill_parent" layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365367" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365817">
+            <LinearLayout orientation="vertical" id="@id/2131365368" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365370" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969154="false" 2130969563="@string/data_gifting_home_section_title_gift_packages" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131365369" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365752" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365367">
+            <LinearLayout orientation="vertical" id="@id/2131365753" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365755" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969154="true" 2130969563="@string/stc_play_id_page_title_stc_play" />
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithRightImageAndValueLayout id="@id/2131366238" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969462="@string/stc_play_subscrabtion_button_link_your" 2130970036="true" 2130970448="" style="@style/2132083932" />
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithRightImageAndValueLayout id="@id/2131366239" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969143="2131363430" 2130969462="malsahri@gmail.com" 2130970036="true" 2130970448="@string/stc_play_subscrabtion_left_main_linked" />
+                <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131365754" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969908="?2130970329" />
+                <TextView gravity="center" layout_gravity="center" id="@id/2131365176" padding="20.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="60.0dip" text="@string/home_details_home_button_reload" drawablePadding="10.0dip" drawableStart="@drawable/2131231593" style="@style/2132083927" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.cardview.widget.CardView id="@id/2131364246" layout_width="fill_parent" layout_height="146.0dip" layout_margin="@dimen/2131165388" 2130968835="?2130969332" 2130968837="2.0dip" 2130968838="2.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365752">
+            <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="fill_parent">
+                <ImageView layout_gravity="center" layout_width="52.0dip" layout_height="52.0dip" src="@drawable/2131231711" />
+                <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_card_need_help" layout_marginStart="16.0dip" style="@style/2132083897" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/gift_device_summary_section_title_payment_method" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083837" />
+    <View id="@id/2131363075" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083036" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364447" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363075">
+        <TextView gravity="center_vertical" id="@id/2131366438" background="?2130969981" focusable="true" clickable="true" layout_width="0.0dip" layout_height="62.0dip" text="@string/prepaid_balance_usage_button_use_sawa" drawablePadding="16.0dip" onClick="onItemRechargeOptionSelected" drawableStart="@drawable/2131231621" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+        <View id="@id/2131362197" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366438" />
+        <TextView gravity="center_vertical" id="@id/2131364635" background="?2130969981" focusable="true" clickable="true" layout_width="0.0dip" layout_height="62.0dip" text="@string/prepaid_balance_usage_button_pay_with" drawablePadding="16.0dip" onClick="onItemRechargeOptionSelected" drawableStart="@drawable/2131231300" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362197" style="@style/2132083927" />
+        <View id="@id/divider" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364635" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

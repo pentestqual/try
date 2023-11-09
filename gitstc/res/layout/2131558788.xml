@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+        <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_bundle_device_header_title_do_you" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+        <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/device_bundle_device_header_sub_you_will" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+        <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+        <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131362550" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" 2130969150="2131363698" 2130969463="@string/device_bundle_device_button_choose_package" 2130969520="2131364589" 2130969523="@id/subtitle" />
+        <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131362969" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363430" 2130969463="@string/device_bundle_device_button_device_only" 2130969520="2131364589" 2130969523="@id/2131362550" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

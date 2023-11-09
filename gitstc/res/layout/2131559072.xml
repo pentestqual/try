@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <include id="@id/2131365121" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131365120" 2130969500="@id/2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" layout="@layout/2131559408" />
+    <Button id="@id/2131365120" text="@string/replace_sim_number_reconnection_button_reconnect_your" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

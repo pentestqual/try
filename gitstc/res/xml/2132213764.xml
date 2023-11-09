@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Transition app:autoTransition="2131362071" app:constraintSetEnd="@id/2131364123" app:constraintSetStart="@id/2131365726" app:duration="500" app:motionInterpolator="2131363134" />
+    <Transition app:constraintSetEnd="@id/2131363846" app:constraintSetStart="@id/2131364123" app:duration="700" app:motionInterpolator="2131363134" />
+    <ConstraintSet android:id="@id/2131365726">
+        <Constraint android:id="@id/2131363491" android:layout_width="50.0dip" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="2131364589" app:layout_constraintEnd_toStartOf="@id/2131364903" app:layout_constraintTop_toTopOf="2131364589" />
+        <Constraint android:id="@id/2131364903" android:layout_width="50.0dip" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="2131364589" app:layout_constraintEnd_toStartOf="2131364589" app:layout_constraintTop_toTopOf="2131364589" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131364123">
+        <Constraint android:id="@id/2131363491" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="2131364589" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toTopOf="2131364589" />
+        <Constraint android:id="@id/2131364903" android:layout_width="50.0dip" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="2131364589" app:layout_constraintStart_toEndOf="2131364589" app:layout_constraintTop_toTopOf="2131364589" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131363846">
+        <Constraint android:id="@id/2131363491" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="2131364589" app:layout_constraintEnd_toEndOf="2131364589" app:layout_constraintStart_toStartOf="2131364589" app:layout_constraintTop_toTopOf="2131364589" />
+        <Constraint android:id="@id/2131364903" android:layout_width="50.0dip" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="2131364589" app:layout_constraintStart_toEndOf="2131364589" app:layout_constraintTop_toTopOf="2131364589" />
+    </ConstraintSet>
+</MotionScene>

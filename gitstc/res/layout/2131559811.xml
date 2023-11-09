@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130969618" paddingTop="18.0dip" paddingBottom="18.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout orientation="vertical" id="@id/2131363529" layout_width="wrap_content" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589" 2130970012="1000">
+        <TextView id="@id/2131363528" background="@color/2131100716" text="                   " 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083888" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout orientation="vertical" id="@id/2131362173" layout_width="wrap_content" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363529" 2130970012="1000">
+        <TextView background="@color/2131100716" layout_marginTop="5.0dip" text="         " 2130969520="2131364589" 2130969523="@id/2131363528" style="@style/2132083901" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+            <TextView id="@id/titleTextView" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="7.0dip" text="@string/main_menu_stc_location_header_title_what_feature" lineSpacingExtra="8.0sp" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+            <TextView id="@id/2131365789" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="33.0dip" text="@string/main_menu_stc_location_header_sub_you_can" lineSpacingExtra="6.0sp" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+            <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" text="@string/main_menu_stc_location_section_title_maps_selections" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+            <View style="@style/2132083036" />
+            <TextView id="@id/2131366637" background="?2130969981" paddingTop="15.0dip" paddingBottom="15.0dip" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" text="@string/main_menu_stc_location_button_wifi_service" drawablePadding="@dimen/2131165388" drawableStart="@drawable/2131231753" drawableEnd="@drawable/2131231410" paddingStart="20.0dip" paddingEnd="20.0dip" letterSpacing="0.03" style="@style/2132083927" />
+            <View id="@id/2131366636" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <TextView id="@id/2131364255" background="?2130969981" paddingTop="15.0dip" paddingBottom="15.0dip" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" text="@string/main_menu_stc_location_button_network_coverage" drawablePadding="@dimen/2131165388" drawableStart="@drawable/2131231757" drawableEnd="@drawable/2131231410" paddingStart="20.0dip" paddingEnd="20.0dip" letterSpacing="0.03" style="@style/2132083927" />
+            <View id="@id/2131364254" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <TextView id="@id/2131365771" background="?2130969981" paddingTop="15.0dip" paddingBottom="15.0dip" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" text="@string/main_menu_stc_location_button_find_a" drawablePadding="@dimen/2131165388" drawableStart="@drawable/2131231703" drawableEnd="@drawable/2131231410" paddingStart="20.0dip" paddingEnd="20.0dip" letterSpacing="0.03" style="@style/2132083927" />
+            <View layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <TextView id="@id/2131363811" background="?2130969981" paddingTop="15.0dip" paddingBottom="15.0dip" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" text="@string/main_menu_stc_location_button_find_a_kiosk" drawablePadding="@dimen/2131165388" drawableStart="@drawable/2131231414" drawableEnd="@drawable/2131231410" paddingStart="20.0dip" paddingEnd="20.0dip" letterSpacing="0.03" style="@style/2132083927" />
+            <View id="@id/2131365514" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+            <TextView id="@id/2131365525" background="?2130969981" paddingTop="15.0dip" paddingBottom="15.0dip" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" text="@string/book_an_appointment_stc_store_title_service_center" drawablePadding="@dimen/2131165388" drawableStart="@drawable/2131231642" drawableEnd="@drawable/2131231410" paddingStart="20.0dip" paddingEnd="20.0dip" letterSpacing="0.03" style="@style/2132083927" />
+            <View style="@style/2132083036" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

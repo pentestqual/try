@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="?2130968978" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362078" background="?2130968978" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <com.google.android.material.appbar.CollapsingToolbarLayout background="?2130968978" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231" 2130969780="@drawable/2131231200">
+                <androidx.appcompat.widget.Toolbar gravity="center" layout_gravity="center|top" id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" 2130969780="@drawable/2131231200" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <TextView id="@id/2131364113" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/qitaf_no_services" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" />
+        <com.google.android.material.tabs.TabLayout textSize="16.0dip" id="@id/2131365900" background="@drawable/2131230974" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" 2130970197="2131363324" 2130970203="?2130968978" 2130970208="5000.0dip" 2130970210="2131363364" 2130970212="0.0dip" 2130970213="0.0dip" 2130970214="0.0dip" 2130970215="0.0dip" 2130970219="?2130968978" 2130970221="@style/2132083692" />
+        <androidx.viewpager2.widget.ViewPager2 layout_gravity="bottom" id="@id/2131366513" layout_width="fill_parent" layout_height="0.0dip" layout_marginTop="-8.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365900" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout gravity="center" layout_gravity="center|top" orientation="horizontal" id="@id/2131364380" layout_width="wrap_content" layout_height="?2130968594">
+        <TextView textColor="?colorAccent" id="@id/2131366139" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083837" />
+        <ImageView layout_gravity="center_vertical" id="@id/2131363946" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231203" />
+    </LinearLayout>
+</FrameLayout>

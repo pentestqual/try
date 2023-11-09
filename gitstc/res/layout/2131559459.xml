@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" id="@id/2131363063" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969520="2131364589">
+        <View style="@style/2132083036" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <TextView id="@id/2131362025" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5.0dip" text="@string/support_livechat_agentTyping" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083883" />
+        <EditText textSize="20.0dip" textColor="?2130969899" id="@id/2131362516" background="@color/2131100860" paddingTop="20.0dip" paddingBottom="20.0dip" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="8.0dip" maxLines="3" lineSpacingExtra="-10.0dip" paddingStart="10.0dip" layout_marginEnd="10.0dip" letterSpacing="0.05" 2130969494="2131364589" 2130969501="@id/2131362515" 2130969519="@id/2131362518" 2130969524="2131364589" />
+        <ImageButton id="@id/2131362515" background="@color/2131100860" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231179" layout_marginEnd="20.0dip" 2130969494="2131364589" 2130969501="@id/2131362517" 2130969524="2131364589" />
+        <Button id="@id/2131362517" layout_width="wrap_content" layout_height="wrap_content" text="@string/send" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132082690" />
+        <ImageView id="@id/2131362518" paddingTop="8.0dip" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231180" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

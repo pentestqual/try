@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131365459" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" orientation="vertical" id="@id/2131363820" background="#ffffffff" paddingTop="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" letterSpacing="0.2" 2130969520="2131364589" 2130969524="2131364589">
+        <ImageView id="@id/2131363605" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" />
+        <TextView gravity="start|center" id="@id/2131363814" layout_width="wrap_content" paddingStart="10.0dip" paddingEnd="@dimen/2131165388" 2130969519="@id/2131363605" 2130969524="2131364589" style="@style/2132083837" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365126" fadingEdge="none" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" overScrollMode="never" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363820" />
+</androidx.constraintlayout.widget.ConstraintLayout>

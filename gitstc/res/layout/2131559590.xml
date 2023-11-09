@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" paddingTop="2.0dip" paddingRight="8.0dip" paddingBottom="2.0dip" layout_width="wrap_content" layout_height="wrap_content" paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" id="@id/2131363929" paddingTop="6.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131166232" layout_marginStart="@dimen/2131166232">
+        <TextView textAppearance="@style/2132083754" ellipsize="marquee" id="@id/2131366102" fadingEdge="horizontal" layout_width="fill_parent" layout_height="wrap_content" singleLine="true" layout_weight="1.0" />
+        <DateTimeView textAppearance="@style/2132083752" layout_gravity="center" id="@id/2131366095" paddingLeft="8.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" layout_weight="0.0" paddingStart="8.0dip" />
+        <Chronometer textAppearance="@style/2132083752" layout_gravity="center" id="@id/2131362556" paddingLeft="8.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" layout_weight="0.0" paddingStart="8.0dip" />
+    </LinearLayout>
+    <TextView textAppearance="@style/2132083749" ellipsize="marquee" id="@id/2131365987" visibility="gone" fadingEdge="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131166232" layout_marginTop="-2.0dip" layout_marginBottom="-2.0dip" singleLine="true" layout_marginStart="@dimen/2131166232" />
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131363930" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131166232" layout_marginStart="@dimen/2131166232">
+        <TextView textAppearance="@style/2132083750" ellipsize="marquee" layout_gravity="center" id="@id/2131365986" fadingEdge="horizontal" layout_width="0.0dip" layout_height="wrap_content" singleLine="true" layout_weight="1.0" />
+        <TextView textAppearance="@style/2132083747" gravity="center" layout_gravity="center" id="@id/2131363707" paddingLeft="8.0dip" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" layout_weight="0.0" paddingStart="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

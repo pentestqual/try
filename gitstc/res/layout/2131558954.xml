@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent">
+        <include id="@id/2131362078" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+        <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+        <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+        <EditText textSize="30.0sp" gravity="center" id="@id/2131364093" background="@drawable/2131230945" layout_width="75.0dip" layout_height="50.0dip" layout_marginTop="@dimen/2131165388" inputType="number" fontFamily="@font/2131296263" paddingStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" />
+        <TextView textSize="20.0sp" gravity="center" id="@id/currencyTextView" background="@drawable/2131230945" layout_width="75.0dip" layout_height="50.0dip" layout_marginTop="@dimen/2131165388" text="@string/currency" fontFamily="@font/2131296263" 2130969494="@id/2131364093" 2130969519="@id/2131364093" 2130969523="@id/subtitle" /> ١ <Button enabled="false" id="@id/2131364286" text="@string/schedule_payment_payment_weekly_button_next" 2130969494="2131364589" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

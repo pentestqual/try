@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131364023" background="@color/2131099656" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" id="@id/2131364724" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+            <ImageView layout_gravity="center" id="@id/2131363899" layout_width="100.0dip" layout_height="100.0dip" layout_marginTop="@dimen/2131165388" />
+            <Button layout_gravity="center" id="@id/2131363893" visibility="gone" layout_marginTop="5.0dip" text="@string/browse_and_compare_compare_button_change" style="@style/2132083125" />
+        </LinearLayout>
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+            <ImageView layout_gravity="center" id="@id/2131365253" layout_width="100.0dip" layout_height="100.0dip" layout_marginTop="@dimen/2131165388" />
+            <Button layout_gravity="center" id="@id/2131365249" visibility="gone" layout_marginTop="5.0dip" text="@string/browse_and_compare_compare_button_change" style="@style/2132083125" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" fillViewport="true" 2130969495="@id/2131362544" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364724">
+        <LinearLayout orientation="vertical" id="@id/2131362611" background="@color/2131099789" layout_width="fill_parent" layout_height="wrap_content" />
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout orientation="horizontal" id="@id/2131362544" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+        <Button id="@id/2131363894" layout_marginTop="@dimen/2131165388" layout_marginBottom="10.0dip" text="@string/browse_and_compare_compare_button_choose" layout_marginStart="45.0dip" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132082690" />
+        <Button id="@id/2131365250" layout_marginTop="@dimen/2131165388" layout_marginBottom="10.0dip" text="@string/browse_and_compare_compare_button_choose" layout_marginEnd="45.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132082690" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+</androidx.constraintlayout.widget.ConstraintLayout>

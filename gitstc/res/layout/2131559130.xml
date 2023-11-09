@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout layout_width="fill_parent" layout_height="fill_parent" layoutDirection="locale" style="@style/2132084601" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" paddingBottom="@dimen/2131165973" layout_width="fill_parent" layout_height="fill_parent">
+            <LinearLayout orientation="vertical" id="@id/2131365023" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <include id="@id/2131365026" layout="@layout/2131559492" />
+                <include id="@id/2131365021" layout="@layout/2131559321" />
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131362949" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <include id="@id/2131362951" layout="@layout/2131559492" />
+                <include id="@id/2131362948" layout="@layout/2131559321" />
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131365832" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131365834" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131363116" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <include id="@id/2131363118" layout="@layout/2131559492" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131363117" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131361991" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <include id="@id/2131361994" layout="@layout/2131559492" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131361993" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+                <TextView gravity="center" id="@id/2131362005" paddingLeft="@dimen/2131165946" paddingRight="@dimen/2131165946" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165941" layout_marginBottom="@dimen/2131165941" text="@string/something_went_wrong" textAlignment="center" layout_marginVertical="@dimen/2131165941" paddingHorizontal="@dimen/2131165946" style="@style/2132083559" />
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131363738" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <include id="@id/2131363744" layout="@layout/2131559492" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131363742" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+                <TextView gravity="center" id="@id/2131363745" paddingLeft="@dimen/2131165946" paddingRight="@dimen/2131165946" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165941" layout_marginBottom="@dimen/2131165941" text="@string/something_went_wrong" textAlignment="center" layout_marginVertical="@dimen/2131165941" paddingHorizontal="@dimen/2131165946" style="@style/2132083559" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

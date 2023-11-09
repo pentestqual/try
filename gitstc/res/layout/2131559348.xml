@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout background="@color/2131100892" layout_width="fill_parent" layout_height="fill_parent" 2130969479="@xml/2132213765" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131364903" background="?2130968978" layout_width="40.0dip" layout_height="40.0dip" 2130969494="2131364589" 2130969501="2131364589" 2130969524="2131364589" />
+    <View id="@id/2131365571" background="?2130968951" layout_width="40.0dip" layout_height="40.0dip" 2130969494="2131364589" 2130969501="@id/2131364903" 2130969524="2131364589" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

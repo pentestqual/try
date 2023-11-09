@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131363112" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/home_details_usage_booster_left_main_duration" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365731" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/home_details_usage_booster_left_main_start_date" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363112" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131363183" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/home_details_usage_booster_left_main_end_date" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365731" />
+</androidx.constraintlayout.widget.ConstraintLayout>

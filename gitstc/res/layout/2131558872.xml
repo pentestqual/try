@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView id="@id/2131365395" scrollbars="none" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131365801" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <RelativeLayout id="@id/2131362633" layout_width="fill_parent" layout_height="wrap_content">
+                <ImageView id="@id/2131365008" layout_width="fill_parent" layout_height="wrap_content" scaleType="fitCenter" />
+                <ImageView id="@id/2131362589" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" src="@drawable/2131231281" />
+            </RelativeLayout>
+            <TextView layout_gravity="center" id="@id/2131365009" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" textAlignment="center" style="@style/2132083845" />
+            <androidx.recyclerview.widget.RecyclerView layout_gravity="center" orientation="vertical" id="@id/2131362540" layout_width="fill_parent" layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131365801" layout_width="fill_parent" text="@string/main_menu_gamification_button_enter" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

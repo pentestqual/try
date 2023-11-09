@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_checked="true" id="@id/2131362529" drawable="@drawable/2131231815" />
+    <item id="@id/2131363699" drawable="@drawable/2131231819" 2130970116="true" />
+    <item state_checked="false" id="@id/2131366367" drawable="@android:color/transparent" />
+    <transition drawable="@drawable/2131231804" toId="@id/2131366367" fromId="@id/2131362529" />
+    <transition drawable="@drawable/2131231807" toId="@id/2131362529" fromId="@id/2131366367" />
+    <transition drawable="@drawable/2131231806" toId="@id/2131366367" fromId="@id/2131363699" />
+    <transition drawable="@drawable/2131231808" toId="@id/2131363699" fromId="@id/2131366367" />
+    <transition drawable="@drawable/2131231805" toId="@id/2131362529" fromId="@id/2131363699" />
+    <transition drawable="@drawable/2131231803" toId="@id/2131363699" fromId="@id/2131362529" />
+</animated-selector>

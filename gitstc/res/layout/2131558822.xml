@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969519="2131364589" 2130969520="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView id="@id/2131364250" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969495="@id/2131362368" 2130969500="2131364589" 2130969519="2131364589" 2130969523="@id/2131362078">
+        <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+            <TextView id="@id/2131366296" layout_width="fill_parent" layout_height="wrap_content" text="@string/create_invitation_enter_number_header_title_enter_recipient" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+            <TextView id="@id/2131366328" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165328" text="@string/create_invitation_enter_number_header_sub_we_will" 2130969520="2131364589" 2130969523="@id/2131366296" style="@style/2132083927" />
+            <com.google.android.material.textfield.TextInputLayout id="@id/2131366007" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165324" 2130969216="true" 2130969345="true" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366328">
+                <com.google.android.material.textfield.TextInputEditText id="@id/2131363158" layout_width="fill_parent" layout_height="wrap_content" maxLength="13" drawablePadding="@dimen/2131165516" inputType="number" drawableStart="@drawable/2131231507" textAlignment="viewStart" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView id="@id/2131362542" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" text="@string/create_invitation_create_new_button_select_from" 2130969520="2131364589" 2130969523="@id/2131366007" style="@style/2132083872" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365965" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" layout_marginVertical="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+                <TextView id="@id/2131363579" layout_width="wrap_content" layout_height="wrap_content" text="@string/create_invitation_summary_left_main_i_accept" 2130969494="2131364589" 2130969511="2131365707" 2130969520="2131364589" style="@style/2132083927" />
+                <TextView gravity="center_vertical" id="@id/2131365964" layout_width="wrap_content" layout_height="wrap_content" text="@string/create_invitation_summary_button_the_terms" layout_marginStart="3.0dip" 2130969494="2131364589" 2130969519="@id/2131363579" style="@style/2132083877" />
+                <Switch theme="@style/2132083115" id="@id/2131365974" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button enabled="false" id="@id/2131362368" text="@string/create_invitation_enter_number_button_continue" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364250" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

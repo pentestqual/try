@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365127" layout_width="fill_parent" layout_height="0.0dip" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" />
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131363216" background="@color/2131099656" visibility="gone" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <ImageView background="@color/2131099787" padding="@dimen/2131165319" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231406" />
+        <TextView id="@id/2131363220" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" textAlignment="center" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" />
+        <Button id="@id/2131364415" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/button_ok" style="@style/2132084196" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

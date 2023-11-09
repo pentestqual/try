@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout textColorHint="@color/2131099816" gravity="center" id="@id/2131363995" background="@color/2131100769" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165915" layout_marginRight="@dimen/2131165915" hint="@string/phone_number" layout_marginHorizontal="@dimen/2131165915" 2130969348="@color/2131100687" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083551">
+        <EditText textSize="@dimen/2131166320" textColor="@color/2131100687" gravity="center_vertical" id="@id/2131363155" paddingTop="@dimen/2131165944" layout_width="fill_parent" layout_height="wrap_content" maxLines="1" layout_centerHorizontal="true" layout_centerVertical="true" inputType="text" contentDescription="@string/phone_number" textDirection="locale" backgroundTint="@color/2131100702" style="@style/2132083551" />
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131363522" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/replace_sim_replace_sim_header_title_choose_your" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365794" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/replace_sim_replace_sim_header_sub_what_is" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363522" style="@style/2132083921" />
+    <TextView id="@id/2131365617" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/replace_sim_replace_sim_section_title_sim_type" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969523="@id/2131365794" style="@style/2132083837" />
+    <View 2130969520="2131364589" 2130969523="@id/2131365617" style="@style/2132083036" />
+    <TextView gravity="start|center" id="@id/2131366554" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" minHeight="60.0dip" text="@string/replace_sim_replace_sim_left_main_mobile" drawablePadding="10.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969167="@drawable/2131231667" 2130969523="@id/2131365617" style="@style/2132083945" />
+    <View layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131366554" style="@style/2132083036" />
+    <TextView gravity="start|center" id="@id/2131362824" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" minHeight="60.0dip" text="@string/replace_sim_replace_sim_left_main_quicknet_data" drawablePadding="10.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969167="@drawable/2131231667" 2130969523="@id/2131366554" style="@style/2132083945" />
+    <View 2130969520="2131364589" 2130969523="@id/2131362824" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

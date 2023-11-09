@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View background="@android:color/black" layout_width="fill_parent" layout_height="fill_parent" alpha="0.5" />
+    <androidx.cardview.widget.CardView layout_gravity="center" id="@id/2131362465" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="20.0dip" layout_marginRight="20.0dip">
+        <LinearLayout orientation="vertical" background="@android:color/white" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView textSize="22.0sp" textColor="@android:color/black" layout_gravity="center" id="@id/2131363538" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="30.0dip" text="@string/congratulation" singleLine="true" fontFamily="@font/2131296257" />
+            <FrameLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="30.0dip">
+                <ImageView layout_gravity="center" id="@id/2131362159" background="@drawable/2131231923" visibility="gone" layout_width="wrap_content" layout_height="150.0dip" layout_marginLeft="20.0dip" layout_marginRight="20.0dip" />
+                <ImageView layout_gravity="center" id="@id/2131363632" layout_width="200.0dip" layout_height="150.0dip" scaleType="fitXY" />
+            </FrameLayout>
+            <TextView textSize="16.0sp" textColor="@color/2131099927" layout_gravity="center" id="@id/2131366102" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20.0dip" text="" fontFamily="@font/2131296263" />
+            <TextView textSize="22.0sp" textColor="@color/2131099924" layout_gravity="center" id="@id/2131362906" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="" singleLine="true" fontFamily="@font/2131296257" />
+            <LinearLayout layout_gravity="center" orientation="horizontal" id="@id/2131366576" background="@drawable/2131231061" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20.0dip">
+                <TextView textSize="14.0sp" textColor="@color/2131099927" layout_gravity="center" id="@id/2131366557" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" fontFamily="@font/2131296257" layout_marginEnd="10.0dip" />
+                <ImageView layout_gravity="center" id="@id/2131362728" background="@drawable/2131231046" layout_width="24.0dip" layout_height="24.0dip" layout_marginStart="20.0dip" layout_marginEnd="10.0dip" />
+            </LinearLayout>
+            <Button textColor="@android:color/white" layout_gravity="center" id="@id/2131364414" background="@drawable/2131230988" layout_width="wrap_content" layout_height="35.0dip" layout_marginTop="30.0dip" layout_marginBottom="30.0dip" text="@string/close" textAllCaps="false" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

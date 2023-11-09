@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" focusable="true" clickable="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="fill_parent" fillViewport="true">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" style="@style/2132083845" />
+            <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/trade_in_appointment_date_header_sub_please_select" style="@style/2132083927" />
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView id="@id/2131362412" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginBottom="50.0dip" 2130969684="@style/2132083916" 2130969686="@style/2132083843" 2130969687="@drawable/2131231201" 2130969689="@drawable/2131231207" 2130969690="@color/2131099960" 2130969693="50.0dip" 2130969696="@array/2130903041" 2130969697="@style/2132083832" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

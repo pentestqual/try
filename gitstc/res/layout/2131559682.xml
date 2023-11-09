@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView layout_width="fill_parent" layout_height="?android:listPreferredItemHeight" layout_marginBottom="15.0dip" foreground="?android:selectableItemBackground" 2130968838="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <include id="@id/2131362608" layout_width="0.0dip" layout_height="0.0dip" 2130969494="2131364589" 2130969501="@id/divider" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559718" />
+        <View id="@id/divider" background="@color/2131099799" layout_width="2.0dip" layout_height="fill_parent" layout_marginTop="10.0dip" layout_marginBottom="10.0dip" layout_marginEnd="14.0dip" 2130969494="2131364589" 2130969501="@id/2131364793" 2130969524="2131364589" />
+        <LinearLayout layout_gravity="center" orientation="vertical" id="@id/2131364793" layout_width="70.0dip" layout_height="wrap_content" layout_marginEnd="14.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589">
+            <TextView textColor="?2130970085" gravity="center" layout_gravity="center" id="@id/2131364803" layout_width="fill_parent" layout_height="wrap_content" letterSpacing="0.03" style="@style/2132083837" />
+            <TextView gravity="center" layout_gravity="center" id="@id/2131364795" layout_width="fill_parent" layout_height="wrap_content" text="@string/representation_point" letterSpacing="0.05" style="@style/2132083827" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

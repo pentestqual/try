@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362087" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView gravity="start|center" id="@id/2131366336" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/transfer_balance_balance_transfer_section_title_is_requesting" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362087" style="@style/2132083837" />
+    <TextView id="@id/2131366275" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165331" text="@string/transfer_balance_balance_transfer_header_title_requested" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366336" style="@style/2132083927" />
+    <TextView gravity="bottom" id="@id/2131366335" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131366275" style="@style/2132083908" />
+    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/pay_bill_select_bill_right_main_sr" layout_marginStart="6.0dip" 2130969490="@id/2131366335" 2130969519="@id/2131366335" style="@style/2132083885" />
+    <View id="@id/divider1" layout_marginTop="13.0dip" 2130969523="@id/2131366335" style="@style/2132083036" />
+    <LinearLayout orientation="vertical" background="@color/2131100686" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131364620" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/divider1">
+        <androidx.cardview.widget.CardView id="@id/2131362489" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="10.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" elevation="3.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" background="@color/2131099656" paddingTop="15.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388">
+                <TextView id="@id/2131366319" layout_width="0.0dip" layout_height="wrap_content" layout_marginEnd="@dimen/2131165328" 2130969501="@id/2131366270" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083935" />
+                <TextView id="@id/2131366270" layout_width="wrap_content" layout_height="fill_parent" maxLength="10" textAlignment="viewEnd" layout_marginEnd="6.0dip" 2130969501="@id/2131366279" 2130969519="@id/2131366319" style="@style/2132083895" />
+                <TextView id="@id/2131366279" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_roaming_country_info_right_main_sr" 2130969490="@id/2131366270" 2130969500="2131364589" style="@style/2132083885" />
+                <TextView id="@id/2131362348" paddingTop="4.0dip" paddingBottom="8.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/transfer_requested_balance_change_btn" textAlignment="viewEnd" 2130969500="@id/2131366279" 2130969523="@id/2131366270" style="@style/2132083865" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <Button id="@id/2131364620" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/home_details_button_pay" 2130969494="2131364589" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

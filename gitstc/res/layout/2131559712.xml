@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" background="#ffffffff" layout_width="fill_parent" layout_height="60.0dip" foreground="?android:selectableItemBackground" divider="@drawable/2131231059" showDividers="middle" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363632" layout_width="0.0dip" layout_height="wrap_content" src="@drawable/2131231512" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131365897" 2130969520="2131364589" 2130969524="@id/2131365897" 2130969525="1.0" />
+    <TextView id="@id/2131363814" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969501="@id/2131365897" 2130969510="0.0" 2130969511="2131365707" 2130969519="@id/2131363632" 2130969524="2131364589" style="@style/2132083945" />
+    <Switch theme="@style/2132083115" id="@id/2131365897" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    <include id="@id/divider" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" layout="@layout/2131558601" />
+</androidx.constraintlayout.widget.ConstraintLayout>

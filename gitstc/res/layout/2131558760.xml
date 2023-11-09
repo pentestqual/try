@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131363969" 2130969524="2131364589">
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365853" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="30.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589">
+                    <TextView id="@id/2131362266" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                    <TextView id="@id/2131366165" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="20.0dip" 2130969520="2131364589" 2130969523="@id/2131362266" style="@style/2132083908" />
+                    <TextView id="@id/currencyTextView" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" layout_marginStart="8.0dip" 2130969490="@id/2131366165" 2130969519="@id/2131366165" style="@style/2132083885" />
+                    <ProgressBar id="@id/2131365194" layout_width="fill_parent" layout_height="10.0dip" progressDrawable="@drawable/2131231869" 2130969523="@id/2131366165" style="@style/2132083177" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View id="@id/divider1" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365853" style="@style/2132083036" />
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365826" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365853">
+                    <ImageView id="@id/2131362290" background="@color/2131099736" layout_width="12.0dip" layout_height="12.0dip" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131365828" 2130969520="2131364589" 2130969524="@id/2131365828" />
+                    <TextView id="@id/2131365828" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/home_details_title_subscriptions" layout_marginStart="8.0dip" 2130969519="@id/2131362290" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131363050" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131365828" style="@style/2132083036" />
+                    <LinearLayout orientation="vertical" id="@id/2131365822" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363050" />
+                    <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099913" layout_width="fill_parent" layout_height="wrap_content" minHeight="64.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969523="@id/2131365822">
+                        <TextView id="@id/2131365829" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_home_total" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                        <TextView id="@id/2131365830" layout_width="wrap_content" layout_height="wrap_content" text="00.00" layout_marginEnd="6.0dip" 2130969490="@id/2131365829" 2130969501="@id/2131365823" style="@style/2132083895" />
+                        <TextView id="@id/2131365823" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" 2130969490="@id/2131365829" 2130969500="2131364589" style="@style/2132083885" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <View id="@id/2131363051" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366426" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365826">
+                    <ImageView id="@id/2131364904" layout_width="12.0dip" layout_height="12.0dip" src="?2130968986" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131366428" 2130969520="2131364589" 2130969524="@id/2131366428" />
+                    <TextView id="@id/2131366428" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/bill_details_section_title_usage_charges" layout_marginStart="8.0dip" 2130969519="@id/2131364904" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131363052" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131366428" style="@style/2132083036" />
+                    <LinearLayout orientation="vertical" id="@id/2131366417" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363052" />
+                    <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099913" layout_width="fill_parent" layout_height="wrap_content" minHeight="64.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969523="@id/2131366417">
+                        <TextView id="@id/2131366429" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_home_total" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                        <TextView id="@id/2131366430" layout_width="wrap_content" layout_height="wrap_content" text="00.00" layout_marginEnd="6.0dip" 2130969490="@id/2131366429" 2130969501="@id/2131366418" style="@style/2132083895" />
+                        <TextView id="@id/2131366418" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" 2130969490="@id/2131366429" 2130969500="2131364589" style="@style/2132083885" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <View id="@id/2131363053" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363018" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131366426">
+                    <TextView id="@id/2131363020" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/bill_details_section_title_discount" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131363054" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131363020" style="@style/2132083036" />
+                    <LinearLayout orientation="vertical" id="@id/2131363014" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363054" />
+                    <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099913" layout_width="fill_parent" layout_height="wrap_content" minHeight="64.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363014">
+                        <TextView id="@id/2131363021" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_home_total" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                        <TextView id="@id/2131363022" layout_width="wrap_content" layout_height="wrap_content" text="00.00" layout_marginEnd="6.0dip" 2130969490="@id/2131363021" 2130969501="@id/2131363015" style="@style/2132083895" />
+                        <TextView id="@id/2131363015" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" 2130969490="@id/2131363021" 2130969500="2131364589" style="@style/2132083885" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <View id="@id/2131363055" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365935" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363018">
+                    <TextView id="@id/2131365936" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/bill_details_section_title_taxes" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131363056" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131365936" style="@style/2132083036" />
+                    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" minHeight="64.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363056">
+                        <TextView id="@id/2131366476" layout_width="wrap_content" layout_height="wrap_content" text="@string/vat_billsummaryvatitem_vat" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                        <TextView id="@id/2131366480" layout_width="wrap_content" layout_height="wrap_content" text="00.00" layout_marginEnd="6.0dip" 2130969490="@id/2131366476" 2130969501="@id/2131366473" style="@style/2132083895" />
+                        <TextView id="@id/2131366473" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" 2130969490="@id/2131366476" 2130969500="2131364589" style="@style/2132083885" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <View id="@id/2131363057" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364787" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131365935">
+                    <TextView id="@id/2131364788" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/bill_details_section_title_previous_balance" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131363042" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131364788" style="@style/2132083036" />
+                    <LinearLayout orientation="vertical" id="@id/2131364785" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363042" />
+                    <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099913" layout_width="fill_parent" layout_height="wrap_content" minHeight="64.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364785">
+                        <TextView id="@id/2131364789" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_home_total" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                        <TextView id="@id/2131364790" layout_width="wrap_content" layout_height="wrap_content" text="00.00" layout_marginEnd="6.0dip" 2130969490="@id/2131364789" 2130969501="@id/2131364786" style="@style/2132083895" />
+                        <TextView id="@id/2131364786" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" 2130969490="@id/2131364789" 2130969500="2131364589" style="@style/2132083885" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <View id="@id/2131363043" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366421" background="?2130969981" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="48.0dip" minHeight="64.0dip" 2130969520="2131364589" 2130969523="@id/2131364787">
+                    <View id="@id/2131363044" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083036" />
+                    <TextView textColor="?2130968978" id="@id/2131363453" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_cost_section_title_usage_details" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969523="@id/2131363044" style="@style/2132083927" />
+                    <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+                    <View id="@id/2131363045" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366169" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131366421">
+                    <TextView id="@id/2131366170" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/bill_details_section_title_total_amount" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131363046" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131366170" style="@style/2132083036" />
+                    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="64.0dip" 2130969520="2131364589" 2130969523="@id/2131363046">
+                        <TextView id="@id/2131366171" layout_width="wrap_content" layout_height="wrap_content" text="@string/bill_details_lift_main_bill_amount" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                        <TextView id="@id/2131366172" layout_width="wrap_content" layout_height="wrap_content" text="00.00" layout_marginEnd="6.0dip" 2130969490="@id/2131366171" 2130969501="@id/2131366162" style="@style/2132083895" />
+                        <TextView id="@id/2131366162" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" layout_marginEnd="@dimen/2131165388" 2130969490="@id/2131366171" 2130969500="2131364589" style="@style/2132083885" />
+                        <View id="@id/2131363047" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362270" visibility="gone" layout_width="fill_parent" layout_height="64.0dip" 2130969520="2131364589" 2130969523="@id/2131366169">
+                    <TextView id="@id/2131362271" layout_width="wrap_content" layout_height="wrap_content" text="@string/bill_details_lift_main_account_id" drawablePadding="@dimen/2131165333" layout_marginStart="@dimen/2131165388" 2130969167="@drawable/2131231274" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083877" />
+                    <View 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364646" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362270">
+                    <TextView id="@id/2131364647" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/bill_details_section_title_payment_details" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131363048" layout_marginTop="16.0dip" 2130969520="2131364589" 2130969523="@id/2131364647" style="@style/2132083036" />
+                    <LinearLayout orientation="vertical" id="@id/2131364645" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363048" />
+                    <View id="@id/2131363049" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.cardview.widget.CardView layout_gravity="center" id="@id/2131364246" visibility="visible" layout_width="fill_parent" layout_height="146.0dip" layout_margin="@dimen/2131165388" 2130968835="?2130969332" 2130968837="2.0dip" 2130968838="2.0dip" 2130969494="2131364589" 2130969520="2131364589" 2130969523="@id/2131364646" 2130969525="1.0">
+                    <LinearLayout gravity="center" orientation="horizontal" layout_width="fill_parent" layout_height="fill_parent">
+                        <ImageView layout_gravity="center" layout_width="52.0dip" layout_height="52.0dip" src="@drawable/2131231711" />
+                        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_cost_button_need_help" layout_marginStart="16.0dip" style="@style/2132083897" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout orientation="vertical" id="@id/2131363969" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365395" 2130969525="1.0">
+            <Button layout_gravity="center" id="@id/2131363456" visibility="gone" layout_margin="@dimen/2131165388" text="@string/bill_details_buttons_share_payment" style="@style/2132083123" />
+            <Button id="@id/2131364617" visibility="gone" text="@string/bill_details_section_button_pay_bill" style="@style/2132082688" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131364023" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131363170" visibility="gone" layout_width="fill_parent" layout_height="fill_parent">
+        <ImageView id="@id/2131363178" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" src="@drawable/2131231334" />
+        <TextView gravity="center" id="@id/2131363175" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083895" />
+    </LinearLayout>
+    <View id="@id/divider" visibility="visible" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131362048" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="fill_parent" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

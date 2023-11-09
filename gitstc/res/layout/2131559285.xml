@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?colorAccent" paddingTop="18.0dip" paddingBottom="18.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363546" src="@drawable/2131231186" tint="@color/2131099656" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083888" />
+    <TextView id="@id/2131362166" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" textAlignment="viewStart" 2130969520="2131364589" 2130969523="@id/2131363546" style="@style/2132083932" />
+</androidx.constraintlayout.widget.ConstraintLayout>

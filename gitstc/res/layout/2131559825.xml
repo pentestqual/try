@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365792" layout_width="fill_parent" layout_height="wrap_content" minHeight="56.0dip">
+        <TextView textSize="22.0dip" id="@id/2131365793" visibility="gone" layout_height="fill_parent" maxWidth="250.0dip" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083848" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@id/2131366134" background="@color/2131100536" visibility="gone" layout_width="fill_parent" layout_height="3.0dip" layout_below="@id/2131365792" />
+    <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_alignParentTop="true" layout_alignParentEnd="true">
+        <ImageView id="@id/2131365791" layout_width="0.0dip" layout_height="92.0dip" scaleType="fitStart" adjustViewBounds="true" layout_weight="1.0" layout_marginEnd="@dimen/2131165388" />
+    </LinearLayout>
+</RelativeLayout>

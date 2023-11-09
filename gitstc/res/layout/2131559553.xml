@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="horizontal" id="@id/2131364151" paddingTop="@dimen/2131166103" paddingBottom="@dimen/2131166101" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout layout_width="0.0dip" layout_height="fill_parent" layout_weight="1.0">
+        <com.google.android.material.button.MaterialButton gravity="start|center" layout_gravity="start" id="@id/2131364152" layout_width="wrap_content" layout_height="@dimen/2131166102" insetTop="0.0dip" insetBottom="0.0dip" 2130969354="@drawable/2131231795" 2130969356="2131365999" 2130969357="4.0dip" style="?2130969650" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton gravity="center" id="@id/2131364154" layout_width="@dimen/2131166156" layout_height="@dimen/2131166102" insetTop="0.0dip" insetBottom="0.0dip" contentDescription="@string/mtrl_picker_a11y_prev_month" 2130969354="@drawable/2131231793" style="?2130969647" />
+    <com.google.android.material.button.MaterialButton gravity="center" id="@id/2131364153" layout_width="@dimen/2131166156" layout_height="@dimen/2131166102" insetTop="0.0dip" insetBottom="0.0dip" contentDescription="@string/mtrl_picker_a11y_next_month" 2130969354="@drawable/2131231792" style="?2130969647" />
+</LinearLayout>

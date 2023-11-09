@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar id="@id/2131363311" layout_width="fill_parent" layout_height="wrap_content" 2130969780="@drawable/2131231200" 2130970359="@string/customer_support_history_faq_title_faq" 2130970360="true" 2130970370="@style/2132083940" 2130970371="@color/2131099731" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131362138" layout_width="fill_parent" layout_height="wrap_content" />
+</LinearLayout>

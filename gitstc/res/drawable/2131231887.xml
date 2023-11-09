@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item id="@id/2131364869">
+        <clip>
+            <shape shape="rectangle">
+                <size height="1.0dip" />
+                <corners radius="2.5dip" />
+                <solid color="?2130968978" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

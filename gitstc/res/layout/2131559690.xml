@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131365294" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131366117" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="Do you want to receive?" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365136" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969495="@id/2131362691" 2130969523="@id/2131364108" />
+</LinearLayout>

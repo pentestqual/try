@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="0.0dip" 2130969501="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="0.0dip" 2130969520="2131364589" 2130969524="2131364589">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364464" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+                    <ImageView id="@id/2131364463" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231488" scaleType="centerInside" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131364461" 2130969520="2131364589" 2130969524="@id/2131364461" />
+                    <TextView id="@id/2131364461" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="46.0dip" text="@string/order_tracking_technician_visit_section_title_manage_order" layout_marginStart="10.0dip" 2130969519="@id/2131364463" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131364458" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364461" style="@style/2132083036" />
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363755" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364458" 2130969559="@string/order_tracking_summary_left_main_invoice_number" />
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364900" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363755" 2130969559="@string/order_tracking_summary_left_main_purchase_date" />
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362884" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364900" 2130969559="@string/order_tracking_summary_left_main_delivered_date" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362803" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364464">
+                    <ImageView id="@id/2131362802" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231235" scaleType="centerInside" layout_marginStart="@dimen/2131165388" 2130969494="@id/2131362801" 2130969520="2131364589" 2130969524="@id/2131362801" />
+                    <TextView id="@id/2131362801" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="46.0dip" text="@string/order_tracking_summary_left_main_customer_information" layout_marginStart="10.0dip" 2130969519="@id/2131362802" 2130969524="2131364589" style="@style/2132083837" />
+                    <View id="@id/2131362800" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362801" style="@style/2132083036" />
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362805" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362800" 2130969559="@string/order_tracking_summary_left_main_customer_name" />
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362804" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362805" 2130969559="@string/order_tracking_summary_left_main_id_number" />
+                    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362806" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362804" 2130969559="@string/order_tracking_iphone_left_main_mobile_number" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362958" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362803">
+                    <androidx.recyclerview.widget.RecyclerView id="@id/2131363783" layout_width="fill_parent" layout_height="wrap_content" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <sa.com.stc.uicomponent.single_row_item.SingleRowWithInfoLayout id="@id/2131365964" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969163="@drawable/2131231183" 2130969462="@string/order_tracking_summary_button_see_terms" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362958" />
+                <Button id="@id/2131362426" visibility="gone" layout_margin="40.0dip" text="@string/order_tracking_summary_button_cancel_order" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365964" style="@style/2132083125" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

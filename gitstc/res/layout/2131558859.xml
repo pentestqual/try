@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131366133" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969495="@id/2131361898" 2130969523="@id/2131366133">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="0.0dip">
+            <TextView layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165333" text="@string/friend_family_summary_header_title_summary" lineSpacingExtra="6.0sp" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+            <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" text="@string/Device_details_fmc_discount_header_sub_check_your" lineSpacingExtra="6.0sp" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" letterSpacing="0.03" style="@style/2132083927" />
+            <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165333" text="@string/down_payment_summary_number" drawablePadding="10.0dip" drawableStart="@drawable/2131231452" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+            <View id="@id/divider" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131363840" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/login_and_registrations_enter_landline_lift_main_landline" 2130970448="00000000" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131364757" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/primary_number_select_a_section_title_postpaid_mobile" 2130970448="00000000" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365963" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165324" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+                <TextView id="@id/2131363355" layout_width="wrap_content" layout_height="wrap_content" text="@string/down_payment_get_a_new_sim_card_i_accept" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                <TextView textColor="?colorAccent" id="@id/2131365969" layout_width="wrap_content" layout_height="wrap_content" text="@string/transfer_ownership_delivery_summary_button_terms_and" layout_marginStart="5.0dip" 2130969519="@id/2131363355" 2130969524="2131364589" style="@style/2132083927" />
+                <Switch theme="@style/2132083115" id="@id/2131365968" layout_width="wrap_content" layout_height="wrap_content" 2130969500="2131364589" 2130969524="2131364589" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131361898" layout_width="fill_parent" text="@string/browse_and_compare_package_details_button_subscribe" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

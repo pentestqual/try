@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView id="@id/2131362244" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/cancel_my_number_reason_header_title_can_you" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365647" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/cancel_my_number_reason_header_sub_this_will" 2130969520="2131364589" 2130969523="@id/2131362244" style="@style/2132083927" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365128" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" 2130969481="LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365647" 2130969525="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

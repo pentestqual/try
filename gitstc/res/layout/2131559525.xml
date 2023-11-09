@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="horizontal" id="@id/material_clock_display" layout_width="wrap_content" layout_height="wrap_content" baselineAligned="false" layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131364078" layout="@layout/2131559533" />
+    <include layout="@layout/2131559526" />
+    <include id="@id/2131364081" layout="@layout/2131559533" />
+</LinearLayout>

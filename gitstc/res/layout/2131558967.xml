@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" padding="16.0dip" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView layout_gravity="center_horizontal" id="@id/2131365756" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32.0dip" scaleType="centerInside" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130970099="@drawable/2131231684" />
+    <androidx.appcompat.widget.AppCompatEditText enabled="false" gravity="center" layout_gravity="center" id="@id/2131366487" background="@drawable/2131230958" layout_width="50.0dip" layout_height="50.0dip" layout_marginBottom="16.0dip" 2130969495="@id/2131364206" 2130969500="@id/2131365756" 2130969520="@id/2131365756" style="@style/2132083899" />
+    <TextView textColor="@color/2131099722" gravity="center" id="@id/2131364206" layout_width="fill_parent" layout_height="wrap_content" text="@string/upgrade_to_postpaid_summary_message_please_open_nafath" 2130969495="@id/2131362373" 2130969523="@id/2131365756" style="@style/2132083934" />
+    <com.google.android.material.button.MaterialButton id="@id/2131362373" layout_width="0.0dip" layout_height="80.0dip" layout_marginBottom="8.0dip" text="@string/esim_message_button_cancel" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083125" />
+</androidx.constraintlayout.widget.ConstraintLayout>

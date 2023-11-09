@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="2130903040">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="2130903041">
+        <item>sun</item>
+        <item>mon</item>
+        <item>tue</item>
+        <item>wed</item>
+        <item>thu</item>
+        <item>fri</item>
+        <item>sat</item>
+    </string-array>
+    <string-array name="2130903042">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+    <string-array name="2130903043">
+        <item>Month</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <array name="2130903044" />
+    <string-array name="2130903045">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="2130903046">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+    </string-array>
+    <string-array name="2130903047">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="2130903048">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="2130903049">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="2130903050">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="2130903051">
+        <item>Muharram</item>
+        <item>Safar</item>
+        <item>Rabi Al-Awwal</item>
+        <item>Rabi Al-Thani</item>
+        <item>Jumada Al-Awwal</item>
+        <item>Jumada Al-Thani</item>
+        <item>Rajab</item>
+        <item>Shaban</item>
+        <item>Ramadan</item>
+        <item>Shawwal</item>
+        <item>Dhu Al-Qa’dah</item>
+        <item>Dhu Al-Hijjah</item>
+    </string-array>
+    <string-array name="2130903052">
+        <item>Typing</item>
+        <item>Typing.</item>
+        <item>Typing..</item>
+        <item>Typing...</item>
+    </string-array>
+    <string-array name="2130903053">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+    <string-array name="2130903054">
+        <item>Day</item>
+        <item>First Day</item>
+        <item>Second Day</item>
+        <item>Third Day</item>
+        <item>Fourth Day</item>
+        <item>Fifth Day</item>
+        <item>Sixth Day</item>
+        <item>Seventh Day</item>
+        <item>Eighth Day</item>
+        <item>Ninth Day</item>
+        <item>Tenth Day</item>
+        <item>Eleventh Day</item>
+        <item>Twelfth Day</item>
+        <item>Thirteenth Day</item>
+        <item>Fourteenth Day</item>
+        <item>Fifteenth Day</item>
+        <item>Sixteenth Day</item>
+        <item>Seventeenth Day</item>
+        <item>Eighteenth Day</item>
+        <item>Nineteenth Day</item>
+        <item>Twentieth Day</item>
+        <item>Twenty first Day</item>
+        <item>Twenty second Day</item>
+        <item>Twenty third Day</item>
+        <item>Twenty fourth Day</item>
+        <item>Twenty fifth Day</item>
+        <item>Twenty sixth Day</item>
+        <item>Twenty seventh Day</item>
+        <item>Twenty eighth Day</item>
+        <item>Twenty ninth Day</item>
+        <item>Thirtieth Day</item>
+        <item>Thirty first Day</item>
+    </string-array>
+    <string-array name="2130903055">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="2130903056">
+        <item>@string/qitaf_history_balance_filter_left_main_all</item>
+        <item>@string/qitaf_history_balance_filter_left_main_collected_points</item>
+        <item>@string/qitaf_history_balance_filter_left_main_spent_points</item>
+    </string-array>
+    <array name="2130903057">
+        <item>@drawable/2131231471</item>
+        <item>@drawable/2131231472</item>
+        <item>@drawable/2131231473</item>
+    </array>
+    <string-array name="2130903058">
+        <item>Month</item>
+        <item>2 months</item>
+        <item>3 months</item>
+        <item>4 months</item>
+        <item>5 months</item>
+        <item>6 months</item>
+        <item>7 months</item>
+        <item>8 months</item>
+        <item>9 months</item>
+        <item>10 months</item>
+        <item>11 months</item>
+        <item>12 months</item>
+        <item>13 months</item>
+        <item>14 months</item>
+        <item>15 months</item>
+        <item>16 months</item>
+        <item>17 months</item>
+        <item>18 months</item>
+        <item>19 months</item>
+        <item>20 months</item>
+        <item>21 months</item>
+        <item>22 months</item>
+        <item>23 months</item>
+        <item>24 months</item>
+    </string-array>
+    <string-array name="2130903059">
+        <item>Week</item>
+        <item>2 Weeks</item>
+        <item>3 Weeks</item>
+        <item>4 Weeks</item>
+        <item>5 Weeks</item>
+        <item>6 Weeks</item>
+        <item>7 Weeks</item>
+        <item>8 Weeks</item>
+        <item>9 Weeks</item>
+        <item>10 Weeks</item>
+        <item>11 Weeks</item>
+        <item>12 Weeks</item>
+        <item>13 Weeks</item>
+        <item>14 Weeks</item>
+        <item>15 Weeks</item>
+        <item>16 Weeks</item>
+        <item>17 Weeks</item>
+        <item>18 Weeks</item>
+        <item>19 Weeks</item>
+        <item>20 Weeks</item>
+        <item>21 Weeks</item>
+        <item>22 Weeks</item>
+        <item>23 Weeks</item>
+        <item>24 Weeks</item>
+    </string-array>
+    <string-array name="2130903060">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="2130903061">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="2130903062">
+        <item>@string/cdrp_sun</item>
+        <item>@string/cdrp_mon</item>
+        <item>@string/cdrp_tue</item>
+        <item>@string/cdrp_wed</item>
+        <item>@string/cdrp_thu</item>
+        <item>@string/cdrp_fri</item>
+        <item>@string/cdrp_sat</item>
+    </string-array>
+</resources>

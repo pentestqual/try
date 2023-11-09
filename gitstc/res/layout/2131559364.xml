@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="fill_parent" layout_margin="@dimen/2131165388" weightSum="1.0">
+        <LinearLayout orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.9">
+            <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" weightSum="1.0">
+                <TextView textSize="@dimen/2131165191" textColor="@color/2131099648" ellipsize="end" id="@id/2131365071" layout_width="0.0dip" layout_height="wrap_content" text="This is to test the message" maxLines="1" layout_weight="0.8" />
+                <TextView textSize="@dimen/2131165191" textColor="@color/2131100762" gravity="center_horizontal" id="@id/2131365944" background="@drawable/2131231299" layout_width="0.0dip" layout_height="wrap_content" text="+1" layout_weight="0.17" layout_marginStart="@dimen/2131165493" />
+            </LinearLayout>
+            <TextView textSize="@dimen/2131165534" textColor="@color/2131099648" id="@id/2131364105" layout_width="wrap_content" layout_height="wrap_content" text="This is to test the message" lineHeight="17.0dip" />
+        </LinearLayout>
+        <ImageView layout_gravity="center" id="@id/2131364283" layout_width="0.0dip" layout_height="wrap_content" src="@drawable/2131231371" layout_weight="0.1" layout_marginEnd="@dimen/2131165388" />
+    </LinearLayout>
+    <View id="@id/2131364107" background="#1e000000" visibility="visible" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" />
+    <View id="@id/2131364108" background="@color/2131099883" visibility="gone" layout_width="fill_parent" layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="fill_parent" fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="0.0dip">
+            <androidx.cardview.widget.CardView id="@id/2131361799" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="0.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130968837="15.0dip" 2130969524="2131364589">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366561" layout_width="fill_parent" layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView id="@id/2131366572" layout_width="fill_parent" layout_height="wrap_content" 2130968835="@color/2131100862" 2130968837="0.0dip" 2130968838="0.0dip" 2130969524="2131364589">
+                        <ImageView id="@id/2131366573" layout_width="48.0dip" layout_height="48.0dip" layout_margin="16.0dip" />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366562" padding="16.0dip" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131366572">
+                        <TextView id="@id/2131366078" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/voucher_rewards_home_section_left_main_free_vouchers" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083921" />
+                        <TextView id="@id/2131362908" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/voucher_rewards_your_voucher_left_main_description" 2130969520="2131364589" 2130969523="@id/2131366078" style="@style/2132083921" />
+                        <TextView id="@id/2131362909" layout_width="wrap_content" layout_height="wrap_content" 2130969501="@id/2131363513" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131362908" style="@style/2132083916" />
+                        <TextView id="@id/2131366594" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24.0dip" text="@string/voucher_rewards_browsing_my_rewards_left_main_voucher" 2130969501="@id/2131363513" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131362909" style="@style/2132083916" />
+                        <TextView ellipsize="end" id="@id/2131366596" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="8.0dip" maxLines="3" 2130969500="2131364589" 2130969520="@id/2131366594" 2130969523="@id/2131366594" style="@style/2132083899" />
+                        <TextView id="@id/2131363291" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24.0dip" text="@string/voucher_rewards_history_left_main_code_expiry" 2130969520="@id/2131366580" 2130969523="@id/2131366580" style="@style/2132083916" />
+                        <TextView id="@id/2131363295" paddingTop="6.0dip" paddingBottom="6.0dip" layout_width="wrap_content" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131363291" style="@style/2132083883" />
+                        <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131363513" layout_width="wrap_content" layout_height="wrap_content" 2130969504="0.5" />
+                        <TextView textColor="@color/2131099749" id="@id/2131363574" visibility="gone" layout_width="wrap_content" layout_height="0.0dip" layout_marginTop="25.0dip" text="@string/voucher_rewards_your_voucher_button_how_to" 2130969520="@id/2131366596" 2130969523="@id/2131366596" style="@style/2132083916" />
+                        <TextView id="@id/2131366579" visibility="gone" layout_width="wrap_content" layout_height="0.0dip" layout_marginTop="25.0dip" 2130969520="@id/2131366596" 2130969523="@id/2131363574" style="@style/2132083916" />
+                        <TextView ellipsize="end" id="@id/2131366580" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="8.0dip" maxLines="1" 2130969520="@id/2131366579" 2130969523="@id/2131366579" style="@style/2132083899" />
+                        <TextView ellipsize="end" id="@id/2131366565" visibility="gone" layout_width="44.0dip" layout_height="wrap_content" text="@string/currency" maxLines="1" layout_marginStart="8.0dip" 2130969494="@id/2131366580" 2130969519="@id/2131366580" style="@style/2132083899" />
+                        <TextView id="@id/2131365142" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" text="@string/voucher_rewards_browsing_my_rewards_left_main_redemption_date" 2130969494="@id/2131363291" 2130969520="@id/2131363513" 2130969524="@id/2131363291" style="@style/2132083916" />
+                        <TextView id="@id/2131365143" paddingTop="6.0dip" paddingBottom="6.0dip" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" 2130969494="@id/2131363295" 2130969520="@id/2131363513" 2130969523="@id/2131365142" style="@style/2132083883" />
+                        <androidx.cardview.widget.CardView id="@id/2131364279" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" 2130968835="@color/2131099735" 2130968837="10.0dip" 2130968838="0.0dip" 2130969494="@id/2131363295" 2130969500="2131364589" 2130969524="@id/2131363291">
+                            <TextView textColor="@color/2131099733" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="@dimen/2131165388" layout_marginRight="@dimen/2131165388" text="@string/new_voucher_rewards" style="@style/2132083827" />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView id="@id/2131365563" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" 2130968835="@color/2131100706" 2130968837="10.0dip" 2130968838="0.0dip" 2130969494="@id/2131363295" 2130969500="2131364589" 2130969524="@id/2131363291">
+                            <TextView textColor="?2130968975" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="@dimen/2131165388" layout_marginRight="@dimen/2131165388" text="@string/shared_voucher_rewards" style="@style/2132083827" />
+                        </androidx.cardview.widget.CardView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <ImageView id="@id/2131363081" background="@drawable/2131231060" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131366562" />
+                    <androidx.constraintlayout.widget.ConstraintLayout padding="16.0dip" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131363081">
+                        <Button textColor="?2130970330" id="@id/2131365139" visibility="gone" text="@string/voucher_rewards_your_voucher_button_get_voucher" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132084196" />
+                        <androidx.cardview.widget.CardView id="@id/2131365140" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" foregroundGravity="center_horizontal" 2130968835="@color/2131100686" 2130968837="2.0dip" 2130968838="0.0dip" 2130969494="2131364589" 2130969524="2131364589">
+                            <TextView textColor="?2130968978" gravity="center_horizontal" id="@id/2131365141" paddingTop="16.0dip" paddingBottom="16.0dip" layout_width="fill_parent" layout_height="wrap_content" textIsSelectable="true" style="@style/2132083885" />
+                        </androidx.cardview.widget.CardView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_gravity="start" orientation="vertical" id="@id/2131365871" background="@drawable/2131231944" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131166307" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView gravity="start" autoLink="all" linksClickable="true" id="@id/2131365065" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083921" />
+    <TextView gravity="end" layout_gravity="end" id="@id/2131365066" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5.0dip" style="@style/2132083828" />
+</LinearLayout>

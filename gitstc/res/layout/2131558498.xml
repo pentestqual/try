@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout id="@id/2131363754" layout_width="fill_parent" layout_height="fill_parent" />
+    <ProgressBar id="@id/2131364855" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout paddingTop="10.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingEnd="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox id="@id/2131364975" layout_width="wrap_content" layout_height="wrap_content" checked="false" layout_marginStart="@dimen/2131165388" 2130968825="@color/2131099797" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131364962" layout_width="0.0dip" layout_height="wrap_content" text="@string/partial_payment_payment_page_left_main_ewallet" 2130969501="@id/2131364960" 2130969519="@id/2131364975" 2130969524="2131364589" style="@style/2132083927" />
+    <TextView id="@id/2131364961" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165391" textAlignment="viewStart" 2130969519="@id/2131364975" 2130969520="@id/2131364962" 2130969523="@id/2131364962" style="@style/2132083918" />
+    <EditText enabled="false" id="@id/2131364960" background="@color/2131100860" layout_width="wrap_content" layout_height="fill_parent" minWidth="@dimen/2131165388" hint="00" maxLength="10" inputType="numberDecimal" imeOptions="actionDone" textAlignment="viewEnd" layout_marginEnd="6.0dip" 2130969501="@id/2131365000" 2130969524="@id/2131364962" style="@style/2132083895" />
+    <TextView id="@id/2131365000" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_roaming_country_info_right_main_sr" 2130969490="@id/2131364960" 2130969500="2131364589" style="@style/2132083885" />
+    <TextView id="@id/2131364985" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969490="@id/2131364961" 2130969500="2131364589" style="@style/2132083918" />
+    <ToggleButton gravity="center" id="@id/2131364973" background="@color/2131100860" layout_width="wrap_content" layout_height="wrap_content" textOn="@string/replace_sim_delivery_message_title_done" textOff="@string/partial_payment_payment_page_button_edit_amount" 2130969494="2131364589" 2130969500="@id/2131365000" 2130969523="@id/2131364985" style="@style/2132083865" />
+</androidx.constraintlayout.widget.ConstraintLayout>

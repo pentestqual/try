@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout visibility="visible" layout_width="fill_parent" layout_height="fill_parent" 2130969479="@xml/2132213762" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" backgroundTint="?2130968978" 2130969780="@drawable/2131231430" 2130970360="true" 2130970370="@style/2132083893" />
+    <include id="@id/2131366466" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559391" />
+    <include id="@id/2131364575" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" elevation="3.0dip" layout="@layout/2131559388" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365461" paddingTop="@dimen/2131165330" layout_width="fill_parent" layout_height="0.0dip" overScrollMode="never" elevation="0.0dip" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131362400" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="0.0dip" overScrollMode="never" elevation="0.0dip" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130970100="true" />
+    <com.google.android.material.button.MaterialButton id="@id/2131364022" layout_height="wrap_content" style="@style/2132082688" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

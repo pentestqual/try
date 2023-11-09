@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center_horizontal" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" />
+    <FrameLayout id="@id/2131362534" layout_width="fill_parent" layout_height="0.0dip" layout_weight="1.0" />
+    <Button enabled="false" id="@id/2131362624" text="@string/join_stc_delivery_address_button_confirm" style="@style/2132082688" />
+</LinearLayout>

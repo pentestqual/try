@@ -1,0 +1,47 @@
+.class final synthetic Lcom/google/android/gms/internal/vision/zzbk;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lcom/google/android/gms/internal/vision/zzbv;
+
+
+# static fields
+.field static final values:Lcom/google/android/gms/internal/vision/zzbv;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 65354
+    new-instance v0, Lcom/google/android/gms/internal/vision/zzbk;
+
+    invoke-direct {v0}, Lcom/google/android/gms/internal/vision/zzbk;-><init>()V
+
+    sput-object v0, Lcom/google/android/gms/internal/vision/zzbk;->values:Lcom/google/android/gms/internal/vision/zzbv;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .line 65353
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza()Z
+    .locals 1
+
+    .line 65352
+    invoke-static {}, Lcom/google/android/gms/internal/vision/zzbi;->values()Z
+
+    move-result v0
+
+    return v0
+.end method

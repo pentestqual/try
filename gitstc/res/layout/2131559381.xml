@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView id="@id/2131364440" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083891" />
+    <View style="@style/2132083036" />
+</LinearLayout>

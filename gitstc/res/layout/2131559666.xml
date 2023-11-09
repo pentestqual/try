@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" layout_marginStart="10.0dip" layout_marginEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <sa.com.stc.ui.costomizable_offers.AlacartProductCard id="@id/2131362441" padding="8.0dip" layout_width="100.0dip" layout_height="100.0dip" />
+</FrameLayout>

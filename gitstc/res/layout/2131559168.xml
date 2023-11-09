@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="wrap_content" layout_below="@id/2131362078" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/headerTextView" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" textAlignment="viewStart" style="@style/2132083899" />
+            <View id="@id/2131366134" style="@style/2132083036" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131364693" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_phone_number" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366087" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/book_an_appointment_my_appointment_left_main_ticket_number" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365223" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_email" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131365224" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_request_number" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366091" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_type" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366080" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_category" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366089" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_sub_category" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366090" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_state_of" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366088" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_ticket_raised" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366082" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_ticket_solved" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366084" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_solved_before" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366081" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_ticket_closing" 2130970449="@color/2131100768" />
+            <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131366083" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/customer_support_history_ticket_details_lift_main_description" 2130970449="@color/2131100768" />
+            <LinearLayout gravity="center_vertical" orientation="vertical" id="@id/2131365062" background="#ffffffff" visibility="gone" layout_width="fill_parent" layout_height="61.0dip" foreground="?android:selectableItemBackground" showDividers="middle">
+                <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="fill_parent" layout_height="60.0dip">
+                    <TextView gravity="center_vertical" id="@id/2131363814" layout_width="wrap_content" layout_height="wrap_content" text="@string/customer_support_history_ticket_details_lift_main_reason" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083945" />
+                    <TextView textColor="@color/2131100768" gravity="end" layout_gravity="center_vertical" id="@id/2131365054" background="@android:color/transparent" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" text="jkhjkhj" paddingStart="2.0dip" paddingEnd="20.0dip" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" style="@style/2132083868" />
+                </LinearLayout>
+                <include id="@id/2131363064" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout="@layout/2131558601" />
+            </LinearLayout>
+            <include id="@id/2131366079" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="60.0dip" layout="@layout/2131559827" />
+        </LinearLayout>
+    </ScrollView>
+    <Button enabled="true" id="@id/2131365050" visibility="gone" text="@string/change_date_ticket_details_button_rescheduling_ticket" layout_alignParentBottom="true" style="@style/2132082688" />
+</RelativeLayout>

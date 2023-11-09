@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="@color/2131100729" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_margin="15.0dip">
+        <ImageView id="@id/2131362156" background="@drawable/2131230884" layout_width="30.0dip" layout_height="30.0dip" />
+        <TextView textSize="20.0sp" textColor="@android:color/white" layout_gravity="center" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/shake_amp_win" layout_weight="1.0" fontFamily="@font/2131296257" layout_marginStart="10.0dip" />
+        <ImageView layout_gravity="end|center" id="@id/2131365971" background="@drawable/2131231225" layout_width="30.0dip" layout_height="30.0dip" />
+    </FrameLayout>
+    <ImageView layout_gravity="center" id="@id/2131362325" background="@drawable/2131230977" layout_width="150.0dip" layout_height="130.0dip" layout_marginTop="30.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131362437" background="@drawable/2131231015" layout_width="150.0dip" layout_height="100.0dip" layout_marginBottom="50.0dip" />
+    <ImageView layout_gravity="center_vertical" id="@id/2131362438" background="@drawable/2131231880" visibility="gone" layout_width="150.0dip" layout_height="150.0dip" layout_marginTop="55.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131363303" background="@drawable/2131231153" layout_width="90.0dip" layout_height="60.0dip" layout_marginTop="35.0dip" />
+    <FrameLayout layout_gravity="center" id="@id/2131365722" layout_width="fill_parent" layout_height="400.0dip">
+        <ImageView layout_gravity="center" id="@id/2131363447" background="@drawable/2131231937" layout_width="30.0dip" layout_height="30.0dip" layout_marginTop="40.0dip" layout_marginRight="60.0dip" />
+        <ImageView layout_gravity="center" id="@id/2131363448" background="@drawable/2131231936" layout_width="40.0dip" layout_height="40.0dip" layout_marginLeft="95.0dip" layout_marginTop="5.0dip" />
+        <ImageView layout_gravity="center" id="@id/2131363449" background="@drawable/2131231935" layout_width="30.0dip" layout_height="30.0dip" layout_marginTop="0.0dip" layout_marginRight="90.0dip" layout_marginBottom="20.0dip" />
+        <ImageView layout_gravity="center" id="@id/2131363446" background="@drawable/2131231934" layout_width="20.0dip" layout_height="20.0dip" layout_marginTop="0.0dip" layout_marginBottom="100.0dip" />
+        <ImageView layout_gravity="center" id="@id/2131363445" background="@drawable/2131231933" layout_width="20.0dip" layout_height="20.0dip" layout_marginLeft="40.0dip" layout_marginTop="0.0dip" layout_marginBottom="120.0dip" />
+    </FrameLayout>
+    <FrameLayout id="@id/2131365687" layout_width="fill_parent" layout_height="fill_parent">
+        <ImageView layout_gravity="center|left" id="@id/2131365688" background="@drawable/2131231924" visibility="gone" layout_width="200.0dip" layout_height="200.0dip" layout_marginLeft="50.0dip" layout_marginBottom="120.0dip" />
+        <ImageView layout_gravity="center|right" id="@id/2131365689" background="@drawable/2131231925" visibility="gone" layout_width="200.0dip" layout_height="200.0dip" layout_marginBottom="170.0dip" />
+    </FrameLayout>
+    <FrameLayout layout_gravity="center" id="@id/2131363403" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="30.0dip" layout_marginRight="30.0dip">
+        <View background="@android:color/black" layout_width="fill_parent" layout_height="180.0dip" alpha="0.5" />
+        <ImageView layout_gravity="center_horizontal" background="@drawable/2131231891" layout_width="85.0dip" layout_height="85.0dip" layout_marginTop="25.0dip" />
+        <TextView textSize="16.0sp" textColor="@android:color/white" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10.0dip" layout_marginTop="50.0dip" layout_marginRight="10.0dip" text="@string/shake_the_phone_to_crack_the_egg" fontFamily="@font/2131296263" textAlignment="center" />
+    </FrameLayout>
+</FrameLayout>

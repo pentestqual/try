@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/telegram_create_new_header_title_choose_how" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/telegram_create_new_header_sub_we_will" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <sa.com.stc.ui.telegram.common.TelegramListItemView id="@id/2131364212" layout_width="fill_parent" layout_height="wrap_content" 2130969315="false" 2130969523="@id/subtitle" 2130970229="@string/telegram_create_new_left_main_name" />
+    <sa.com.stc.ui.telegram.common.TelegramListItemView id="@id/2131364208" layout_width="fill_parent" layout_height="wrap_content" 2130969315="true" 2130969523="@id/2131364212" 2130970229="@string/telegram_create_new_button_your_name_email" />
+    <TextView layout_width="0.0dip" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" text="@string/telegram_create_new_section_footer_sr_per" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" layout_alignParentStart="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083916" />
+</androidx.constraintlayout.widget.ConstraintLayout>

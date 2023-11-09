@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099852" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <include id="@id/2131363172" visibility="gone" layout="@layout/2131559342" />
+    <TextView id="@id/2131363522" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_contract_buy_a_header_title_do_you" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365780" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/device_contract_buy_a_header_sub_browse_the" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@id/2131362332" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165319" layout_marginEnd="@dimen/2131165319" />
+</LinearLayout>

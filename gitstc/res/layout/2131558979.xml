@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131365294" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="wrap_content" layout_weight="1.0">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/network_feedback_problems_feedback_header_title_what_kind_of" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+            <LinearLayout orientation="vertical" id="@id/2131366547" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView id="@id/2131366553" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/network_feedback_problems_feedback_section_title_voice" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+                <View id="@id/2131362298" layout_marginTop="15.0dip" style="@style/2132083036" />
+                <LinearLayout orientation="vertical" id="@id/2131366551" layout_width="fill_parent" layout_height="wrap_content" />
+                <View style="@style/2132083036" />
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131362813" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="48.0dip">
+                <TextView id="@id/2131362821" layout_width="wrap_content" layout_height="wrap_content" text="@string/network_feedback_problems_feedback_section_title_data" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+                <View id="@id/2131362299" layout_marginTop="15.0dip" style="@style/2132083036" />
+                <LinearLayout orientation="vertical" id="@id/2131362819" layout_width="fill_parent" layout_height="wrap_content" />
+                <View style="@style/2132083036" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button enabled="false" id="@id/2131365803" layout_width="fill_parent" text="@string/network_feedback_problems_feedback_button_send_feedback" style="@style/2132082688" />
+</LinearLayout>

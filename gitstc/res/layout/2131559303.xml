@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@android:color/transparent" layout_width="wrap_content" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout_width="wrap_content" layout_height="wrap_content" layout="@layout/2131559306" />
+    <LinearLayout layout_gravity="center" orientation="vertical" id="@id/2131363956" padding="4.0dip" layout_width="wrap_content" layout_height="wrap_content">
+        <include id="@id/2131365272" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559305" />
+        <include id="@id/2131365273" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559305" />
+        <include id="@id/2131365274" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559305" />
+        <include id="@id/2131365275" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559305" />
+        <include id="@id/2131365276" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559305" />
+        <include id="@id/2131365277" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559305" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout layout_width="wrap_content" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363632" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" />
+    <sa.com.stc.ui.common.SwitchView id="@id/2131365894" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" />
+    <EditText gravity="end|center" id="@id/2131363150" background="@android:color/transparent" visibility="gone" layout_width="wrap_content" layout_height="fill_parent" hint="@string/login_and_registrations_enter_number_header_title_enter_a_number" maxLength="20" imeOptions="actionNext" textDirection="locale" style="@style/2132083885" />
+    <TextView textColor="?2130968978" id="@id/2131365991" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083865" />
+    <TextView textColor="?2130968978" id="@id/2131366013" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083921" />
+    <TextView textColor="?2130968978" id="@id/2131366014" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083927" />
+    <sa.com.stc.ui.common.TextIconView id="@id/2131366003" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" />
+</FrameLayout>

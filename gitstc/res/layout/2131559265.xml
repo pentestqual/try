@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout id="@id/2131366534" background="?colorAccent" layout_width="fill_parent" layout_height="fill_parent">
+        <ImageView id="@id/2131362882" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231315" layout_centerVertical="true" layout_marginEnd="20.0dip" layout_alignParentEnd="true" />
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/send_free_sms_draft_sms_message_button_delete" layout_centerVertical="true" layout_marginEnd="10.0dip" layout_toStartOf="@id/2131362882" style="@style/2132083888" />
+    </RelativeLayout>
+    <RelativeLayout id="@id/2131366535" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent">
+        <FrameLayout id="@id/2131363670" layout_width="?2130969587" layout_height="wrap_content" layout_alignBottom="@id/2131366288" layout_alignParentTop="true">
+            <ImageView layout_gravity="center" id="@id/2131363650" background="@color/2131100860" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231507" />
+        </FrameLayout>
+        <TextView ellipsize="end" id="@id/2131366285" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="15.0dip" maxLines="1" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" layout_toEndOf="@id/2131363670" style="@style/2132083927" />
+        <TextView ellipsize="end" id="@id/2131366288" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" maxLines="1" layout_below="@id/2131366285" layout_marginEnd="10.0dip" layout_alignStart="@id/2131366285" style="@style/2132083918" />
+    </RelativeLayout>
+</FrameLayout>

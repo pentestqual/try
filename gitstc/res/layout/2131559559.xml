@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout layout_gravity="center_horizontal" id="@id/2131364233" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131166171" layout_marginBottom="@dimen/2131166172">
+        <View layout_gravity="center" id="@id/2131364232" layout_width="0.0dip" layout_height="0.0dip" />
+        <ImageView layout_gravity="center" id="@id/2131364234" duplicateParentState="true" layout_width="@dimen/2131166170" layout_height="@dimen/2131166170" contentDescription="@null" />
+    </FrameLayout>
+    <com.google.android.material.internal.BaselineLayout layout_gravity="bottom|center" id="@id/2131364235" paddingBottom="@dimen/2131166172" duplicateParentState="true" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content">
+        <TextView textSize="@dimen/2131166173" ellipsize="end" id="@id/2131364237" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" />
+        <TextView textSize="@dimen/2131166165" ellipsize="end" id="@id/2131364236" visibility="invisible" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" />
+    </com.google.android.material.internal.BaselineLayout>
+</merge>

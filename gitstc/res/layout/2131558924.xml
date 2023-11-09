@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130969024" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <LinearLayout orientation="vertical" id="@id/2131363181" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+        <com.google.android.material.textview.MaterialTextView layout_width="wrap_content" layout_height="wrap_content" text="@string/notification_center_notification_section_title_turn_on" layout_marginStart="@dimen/2131165388" style="@style/2132083896" />
+        <com.google.android.material.card.MaterialCardView id="@id/2131363180" background="@drawable/2131230966" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130968837="2.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+                <View layout_gravity="center" id="@id/2131363671" background="?colorAccent" layout_width="60.0dip" layout_height="0.0dip" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                <androidx.appcompat.widget.AppCompatImageView id="@id/2131363630" background="?colorAccent" layout_width="24.0dip" layout_height="24.0dip" 2130969494="2131364589" 2130969500="@id/2131363671" 2130969520="2131364589" 2130969524="2131364589" 2130970099="@drawable/2131231683" 2130970356="@color/2131100892" />
+                <TextView textColor="?colorAccent" ellipsize="end" id="@id/2131366356" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="16.0dip" text="@string/notification_center_notification_left_main_allow_notification" textAllCaps="true" textDirection="locale" layout_marginStart="16.0dip" layout_marginEnd="16.0dip" 2130969500="2131364589" 2130969519="@id/2131363671" 2130969524="2131364589" style="@style/2132083830" />
+                <com.google.android.material.textview.MaterialTextView ellipsize="end" id="@id/2131366360" layout_width="0.0dip" layout_height="wrap_content" layout_marginBottom="16.0dip" text="@string/notification_center_notification_left_main_notifications_keep" textDirection="locale" layout_marginEnd="16.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="@id/2131366356" 2130969523="@id/2131366356" style="@style/2132083921" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <TextView id="@id/2131363985" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_notifications_section_title_recent_notifications" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363181" style="@style/2132083896" />
+    <TextView gravity="end|center" id="@id/2131363982" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_notifications_button_clear_all" layout_marginEnd="@dimen/2131165388" 2130969490="@id/2131363985" 2130969500="2131364589" style="@style/2132083865" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131363984" layout_width="0.0dip" layout_height="0.0dip" layout_margin="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363985" />
+    <LinearLayout orientation="vertical" id="@id/2131363983" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <TextView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_notifications_message_title_nothing_yet" style="@style/2132083840" />
+        <TextView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_notifications_message_body_your_notifications" style="@style/2132083923" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

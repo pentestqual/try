@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <LinearLayout orientation="vertical" id="@id/2131363424" background="@drawable/2131231294" visibility="gone" layout_width="220.0dip" layout_height="434.0dip" layout_marginTop="31.0dip" layout_centerInParent="true" />
+    <LinearLayout orientation="vertical" id="@id/2131363425" background="@drawable/2131231294" visibility="gone" layout_width="220.0dip" layout_height="434.0dip" layout_marginTop="31.0dip" layout_centerInParent="true">
+        <TextView gravity="center" layout_gravity="center_horizontal" background="@color/2131099954" layout_width="fill_parent" layout_height="38.0dip" layout_marginTop="59.0dip" text="STC" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083918" />
+        <TextView gravity="center" background="@color/2131099954" layout_width="fill_parent" layout_height="38.0dip" layout_marginTop="9.0dip" text="FTTH" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083918" />
+        <TextView gravity="center" id="@id/2131364726" background="@drawable/2131230896" layout_width="fill_parent" layout_height="37.0dip" layout_marginTop="11.0dip" text="@string/new_landline_landline_type_left_main_plate_id" singleLine="true" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083916" />
+        <View background="@color/2131099648" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" />
+        <TextView gravity="center" background="@color/2131099954" layout_width="fill_parent" layout_height="38.0dip" layout_marginTop="8.0dip" text="FDT - 001" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083918" />
+        <TextView gravity="center" background="@color/2131099954" layout_width="fill_parent" layout_height="38.0dip" layout_marginTop="8.0dip" text="ODF - 1 / P - 11 - 12" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083918" />
+        <TextView gravity="center" background="@color/2131099954" layout_width="fill_parent" layout_height="38.0dip" layout_marginTop="8.0dip" text="SP - 1 / P - 1 - 11 - 12" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083918" />
+        <TextView gravity="center" background="@color/2131099954" layout_width="fill_parent" layout_height="38.0dip" layout_marginTop="8.0dip" text="TB - 11" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083918" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@id/2131362720" background="@drawable/2131231294" visibility="visible" layout_width="220.0dip" layout_height="397.0dip" layout_marginTop="31.0dip" layout_centerInParent="true" />
+    <LinearLayout orientation="vertical" id="@id/2131362721" background="@drawable/2131231294" visibility="visible" layout_width="220.0dip" layout_height="397.0dip" layout_marginTop="31.0dip" layout_centerInParent="true">
+        <TextView gravity="center" id="@id/2131365893" background="@drawable/2131230896" layout_width="fill_parent" layout_height="37.0dip" layout_marginTop="59.0dip" text="@string/new_landline_landline_type_left_main_switch_id" singleLine="true" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083916" />
+        <View background="@color/2131099648" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" />
+        <TextView background="@color/2131099954" layout_width="fill_parent" layout_height="38.0dip" layout_marginTop="10.0dip" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" />
+        <TextView gravity="center" id="@id/2131362407" background="@drawable/2131230896" layout_width="fill_parent" layout_height="37.0dip" layout_marginTop="12.0dip" text="@string/new_landline_landline_type_left_main_cabinet_id" singleLine="true" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083916" />
+        <View background="@color/2131099648" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" />
+        <TextView background="@color/2131099954" layout_width="fill_parent" layout_height="38.0dip" layout_marginTop="10.0dip" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" />
+        <TextView gravity="center" id="@id/2131362851" background="@drawable/2131230896" layout_width="fill_parent" layout_height="37.0dip" layout_marginTop="12.0dip" text="@string/new_landline_landline_type_left_main_db_id" singleLine="true" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" style="@style/2132083916" />
+        <View background="@color/2131099648" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" />
+        <TextView background="@color/2131099954" layout_width="fill_parent" layout_height="38.0dip" layout_marginTop="10.0dip" layout_marginStart="31.0dip" layout_marginEnd="33.0dip" />
+    </LinearLayout>
+    <Button layout_gravity="bottom" id="@id/2131362690" layout_width="fill_parent" text="@string/new_landline_national_address_button_continue" layout_alignParentBottom="true" style="@style/2132082688" />
+</RelativeLayout>

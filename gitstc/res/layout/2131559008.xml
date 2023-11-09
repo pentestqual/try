@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362673" visibility="gone" layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969495="@id/2131365356" 2130969524="2131364589">
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+                <ImageView id="@id/2131364852" layout_width="100.0dip" layout_height="100.0dip" src="@drawable/2131231216" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                <TextView id="@id/2131361812" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364852" style="@style/2132083899" />
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364966" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165388" layout_marginRight="@dimen/2131165388" layout_marginHorizontal="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131361812">
+                    <RelativeLayout id="@id/2131364967" background="@drawable/2131231551" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                        <ImageView id="@id/2131364964" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231548" layout_alignParentEnd="true" />
+                        <ProgressBar id="@id/2131364969" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" />
+                        <TextView id="@id/2131364971" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginStart="30.0dip" style="@style/2132083842" />
+                        <TextView id="@id/2131364963" layout_width="wrap_content" layout_height="wrap_content" text="@string/main_menu_section_footer_tap_for" layout_below="@id/2131364971" alpha="0.6" layout_marginStart="30.0dip" style="@style/2132083829" />
+                    </RelativeLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout gravity="center" orientation="vertical" id="@id/2131363961" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165323" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364966">
+                    <ImageView layout_width="wrap_content" layout_height="wrap_content" 2130970099="@drawable/2131231367" />
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/create_invitation_profile_button_invite_a" style="@style/2132083871" />
+                </LinearLayout>
+                <View id="@id/2131363062" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363961" style="@style/2132083036" />
+                <TextView id="@id/2131361892" paddingTop="48.0dip" paddingBottom="16.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/personal_profile_profile_section_title_contacts" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363062" style="@style/2132083837" />
+                <View id="@id/2131363061" 2130969520="2131364589" 2130969523="@id/2131361892" style="@style/2132083036" />
+                <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131364817" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/primary_number_profile_left_main_primary_number" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363061" />
+                <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue id="@id/2131363165" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="@string/personal_profile_profile_left_main_email" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364817" />
+                <View id="@id/divider" 2130969520="2131364589" 2130969523="@id/2131363165" style="@style/2132083036" />
+                <TextView id="@id/2131364220" paddingTop="48.0dip" paddingBottom="16.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/personal_profile_profile_section_title_national_address" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/divider" style="@style/2132083837" />
+                <View id="@id/2131363065" 2130969520="2131364589" 2130969523="@id/2131364220" style="@style/2132083036" />
+                <LinearLayout gravity="center" orientation="horizontal" id="@id/2131364217" layout_width="fill_parent" layout_height="60.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363065">
+                    <TextView layout_gravity="center" layout_width="0.0dip" layout_height="wrap_content" text="@string/personal_profile_profile_left_main_address" layout_weight="0.6" style="@style/2132083927" />
+                    <ImageView layout_gravity="end|center" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_weight="0.01" />
+                </LinearLayout>
+                <View id="@id/2131363058" 2130969520="2131364589" 2130969523="@id/2131364217" style="@style/2132083036" />
+                <TextView id="@id/2131366450" paddingTop="48.0dip" paddingBottom="16.0dip" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" text="@string/assign_a_number_assign_section_title_user_details" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363058" style="@style/2132083837" />
+                <View id="@id/2131363070" visibility="gone" 2130969520="2131364589" 2130969523="@id/2131366450" style="@style/2132083036" />
+                <LinearLayout gravity="center" orientation="horizontal" id="@id/2131366446" visibility="gone" layout_width="fill_parent" layout_height="60.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363070">
+                    <TextView layout_gravity="center" layout_width="0.0dip" layout_height="wrap_content" text="@string/assign_a_number_assign_button_user_information" layout_weight="0.6" style="@style/2132083927" />
+                    <ImageView layout_gravity="end|center" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_weight="0.01" />
+                </LinearLayout>
+                <View id="@id/dividerNationalAddress" 2130969520="2131364589" 2130969523="@id/2131366446" style="@style/2132083036" />
+                <LinearLayout gravity="center" orientation="horizontal" id="@id/2131365960" visibility="gone" layout_width="fill_parent" layout_height="60.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/dividerNationalAddress">
+                    <TextView layout_gravity="center" layout_width="0.0dip" layout_height="wrap_content" text="@string/assign_a_number_assign_left_main_terminated_accounts" layout_weight="0.6" style="@style/2132083927" />
+                    <ImageView layout_gravity="end|center" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_weight="0.01" />
+                </LinearLayout>
+                <View id="@id/2131363069" 2130969520="2131364589" 2130969523="@id/2131365960" style="@style/2132083036" />
+                <androidx.constraintlayout.widget.Group id="@id/2131365476" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="dividerNationalAddress" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+        <Button enabled="false" id="@id/2131365356" text="@string/personal_profile_profile_button_save" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

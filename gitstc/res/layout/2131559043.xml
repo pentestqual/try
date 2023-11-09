@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="@color/2131099656" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout id="@id/2131364596" visibility="gone" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362078" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content">
+            <com.google.android.material.appbar.CollapsingToolbarLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231" 2130969780="@drawable/2131231200">
+                <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="?2130968594" animateLayoutChanges="true" 2130969485="2131364588">
+                    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362925" layout_width="fill_parent" layout_height="wrap_content" animateLayoutChanges="true" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078">
+                        <TextView id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083850" />
+                        <RelativeLayout id="@id/2131362671" layout_width="fill_parent" layout_height="wrap_content" animateLayoutChanges="true" 2130969494="@id/2131362925" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102">
+                            <TextView id="@id/2131365788" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="@dimen/2131165388" text="@string/redeem_qitaf_points_offer_message_button_confirm" alpha="0.5" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083842" />
+                            <ImageView id="@id/2131362158" layout_width="fill_parent" layout_height="226.0dip" scaleType="fitXY" layout_below="@id/2131365788" />
+                            <ImageView id="@id/2131364008" background="@drawable/2131230963" padding="5.0dip" layout_width="81.0dip" layout_height="79.0dip" scaleType="centerCrop" adjustViewBounds="true" layout_below="@id/2131365788" layout_marginStart="@dimen/2131165388" layout_alignParentStart="true" />
+                        </RelativeLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+                <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" 2130969780="@drawable/2131231430" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+            <FrameLayout layout_width="fill_parent" layout_height="wrap_content">
+                <com.google.android.material.tabs.TabLayout textSize="16.0dip" layout_gravity="center_horizontal" id="@id/2131365900" background="@color/2131099913" layout_width="fill_parent" layout_height="wrap_content" 2130970193="@color/2131099913" 2130970197="2131363324" 2130970203="?2130968978" 2130970219="?2130968978" 2130970221="@style/2132083692" />
+                <View layout_gravity="bottom" id="@id/2131362198" background="#ffdcdcdc" visibility="gone" layout_width="fill_parent" layout_height="1.0dip" />
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.viewpager2.widget.ViewPager2 id="@id/2131366514" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView gravity="center" id="@id/2131366139" layout_width="fill_parent" layout_height="?2130968594" style="@style/2132083893" />
+</FrameLayout>

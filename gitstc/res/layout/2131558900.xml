@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969495="@id/2131361898" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@id/2131363629" background="?2130968978" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <ImageView layout_gravity="center" id="@id/2131364836" layout_width="100.0dip" layout_height="100.0dip" layout_marginTop="@dimen/2131165388" scaleType="fitCenter" adjustViewBounds="true" />
+                <TextView gravity="center" id="@id/2131364843" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" style="@style/2132083848" />
+            </LinearLayout>
+            <include id="@id/2131362078" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+            <TextView id="@id/2131364844" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131363629" style="@style/2132083845" />
+            <View id="@id/2131364842" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364844" style="@style/2132083036" />
+            <TextView id="@id/2131364825" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/iot_subscription_left_main_bundle_price" layout_marginStart="@dimen/2131165388" 2130969523="@id/2131364842" style="@style/2132083921" />
+            <TextView id="@id/2131364028" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969519="@id/2131365777" 2130969523="@id/2131364825" 2130969524="@id/2131365777" style="@style/2132083908" />
+            <TextView id="@id/2131364029" layout_width="0.0dip" layout_height="wrap_content" layout_marginStart="8.0dip" 2130969494="@id/2131364028" 2130969519="@id/2131364028" 2130969524="@id/2131364028" style="@style/2132083885" />
+            <TextView textColor="@color/2131099653" id="@id/2131365777" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="5.0dip" 2130969520="2131364589" 2130969523="@id/2131364825" style="@style/2132083908" />
+            <TextView id="@id/2131365786" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364028" style="@style/2132083918" />
+            <TextView id="@id/2131364846" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" text="@string/iot_home_monitoring_left_main_vat_included" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131365786" style="@style/2132083835" />
+            <View id="@id/2131364845" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364846" style="@style/2132083036" />
+            <TextView id="@id/2131364828" padding="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364845" style="@style/2132083921" />
+            <Button layout_gravity="center" id="@id/2131366384" visibility="gone" layout_width="fill_parent" layout_margin="@dimen/2131165388" text="@string/service_subscription_service_details_button_unsubscribe" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083123" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <Button id="@id/2131361898" visibility="gone" layout_width="fill_parent" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout id="@id/2131362716" background="#ffffffff" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+        <ImageView id="@id/2131363269" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16.0dip" src="@drawable/2131231601" layout_marginEnd="16.0dip" />
+        <ImageView id="@id/2131363261" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231227" />
+        <ImageView id="@id/2131363260" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231501" />
+        <ImageView id="@id/2131363249" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16.0dip" src="@drawable/2131231346" layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+        <RelativeLayout layout_width="fill_parent" layout_height="wrap_content" paddingEnd="8.0dip">
+            <TextView textColor="#ff8e9aa0" id="@id/2131363264" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="5.0dip" layout_alignParentStart="true" style="@style/2132083916" />
+            <TextView textColor="@color/2131099797" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="/" layout_marginStart="4.0dip" layout_marginEnd="8.0dip" />
+            <TextView textColor="#ff8e9aa0" id="@id/2131363245" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentEnd="true" style="@style/2132083916" />
+            <ImageView id="@id/2131362342" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="10.0dip" src="@drawable/2131231229" />
+            <ImageView id="@id/2131362341" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231223" />
+        </RelativeLayout>
+        <com.google.android.exoplayer2.ui.DefaultTimeBar id="@id/2131363266" layout_width="fill_parent" layout_height="wrap_content" 2130968747="2.0dip" 2130968805="#ff95989f" 2130969867="@color/2131099797" 2130969963="@color/2131099797" 2130969966="@null" 2130970432="#ff45424e" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="2130903041">
+        <item>ح</item>
+        <item>ن</item>
+        <item>ث</item>
+        <item>ر</item>
+        <item>خ</item>
+        <item>ج</item>
+        <item>س</item>
+    </string-array>
+    <string-array name="2130903043">
+        <item>الشهر</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="2130903046">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+    </string-array>
+    <string-array name="2130903048">
+        <item>أسرع بـ 0.25 مرة</item>
+        <item>أسرع بـ 0.5 مرات</item>
+        <item>أسرع بـ 0.75 مرة</item>
+        <item>عادية</item>
+        <item>أسرع بـ 1.25 مرة</item>
+        <item>أسرع بـ 1.5 مرة</item>
+        <item>أسرع بمرتين</item>
+    </string-array>
+    <string-array name="2130903051">
+        <item>محرم</item>
+        <item>صفر</item>
+        <item>ربيع الأول</item>
+        <item>ربيع الثاني</item>
+        <item>جمادى الأول</item>
+        <item>جمادى الثاني</item>
+        <item>رجب</item>
+        <item>شعبان</item>
+        <item>رمضان</item>
+        <item>شوال</item>
+        <item>ذو القعدة</item>
+        <item>ذو الحجة</item>
+    </string-array>
+    <string-array name="2130903052">
+        <item>جاري الرد</item>
+        <item>جاري الرد.</item>
+        <item>جاري الرد..</item>
+        <item>جاري الرد...</item>
+    </string-array>
+    <string-array name="2130903054">
+        <item>يوم</item>
+        <item>اليوم الأول</item>
+        <item>اليوم الثاني</item>
+        <item>اليوم الثالث</item>
+        <item>اليوم الرابع</item>
+        <item>اليوم الخامس</item>
+        <item>اليوم السادس</item>
+        <item>اليوم السابع</item>
+        <item>اليوم الثامن</item>
+        <item>اليوم التاسع</item>
+        <item>اليوم العاشر</item>
+        <item>اليوم الحادي عشر</item>
+        <item>اليوم الثاني عشر</item>
+        <item>اليوم الثالث عشر</item>
+        <item>اليوم الرابع عشر</item>
+        <item>اليوم الخامس عشر</item>
+        <item>اليوم السادس عشز</item>
+        <item>اليوم السابع عشر</item>
+        <item>اليوم الثامن عشر</item>
+        <item>اليوم التاسع عشر</item>
+        <item>اليوم العشرون</item>
+        <item>اليوم الواحد والعشرون</item>
+        <item>اليوم الثاني والعشرون</item>
+        <item>اليوم الثالث والعشرون</item>
+        <item>اليوم الرابع والعشرون</item>
+        <item>اليوم الخامس والعشرون</item>
+        <item>اليوم السادس والعشرون</item>
+        <item>اليوم السابع والعشرون</item>
+        <item>اليوم الثامن والعشرون</item>
+        <item>اليوم التاسع والعشرون</item>
+        <item>اليوم الثلاثون</item>
+        <item>اليوم الواحد والثلاثون</item>
+    </string-array>
+    <string-array name="2130903055">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="2130903056">
+        <item>@string/qitaf_history_balance_filter_left_main_all</item>
+        <item>@string/qitaf_history_balance_filter_left_main_collected_points</item>
+        <item>@string/qitaf_history_balance_filter_left_main_spent_points</item>
+    </string-array>
+    <string-array name="2130903058">
+        <item>شهر</item>
+        <item>شهران</item>
+        <item>3 أشهر</item>
+        <item>4 أشهر</item>
+        <item>5 أشهر</item>
+        <item>6 أشهر</item>
+        <item>7 أشهر</item>
+        <item>8 أشهر</item>
+        <item>9 أشهر</item>
+        <item>10 أشهر</item>
+        <item>11 شهر</item>
+        <item>12 شهر</item>
+        <item>13 شهر</item>
+        <item>14 شهر</item>
+        <item>15 شهر</item>
+        <item>16 شهر</item>
+        <item>17 شهر</item>
+        <item>18 شهر</item>
+        <item>19 شهر</item>
+        <item>20 شهر</item>
+        <item>21 شهر</item>
+        <item>22 شهر</item>
+        <item>23 شهر</item>
+        <item>24 شهر</item>
+    </string-array>
+    <string-array name="2130903059">
+        <item>اسبوع</item>
+        <item>اسبوعان</item>
+        <item>٣ أسابيع</item>
+        <item>٤ أسابيع</item>
+        <item>٥ أسابيع</item>
+        <item>٦ أسابيع</item>
+        <item>٧ أسابيع</item>
+        <item>٨ أسابيع</item>
+        <item>٩ أسابيع</item>
+        <item>١٠ أسابيع</item>
+        <item>١١ اسبوع</item>
+        <item>١٢ اسبوع</item>
+        <item>١٣ اسبوع</item>
+        <item>١٤ اسبوع</item>
+        <item>١٥ اسبوع</item>
+        <item>١٦ اسبوع</item>
+        <item>١٧ اسبوع</item>
+        <item>١٨ اسبوع</item>
+        <item>١٩ اسبوع</item>
+        <item>٢٠ اسبوع</item>
+        <item>٢١ اسبوع</item>
+        <item>٢٢ اسبوع</item>
+        <item>٢٣ اسبوع</item>
+        <item>٢٤ اسبوع</item>
+    </string-array>
+    <string-array name="2130903061">
+        <item>الأحد</item>
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الإربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+</resources>

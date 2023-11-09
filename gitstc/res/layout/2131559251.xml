@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout paddingTop="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131363957" layout_width="0.0dip" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969501="@id/2131363649" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559362" />
+    <LinearLayout id="@id/2131363064" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" paddingStart="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363957">
+        <View style="@style/2132083036" />
+    </LinearLayout>
+    <ImageView gravity="end|center" layout_gravity="center" id="@id/2131363649" layout_width="22.0dip" layout_height="22.0dip" src="@drawable/2131231317" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969519="@id/2131363957" 2130969524="2131364589" />
+</androidx.constraintlayout.widget.ConstraintLayout>

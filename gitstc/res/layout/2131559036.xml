@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969495="@id/2131362393" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <TextView id="@id/2131364435" padding="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362633" style="@style/2132083899" />
+            <View id="@id/2131363073" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364435" />
+            <TextView textColor="@color/2131099731" id="@id/2131362056" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/browse_qitaf_partner_tamayouz_keys_left_main_amount" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" letterSpacing="0.07" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083891" />
+            <LinearLayout orientation="horizontal" id="@id/2131362053" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="2.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362056">
+                <TextView textColor="@color/2131099731" id="@id/2131364803" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083904" />
+                <TextView textColor="@color/2131099731" id="@id/2131366372" layout_width="wrap_content" layout_height="wrap_content" text="@string/browse_qitaf_partner_tamayouz_keys_left_main_tamayouz_keys" layout_marginStart="@dimen/2131165333" layout_marginEnd="@dimen/2131165333" letterSpacing="0.07" style="@style/2132083885" />
+            </LinearLayout>
+            <View id="@id/2131363075" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362053" />
+            <TextView id="@id/2131365854" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131363076" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131363075" 2130969525="0.04000002" style="@style/2132083889" />
+            <View id="@id/2131363076" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365854" />
+            <TextView id="@id/2131362907" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131363076" 2130969525="0.04000002" style="@style/2132083889" />
+            <TextView id="@id/2131365732" paddingLeft="@dimen/2131165388" paddingTop="@dimen/2131165388" paddingRight="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131362907" 2130969525="0.04000002" style="@style/2132083889" />
+            <TextView id="@id/2131363184" paddingLeft="@dimen/2131165388" paddingRight="@dimen/2131165388" paddingBottom="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131365732" 2130969525="0.04000002" style="@style/2132083889" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362633" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <ImageView id="@id/2131364551" layout_width="75.0dip" layout_height="75.0dip" src="@drawable/2131231608" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" />
+                <TextView gravity="center" id="@id/2131364553" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364551" style="@style/2132083905" />
+                <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362393" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+        <Button id="@id/2131361898" layout_width="fill_parent" text="@string/service_subscription_service_details_button_activate" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+        <Button id="@id/2131361899" layout_width="fill_parent" layout_margin="@dimen/2131165388" text="@string/service_subscription_service_details_button_deactivate" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083123" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

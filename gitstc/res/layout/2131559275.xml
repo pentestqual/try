@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="24.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView id="@id/2131362483" background="@drawable/2131231884" padding="12.0dip" layout_width="wrap_content" layout_height="wrap_content" backgroundTint="@color/2131100899" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130970099="@drawable/2131231214" />
+    <com.google.android.material.textview.MaterialTextView textColor="@color/2131099731" id="@id/2131362488" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16.0dip" letterSpacing="0.05" 2130969519="@id/2131362483" 2130969524="@id/2131362483" style="@style/2132083927" />
+    <com.google.android.material.textview.MaterialTextView textColor="@color/2131099731" id="@id/2131362485" layout_width="wrap_content" layout_height="wrap_content" alpha="0.8" layout_marginStart="16.0dip" letterSpacing="0.05" 2130969494="@id/2131362483" 2130969519="@id/2131362483" style="@style/2132083882" />
+    <androidx.appcompat.widget.AppCompatImageView id="@id/2131362105" padding="8.0dip" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="12.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" 2130970099="@drawable/2131231194" />
+    <View background="@color/2131099801" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="16.0dip" 2130969494="2131364589" 2130969523="@id/2131362483" />
+</androidx.constraintlayout.widget.ConstraintLayout>

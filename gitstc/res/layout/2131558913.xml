@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout background="@color/2131099789" layout_width="fill_parent" layout_height="0.0dip" 2130969494="@id/2131363532" 2130969524="2131364589" />
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363532" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131362078">
+        <ImageView id="@id/2131364852" layout_width="80.0dip" layout_height="80.0dip" src="@drawable/2131231216" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <TextView id="@id/2131364006" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/replace_sim_home_header_title_log_in" textAlignment="center" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364852" style="@style/2132083933" />
+        <Button id="@id/2131362352" layout_width="wrap_content" layout_marginTop="10.0dip" text="@string/replace_sim_home_button_login" paddingStart="60.0dip" paddingEnd="60.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364006" style="@style/2132082690" />
+        <androidx.constraintlayout.widget.Group id="@id/2131365424" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" 2130969020="searchEngine,search_divider" />
+        <TextView id="@id/searchEngine" paddingTop="@dimen/2131165391" paddingBottom="@dimen/2131165391" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/search_engine_more_left_main_what_are" drawableEnd="@drawable/2131231372" paddingEnd="@dimen/2131165393" 2130969514="2131364589" 2130969518="2131364589" 2130969523="@id/2131362352" style="@style/2132083924" />
+        <View id="@id/search_divider" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/searchEngine" style="@style/2132083036" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969523="@id/2131363532">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <sa.com.stc.ui.common.more.ListItemView id="@id/2131364049" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231663" 2130970033="true" 2130970229="@string/roaming_lost_sim_manage_sim_title_manage_sim" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/2131364199" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231489" 2130970033="true" 2130970229="@string/main_menu_left_main_my_orders" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/2131366192" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231734" 2130970033="true" 2130970229="@string/primary_number_transfer_ownership_title_transfer_ownership" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/2131365099" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231449" 2130970033="true" 2130970229="@string/recharge_a_recharge_a_title_recharge_a" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/2131365943" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231674" 2130970033="true" 2130970229="@string/main_menu_left_main_telegrams" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/2131361840" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231395" 2130970033="true" 2130970229="@string/main_menu_left_main_about_mystc" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/2131365548" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231645" 2130970033="true" 2130970229="@string/main_menu_left_main_settings" />
+            <View style="@style/2132083036" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

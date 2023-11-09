@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131361794" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <TextView id="@id/2131364608" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/change_password_enter_password_header_title_Enter_your" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+        <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/forget_password_reset_password_header_sub_we_save" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364608" style="@style/2132083927" />
+        <com.google.android.material.textfield.TextInputLayout id="@id/2131366007" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969216="true" 2130969221="@style/2132084619" 2130969520="2131364589" 2130969523="@id/subtitle" 2130969848="@drawable/2131231889" 2130969849="true" 2130969850="@color/2131100768">
+            <com.google.android.material.textfield.TextInputEditText id="@id/2131364607" layout_width="fill_parent" layout_height="wrap_content" hint="@string/login_and_registrations_enter_password_section_title_password" maxLines="1" singleLine="true" drawablePadding="@dimen/2131165516" inputType="textPassword" drawableStart="@drawable/2131231498" fontFamily="@font/2131296258" textAlignment="viewStart" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <FrameLayout id="@id/2131363555" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" />
+        <androidx.constraintlayout.widget.Group id="@id/2131364275" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="subtitle" />
+        <Button enabled="false" id="@id/2131362691" text="@string/change_password_enter_password_button_continue" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

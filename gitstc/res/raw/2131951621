@@ -1,0 +1,6 @@
+{
+  "status": "PENDING",
+  "subStatus": "PAYMENT_FAILED",
+  "stage": "PAYMENT_CONFIRMATION",
+  "message": "string"
+}

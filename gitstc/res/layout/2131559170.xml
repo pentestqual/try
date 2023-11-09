@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131362295" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <View layout_gravity="center_horizontal" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" />
+        <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="51.0dip" text="@string/book_an_appointment_reschedule_select_time_select_time" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+        <View layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131366100" scrollbars="vertical" layout_width="fill_parent" layout_height="300.0dip" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" minHeight="?2130968594" 2130969481="LinearLayoutManager" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

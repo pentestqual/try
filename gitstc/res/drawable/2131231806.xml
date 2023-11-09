@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector drawable="@drawable/2131231819" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target name="@string/mtrl_checkbox_button_icon_path_group_name" animation="@drawable/2131230760" />
+    <target name="@string/mtrl_checkbox_button_icon_path_group_name" animation="@drawable/2131230761" />
+    <target name="@string/mtrl_checkbox_button_icon_path_name" animation="@drawable/2131230762" />
+</animated-vector>

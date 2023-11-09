@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130969024" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131366133" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <LinearLayout orientation="vertical" id="@id/2131363709" paddingLeft="@dimen/2131165324" paddingTop="@dimen/2131165332" paddingRight="@dimen/2131165388" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131366133">
+        <ImageView layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165328" src="@drawable/2131231388" />
+        <TextView textSize="18.0sp" gravity="center" layout_width="fill_parent" layout_height="wrap_content" text="@string/fmc_discount_fmc_discount_title_fmc_overview" lineSpacingExtra="8.0sp" letterSpacing="0.03" style="@style/2132083842" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969495="@id/2131361898" 2130969523="@id/2131363709">
+        <LinearLayout orientation="vertical" background="@color/2131099656" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="0.0dip">
+            <TextView id="@id/titleTextView" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165333" style="@style/2132083837" />
+            <TextView id="@id/2131362908" layout_width="fill_parent" layout_height="wrap_content" lineSpacingExtra="6.0sp" letterSpacing="0.03" style="@style/2132083927" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131361898" layout_width="fill_parent" text="@string/device_details_installment_button_next" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

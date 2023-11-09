@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout id="@id/2131365278" paddingBottom="@dimen/2131165375" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView id="@id/2131363663" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231429" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" />
+    <com.archit.calendardaterangepicker.customviews.CustomTextView textSize="@dimen/2131166352" gravity="center" id="@id/2131366251" tag="dateTitle" layout_width="fill_parent" layout_height="wrap_content" text="FEBRUARY 2014" layout_centerHorizontal="true" layout_centerVertical="true" />
+    <androidx.appcompat.widget.AppCompatImageView id="@id/2131363664" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231607" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" />
+</RelativeLayout>

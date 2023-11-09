@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363650" layout_width="60.0dip" layout_height="90.0dip" src="@drawable/2131231321" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130969525="0.491" />
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131363511" layout_width="wrap_content" layout_height="fill_parent" 2130969504="0.2" />
+    <TextView id="@id/2131366290" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" textAllCaps="true" 2130969519="@id/2131363511" 2130969524="2131364589" style="@style/2132083883" />
+    <TextView id="@id/2131366285" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" 2130969519="@id/2131363511" 2130969523="@id/2131366290" style="@style/2132083891" />
+    <TextView ellipsize="end" id="@id/2131366288" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="4.0dip" maxLines="1" singleLine="true" 2130969500="2131364589" 2130969519="@id/2131363511" 2130969523="@id/2131366285" style="@style/2132083921" />
+    <TextView id="@id/2131366311" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4.0dip" maxLines="1" paddingEnd="10.0dip" 2130969519="@id/2131363511" 2130969523="@id/2131366288" style="@style/2132083875" />
+    <TextView id="@id/2131366287" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4.0dip" maxLines="1" 2130969519="@id/2131366311" 2130969523="@id/2131366288" style="@style/2132083875" />
+    <TextView ellipsize="end" id="@id/2131366284" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="4.0dip" maxLines="2" 2130969500="2131364589" 2130969519="@id/2131363511" 2130969523="@id/2131366287" style="@style/2132083924" />
+</androidx.constraintlayout.widget.ConstraintLayout>

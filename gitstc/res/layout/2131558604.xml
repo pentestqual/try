@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center" orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button id="@id/2131363488" layout_width="fill_parent" text="gradient edge" style="@style/2132082688" />
+    <LinearLayout background="@android:color/transparent" layout_width="fill_parent" layout_height="10.0dip" src="@android:color/transparent" />
+    <Button id="@id/2131363487" layout_width="wrap_content" text="gradient btn" style="@style/2132082690" />
+    <LinearLayout background="@android:color/transparent" layout_width="fill_parent" layout_height="10.0dip" src="@android:color/transparent" />
+    <Button id="@id/2131364529" text="outline Fill" style="@style/2132083123" />
+    <LinearLayout background="@android:color/transparent" layout_width="fill_parent" layout_height="10.0dip" src="@android:color/transparent" />
+    <Button layout_gravity="center" id="@id/2131364528" text="outline btn" style="@style/2132083125" />
+    <LinearLayout background="@android:color/transparent" layout_width="fill_parent" layout_height="10.0dip" src="@android:color/transparent" />
+    <LinearLayout gravity="center" orientation="vertical" background="?2130969013" layout_width="fill_parent" layout_height="wrap_content">
+        <LinearLayout background="@android:color/transparent" layout_width="fill_parent" layout_height="10.0dip" src="@android:color/transparent" />
+        <Button id="@id/2131366629" text="White Fill" style="@style/2132084196" />
+        <LinearLayout background="@android:color/transparent" layout_width="fill_parent" layout_height="10.0dip" src="@android:color/transparent" />
+        <Button id="@id/2131366630" text="White Fill" style="@style/2132084199" />
+        <LinearLayout background="@android:color/transparent" layout_width="fill_parent" layout_height="10.0dip" src="@android:color/transparent" />
+    </LinearLayout>
+</LinearLayout>

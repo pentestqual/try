@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout paddingTop="40.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363605" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="10.0dip" src="@drawable/2131231679" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131365460" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="10.0dip" text="@string/device_details_summary_section_title_promo_code" layout_marginStart="10.0dip" 2130969519="@id/2131363605" 2130969524="2131364589" style="@style/2132083837" />
+    <View id="@id/2131363030" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365460" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364872" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363030">
+        <com.google.android.material.textview.MaterialTextView id="@id/2131364881" layout_width="wrap_content" layout_height="wrap_content" text="@string/device_details_summary_left_main_promo_codee" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+        <com.google.android.material.textfield.TextInputEditText textColor="?2130968978" id="@id/2131364876" background="@android:color/transparent" focusable="false" layout_width="wrap_content" layout_height="wrap_content" hint="@string/device_details_summary_right_main_add_promo" cursorVisible="false" textAlignment="viewEnd" 2130969494="2131364589" 2130969501="@id/2131362581" 2130969524="2131364589" style="@style/2132083927" />
+        <TextView gravity="start" autoLink="all" linksClickable="true" id="@id/2131363016" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131364881" style="@style/2132083832" />
+        <ImageView id="@id/2131362581" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231316" paddingStart="10.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@id/2131363032" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364872" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131363023" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363032" 2130969559="@string/create_invitation_summary_left_main_discount_type" />
+</androidx.constraintlayout.widget.ConstraintLayout>

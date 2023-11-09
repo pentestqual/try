@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/txtPrimaryKey" paddingTop="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" text="@string/number_properties_sim_settings_section_title_primary_sim" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969501="@id/renameText" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+    <TextView textColor="?2130968978" id="@id/renameText" paddingTop="@dimen/2131165388" layout_width="0.0dip" layout_height="wrap_content" text="@string/number_properties_sim_settings_button_rename" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083885" />
+    <View id="@id/headerDivider" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/txtPrimaryKey" style="@style/2132083036" />
+    <androidx.constraintlayout.widget.Group id="@id/2131364816" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="txtPrimaryKey,headerDivider,renameText" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362633" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/headerDivider">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365579" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <LinearLayout orientation="vertical" id="@id/2131365593" background="@drawable/2131230927" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" layout_width="335.0dip" layout_height="200.0dip" layout_marginTop="@dimen/2131165333" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <TextView gravity="center_vertical" id="@id/2131365596" layout_width="wrap_content" layout_height="wrap_content" text="@string/replace_sim_delivery_summary_lift_main_sim_number" alpha="0.65" style="@style/2132083919" />
+                <TextView gravity="center_vertical" id="@id/2131365598" layout_width="wrap_content" layout_height="wrap_content" letterSpacing="0.02" 2130969501="@id/2131365593" 2130969520="2131364589" 2130969523="@id/2131365596" style="@style/2132083888" />
+                <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+                    <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+                        <TextView id="@id/2131364537" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15.0dip" text="@string/pin1" alpha="0.65" style="@style/2132083919" />
+                        <TextView id="@id/2131364699" layout_width="wrap_content" layout_height="wrap_content" letterSpacing="0.02" style="@style/2132083888" />
+                        <TextView id="@id/2131364700" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/pin2" alpha="0.65" style="@style/2132083919" />
+                        <TextView id="@id/2131364701" layout_width="wrap_content" layout_height="wrap_content" letterSpacing="0.02" style="@style/2132083888" />
+                    </LinearLayout>
+                    <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="60.0dip">
+                        <TextView textColor="@color/2131099656" id="@id/2131364895" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="15.0dip" text="@string/puk1" alpha="0.65" style="@style/2132083916" />
+                        <TextView id="@id/2131364896" layout_width="wrap_content" layout_height="wrap_content" letterSpacing="0.02" style="@style/2132083888" />
+                        <TextView textColor="@color/2131099656" id="@id/2131364897" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/puk2" alpha="0.65" style="@style/2132083916" />
+                        <TextView id="@id/2131364898" layout_width="wrap_content" layout_height="wrap_content" letterSpacing="0.02" style="@style/2132083888" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView layout_gravity="center_horizontal" id="@id/2131365591" background="@drawable/2131231659" layout_width="100.0dip" layout_height="60.0dip" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="@id/2131365593" 2130969524="2131364589" />
+            <ImageView layout_gravity="center_horizontal" id="@id/2131365573" visibility="gone" layout_width="130.0dip" layout_height="130.0dip" scaleType="fitXY" layout_marginEnd="5.0dip" 2130969494="2131364589" 2130969500="@id/2131365593" 2130969524="2131364589" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout orientation="vertical" id="@id/2131364040" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362633">
+        <TextView gravity="center_vertical" id="@id/2131364041" padding="18.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" style="@style/2132083837" />
+        <View id="@id/2131363073" style="@style/2132083036" />
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362645" layout_width="fill_parent" layout_height="wrap_content">
+            <androidx.constraintlayout.widget.Group id="@id/2131363960" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" 2130969020="llEnableCalls,enableCallsDivider" />
+            <LinearLayout orientation="horizontal" id="@id/llEnableCalls" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <TextView id="@id/2131366291" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/number_properties_your_sims_left_main_incoming_calls" layout_weight="1.0" 2130969520="2131364589" 2130969523="@id/llEnableCalls" style="@style/2132083927" />
+                <Button textSize="15.0sp" layout_gravity="end|center" id="@id/2131362356" layout_width="wrap_content" layout_height="wrap_content" text="@string/number_properties_sim_settings_right_main_enable_it" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132082689" />
+            </LinearLayout>
+            <View id="@id/enableCallsDivider" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/llEnableCalls" />
+            <LinearLayout orientation="horizontal" id="@id/2131364526" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/enableCallsDivider">
+                <TextView id="@id/2131364527" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/number_properties_your_sims_left_main_outgoing_calls" layout_weight="1.0" 2130969520="2131364589" 2130969523="@id/llEnableCalls" style="@style/2132083927" />
+                <ImageView layout_gravity="end|center" id="@id/2131363707" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231395" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" />
+            </LinearLayout>
+            <View id="@id/2131364525" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364526" style="@style/2132083036" />
+            <androidx.constraintlayout.widget.Group id="@id/2131363353" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="firstRow,firstRowDivider" />
+            <LinearLayout orientation="horizontal" id="@id/2131361957" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364525">
+                <TextView id="@id/2131361959" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" text="@string/esim_my_sims_button_activate_esim" layout_weight="1.0" 2130969520="2131364589" 2130969523="@id/llEnableCalls" style="@style/2132083927" />
+                <ImageView layout_gravity="end|center" id="@id/2131361956" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231395" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" />
+            </LinearLayout>
+            <View id="@id/2131361958" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131361957" style="@style/2132083036" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/firstRow" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131361958" />
+            <View id="@id/firstRowDivider" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/firstRow" style="@style/2132083036" />
+            <androidx.constraintlayout.widget.Group id="@id/2131366406" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="upgradeRow,upgradeRowDivider" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/upgradeRow" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/firstRowDivider" />
+            <View id="@id/upgradeRowDivider" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/upgradeRow" style="@style/2132083036" />
+            <androidx.constraintlayout.widget.Group id="@id/2131365455" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="secondRow,secondRowDivider" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/secondRow" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/upgradeRowDivider" />
+            <View id="@id/secondRowDivider" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/secondRow" style="@style/2132083036" />
+            <sa.com.stc.ui.common.more.ListItemView id="@id/2131366069" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/secondRowDivider" />
+            <View id="@id/2131366070" 2130969520="2131364589" 2130969523="@id/secondRow" style="@style/2132083036" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

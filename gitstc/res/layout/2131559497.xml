@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362238" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969524="2131364589">
+        <TextView ellipsize="end" id="@id/2131362241" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083834" />
+        <TextView id="@id/2131362239" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" 2130969520="@id/2131362241" 2130969523="@id/2131362241" style="@style/2132083870" />
+        <TextView ellipsize="end" layout_gravity="start|center" id="@id/2131362243" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" layout_marginStart="5.0dip" 2130969494="@id/2131362239" 2130969501="@id/2131362242" 2130969510="0.0" 2130969519="@id/2131362239" style="@style/2132083870" />
+        <TextView textSize="13.0dip" id="@id/2131362242" layout_width="wrap_content" layout_height="wrap_content" textAlignment="viewEnd" 2130969494="@id/2131362239" 2130969500="2131364589" />
+        <ProgressBar id="@id/2131362240" layout_width="fill_parent" layout_height="5.0dip" layout_marginTop="5.0dip" max="100" indeterminate="false" progressDrawable="@drawable/2131231170" 2130969520="2131364589" 2130969523="@id/2131362239" style="@style/2132083178" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131363513" layout_width="wrap_content" layout_height="wrap_content" 2130969504="0.5" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363904" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginEnd="10.0dip" 2130969501="@id/2131363513" 2130969520="2131364589" 2130969523="@id/2131362238">
+        <TextView ellipsize="end" id="@id/2131363907" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083834" />
+        <TextView ellipsize="end" id="@id/2131363905" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" singleLine="true" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131363907" style="@style/2132083870" />
+        <TextView id="@id/2131363908" layout_width="wrap_content" layout_height="wrap_content" 2130969494="@id/2131363905" 2130969500="2131364589" style="@style/2132083887" />
+        <ProgressBar id="@id/2131363906" layout_width="fill_parent" layout_height="5.0dip" layout_marginTop="5.0dip" max="100" indeterminate="false" progressDrawable="@drawable/2131231170" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363905" style="@style/2132083178" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365259" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="10.0dip" 2130969500="2131364589" 2130969519="@id/2131363513" 2130969523="@id/2131362238">
+        <TextView ellipsize="end" id="@id/2131365262" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083834" />
+        <TextView ellipsize="end" layout_gravity="start|center" id="@id/2131365260" layout_marginTop="10.0dip" singleLine="true" 2130969520="2131364589" 2130969523="@id/2131365262" style="@style/2132083870" />
+        <TextView id="@id/2131365263" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" 2130969494="@id/2131365260" 2130969500="2131364589" style="@style/2132083887" />
+        <ProgressBar id="@id/2131365261" layout_width="fill_parent" layout_height="5.0dip" layout_marginTop="5.0dip" max="100" indeterminate="false" progressDrawable="@drawable/2131231170" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365260" style="@style/2132083178" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

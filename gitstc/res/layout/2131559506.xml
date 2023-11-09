@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131366236" text="@string/purchase_status_purchase_history_section_title_points_expiring" layout_marginStart="20.0dip" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+    <androidx.constraintlayout.widget.Group id="@id/2131363503" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="tvSeeALl,recyclerViewExpire" />
+    <TextView orientation="vertical" id="@id/tvSeeALl" focusable="true" clickable="true" layout_marginTop="30.0dip" text="@string/purchase_status_purchase_history_botton_see_all" layout_marginEnd="@dimen/2131165388" 2130969490="@id/2131366236" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083865" />
+    <View id="@id/2131366103" layout_marginTop="@dimen/2131165328" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366236" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/recyclerViewExpire" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="@dimen/2131165388" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366103" />
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131364322" background="@color/2131100892" visibility="invisible" layout_width="fill_parent" layout_height="200.0dip" layout_margin="@dimen/2131165388" 2130969524="@id/2131366103">
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/purchase_status_purchase_history_section_title_nothing_yet" style="@style/2132083841" />
+        <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165334" text="@string/purchase_status_purchase_history_section_footer_you_dont" textAlignment="center" style="@style/2132083924" />
+    </LinearLayout>
+    <ImageView gravity="center" id="@id/2131365176" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_margin="@dimen/2131165388" src="@drawable/2131231593" 2130969494="@id/2131364322" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

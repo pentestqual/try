@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131362555" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/transfer_ownership_receiver_name_header_title_who_are_you" style="@style/2132083845" />
+            <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/transfer_ownership_receiver_name_header_sub_we_cant" style="@style/2132083927" />
+            <com.google.android.material.textfield.TextInputLayout id="@id/2131366191" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" hint="@string/transfer_ownership_receiver_name_left_sub_first_name" 2130969216="true">
+                <com.google.android.material.textfield.TextInputEditText id="@id/2131366190" layout_width="fill_parent" layout_height="wrap_content" singleLine="true" inputType="textNoSuggestions" textAlignment="viewStart" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button enabled="false" id="@id/2131362555" layout_width="fill_parent" text="@string/transfer_ownership_receiver_name_message_button_continue" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

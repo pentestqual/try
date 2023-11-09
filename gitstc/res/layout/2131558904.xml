@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView id="@id/titleTextView" layout_width="fill_parent" layout_height="wrap_content" text="@string/aljawal_control_aljawal_control_header_title_choose_block" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365837" layout_width="fill_parent" layout_height="wrap_content" text="@string/aljawal_control_aljawal_control_header_sub_choose_the" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/titleTextView" style="@style/2132083927" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365127" layout_width="fill_parent" layout_height="0.0dip" layout_marginTop="@dimen/2131165334" overScrollMode="never" 2130969481="LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365837" 2130969525="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

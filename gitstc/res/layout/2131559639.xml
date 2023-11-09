@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/gift_device_summary_section_title_payment_method" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083837" />
+    <View id="@id/2131363075" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083036" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364447" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363075">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364635" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <TextView id="@id/2131364634" background="?android:selectableItemBackground" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/gift_device_summary_section_button_pay_now" drawablePadding="@dimen/2131165388" 2130969167="@drawable/2131231300" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+            <View id="@id/2131363030" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364634" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366436" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364635">
+            <TextView id="@id/2131366435" background="?android:selectableItemBackground" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/gift_device_summary_section_button_cash_on" drawablePadding="@dimen/2131165388" 2130969167="@drawable/2131231261" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+            <View id="@id/divider" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366435" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366434" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366436">
+            <TextView id="@id/2131366433" background="?android:selectableItemBackground" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/purchase_subscription_package_details_button_deduct_from" drawablePadding="@dimen/2131165388" 2130969167="@drawable/2131231189" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+            <View id="@id/2131362197" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366433" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

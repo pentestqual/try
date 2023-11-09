@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView id="@id/2131366424" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+        <FrameLayout id="@id/2131366425" layout_width="fill_parent" layout_height="fill_parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout background="?colorAccent" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView textSize="20.0dip" id="@id/2131364050" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_button_manage" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083848" />
+            <TextView ellipsize="end" id="@id/2131364048" layout_width="0.0dip" layout_height="wrap_content" singleLine="true" 2130969501="@id/2131364047" 2130969520="2131364589" 2130969523="@id/2131364050" style="@style/2132083925" />
+            <ImageView id="@id/2131364047" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231751" paddingStart="@dimen/2131165388" paddingEnd="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

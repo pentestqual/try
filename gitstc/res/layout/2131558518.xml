@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="@color/2131100729" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout layout_gravity="start" background="@drawable/2131231067" layout_width="30.0dip" layout_height="30.0dip" layout_margin="20.0dip">
+        <ImageView layout_gravity="center" id="@id/2131362156" background="@drawable/2131231221" layout_width="20.0dip" layout_height="20.0dip" />
+    </FrameLayout>
+    <ImageView layout_gravity="end" id="@id/2131365971" background="@drawable/2131231225" visibility="gone" layout_width="30.0dip" layout_height="30.0dip" layout_margin="20.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131363560" background="@drawable/2131230977" layout_width="150.0dip" layout_height="130.0dip" layout_marginTop="30.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131363561" background="@drawable/2131231015" layout_width="150.0dip" layout_height="100.0dip" layout_marginBottom="50.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131363565" background="@drawable/2131231153" layout_width="90.0dip" layout_height="60.0dip" layout_marginTop="35.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131365723" background="@drawable/2131231937" layout_width="30.0dip" layout_height="30.0dip" layout_marginTop="40.0dip" layout_marginRight="60.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131365724" background="@drawable/2131231936" layout_width="40.0dip" layout_height="40.0dip" layout_marginLeft="95.0dip" layout_marginTop="5.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131365725" background="@drawable/2131231935" layout_width="30.0dip" layout_height="30.0dip" layout_marginTop="0.0dip" layout_marginRight="90.0dip" layout_marginBottom="20.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131365721" background="@drawable/2131231934" layout_width="20.0dip" layout_height="20.0dip" layout_marginTop="0.0dip" layout_marginBottom="100.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131365720" background="@drawable/2131231933" layout_width="20.0dip" layout_height="20.0dip" layout_marginLeft="40.0dip" layout_marginTop="0.0dip" layout_marginBottom="120.0dip" />
+    <LinearLayout layout_gravity="bottom" orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="20.0dip" layout_marginRight="20.0dip">
+        <TextView textSize="26.0sp" textColor="@android:color/white" id="@id/2131363444" layout_width="wrap_content" layout_height="wrap_content" text="" singleLine="true" fontFamily="@font/2131296257" fontPath="fonts/STCForward-Bold.ttf" />
+        <TextView textSize="14.0sp" textColor="@android:color/white" id="@id/2131363442" layout_width="wrap_content" layout_height="wrap_content" text="" singleLine="true" fontFamily="@font/2131296263" />
+        <TextView textSize="14.0sp" textColor="@android:color/white" id="@id/2131363443" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="7.0dip" text="" singleLine="true" fontFamily="@font/2131296263" />
+        <Button textColor="@color/2131100892" id="@id/2131364738" background="@drawable/2131230988" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip" layout_marginBottom="30.0dip" text="@string/play_now" fontFamily="@font/2131296263" />
+    </LinearLayout>
+    <ProgressBar layout_gravity="center" id="@id/2131364855" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/device_location_pickup_header_title_choose_a" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <androidx.cardview.widget.CardView id="@id/2131364856" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="5.0dip" 2130968837="2.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="@id/2131364058">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="wrap_content" layout_height="wrap_content">
+            <ProgressBar layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" layout_marginStart="30.0dip" layout_marginEnd="30.0dip" indeterminateTint="?2130968978" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <include id="@id/2131364058" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" layout="@layout/2131559821" />
+    <RadioGroup orientation="vertical" id="@id/2131364059" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969500="2131364589" 2130969524="@id/2131364058">
+        <RadioButton gravity="center" id="@id/2131364060" background="@drawable/2131231445" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" checked="true" button="@null" />
+        <RadioButton gravity="center" id="@id/2131365352" background="@drawable/2131231616" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" checked="false" button="@null" />
+    </RadioGroup>
+    <LinearLayout gravity="center_horizontal" orientation="vertical" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+        <ImageView layout_gravity="end" id="@id/2131362777" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" src="@drawable/2131231306" adjustViewBounds="true" layout_marginEnd="@dimen/2131165388" />
+        <androidx.cardview.widget.CardView id="@id/2131362465" background="@color/2131099655" visibility="gone" layout_width="fill_parent" layout_height="90.0dip" layout_marginBottom="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130968837="2.0dip" 2130968838="8.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center_vertical" background="@drawable/2131231884" layout_width="fill_parent" layout_height="fill_parent" backgroundTint="@color/2131099656" 2130969500="2131364589" 2130969520="2131364589">
+                <TextView id="@id/2131364207" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginStart="14.0dip" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+                <TextView id="@id/2131365765" layout_width="wrap_content" layout_height="wrap_content" text="@string/device_summary_left_main_stc_store" layout_marginStart="14.0dip" 2130969520="2131364589" 2130969523="@id/2131364207" style="@style/2132083883" />
+                <ImageView layout_gravity="end" id="@id/2131363628" layout_width="16.0dip" layout_height="32.0dip" layout_marginBottom="2.0dip" src="@drawable/2131231437" layout_marginStart="14.0dip" 2130969494="2131364589" 2130969520="2131364589" />
+                <TextView id="@id/2131363813" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8.0dip" layout_marginStart="5.0dip" 2130969494="2131364589" 2130969519="@id/2131363628" style="@style/2132083883" />
+                <Button id="@id/2131362543" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="5.0dip" text="@string/device_location_pickup_button_choose" layout_marginEnd="5.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969523="@id/2131362981" style="@style/2132082690" />
+                <TextView textSize="13.0sp" textColor="?colorAccent" layout_gravity="center" id="@id/2131362981" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="10.0dip" fontFamily="@font/2131296262" layout_marginStart="5.0dip" layout_marginEnd="15.0dip" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083882" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

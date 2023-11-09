@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131366286" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165322" layout_marginBottom="10.0dip" text="@string/device_summary_section_footer_details" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969519="@id/2131363605" 2130969524="2131364589" style="@style/2132083837" />
+    <View id="@id/2131363030" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362703" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/device_contract_summary_left_main_number" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362968" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/device_details_summary_left_main_device_type" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365037" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" nestedScrollingEnabled="false" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364654" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969559="@string/order_tracking_summary_left_main_payment_method" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365036" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

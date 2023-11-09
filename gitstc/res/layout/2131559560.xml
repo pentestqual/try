@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="end" orientation="horizontal" id="@id/2131362838" paddingRight="@dimen/2131166077" layout_width="fill_parent" layout_height="@dimen/2131166076" paddingEnd="@dimen/2131166077"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button layout_gravity="center_vertical" id="@id/2131362433" layout_width="wrap_content" layout_height="wrap_content" text="@string/mtrl_picker_cancel" style="?2130968808" />
+    <Button layout_gravity="center_vertical" id="@id/2131362629" layout_width="wrap_content" layout_height="wrap_content" minWidth="@dimen/2131166075" text="@string/mtrl_picker_confirm" style="?2130968810" />
+</LinearLayout>

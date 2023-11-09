@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366111" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/new_landline_get_a_header_title_select_your" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView gravity="start" id="@id/2131365838" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/new_landline_get_a_header_title_please_select" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366111" style="@style/2132083927" />
+    <TextView gravity="start" id="@id/2131363949" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/new_landline_get_a_section_title_calendar_type" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365838" style="@style/2132083837" />
+    <View id="@id/2131362304" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363949" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131362410" layout_width="fill_parent" layout_height="0.0dip" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362304" />
+</androidx.constraintlayout.widget.ConstraintLayout>

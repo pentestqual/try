@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131363951" background="?2130969981" paddingLeft="16.0dip" paddingRight="16.0dip" layout_width="fill_parent" layout_height="?2130969175" minWidth="196.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout duplicateParentState="true" layout_width="wrap_content" layout_height="fill_parent">
+        <ImageView layout_gravity="center_vertical" id="@id/2131363605" duplicateParentState="true" layout_width="32.0dip" layout_height="32.0dip" layout_marginRight="8.0dip" />
+        <TextView textAppearance="?2130970255" ellipsize="marquee" layout_gravity="center_vertical" id="@id/2131366102" fadingEdge="horizontal" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

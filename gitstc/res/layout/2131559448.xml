@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView id="@id/2131363479" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" backgroundTint="?2130968978" 2130969520="2131364589" 2130969524="2131364589" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout padding="@dimen/2131165388" layout_width="fill_parent" layout_height="fill_parent" minHeight="?android:listPreferredItemHeight">
+        <ImageView id="@id/2131365293" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231366" scaleType="fitCenter" adjustViewBounds="true" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <TextView layout_width="0.0dip" layout_height="wrap_content" text="@string/data_gifting_home_button_send_a" layout_marginStart="20.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969510="0.0" 2130969519="@id/2131365293" 2130969524="2131364589" style="@style/2132083925" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

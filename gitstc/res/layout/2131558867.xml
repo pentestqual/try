@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button id="@id/2131365727" layout_width="fill_parent" layout_marginBottom="20.0dip" text="@string/send_free_sms_create_new_button_start" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+    <ImageView id="@id/2131363659" layout_width="fill_parent" layout_height="180.0dip" layout_marginTop="45.0dip" src="@drawable/2131231677" adjustViewBounds="true" layout_marginStart="25.0dip" layout_marginEnd="25.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" />
+    <TextView gravity="center" id="@id/2131363411" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="19.0dip" text="@string/send_free_sms_create_new_header_sub_you_have" layout_marginStart="25.0dip" layout_marginEnd="25.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363409" style="@style/2132083927" />
+    <TextView gravity="center" id="@id/2131363409" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/free_sms_header" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363659" style="@style/2132083845" />
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="@id/2131364023" layout="@layout/2131559494" />
+</androidx.constraintlayout.widget.ConstraintLayout>

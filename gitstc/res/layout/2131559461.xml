@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131166307" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView layout_width="wrap_content" layout_height="wrap_content" 2130968835="@color/2131100822" 2130968837="15.0dip">
+        <TextView gravity="center_horizontal" id="@id/2131362836" paddingTop="3.0dip" paddingBottom="3.0dip" layout_width="wrap_content" layout_height="wrap_content" paddingStart="10.0dip" paddingEnd="10.0dip" style="@style/2132083829" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

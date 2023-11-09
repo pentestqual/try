@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item id="@id/2131365357" title="@string/number_properties_sim_settings_button_save" 2130970031="2131362051|2131366650" />
+</menu>

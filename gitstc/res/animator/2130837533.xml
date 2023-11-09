@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item state_enabled="true" state_pressed="true">
+            <set>
+                <objectAnimator android:duration="@integer/2131427380" android:valueTo="@dimen/2131166143" android:valueType="floatType" android:propertyName="translationZ" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/2131166131" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+        <item state_enabled="true" state_hovered="true">
+            <set>
+                <objectAnimator android:duration="@integer/2131427380" android:valueTo="@dimen/2131166142" android:valueType="floatType" android:propertyName="translationZ" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/2131166131" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+        <item state_focused="true" state_enabled="true">
+            <set>
+                <objectAnimator android:duration="@integer/2131427380" android:valueTo="@dimen/2131166142" android:valueType="floatType" android:propertyName="translationZ" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/2131166131" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+        <item state_enabled="true">
+            <set>
+                <objectAnimator android:duration="@integer/2131427380" android:valueTo="@dimen/2131166141" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="@integer/2131427379" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/2131166131" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+        <item>
+            <set>
+                <objectAnimator android:duration="0" android:valueTo="@dimen/2131166130" android:valueType="floatType" android:propertyName="translationZ" />
+                <objectAnimator android:duration="0" android:valueTo="@dimen/2131166129" android:valueType="floatType" android:propertyName="elevation" />
+            </set>
+        </item>
+    </selector>
+</set>

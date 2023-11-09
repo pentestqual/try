@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" background="@color/2131099656" paddingTop="16.0dip" clipToPadding="false" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView orientation="vertical" id="@id/2131365391" layout_width="fill_parent" layout_height="0.0dip" 2130969501="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+            <com.google.android.material.textview.MaterialTextView id="@id/2131366647" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="14.0dip" text="@string/auctions_number_auctions_header_title_total_price" layout_marginStart="16.0dip" letterSpacing="0.03" style="@style/2132083891" />
+            <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView textColor="@color/2131099731" id="@id/2131366646" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16.0dip" style="@style/2132083908" />
+                <com.google.android.material.textview.MaterialTextView textColor="@color/2131099731" id="@id/2131362768" layout_width="wrap_content" layout_height="wrap_content" text="@string/widget_right_main_sr" layout_marginStart="4.0dip" letterSpacing="0.04" style="@style/2132083885" />
+            </LinearLayout>
+            <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView textColor="@color/2131099737" id="@id/2131366486" layout_width="0.0dip" layout_height="wrap_content" layout_weight="1.0" layout_marginStart="16.0dip" letterSpacing="0.04" style="@style/2132083882" />
+                <com.google.android.material.textview.MaterialTextView textColor="?2130968986" id="@id/2131362234" background="@drawable/2131230913" paddingLeft="14.0dip" paddingTop="4.0dip" paddingRight="14.0dip" paddingBottom="4.0dip" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" layout_marginEnd="16.0dip" backgroundTint="?2130968987" letterSpacing="0.05" paddingHorizontal="14.0dip" paddingVertical="4.0dip" 2130970232="true" style="@style/2132083827" />
+            </LinearLayout>
+            <View background="@color/2131099799" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="12.0dip" />
+            <LinearLayout orientation="vertical" id="@id/2131366656" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+                <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip">
+                    <com.google.android.material.textview.MaterialTextView id="@id/2131364584" layout_width="wrap_content" layout_height="wrap_content" text="@string/auctions_number_auctions_left_main_paid_deposit" layout_marginStart="16.0dip" style="@style/2132083891" />
+                    <com.google.android.material.textview.MaterialTextView gravity="end" layout_gravity="end" id="@id/2131364583" layout_width="0.0dip" layout_height="wrap_content" layout_weight="1.0" layout_marginStart="4.0dip" letterSpacing="0.04" style="@style/2132083895" />
+                    <com.google.android.material.textview.MaterialTextView textColor="@color/2131099731" gravity="center" id="@id/2131362224" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2.0dip" text="@string/widget_right_main_sr" includeFontPadding="false" layout_marginStart="4.0dip" layout_marginEnd="16.0dip" letterSpacing="0.04" style="@style/2132083885" />
+                </LinearLayout>
+                <View background="@color/2131099799" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="16.0dip" />
+                <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip">
+                    <com.google.android.material.textview.MaterialTextView id="@id/2131365183" layout_width="wrap_content" layout_height="wrap_content" text="@string/auctions_number_auctions_left_main_remaining_amount" layout_marginStart="16.0dip" style="@style/2132083891" />
+                    <com.google.android.material.textview.MaterialTextView gravity="end" layout_gravity="end" id="@id/2131365181" layout_width="0.0dip" layout_height="wrap_content" layout_weight="1.0" layout_marginStart="4.0dip" letterSpacing="0.04" style="@style/2132083895" />
+                    <com.google.android.material.textview.MaterialTextView textColor="@color/2131099731" gravity="bottom" id="@id/2131365182" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2.0dip" text="@string/widget_right_main_sr" layout_marginStart="4.0dip" layout_marginEnd="16.0dip" letterSpacing="0.04" style="@style/2132083885" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.textview.MaterialTextView textColor="?2130968978" gravity="start" id="@id/2131366655" layout_width="0.0dip" layout_height="0.0dip" layout_marginLeft="16.0dip" layout_marginTop="32.0dip" layout_marginRight="16.0dip" layout_marginBottom="48.0dip" letterSpacing="0.03" layout_marginHorizontal="16.0dip" 2130969495="@id/2131363458" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365391" style="@style/2132083921" />
+    <com.google.android.material.button.MaterialButton id="@id/2131363458" paddingTop="22.0dip" paddingBottom="22.0dip" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="16.0dip" layout_marginRight="16.0dip" layout_marginBottom="32.0dip" text="@string/auctions_get_a_button_get_your" letterSpacing="0.05" layout_marginHorizontal="16.0dip" paddingVertical="22.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

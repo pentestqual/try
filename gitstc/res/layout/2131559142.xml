@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" text="@string/order_tracking_tech_visit_header_title_when_should" layout_marginStart="20.0dip" layout_marginEnd="20.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/order_tracking_tech_visit_header_sub_please_select" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <TextView gravity="start|center" id="@id/2131363675" layout_width="fill_parent" layout_height="48.0dip" layout_marginTop="@dimen/2131165388" text="@string/order_tracking_tech_visit_button_immediately" maxLines="1" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" style="@style/2132083927" />
+    <ImageView id="@id/2131363707" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" src="@drawable/2131231395" 2130969494="@id/2131363675" 2130969500="2131364589" 2130969524="@id/2131363675" />
+    <View id="@id/2131363674" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363675" style="@style/2132083036" />
+    <TextView gravity="start|center" id="@id/2131363861" layout_width="fill_parent" layout_height="48.0dip" layout_marginTop="@dimen/2131165388" text="@string/order_tracking_tech_visit_button_later" maxLines="1" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363674" style="@style/2132083927" />
+    <View id="@id/2131363860" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363861" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

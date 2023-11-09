@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="360.0dip" minWidth="340.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout_width="wrap_content" layout_height="wrap_content" layout="@layout/2131559304" />
+    <androidx.viewpager.widget.ViewPager id="@id/2131366606" layout_width="wrap_content" layout_height="fill_parent" />
+</LinearLayout>

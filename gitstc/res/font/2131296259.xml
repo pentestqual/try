@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font font="@font/2131296270" fontWeight="400" fontStyle="normal" 2130969296="@font/2131296270" 2130969307="2131364318" 2130969309="400" />
+    <font font="@font/2131296268" fontWeight="600" fontStyle="normal" 2130969296="@font/2131296268" 2130969307="2131364318" 2130969309="600" />
+    <font font="@font/2131296264" fontWeight="700" fontStyle="normal" 2130969296="@font/2131296264" 2130969307="2131364318" 2130969309="700" />
+</font-family>

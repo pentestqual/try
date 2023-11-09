@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="50.0dip" text="@string/reschedule_delivery_reschedule_delivery_header_title_when_do" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/reschedule_delivery_reschedule_delivery_header_title_please_select" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362830" layout_width="fill_parent" layout_height="0.0dip" layout_marginTop="@dimen/2131165388" 2130969494="2131364589" 2130969523="@id/subtitle">
+        <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131364345" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363698" 2130969463="@string/reschedule_delivery_reschedule_delivery_left_main_now" 2130969524="2131364589" />
+        <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131366128" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363698" 2130969463="@string/reschedule_delivery_reschedule_delivery_left_main_today" 2130969523="@id/2131364345" />
+        <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131366131" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363698" 2130969463="@string/reschedule_delivery_reschedule_delivery_left_main_tomorrow" 2130969523="@id/2131366128" />
+        <sa.com.stc.uicomponent.single_row_item.SingleRow id="@id/2131364508" layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363430" 2130969463="@string/reschedule_delivery_reschedule_delivery_left_main_other_day" 2130969523="@id/2131366131" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131364507" visibility="gone" layout_width="fill_parent" layout_height="0.0dip" layout_marginTop="@dimen/2131165388" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969494="2131364589" 2130969523="@id/subtitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

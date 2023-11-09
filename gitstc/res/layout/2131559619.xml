@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout orientation="horizontal" layout_width="fill_parent" layout_height="@dimen/2131166255"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout_gravity="center" visibility="invisible" layout_width="@dimen/2131166260" layout_height="@dimen/2131166260" layout_marginLeft="@dimen/2131166259" layout_marginRight="@dimen/2131166259" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" layout="@layout/2131559620" />
+    <View id="@id/2131364713" layout_width="0.0dip" layout_height="0.0dip" layout_centerVertical="true" />
+    <TextView textSize="@dimen/2131166257" textColor="@color/2131100710" ellipsize="end" id="@id/2131364708" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="@dimen/2131166256" layout_marginRight="@dimen/2131166256" lines="1" singleLine="true" layout_toRightOf="@id/2131364710" layout_above="@id/2131364713" layout_centerVertical="true" layout_toEndOf="@id/2131364710" />
+    <TextView textSize="@dimen/2131166258" textColor="@color/2131100712" ellipsize="end" id="@id/2131364709" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="@dimen/2131166256" layout_marginRight="@dimen/2131166256" lines="1" singleLine="true" layout_toRightOf="@id/2131364710" layout_below="@id/2131364713" layout_toEndOf="@id/2131364710" />
+</RelativeLayout>

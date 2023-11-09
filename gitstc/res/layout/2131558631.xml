@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center" orientation="vertical" background="@color/2131099657" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <loading_progress_bar.LoadingProgressBar id="@id/2131364449" layout_width="wrap_content" layout_height="wrap_content" />
+    <TextView gravity="center" id="@id/2131366304" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="Please Wait While we prepaire \n your eSIM, this Prosses \n may take up to " layout_marginStart="50.0dip" layout_marginEnd="50.0dip" style="@style/2132083927" />
+</LinearLayout>

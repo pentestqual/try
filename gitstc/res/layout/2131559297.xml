@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" layoutDirection="locale" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362813" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165926" layout_marginRight="@dimen/2131165926" layout_marginHorizontal="@dimen/2131165926" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <TextView textColor="@color/2131099966" id="@id/2131366252" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165915" layout_marginBottom="@dimen/2131165915" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083445" />
+        <TextView textColor="@color/2131099966" id="@id/2131366264" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165972" layout_marginStart="@dimen/2131165954" 2130969490="@id/2131366252" 2130969519="@id/2131366252" style="@style/2132083559" />
+        <androidx.appcompat.widget.AppCompatButton textColor="@color/2131100892" id="@id/2131362377" background="@color/2131099816" paddingLeft="@dimen/2131165920" paddingTop="@dimen/2131165926" paddingRight="@dimen/2131165920" paddingBottom="@dimen/2131165926" layout_width="wrap_content" layout_height="wrap_content" text="@string/recharge" textAllCaps="false" paddingHorizontal="@dimen/2131165920" paddingVertical="@dimen/2131165926" 2130969494="2131364589" 2130969500="2131364589" style="@style/2132083411" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@id/2131363928" background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" 2130969494="2131364589" />
+    <com.stc.mybusiness.core.presentation.customview.CustomShimmerFrameLayout id="@id/2131365564" visibility="visible" layout_width="fill_parent" layout_height="fill_parent" layout_margin="@dimen/2131165915">
+        <View background="@drawable/2131231901" layout_width="fill_parent" layout_height="fill_parent" translationZ="@dimen/2131165925" backgroundTint="@color/2131100767" />
+    </com.stc.mybusiness.core.presentation.customview.CustomShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

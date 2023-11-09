@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="42.0dip">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" text="@string/new_landline_schedule_technician_visit_select_date_header_title_when_should" layout_marginStart="20.0dip" layout_marginEnd="20.0dip" style="@style/2132083845" />
+            <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/new_landline_schedule_technician_visit_select_date_header_sub_please_select" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView id="@id/2131362412" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165328" layout_marginTop="20.0dip" layout_marginRight="@dimen/2131165328" layout_marginBottom="50.0dip" layout_marginHorizontal="@dimen/2131165328" 2130969684="@style/2132083916" 2130969686="@style/2132083843" 2130969687="@drawable/2131231201" 2130969688="@array/2130903055" 2130969689="@drawable/2131231207" 2130969690="@color/2131099960" 2130969693="42.0dip" 2130969696="@array/2130903041" 2130969697="@style/2132083832" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

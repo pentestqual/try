@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" minHeight="?android:listPreferredItemHeight" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout orientation="vertical" id="@id/2131363606" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <TextView textSize="12.0sp" textColor="@color/2131100892" gravity="center" layout_gravity="center_horizontal" id="@id/2131363759" background="@drawable/2131231884" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/sawa_tag_sawa_packages_left_main_popular" maxLines="1" paddingStart="2.0dip" paddingEnd="2.0dip" layout_alignStart="@id/2131363104" layout_alignEnd="@id/2131363104" backgroundTint="@color/2131100707" />
+        <ImageView id="@id/2131363104" layout_width="50.0dip" layout_height="50.0dip" scaleType="centerInside" layout_below="@id/2131363759" />
+    </RelativeLayout>
+    <LinearLayout gravity="center_vertical" orientation="vertical" paddingTop="4.0dip" paddingBottom="4.0dip" layout_width="0.0dip" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969501="@id/2131362101" 2130969512="4.0" 2130969519="@id/2131363606" 2130969524="2131364589" 2130969527="2.0">
+        <TextView gravity="center_vertical" id="@id/2131363814" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083945" />
+        <TextView id="@id/2131363545" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083883" />
+    </LinearLayout>
+    <ImageView gravity="end|center" layout_gravity="center_vertical" id="@id/2131362101" paddingTop="10.0dip" paddingBottom="10.0dip" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_margin="20.0dip" src="@drawable/2131231410" singleLine="false" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969512="2.0" 2130969524="2131364589" 2130969527="4.0" />
+    <include id="@id/2131363063" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" layout="@layout/2131558601" />
+</androidx.constraintlayout.widget.ConstraintLayout>

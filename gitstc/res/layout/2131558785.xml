@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="fill_parent" fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364031" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip">
+            <View id="@id/2131363932" 2130969495="@id/2131364031" 2130969520="2131364589" style="@style/2132083036" />
+            <TextView gravity="start" id="@id/2131363948" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="24.0dip" text="@string/change_landline_plan_change_plan_section_title_your_current" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363932" style="@style/2132083837" />
+            <View id="@id/2131362215" layout_marginTop="9.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363948" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131362776" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="9.0dip" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362215" />
+            <View id="@id/2131362217" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362776" style="@style/2132083036" />
+            <TextView gravity="start" id="@id/2131363942" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="24.0dip" text="@string/change_plan_change_plan_section_title_your_new" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969523="@id/2131362776" style="@style/2132083837" />
+            <View id="@id/2131362216" layout_marginTop="9.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363942" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131364263" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="9.0dip" layout_marginStart="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362216" />
+            <View id="@id/2131362214" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364263" style="@style/2132083036" />
+            <LinearLayout orientation="vertical" id="@id/2131366277" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="30.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362214">
+                <TextView id="@id/2131365847" layout_width="wrap_content" layout_height="wrap_content" text="@string/change_landline_plan_change_plan_section_title_how_much" style="@style/2132083837" />
+                <TextView id="@id/2131362919" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/change_landline_plan_change_plan_message_body_you_will" style="@style/2132083927" />
+            </LinearLayout>
+            <Button id="@id/2131362554" layout_width="fill_parent" text="@string/new_landline_national_address_button_continue" 2130969494="2131364589" style="@style/2132082688" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

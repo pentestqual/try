@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" 2130968837="5.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout id="@id/2131366520" background="@drawable/2131230966" layout_width="fill_parent" layout_height="wrap_content">
+        <FrameLayout id="@id/2131363672" background="?2130968936" layout_width="60.0dip" layout_height="0.0dip" layout_alignBottom="@id/2131362090" layout_alignParentTop="true">
+            <ImageView layout_gravity="center" id="@id/2131363671" background="@color/2131100860" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231479" />
+        </FrameLayout>
+        <TextView textColor="?2130968936" id="@id/2131362094" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="11.0dip" textAllCaps="true" layout_marginStart="10.0dip" layout_toEndOf="@id/2131363672" style="@style/2132083831" />
+        <TextView textColor="#ff000000" ellipsize="end" id="@id/2131362090" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="5.0dip" maxLines="1" layout_below="@id/2131362094" layout_marginEnd="5.0dip" layout_alignStart="@id/2131362094" layout_alignParentEnd="true" style="@style/2132083837" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

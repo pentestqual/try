@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589" layout="@layout/2131559494" />
+    <View id="@id/divider" layout_alignParentBottom="true" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083036" />
+    <ScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+            <TextView id="@id/2131365460" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" textDirection="locale" textAlignment="gravity" style="@style/2132083895" />
+            <TextView id="@id/details" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="0.0dip" layout_weight="1.0" textDirection="locale" textAlignment="gravity" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

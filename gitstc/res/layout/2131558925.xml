@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131364023" background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <include id="@id/2131363172" visibility="gone" layout="@layout/2131559342" />
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <sa.com.stc.ui.common.cms.CompatMapView id="@id/2131364058" layout_width="0.0dip" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <RadioGroup orientation="vertical" id="@id/2131364059" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969500="2131364589" 2130969524="@id/2131364058">
+            <RadioButton gravity="center" id="@id/2131364056" background="@drawable/2131231445" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" checked="true" button="@null" />
+            <RadioButton gravity="center" id="@id/2131365351" background="@drawable/2131231616" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" checked="false" button="@null" />
+        </RadioGroup>
+        <ImageView id="@id/2131362777" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" src="@drawable/2131231306" adjustViewBounds="true" layout_marginEnd="@dimen/2131165388" 2130969495="@id/2131363987" 2130969500="2131364589" />
+        <sa.com.stc.uicomponent.single_row_item.LocationInfoItem id="@id/2131363987" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_marginBottom="50.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

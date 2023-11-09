@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131366256" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="26.0dip" text="@string/assign_a_number_assign_left_main_gender" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+    <View id="@id/headerDivider" layout_marginTop="10.0dip" style="@style/2132083036" />
+    <LinearLayout orientation="vertical" background="?2130969981" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+        <RelativeLayout id="@id/2131364034" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView id="@id/2131364036" layout_width="wrap_content" layout_height="wrap_content" scaleType="centerInside" text="@string/assign_a_number_assign_right_main_male" layout_centerInParent="true" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_alignParentStart="true" style="@style/2132083927" />
+            <ImageView id="@id/2131364035" padding="@dimen/2131165388" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231639" layout_centerInParent="true" layout_alignParentEnd="true" 2130969500="2131364589" />
+        </RelativeLayout>
+        <View id="@id/2131364376" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+    </LinearLayout>
+    <RelativeLayout id="@id/2131363319" layout_width="fill_parent" layout_height="wrap_content">
+        <TextView id="@id/2131363321" layout_width="wrap_content" layout_height="wrap_content" text="@string/assign_a_number_assign_right_main_female" layout_centerInParent="true" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_alignParentStart="true" style="@style/2132083927" />
+        <ImageView id="@id/2131363320" padding="@dimen/2131165388" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231639" layout_centerInParent="true" layout_alignParentEnd="true" 2130969500="2131364589" />
+    </RelativeLayout>
+    <View style="@style/2132083036" />
+</LinearLayout>

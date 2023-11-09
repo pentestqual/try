@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="fill_parent" foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363217" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231186" />
+    <TextView layout_gravity="start" id="@id/2131363220" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" textAlignment="viewStart" style="@style/2132083924" />
+</LinearLayout>

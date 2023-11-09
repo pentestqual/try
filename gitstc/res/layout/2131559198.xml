@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131364031" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131366449" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView layout_width="fill_parent" layout_height="0.0dip" layout_below="@id/2131366449" 2130969495="@id/2131362367" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366449">
+        <LinearLayout orientation="vertical" id="@id/2131364023" layout_width="fill_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@id/2131366445" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="26.0dip" layout_marginBottom="6.0dip" text="@string/assign_a_number_assign_section_title_user_details" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+                <LinearLayout orientation="vertical" background="@color/2131099656" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+                    <View background="@color/2131100870" layout_width="fill_parent" layout_height="1.0dip" />
+                    <LinearLayout orientation="horizontal" id="@id/2131366447" paddingTop="15.0dip" paddingBottom="13.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="20.0dip">
+                        <TextView layout_gravity="start" id="@id/2131366293" layout_width="wrap_content" layout_height="wrap_content" text="@string/assign_a_number_assign_left_main_first_name" style="@style/2132083927" />
+                        <EditText gravity="end" id="@id/2131363357" background="@null" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="0.0dip" hint="@string/assign_a_number_assign_title_assign" layout_weight="1.0" textDirection="locale" layout_marginStart="@dimen/2131165388" />
+                    </LinearLayout>
+                    <View id="@id/2131363971" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@id/2131363856" background="@color/2131099656" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+                    <LinearLayout orientation="horizontal" paddingTop="15.0dip" paddingBottom="13.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="20.0dip">
+                        <TextView layout_gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/assign_a_number_assign_left_main_last_name" style="@style/2132083927" />
+                        <EditText gravity="end" id="@id/2131363857" background="@null" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="0.0dip" hint="@string/assign_a_number_assign_title_assign" layout_weight="1.0" textDirection="locale" layout_marginStart="@dimen/2131165388" />
+                    </LinearLayout>
+                    <View id="@id/2131364376" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@id/2131363454" background="@color/2131099656" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+                    <LinearLayout orientation="horizontal" paddingTop="15.0dip" paddingBottom="13.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="20.0dip">
+                        <TextView layout_gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/assign_a_number_assign_left_main_gender" style="@style/2132083927" />
+                        <TextView textColor="?2130968978" gravity="end" id="@id/2131363455" layout_width="0.0dip" layout_height="wrap_content" text="@string/assign_a_number_assign_dob_button_select" layout_weight="1.0" layout_marginStart="@dimen/2131165388" style="@style/2132083885" />
+                    </LinearLayout>
+                    <View layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@id/2131363077" background="@color/2131099656" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+                    <LinearLayout orientation="horizontal" paddingTop="15.0dip" paddingBottom="13.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="20.0dip">
+                        <TextView layout_gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/assign_a_number_assign_dob_section_title_date_of" style="@style/2132083927" />
+                        <TextView textColor="?2130968978" gravity="end" id="@id/2131363078" layout_width="0.0dip" layout_height="wrap_content" text="@string/assign_a_number_assign_dob_button_select" layout_weight="1.0" layout_marginStart="@dimen/2131165388" style="@style/2132083885" />
+                    </LinearLayout>
+                    <View background="@color/2131100870" visibility="visible" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" />
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@id/2131364222" background="@color/2131099656" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+                    <LinearLayout orientation="horizontal" paddingTop="15.0dip" paddingBottom="13.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="20.0dip">
+                        <TextView layout_gravity="start" layout_width="wrap_content" layout_height="wrap_content" text="@string/assign_a_number_assign_left_main_nationality" style="@style/2132083927" />
+                        <TextView textColor="?2130968978" gravity="end" id="@id/2131364225" layout_width="0.0dip" layout_height="wrap_content" text="@string/assign_a_number_assign_right_main_select" layout_weight="1.0" layout_marginStart="@dimen/2131165388" style="@style/2132083885" />
+                    </LinearLayout>
+                    <View background="@color/2131100870" visibility="visible" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" />
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@id/2131365205" layout_width="fill_parent" layout_height="wrap_content">
+                    <LinearLayout orientation="vertical" id="@id/2131365204" background="@color/2131099656" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content">
+                        <TextView paddingTop="15.0dip" paddingBottom="13.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/assign_a_number_assign_button_remove_this" paddingStart="@dimen/2131165388" paddingEnd="20.0dip" style="@style/2132083872" />
+                        <View style="@style/2132083036" />
+                    </LinearLayout>
+                    <TextView textSize="18.0dip" paddingTop="15.0dip" paddingBottom="13.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/assign_a_number_alert_message_body_once_removed" fontFamily="@font/2131296263" paddingStart="@dimen/2131165388" paddingEnd="20.0dip" style="@style/2132083936" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button enabled="false" id="@id/2131362367" text="@string/assign_a_number_assign_button_save" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

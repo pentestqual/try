@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131365058" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" letterSpacing="0.02" style="@style/2132083921" />
+    <LinearLayout orientation="horizontal" id="@id/divider" layout_width="wrap_content" layout_height="wrap_content" paddingStart="@dimen/2131165388">
+        <View background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

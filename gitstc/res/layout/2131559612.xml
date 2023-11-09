@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131100860" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView layout_gravity="center" id="@id/2131362876" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231317" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <androidx.cardview.widget.CardView id="@id/2131362489" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="10.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" elevation="3.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131362876" 2130969524="2131364589">
+        <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" background="@color/2131099656" paddingTop="15.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388">
+            <TextView id="@id/number" layout_width="0.0dip" layout_height="wrap_content" 2130969501="@id/2131362246" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083935" />
+            <EditText enabled="false" id="@id/2131362246" background="@color/2131100860" layout_width="0.0dip" layout_height="fill_parent" minWidth="@dimen/2131165388" hint="00" maxLength="10" inputType="numberDecimal" imeOptions="actionDone" textAlignment="viewEnd" layout_marginEnd="6.0dip" 2130969501="@id/2131365712" 2130969519="@id/number" style="@style/2132083895" />
+            <TextView id="@id/2131365712" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_roaming_country_info_right_main_sr" 2130969490="@id/2131362246" 2130969500="2131364589" style="@style/2132083885" />
+            <TextView id="@id/2131364297" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6.0dip" 2130969490="@id/2131363142" 2130969520="@id/number" 2130969523="@id/number" style="@style/2132083883" />
+            <ToggleButton gravity="center" id="@id/2131363142" background="@color/2131100860" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6.0dip" checked="false" textOn="@string/replace_sim_delivery_message_title_done" textOff="@string/pay_bill_select_bill_right_main_edit" 2130969500="@id/2131365712" 2130969523="@id/2131362246" style="@style/2132083865" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

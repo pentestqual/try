@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" backgroundTint="@color/2131099656" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/titleTextView" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/replace_sim_delivery_summary_left_main_number" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+    <EditText gravity="end|center" id="@id/2131364355" background="@android:color/transparent" padding="@dimen/2131165388" layout_width="0.0dip" layout_height="fill_parent" minWidth="@dimen/2131165527" inputType="number" imeOptions="actionNext" textDirection="locale" 2130969490="@id/titleTextView" 2130969500="2131364589" 2130969510="1.0" 2130969519="@id/titleTextView" style="@style/2132083885" />
+</androidx.constraintlayout.widget.ConstraintLayout>

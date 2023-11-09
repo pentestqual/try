@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="0.0dip" layout_marginTop="@dimen/2131165388" text="@string/survey_question" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <LinearLayout orientation="vertical" id="@id/2131363343" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" foreground="?android:selectableItemBackground" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102">
+        <TextView gravity="start" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/down_payment_message_button_yes" textAlignment="viewStart" style="@style/2132083927" />
+        <View style="@style/2132083036" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@id/2131365451" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363343">
+        <TextView gravity="start" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" text="@string/down_payment_message_button_no" textAlignment="viewStart" style="@style/2132083927" />
+        <View style="@style/2132083036" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

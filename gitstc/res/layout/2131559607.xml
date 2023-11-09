@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131364552" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" paddingTop="10.0dip" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content">
+        <RelativeLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388">
+            <TextView textSize="13.0sp" textColor="@color/2131100892" gravity="center" layout_gravity="center_horizontal" id="@id/2131363759" background="@drawable/2131231884" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/sawa_tag_sawa_packages_left_main_popular" paddingStart="2.0dip" paddingEnd="2.0dip" layout_alignStart="@id/2131363605" backgroundTint="@color/2131100707" />
+            <ImageView id="@id/2131363605" layout_width="56.0dip" layout_height="56.0dip" scaleType="fitCenter" layout_below="@id/2131363759" />
+        </RelativeLayout>
+        <LinearLayout gravity="start|center" orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.5" layout_marginStart="8.0dip" layout_marginEnd="10.0dip">
+            <TextView id="@id/2131364555" layout_width="wrap_content" layout_height="wrap_content" textAlignment="viewStart" style="@style/2132083927" />
+            <TextView id="@id/2131364546" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" textAlignment="viewStart" style="@style/2132083918" />
+        </LinearLayout>
+        <LinearLayout gravity="end|center" orientation="horizontal" id="@id/2131364798" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.5">
+            <TextView textColor="@color/2131099653" gravity="end|center" id="@id/2131364557" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4.0dip" style="@style/2132083885" />
+            <TextView textColor="@color/2131099648" gravity="end|center" id="@id/2131364559" layout_width="wrap_content" layout_height="wrap_content" 2130969494="@id/2131364557" 2130969501="@id/2131364560" 2130969519="@id/2131364557" 2130969524="@id/2131364557" style="@style/2132083885" />
+        </LinearLayout>
+        <ImageView layout_gravity="center_vertical" id="@id/2131362101" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" layout_marginEnd="10.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131364560" 2130969524="2131364589" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@id/divider" layout_width="wrap_content" layout_height="wrap_content" paddingStart="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+        <View style="@style/2132083036" />
+    </LinearLayout>
+</LinearLayout>

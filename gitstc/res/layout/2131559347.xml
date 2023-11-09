@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center" layout_gravity="center" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131363261" background="@color/2131099787" layout_width="70.0dip" layout_height="70.0dip">
+        <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" layout_width="42.0dip" layout_height="42.0dip" 2130970099="@drawable/2131231519" 2130970356="@color/2131099656" />
+    </LinearLayout>
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131363260" background="@color/2131099787" layout_width="70.0dip" layout_height="70.0dip">
+        <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" layout_width="42.0dip" layout_height="42.0dip" 2130970099="@drawable/2131231519" 2130970356="@color/2131099656" />
+    </LinearLayout>
+</LinearLayout>

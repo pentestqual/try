@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <include id="@id/2131362078" layout="@layout/2131559494" />
+        <TextView layout_marginTop="@dimen/2131165388" text="@string/join_stc_enter_number_header_title_what_is" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083845" />
+        <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="@dimen/2131165388" text="@string/join_stc_enter_number_header_sub_your_current" textAlignment="viewStart" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083927" />
+        <com.google.android.material.textfield.TextInputLayout id="@id/2131362780" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" hint="@string/join_stc_enter_number_lift_main_current_number">
+            <EditText id="@id/2131362779" layout_width="fill_parent" layout_height="wrap_content" maxLines="1" maxLength="14" inputType="number" drawableStart="@drawable/2131231505" backgroundTint="?2130968978" style="@style/2132083041" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <Button id="@id/2131362691" visibility="visible" layout_width="fill_parent" text="@string/join_stc_id_number_button_continue" layout_alignParentBottom="true" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" 2130970232="true" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

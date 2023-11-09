@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+            <TextView id="@id/2131366102" layout_marginTop="@dimen/2131165388" text="@string/cash_refund_number_selection_header_title_a_number" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083845" />
+            <TextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/cash_refund_number_selection_header_sub_select_from" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+            <LinearLayout orientation="vertical" id="@id/2131361976" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="48.0dip">
+                <TextView layout_marginBottom="16.0dip" text="@string/cash_refund_number_selection_section_title_active_numbers" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+                <View style="@style/2132083036" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131361975" layout_width="fill_parent" layout_height="wrap_content" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131363680" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="48.0dip">
+                <TextView layout_marginBottom="16.0dip" text="@string/cash_refund_number_selection_section_title_inactive_numbers" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+                <View style="@style/2132083036" />
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131363679" layout_width="fill_parent" layout_height="wrap_content" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

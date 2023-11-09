@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView id="@id/headerTextView" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/survey_survey_section_title_just_seconds" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083927" />
+    <ProgressBar id="@id/2131365876" layout_width="fill_parent" layout_height="3.0dip" layout_marginTop="@dimen/2131165319" max="5" progress="2" indeterminate="false" progressTint="?2130968978" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/headerTextView" style="@style/2132084258" />
+    <TextView id="@id/2131365878" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365876" style="@style/2132083837" />
+    <TextView id="@id/2131365875" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165319" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="@id/2131365878" 2130969520="@id/2131365878" 2130969523="@id/2131365878" style="@style/2132083927" />
+    <Button id="@id/2131361898" layout_width="fill_parent" layout_height="wrap_content" text="@string/survey_survey_button_next" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969525="1.0" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

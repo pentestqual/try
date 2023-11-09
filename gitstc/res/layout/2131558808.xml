@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130968978" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="fill_parent" layout_above="@id/2131362552" 2130969495="@id/2131362552" 2130969514="2131364589" 2130969518="2131364589" 2130969523="@id/2131362078">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+            <RelativeLayout background="?2130968978" layout_width="fill_parent" layout_height="wrap_content">
+                <LinearLayout gravity="center" orientation="vertical" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="236.0dip">
+                    <ImageView id="@id/2131364551" layout_width="47.0dip" layout_height="47.0dip" />
+                    <TextView gravity="center" id="@id/2131364553" padding="15.0dip" layout_width="fill_parent" layout_height="wrap_content" style="@style/2132083905" />
+                </LinearLayout>
+                <TextView gravity="center" layout_gravity="bottom" background="@color/2131099733" layout_width="48.0dip" layout_height="32.0dip" text="@string/new_landline_order_section_title_free" layout_alignParentBottom="true" style="@style/2132083829" />
+            </RelativeLayout>
+            <LinearLayout orientation="vertical" id="@id/2131363937" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="48.0dip" text="@string/new_landline_complimentary_services_section_title_this_bundle" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+                <View id="@id/2131363073" layout_marginTop="15.0dip" style="@style/2132083036" />
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@id/2131362619" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131362552" paddingTop="@dimen/2131165388" paddingBottom="@dimen/2131165388" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" text="@string/new_landline_complimentary_services_button_select_this" layout_alignParentBottom="true" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

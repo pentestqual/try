@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+            <TextView textColor="?2130968978" id="@id/2131365501" layout_width="wrap_content" layout_height="wrap_content" paddingStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083843" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <SeekBar scrollbarAlwaysDrawHorizontalTrack="false" id="@id/2131365479" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" maxHeight="5.0dip" progressDrawable="@drawable/2131231049" minHeight="5.0dip" thumb="@drawable/2131231050" />
+        <androidx.constraintlayout.widget.ConstraintLayout gravity="center" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="16.0dip" style="@style/2132083032">
+            <TextView gravity="start" id="@id/2131365735" layout_width="0.0dip" layout_height="wrap_content" text="100" layout_weight="0.5" paddingEnd="5.0dip" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083921" />
+            <TextView gravity="end" id="@id/2131363186" layout_width="0.0dip" layout_height="wrap_content" text="700" layout_weight="0.5" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083921" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</merge>

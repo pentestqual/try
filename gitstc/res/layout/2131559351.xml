@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox id="@id/2131363769" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" checked="true" button="@drawable/2131231021" text="@string/bill_details_usage_details_filter_lift_main_voice" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083927" />
+    <View id="@id/2131366548" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131363769" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

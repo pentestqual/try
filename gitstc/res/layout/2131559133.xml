@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <View id="@id/2131366134" layout_marginTop="@dimen/2131165388" layout_marginBottom="50.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083036" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131366092" visibility="gone" layout_width="fill_parent" layout_height="0.0dip" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366134" />
+    <TextView gravity="center" id="@id/2131364311" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" text="@string/branches_and_ssms_help_center_history_section_footer_no_tickets" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366134" style="@style/2132083918" />
+</androidx.constraintlayout.widget.ConstraintLayout>

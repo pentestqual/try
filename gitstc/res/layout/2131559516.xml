@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" minHeight="?android:listPreferredItemHeight" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout id="@id/2131366505" layout_width="fill_parent" layout_height="?android:listPreferredItemHeight">
+        <FrameLayout layout_width="fill_parent" layout_height="fill_parent">
+            <View layout_gravity="end|center|top" id="@id/2131365138" background="#ffc80025" layout_width="0.0dip" layout_height="fill_parent" />
+            <RelativeLayout layout_width="fill_parent" layout_height="?android:listPreferredItemHeight">
+                <LinearLayout gravity="center" orientation="vertical" id="@id/2131362879" layout_width="wrap_content" layout_height="fill_parent" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" layout_alignParentEnd="true">
+                    <ImageView id="@id/2131362882" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231315" />
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2.0dip" text="@string/device_details_wishlist_button_delete" style="@style/2132083884" />
+                </LinearLayout>
+                <loading_progress_bar.LoadingProgressBar id="@id/2131364855" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout id="@id/2131366509" background="@color/2131099656" layout_width="fill_parent" layout_height="?android:listPreferredItemHeight">
+        <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="?android:listPreferredItemHeight">
+                <ImageView id="@id/2131363104" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="0.0dip" layout_height="0.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969512="4.0" 2130969519="@id/2131363104" 2130969524="2131364589" 2130969527="2.0">
+                    <TextView gravity="center_vertical" id="@id/2131362968" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083945" />
+                    <TextView id="@id/2131362973" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083918" />
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" id="@id/divider" layout_width="wrap_content" layout_height="wrap_content" paddingStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589">
+                    <View style="@style/2132083036" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

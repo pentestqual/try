@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center" orientation="horizontal" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <ImageView id="@id/2131363103" layout_width="50.0dip" layout_height="50.0dip" src="@drawable/2131231310" scaleType="centerInside" />
+        <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.4" layout_marginStart="10.0dip">
+            <TextView id="@id/2131364026" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" style="@style/2132083945" />
+            <TextView id="@id/2131365784" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083883" />
+        </LinearLayout>
+        <LinearLayout gravity="end" orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.3" layout_marginEnd="5.0dip">
+            <TextView gravity="end" id="@id/price" layout_width="wrap_content" layout_height="wrap_content" lines="2" style="@style/2132083885" />
+        </LinearLayout>
+        <LinearLayout gravity="start" orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.3" layout_marginEnd="10.0dip">
+            <TextView gravity="start" id="@id/2131362765" layout_width="wrap_content" layout_height="wrap_content" text="@string/currency" lines="2" style="@style/2132083885" />
+        </LinearLayout>
+        <ImageView gravity="end" id="@id/2131362101" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231410" />
+    </LinearLayout>
+    <View id="@id/2131363071" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

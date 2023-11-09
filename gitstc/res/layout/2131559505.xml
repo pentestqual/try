@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131365114" text="@string/home_details_section_title_for_you" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083840" />
+    <TextView orientation="vertical" id="@id/2131365115" focusable="true" visibility="gone" clickable="true" layout_marginTop="30.0dip" text="@string/home_details_cost_right_main_see_all" layout_marginEnd="@dimen/2131165388" 2130969490="@id/2131365114" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083865" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365116" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="15.0dip" layout_marginBottom="@dimen/2131165388" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365115" />
+    <ImageView gravity="center" id="@id/2131365117" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" layout_margin="@dimen/2131165388" src="@drawable/2131231594" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365115" />
+    <ProgressBar id="@id/2131364862" visibility="gone" layout_width="30.0dip" layout_height="30.0dip" layout_margin="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365115" />
+</androidx.constraintlayout.widget.ConstraintLayout>

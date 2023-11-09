@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131364027" background="@drawable/2131231062" padding="20.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView textSize="18.0sp" textColor="@android:color/black" id="@id/2131366156" layout_width="wrap_content" layout_height="wrap_content" text="Name" fontFamily="@font/2131296263" />
+    <TextView textSize="10.0sp" textColor="@android:color/black" id="@id/2131366095" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5.0dip" text="Time" fontFamily="@font/2131296263" />
+    <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="15.0dip" splitMotionEvents="false">
+        <LinearLayout orientation="vertical" id="@id/2131364438" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0" splitMotionEvents="false">
+            <FrameLayout layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" splitMotionEvents="false">
+                <de.hdodenhof.circleimageview.CircleImageView layout_gravity="center" id="@id/2131364437" layout_width="70.0dip" layout_height="70.0dip" 2130968904="@android:color/white" 2130968906="4.0dip" />
+                <FrameLayout id="@id/2131365505" visibility="gone" layout_width="80.0dip" layout_height="80.0dip">
+                    <View layout_gravity="center" background="@drawable/2131231064" layout_width="70.0dip" layout_height="70.0dip" alpha="0.5" />
+                    <ProgressBar id="@id/2131364858" background="@drawable/2131231068" layout_width="80.0dip" layout_height="80.0dip" max="100" progress="65" indeterminate="false" progressDrawable="@drawable/2131231063" style="?android:progressBarStyleHorizontal" />
+                    <TextView textSize="16.0sp" textColor="@android:color/white" layout_gravity="center" id="@id/2131364676" layout_width="wrap_content" layout_height="wrap_content" text="0%" />
+                    <ImageView layout_gravity="end|center" id="@id/2131366076" background="@drawable/2131231962" layout_width="20.0dip" layout_height="20.0dip" />
+                </FrameLayout>
+            </FrameLayout>
+            <TextView textSize="14.0sp" textColor="#ff1d252d" layout_gravity="center" id="@id/2131364439" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="Option One" singleLine="true" fontFamily="@font/2131296263" />
+        </LinearLayout>
+        <TextView textSize="16.0sp" textColor="@android:color/black" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="VS" fontFamily="@font/2131296257" />
+        <LinearLayout orientation="vertical" id="@id/2131364444" layout_width="wrap_content" layout_height="fill_parent" layout_weight="1.0" splitMotionEvents="false">
+            <FrameLayout layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" splitMotionEvents="false">
+                <de.hdodenhof.circleimageview.CircleImageView layout_gravity="center" id="@id/2131364443" layout_width="70.0dip" layout_height="70.0dip" 2130968904="@android:color/white" 2130968906="4.0dip" />
+                <FrameLayout id="@id/2131365506" visibility="gone" layout_width="80.0dip" layout_height="80.0dip">
+                    <View layout_gravity="center" background="@drawable/2131231064" layout_width="70.0dip" layout_height="70.0dip" alpha="0.5" />
+                    <ProgressBar id="@id/2131364859" background="@drawable/2131231068" layout_width="80.0dip" layout_height="80.0dip" max="100" progress="65" indeterminate="false" progressDrawable="@drawable/2131231063" style="?android:progressBarStyleHorizontal" />
+                    <TextView textSize="16.0sp" textColor="@android:color/white" layout_gravity="center" id="@id/2131364677" layout_width="wrap_content" layout_height="wrap_content" text="0%" />
+                    <ImageView layout_gravity="end|center" id="@id/2131366077" background="@drawable/2131231962" layout_width="20.0dip" layout_height="20.0dip" />
+                </FrameLayout>
+            </FrameLayout>
+            <TextView textSize="14.0sp" textColor="#ff1d252d" layout_gravity="center" id="@id/2131364445" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="Option One" singleLine="true" fontFamily="@font/2131296263" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

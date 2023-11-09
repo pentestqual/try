@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout id="@id/2131362947" padding="@dimen/2131165391" layout_width="@dimen/2131165287" layout_height="@dimen/2131165287" layout_marginStart="3.0dip" layout_marginEnd="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView layout_gravity="center" id="@id/2131362946" background="@drawable/2131231056" layout_width="30.0dip" layout_height="30.0dip" />
+</FrameLayout>

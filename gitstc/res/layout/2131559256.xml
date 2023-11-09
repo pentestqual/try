@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip id="@id/2131362537" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165319" drawablePadding="@dimen/2131165319" 2130968876="@color/2131100892" 2130968877="1.0dip" 2130968880="@drawable/2131231878" 2130968882="18.0dip" 2130968915="@drawable/2131231279" 2130968916="true" 2130968917="@dimen/2131165319" 2130968919="@dimen/2131165319" 2130968920="@color/2131099927" 2130969355="@dimen/2131165319" 2130969360="@dimen/2131165319" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

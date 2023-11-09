@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" paddingBottom="50.0dip" layout_width="fill_parent" layout_height="fill_parent">
+        <TextView textSize="22.0sp" textColor="@android:color/black" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20.0dip" text="@string/terms_and_condition" fontFamily="@font/2131296257" layout_marginStart="20.0dip" />
+        <ImageView layout_gravity="end" id="@id/2131362588" background="@drawable/2131231221" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="-25.0dip" layout_marginEnd="10.0dip" />
+        <FrameLayout layout_width="fill_parent" layout_height="400.0dip" layout_margin="20.0dip">
+            <ProgressBar layout_gravity="center" id="@id/2131364855" layout_width="wrap_content" layout_height="wrap_content" />
+            <ScrollView scrollbarThumbVertical="@drawable/2131231885" scrollbars="vertical" layout_width="fill_parent" layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView id="@id/2131365973" scrollbars="vertical" layout_width="fill_parent" layout_height="fill_parent" />
+            </ScrollView>
+        </FrameLayout>
+        <TextView textSize="14.0sp" textColor="@android:color/black" gravity="center" layout_gravity="center" id="@id/2131362027" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="20.0dip" layout_marginRight="20.0dip" text="@string/by_tapping_agree_button_below_you_are_agreeing_to_the_above_terms_amp_conditiond" lineSpacingExtra="7.0dip" textAlignment="center" />
+        <Button textColor="@android:color/white" id="@id/2131362026" background="@drawable/2131230860" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="20.0dip" layout_marginTop="20.0dip" layout_marginRight="20.0dip" layout_marginBottom="20.0dip" text="@string/ok" />
+    </LinearLayout>
+</ScrollView>

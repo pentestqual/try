@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364023" background="@drawable/2131230963" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout id="@id/2131362078" background="@color/2131100860" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip" layout_marginBottom="17.0dip" elevation="0.0dip" 2130969186="0.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="@id/2131364023">
+        <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content" 2130969780="@drawable/2131231200">
+            <LinearLayout layout_gravity="center" orientation="horizontal" id="@id/2131364380" layout_width="wrap_content" layout_height="wrap_content">
+                <TextView textSize="19.0dip" textColor="@color/2131099648" gravity="center_horizontal" id="@id/2131366139" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5.0dip" text="@string/new_landline_plans_summary_header_get_a_new_landline" lineSpacingExtra="5.0dip" letterSpacing="0.05" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout id="@id/2131364902" layout_width="fill_parent" layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

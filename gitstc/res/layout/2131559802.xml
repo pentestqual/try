@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_gravity="center_horizontal" orientation="vertical" id="@id/2131366453" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="fill_parent" weightSum="5.0">
+        <TextView textSize="16.0dip" textColor="@color/2131099648" id="@id/2131363909" layout_width="140.0dip" layout_height="wrap_content" layout_marginTop="10.0dip" layout_weight="1.0" fontFamily="@font/2131296262" layout_marginStart="@dimen/2131165388" letterSpacing="0.02" />
+        <TextView textSize="16.0dip" textColor="@color/2131099648" gravity="center" id="@id/2131364122" layout_width="100.0dip" layout_height="wrap_content" layout_marginTop="10.0dip" layout_weight="2.0" fontFamily="@font/2131296262" layout_marginStart="@dimen/2131165388" letterSpacing="0.02" />
+        <TextView textSize="16.0dip" textColor="@color/2131099648" gravity="center" id="@id/2131365264" focusable="true" clickable="true" layout_width="100.0dip" layout_height="wrap_content" layout_marginTop="10.0dip" text="05/01/2019" layout_weight="2.0" fontFamily="@font/2131296262" layout_marginStart="@dimen/2131165388" letterSpacing="0.02" />
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@id/2131363072" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589">
+        <View background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

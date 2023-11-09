@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView id="@id/2131362465" layout_width="fill_parent" layout_height="fill_parent" 2130968837="2.0dip" 2130968838="5.0dip" 2130968844="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <ImageView layout_gravity="center" id="@id/2131364396" layout_width="0.0dip" layout_height="0.0dip" src="@drawable/2131231310" scaleType="fitXY" 2130969494="2131364589" 2130969499="1.5652:1" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

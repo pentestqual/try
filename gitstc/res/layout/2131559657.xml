@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView id="@id/2131362465" background="@color/2131099649" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165517" layout_marginBottom="@dimen/2131165517" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130968837="2.0dip" 2130968838="8.0dip" 2130969520="2131364589" 2130969524="2131364589">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362441" paddingBottom="@dimen/2131165517" focusable="true" clickable="true" layout_width="fill_parent" layout_height="wrap_content" layout_margin="1.0dip">
+            <TextView gravity="start" id="@id/2131364553" padding="@dimen/2131165517" layout_width="fill_parent" layout_height="wrap_content" textDirection="locale" textAlignment="viewStart" layout_marginEnd="60.0dip" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" 2130969526="2131365706" style="@style/2132083837" />
+            <TextView textColor="@color/2131099649" gravity="start" id="@id/2131366658" padding="@dimen/2131165517" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_roaming_left_main_works_in" maxLines="1" 2130969494="@id/2131362741" 2130969520="2131364589" 2130969523="@id/2131364553" style="@style/2132083883" />
+            <ImageView id="@id/2131364549" layout_width="50.0dip" layout_height="50.0dip" layout_margin="@dimen/2131165517" src="@drawable/2131231688" scaleType="centerInside" 2130969500="2131364589" 2130969524="2131364589" />
+            <com.google.android.material.chip.ChipGroup orientation="horizontal" id="@id/2131362741" focusable="false" clickable="false" layout_width="wrap_content" layout_height="wrap_content" overScrollMode="never" nestedScrollingEnabled="false" 2130968888="4.0dip" 2130969325="true" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969495="@id/bottomTextDivider" 2130969519="@id/2131366658" 2130969523="@id/2131364553" />
+            <View id="@id/bottomTextDivider" layout_width="fill_parent" layout_marginTop="5.0dip" 2130969495="@id/2131364802" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366658" style="@style/2132083036" />
+            <TextView id="@id/2131364802" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165517" 2130969520="2131364589" 2130969523="@id/bottomTextDivider" style="@style/2132083834" />
+            <ImageView id="@id/2131362101" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165517" src="@drawable/2131231194" 2130969500="2131364589" 2130969523="@id/bottomTextDivider" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

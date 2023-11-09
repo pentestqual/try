@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar id="@id/2131366440" layout_width="fill_parent" layout_height="wrap_content" 2130969780="@drawable/2131231200" 2130970359="@string/auctions_your_auctions_title_your_auctions" 2130970360="true" 2130970370="@style/2132083941" 2130970371="@color/2131099731" />
+    <com.google.android.material.tabs.TabLayout id="@id/2131366444" layout_width="fill_parent" layout_height="wrap_content" style="@style/2132082719" />
+    <androidx.viewpager2.widget.ViewPager2 id="@id/2131366442" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" />
+</LinearLayout>

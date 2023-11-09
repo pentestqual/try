@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131364680" padding="@dimen/2131165388" clickable="false" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" foreground="?android:selectableItemBackground" text="@string/forget_password_rest_via_sms" drawablePadding="@dimen/2131165388" drawableStart="@drawable/2131231354" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083927" />
+    <View id="@id/2131364682" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364680" style="@style/2132083036" />
+    <TextView id="@id/2131363161" padding="@dimen/2131165388" clickable="false" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" text="@string/forget_password_rest_via_email" drawablePadding="@dimen/2131165388" drawableStart="@drawable/2131231424" 2130969520="2131364589" 2130969523="@id/2131364682" style="@style/2132083927" />
+</androidx.constraintlayout.widget.ConstraintLayout>

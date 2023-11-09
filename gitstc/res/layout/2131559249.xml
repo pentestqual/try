@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout id="@id/2131364330" background="@drawable/2131230967" layout_width="fill_parent" layout_height="fill_parent" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" />
+    <FrameLayout id="@id/2131364331" background="@drawable/2131230966" paddingBottom="5.0dip" layout_width="fill_parent" layout_height="fill_parent" layout_marginBottom="5.0dip" layout_marginStart="5.0dip" layout_marginEnd="5.0dip" />
+    <FrameLayout paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content">
+        <androidx.cardview.widget.CardView layout_width="fill_parent" layout_height="wrap_content" 2130968837="2.0dip">
+            <RelativeLayout id="@id/2131366520" background="@drawable/2131230966" layout_width="fill_parent" layout_height="wrap_content">
+                <FrameLayout id="@id/2131363672" background="?colorAccent" layout_width="60.0dip" layout_height="0.0dip" layout_alignBottom="@id/2131366361" layout_alignParentTop="true">
+                    <ImageView layout_gravity="center" id="@id/2131363671" background="@color/2131100860" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231479" />
+                </FrameLayout>
+                <TextView textColor="?colorAccent" ellipsize="end" id="@id/2131366357" layout_width="0.0dip" layout_marginTop="11.0dip" maxLines="1" textAllCaps="true" fontFamily="@font/2131296257" textDirection="locale" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" layout_toEndOf="@id/2131363672" layout_alignParentEnd="true" style="@style/2132083834" />
+                <TextView textSize="12.0dip" textColor="#7a000000" id="@id/2131366363" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="5.0dip" layout_marginRight="5.0dip" text="/" layout_alignBaseline="@id/2131366357" layout_toEndOf="@id/2131366357" />
+                <TextView textColor="@color/2131100768" id="@id/2131366359" visibility="gone" text="@string/text_notification_item_count" layout_alignBaseline="@id/2131366357" layout_toEndOf="@id/2131366363" style="@style/2132083830" />
+                <TextView ellipsize="end" id="@id/2131366361" paddingBottom="10.0dip" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="5.0dip" maxLines="2" layout_below="@id/2131366357" textDirection="locale" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" layout_alignStart="@id/2131366357" layout_alignParentEnd="true" style="@style/2132083921" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</FrameLayout>

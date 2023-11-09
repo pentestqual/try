@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/network_feedback_select_number_header_title_on_what" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+    <FrameLayout id="@id/2131362534" layout_width="fill_parent" layout_height="wrap_content" />
+    <TextView layout_gravity="center" id="@id/2131364295" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/branches_and_ssms_help_center_section_footer_no_numbers" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout layout_gravity="center|top" orientation="horizontal" id="@id/2131363439" paddingLeft="@dimen/2131166089" paddingTop="@dimen/2131166089" paddingRight="@dimen/2131166089" layout_width="fill_parent" layout_height="@dimen/2131166092" paddingStart="@dimen/2131166089" paddingEnd="@dimen/2131166089" style="?2130969642">
+        <com.google.android.material.button.MaterialButton gravity="center" layout_gravity="top" id="@id/2131362433" padding="12.0dip" layout_width="@dimen/2131166156" layout_height="@dimen/2131166156" insetTop="0.0dip" insetBottom="0.0dip" contentDescription="@string/mtrl_picker_cancel" 2130969354="@drawable/2131231789" style="?2130969639" />
+        <FrameLayout id="@id/2131364182" paddingLeft="@dimen/2131166094" focusable="true" focusableInTouchMode="true" layout_width="0.0dip" layout_height="fill_parent" layout_weight="1.0" paddingStart="@dimen/2131166094">
+            <TextView gravity="start|bottom|center" layout_gravity="start|center|top" id="@id/2131364187" layout_width="fill_parent" layout_height="wrap_content" 2130969260="@dimen/2131166111" style="?2130969644" />
+            <TextView gravity="start|bottom|center" layout_gravity="start|center|top" id="@id/2131364181" paddingBottom="@dimen/2131166104" layout_width="fill_parent" layout_height="wrap_content" 2130969260="@dimen/2131166105" 2130969572="@dimen/2131166093" style="?2130969643" />
+        </FrameLayout>
+        <LinearLayout orientation="@integer/2131427381" layout_width="wrap_content" layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton layout_gravity="end|center|top" id="@id/2131362629" layout_width="wrap_content" layout_height="@dimen/2131166156" text="@string/mtrl_picker_save" contentDescription="@string/mtrl_picker_save" style="?2130969640" />
+            <include layout="@layout/2131559567" />
+        </LinearLayout>
+    </LinearLayout>
+    <View layout_gravity="bottom" layout_width="fill_parent" layout_height="@dimen/2131166090" style="?2130969641" />
+</merge>

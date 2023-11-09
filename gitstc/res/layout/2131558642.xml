@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button id="@id/2131362392" layout_width="fill_parent" text="@string/telegram_summary_button_continue" style="@style/2132082688" />
+</FrameLayout>

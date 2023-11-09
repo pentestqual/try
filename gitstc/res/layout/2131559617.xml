@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center" orientation="horizontal" focusable="true" focusableInTouchMode="true" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton id="@id/2131364711" background="?android:selectableItemBackgroundBorderless" padding="@dimen/2131166252" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231863" layout_weight="0.0" contentDescription="@string/place_autocomplete_search_hint" />
+    <EditText textSize="20.0dip" textColor="@color/2131100714" textColorHint="@color/2131100713" id="@id/2131364712" background="@null" paddingLeft="16.0dip" paddingRight="16.0dip" focusable="false" focusableInTouchMode="false" layout_width="0.0dip" layout_height="fill_parent" hint="@string/place_autocomplete_search_hint" maxLines="1" lines="1" singleLine="true" layout_weight="1.0" inputType="textNoSuggestions" />
+    <ImageButton id="@id/2131364706" background="?android:selectableItemBackgroundBorderless" padding="@dimen/2131166252" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231862" layout_weight="0.0" contentDescription="@string/place_autocomplete_clear_button" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView id="@id/2131365395" background="@color/2131099656" paddingBottom="@dimen/2131165388" scrollbars="none" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969487="true" 2130969495="@id/2131362350" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" 2130969525="0.0">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <FrameLayout id="@id/2131364932" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165322" layout_marginEnd="@dimen/2131165322" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                <ImageView id="@id/2131365444" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231310" scaleType="fitCenter" maxHeight="236.0dip" minWidth="153.0dip" minHeight="153.0dip" />
+            </FrameLayout>
+            <TextView ellipsize="end" id="@id/2131365445" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" maxLines="2" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364932" 2130969542="@dimen/2131165325" style="@style/2132083894" />
+            <View id="@id/divider" layout_marginTop="20.0dip" 2130969520="2131364589" 2130969523="@id/2131365445" style="@style/2132083036" />
+            <TextView id="@id/2131365443" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/divider" 2130969525="0.0" style="@style/2132083927" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <Button id="@id/2131362350" layout_width="fill_parent" text="@string/tamayouz_gifts_gift_details_button_choose_this" 2130969494="2131364589" 2130969500="2131364589" 2130969510="0.875" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

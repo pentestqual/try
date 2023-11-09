@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout id="@id/2131364023" background="?2130968978" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362079" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131362421" 2130969524="2131364589">
+            <com.google.android.material.appbar.CollapsingToolbarLayout id="@id/2131362599" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362683" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="?2130968594" animateLayoutChanges="true" 2130969485="2131364588">
+                    <ImageView id="@id/2131363611" layout_width="80.0dip" layout_height="80.0dip" layout_marginTop="@dimen/2131165388" src="@drawable/2131231435" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                    <TextView gravity="center" id="@id/titleTextView" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_marginTop="@dimen/2131165388" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363611" style="@style/2132083903" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" 2130969780="@drawable/2131231430" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView id="@id/2131365391" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" overScrollMode="never" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" paddingBottom="@dimen/2131165326" layout_width="fill_parent" layout_height="0.0dip">
+                <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                    <LinearLayout orientation="vertical" id="@id/2131364799" layout_width="fill_parent" layout_height="wrap_content" 2130969514="2131364589" 2130969518="2131364589" 2130969523="@id/2131365854">
+                        <View id="@id/divider" style="@style/2132083036" />
+                        <TextView id="@id/price" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="10.0dip" text="@string/unlocking_devices_unlocking_devices_left_main_price" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                        <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                            <TextView layout_gravity="bottom" id="@id/2131364807" layout_width="wrap_content" layout_height="wrap_content" text="@string/free" layout_marginStart="@dimen/2131165388" style="@style/2132083908" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout orientation="vertical" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                        <TextView id="@id/2131364124" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="10.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                    </LinearLayout>
+                    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                        <TextView textStyle="bold" id="@id/2131366114" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/unlocking_devices_unlocking_devices_section_title_instructions" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                    </LinearLayout>
+                    <View id="@id/2131363032" layout_marginTop="15.0dip" style="@style/2132083036" />
+                    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                        <TextView id="@id/2131362684" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                    </LinearLayout>
+                    <Button layout_gravity="center" id="@id/2131365018" layout_width="fill_parent" layout_margin="@dimen/2131165388" text="@string/unlocking_devices_unlocking_devices_button_raise_request" style="@style/2132083123" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

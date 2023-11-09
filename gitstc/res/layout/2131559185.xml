@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365549" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131365554" layout="@layout/2131559494" />
+    <ImageView id="@id/2131365556" background="#ffc80025" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" src="@drawable/2131231749" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131365554" />
+    <TextView id="@id/2131365555" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/unsettled_amount_section_footer_you_have" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969519="@id/2131365556" 2130969523="@id/2131365554" style="@style/2132083921" />
+    <View id="@id/divider1" layout_marginTop="40.0dip" 2130969523="@id/2131365555" style="@style/2132083036" />
+    <TextView id="@id/2131365553" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32.0dip" text="@string/pay_bill_message_section_title_billing_account" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/divider1" style="@style/2132083837" />
+    <View id="@id/2131363050" layout_marginTop="15.0dip" 2130969523="@id/2131365553" style="@style/2132083036" />
+    <ProgressBar id="@id/2131364855" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969495="@id/2131365550" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363050" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365552" layout_width="0.0dip" layout_height="0.0dip" 2130969495="@id/2131365550" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363050" />
+    <View 2130969523="@id/2131365552" style="@style/2132083036" />
+    <Button id="@id/2131365550" layout_width="fill_parent" layout_height="wrap_content" text="@string/unsettled_amount_button_pay_now" 2130969494="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

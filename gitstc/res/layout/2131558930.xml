@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <com.google.android.material.textview.MaterialTextView id="@id/2131366102" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/login_and_registration_section_title_select_one" layout_marginStart="20.0dip" layout_marginEnd="20.0dip" style="@style/2132083845" />
+    <com.google.android.material.textview.MaterialTextView id="@id/subtitle" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/login_and_registrations_select_number_header_sub_a_verification" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083927" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365126" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="@dimen/2131165388" />
+</LinearLayout>

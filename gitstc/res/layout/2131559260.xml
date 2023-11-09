@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="horizontal" background="@android:color/white" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="10.0dip" layout_marginRight="10.0dip" layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView textSize="16.0sp" textColor="@android:color/black" id="@id/2131363619" layout_width="wrap_content" layout_height="wrap_content" text="1" fontFamily="@font/2131296263" />
+    <TextView textSize="16.0sp" textColor="@android:color/black" id="@id/2131362906" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="5.0dip" text="Terms and condition" lineSpacingExtra="2.0dip" fontFamily="@font/2131296263" />
+</LinearLayout>

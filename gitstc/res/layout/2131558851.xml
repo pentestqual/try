@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130968951" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline orientation="horizontal" id="@id/2131363506" layout_width="wrap_content" layout_height="fill_parent" 2130969504="0.3" />
+    <ImageView id="@id/2131363628" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231343" alpha="0.0" 2130969495="@id/2131366102" 2130969500="2131364589" 2130969520="2131364589" 2130969524="@id/2131363506" />
+    <TextView textColor="@color/2131100892" id="@id/2131366102" layout_marginBottom="16.0dip" text="@string/replace_sim_delivery_message_title_done" alpha="0.0" 2130969495="@id/2131364104" 2130969514="2131364589" 2130969518="2131364589" style="@style/2132083845" />
+    <TextView gravity="center" id="@id/2131364104" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="60.0dip" layout_marginRight="60.0dip" layout_marginBottom="40.0dip" text="@string/login_and_registrations_message_body_your_username" alpha="0.0" 2130969495="@id/2131364894" 2130969514="2131364589" 2130969518="2131364589" style="@style/2132083927" />
+    <Button enabled="false" id="@id/2131364894" visibility="gone" layout_margin="@dimen/2131165388" text="@string/retry" alpha="0.0" 2130969495="@id/2131364288" style="@style/2132082688" />
+    <Button enabled="false" id="@id/2131364288" visibility="gone" layout_marginBottom="@dimen/2131165388" text="@string/action_cancel" alpha="0.0" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132084196" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" minHeight="?android:listPreferredItemHeight" layout_marginStart="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox textSize="18.0dip" id="@id/2131364055" focusable="false" layout_width="fill_parent" layout_height="wrap_content" button="@drawable/2131231021" text="hkjhkjhjk" layoutDirection="locale" paddingStart="20.0dip" paddingEnd="20.0dip" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <LinearLayout orientation="horizontal" id="@id/divider" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969520="2131364589">
+        <View background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

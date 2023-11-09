@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@id/2131366409" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131366410" text="@string/upgrade_to_select_services_button_upgrade_to" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083840" />
+    <androidx.cardview.widget.CardView id="@id/2131366408" layout_width="fill_parent" layout_height="?android:listPreferredItemHeight" layout_marginTop="15.0dip" layout_marginBottom="@dimen/2131165388" foreground="?android:selectableItemBackground" 2130968837="5.0dip" 2130968838="8.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366410">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center_vertical" id="@id/2131365321" background="?2130968986" layout_width="fill_parent" layout_height="fill_parent" 2130969500="2131364589" 2130969520="2131364589">
+            <ImageView id="@id/2131363615" layout_width="40.0dip" layout_height="35.0dip" src="@drawable/2131231659" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView id="@id/2131363814" layout_width="0.0dip" layout_height="wrap_content" text="@string/home_details_section_title_upgrade_to" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969501="@id/2131366460" 2130969510="0.0" 2130969519="@id/2131363615" 2130969524="2131364589" style="@style/2132083836" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

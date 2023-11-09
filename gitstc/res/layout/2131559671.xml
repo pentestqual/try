@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="horizontal" paddingTop="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_weight="1.0">
+        <TextView layout_gravity="center" id="@id/2131363902" layout_width="fill_parent" layout_height="wrap_content" textAlignment="center" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" style="@style/2132083927" />
+        <TextView layout_gravity="center" id="@id/2131363901" layout_width="fill_parent" textAlignment="center" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" style="@style/2132083883" />
+        <ImageView layout_gravity="center" id="@id/2131363900" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="10.0dip" src="@drawable/2131231395" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" />
+        <TextView textSize="15.0dip" textColor="@color/2131099684" layout_gravity="center" id="@id/2131363903" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" text="@string/browse_and_compare_compare_button_view_details" textAlignment="center" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" style="@style/2132083885" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_weight="1.0">
+        <TextView layout_gravity="center" id="@id/2131365256" layout_width="fill_parent" layout_height="wrap_content" textAlignment="center" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" style="@style/2132083927" />
+        <TextView layout_gravity="center" id="@id/2131365255" layout_width="fill_parent" textAlignment="center" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" style="@style/2132083883" />
+        <ImageView layout_gravity="center" id="@id/2131365254" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="10.0dip" src="@drawable/2131231395" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" />
+        <TextView textSize="15.0dip" textColor="@color/2131099684" layout_gravity="center" id="@id/2131365257" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131165388" text="@string/browse_and_compare_compare_button_view_details" textAlignment="center" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" style="@style/2132083885" />
+    </LinearLayout>
+</LinearLayout>

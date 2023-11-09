@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout background="@color/2131100729" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout layout_gravity="start" id="@id/2131362157" background="@drawable/2131231067" layout_width="30.0dip" layout_height="30.0dip" layout_margin="20.0dip">
+        <ImageView layout_gravity="center" background="@drawable/2131231221" layout_width="20.0dip" layout_height="20.0dip" />
+    </FrameLayout>
+    <ImageView layout_gravity="end" id="@id/2131365972" background="@drawable/2131231225" layout_width="30.0dip" layout_height="30.0dip" layout_margin="20.0dip" />
+    <ImageView layout_gravity="center" id="@id/2131363505" background="@drawable/2131231167" visibility="gone" layout_width="220.0dip" layout_height="220.0dip" />
+    <LinearLayout layout_gravity="bottom" orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="20.0dip" layout_marginRight="20.0dip">
+        <TextView textSize="26.0sp" textColor="@android:color/white" id="@id/2131363444" layout_width="wrap_content" layout_height="wrap_content" text="" singleLine="true" fontFamily="@font/2131296257" fontPath="fonts/STCForward-Bold.ttf" />
+        <TextView textSize="14.0sp" textColor="@android:color/white" id="@id/2131363442" layout_width="wrap_content" layout_height="wrap_content" text="" singleLine="true" fontFamily="@font/2131296263" />
+        <TextView textSize="14.0sp" textColor="@android:color/white" id="@id/2131363443" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="7.0dip" singleLine="true" fontFamily="@font/2131296263" />
+        <Button textColor="@android:color/white" id="@id/2131364738" background="@drawable/2131230988" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="20.0dip" layout_marginBottom="30.0dip" text="@string/play_now" textAllCaps="false" fontFamily="@font/2131296263" />
+    </LinearLayout>
+    <ProgressBar layout_gravity="center" id="@id/2131364855" layout_width="wrap_content" layout_height="wrap_content" />
+</FrameLayout>

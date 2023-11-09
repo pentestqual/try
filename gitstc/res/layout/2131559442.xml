@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center" orientation="vertical" id="@id/2131365618" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131365620" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_margin="60.0dip" text="@string/home_details_home_button_reload" drawablePadding="10.0dip" drawableStart="@drawable/2131231594" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365621" style="@style/2132083932" />
+    <HorizontalScrollView paddingBottom="5.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginStart="10.0dip" nestedScrollingEnabled="false" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365621">
+        <LinearLayout orientation="horizontal" id="@id/2131362472" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="5.0dip" 2130969500="2131364589" 2130969520="2131364589">
+            <sa.com.stc.uicomponent.single_row_item.CardItemView id="@id/2131362334" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130968791="@string/join_stc_landing_button_bring_your" 2130968836="@drawable/2131230908" 2130969377="@drawable/2131231248" />
+            <sa.com.stc.uicomponent.single_row_item.CardItemView id="@id/2131363457" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130968791="@string/join_stc_landing_button_get_a" 2130968836="@drawable/2131230920" 2130969377="@drawable/2131231359" />
+            <sa.com.stc.uicomponent.single_row_item.CardItemView id="@id/2131364267" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130968791="@string/join_stc_landing_button_new_landline" 2130968836="@drawable/2131230893" 2130969377="@drawable/2131231476" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <loading_progress_bar.LoadingProgressBar id="@id/2131365619" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_margin="60.0dip" layout_alignParentEnd="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365621" 2130969908="?2130970329" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365621" layout_width="fill_parent" layout_height="wrap_content" 2130969154="false" 2130969520="2131364589" 2130969524="2131364589" 2130969560="?2130969899" 2130969563="@string/join_stc_landing_button_order_a" />
+</androidx.constraintlayout.widget.ConstraintLayout>

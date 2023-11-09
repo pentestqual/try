@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131364291" visibility="gone" layout_width="fill_parent" layout_height="fill_parent">
+        <ImageView layout_gravity="center_horizontal" id="@id/2131363217" background="@color/2131100738" padding="8.0dip" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231188" />
+        <TextView layout_gravity="center_horizontal" id="@id/2131363220" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="64.0dip" layout_marginTop="10.0dip" layout_marginRight="64.0dip" text="@string/temporary_disconnection_message_body_you_dont" textAlignment="center" layout_marginHorizontal="64.0dip" style="@style/2132083927" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="fill_parent">
+        <LinearLayout orientation="vertical" id="@id/2131365885" layout_width="fill_parent" layout_height="fill_parent" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

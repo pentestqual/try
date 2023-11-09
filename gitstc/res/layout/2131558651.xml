@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362671" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText gravity="start|center" id="@id/2131363150" background="@android:color/transparent" layout_width="fill_parent" layout_height="fill_parent" layout_margin="@dimen/2131165388" hint="@string/login_and_registrations_enter_number_header_title_enter_a_number" drawablePadding="@dimen/2131165333" imeOptions="actionNext" drawableStart="@drawable/2131231454" textDirection="locale" 2130969494="2131364589" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083885" />
+    <View id="@id/divider" layout_marginTop="@dimen/2131165333" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363150" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

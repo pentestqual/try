@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <TextView id="@id/2131362244" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/order_tracking_rate_the_header_title_how_would" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083845" />
+        <TextView id="@id/2131365647" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/order_tracking_my_orders_header_sub_going_from" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131362244" style="@style/2132083927" />
+        <RatingBar theme="@style/2132083187" id="@id/2131365028" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" numStars="5" rating="0.0" stepSize="1.0" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365647" />
+        <Button enabled="false" id="@id/2131364285" text="@string/order_tracking_rate_the_button_next" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

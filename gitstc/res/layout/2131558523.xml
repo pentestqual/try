@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365703" background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131365756" background="@drawable/2131231689" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969514="2131364589" 2130969518="2131364589" 2130969524="2131364589" />
+    <LinearLayout orientation="vertical" id="@id/2131362385" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365176">
+        <TextView id="@id/2131366452" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083932" />
+        <TextView id="@id/2131362154" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083932" />
+        <TextView id="@id/2131362155" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083932" />
+    </LinearLayout>
+    <TextView id="@id/2131365176" padding="10.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/home_details_home_button_reload" drawablePadding="10.0dip" 2130969167="@drawable/2131231594" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365756" style="@style/2132083932" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099789" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <loading_progress_bar.LoadingProgressBar id="@id/2131364860" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <androidx.core.widget.NestedScrollView id="@id/2131365833" visibility="visible" layout_width="fill_parent" layout_height="wrap_content" fillViewport="true" 2130969524="2131364589">
+        <LinearLayout orientation="vertical" id="@id/2131365404" paddingTop="@dimen/2131165319" visibility="gone" layout_width="fill_parent" layout_height="fill_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365073" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131166282" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+                <TextView id="@id/2131365075" layout_width="0.0dip" layout_height="wrap_content" layout_marginBottom="@dimen/2131166282" text="@string/search_engine_search_page_section_title_recent_seaches" 2130969501="@id/2131362580" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                <TextView textColor="@color/2131099749" id="@id/2131362580" layout_width="wrap_content" layout_height="wrap_content" text="@string/search_engine_search_page_button_clear_all" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083916" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.google.android.material.chip.ChipGroup id="@id/2131365074" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" overScrollMode="never" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" nestedScrollingEnabled="false" 2130968888="@dimen/2131165319" 2130969325="true" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+            <TextView id="@id/2131366205" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="@dimen/2131166282" text="@string/search_engine_search_page_section_title_trending_searches" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+            <com.google.android.material.chip.ChipGroup id="@id/2131366206" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" overScrollMode="never" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" nestedScrollingEnabled="false" 2130968888="@dimen/2131165319" 2130969325="true" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stc.widget.np.NumberPicker id="@id/2131363420" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969501="@id/divider" 2130969524="2131364589" style="@style/2132083117" />
+    <TextView id="@id/divider" layout_width="wrap_content" layout_height="wrap_content" text="-" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083891" />
+    <com.stc.widget.np.NumberPicker id="@id/2131366118" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" 2130969494="2131364589" 2130969519="@id/divider" 2130969524="2131364589" style="@style/2132083117" />
+</androidx.constraintlayout.widget.ConstraintLayout>

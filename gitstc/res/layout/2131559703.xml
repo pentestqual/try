@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout paddingBottom="10.0dip" layout_width="wrap_content" layout_height="wrap_content" xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView layout_gravity="center" id="@id/2131362470" layout_width="145.0dip" layout_height="145.0dip" foreground="?android:selectableItemBackground" elevation="3.0dip" 2130968837="2.0dip" 2130968844="true">
+        <RelativeLayout layout_width="fill_parent" layout_height="fill_parent">
+            <ImageView id="@id/2131364404" background="?2130968978" layout_width="fill_parent" layout_height="90.0dip" src="@drawable/2131231312" scaleType="fitXY" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364744" background="@drawable/2131230908" padding="2.0dip" paddingTop="10.0dip" paddingBottom="10.0dip" layout_width="43.0dip" layout_height="43.0dip" layout_above="@id/2131364409" textAlignment="center" style="@style/2132083833">
+                <TextView textColor="@color/2131099656" gravity="center" id="@id/2131364746" layout_width="wrap_content" layout_height="wrap_content" text="123" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083832" />
+                <TextView textColor="@color/2131099656" gravity="center" id="@id/2131364745" layout_width="wrap_content" layout_height="wrap_content" text="@string/transfer_qitaf_summary_right_main_points" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364746" style="@style/2132083832" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ellipsize="end" id="@id/2131364409" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="5.0dip" maxLines="1" layout_below="@id/2131364404" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" letterSpacing="0.02" style="@style/2132083837" />
+            <TextView ellipsize="end" id="@id/2131364402" paddingBottom="5.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="5.0dip" maxLines="1" layout_alignParentBottom="true" textAllCaps="true" layout_marginStart="10.0dip" layout_marginEnd="10.0dip" letterSpacing="0.05" style="@style/2132083828" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

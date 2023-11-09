@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list id="@id/2131365500" oneshot="false" repeatCount="infinite"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="250" android:drawable="@drawable/2131231159" />
+    <item android:duration="250" android:drawable="@drawable/2131231158" />
+    <item android:duration="250" android:drawable="@drawable/2131231160" />
+    <item android:duration="250" android:drawable="@drawable/2131231159" />
+</animation-list>

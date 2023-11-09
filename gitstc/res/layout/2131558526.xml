@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130969024" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131365863" 2130969524="2131364589" layout="@layout/2131559494" />
+    <ScrollView id="@id/2131365389" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131364854" 2130969523="@id/2131365863">
+        <LinearLayout orientation="vertical" id="@id/2131365867" paddingBottom="20.0dip" layout_width="fill_parent" layout_height="wrap_content" paddingStart="20.0dip" paddingEnd="20.0dip" />
+    </ScrollView>
+    <LinearLayout id="@id/2131364854" paddingTop="5.0dip" paddingBottom="15.0dip" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" paddingStart="20.0dip" 2130969495="@id/2131363380" 2130969520="2131364589">
+        <loading_progress_bar.LoadingProgressBar layout_width="wrap_content" layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@id/2131363380" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589">
+        <include id="@id/2131365865" visibility="gone" layout="@layout/2131559459" />
+        <include id="@id/2131365866" visibility="visible" layout="@layout/2131559463" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

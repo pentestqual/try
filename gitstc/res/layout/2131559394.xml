@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_gravity="center_horizontal" orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView layout_gravity="center" id="@id/2131362465" background="@color/2131099655" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130968837="2.0dip" 2130968838="8.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center_vertical" id="@id/2131365280" background="@drawable/2131231884" layout_width="fill_parent" layout_height="fill_parent" foreground="?android:selectableItemBackground" backgroundTint="?2130969039">
+            <ImageView layout_gravity="end" id="@id/2131363605" layout_width="35.0dip" layout_height="35.0dip" layout_margin="@dimen/2131165388" src="@drawable/2131231608" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView textColor="?2130969939" id="@id/2131363814" layout_width="0.0dip" layout_height="wrap_content" text="@string/browse_qitaf_partner_tamayouz_discounts_lift_main_redeem_stc" paddingEnd="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="15.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969519="@id/2131363605" 2130969524="2131364589" style="@style/2132083925" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

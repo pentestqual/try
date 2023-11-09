@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" id="@id/2131365299" background="#ffffffff" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" divider="@drawable/2131231059" showDividers="middle" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center" orientation="horizontal" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <ImageView id="@id/2131363897" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231487" scaleType="centerInside" layout_marginEnd="15.0dip" />
+        <LinearLayout gravity="center_vertical" orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.7">
+            <TextView id="@id/2131363814" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" style="@style/2132083945" />
+            <TextView id="@id/details" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083883" />
+        </LinearLayout>
+        <TextView gravity="end" id="@id/2131364802" layout_width="0.0dip" layout_height="wrap_content" maxLines="2" layout_weight="0.3" layout_marginEnd="5.0dip" style="@style/2132083891" />
+        <TextView gravity="end" id="@id/2131362766" layout_width="wrap_content" layout_height="wrap_content" style="@style/2132083885" />
+    </LinearLayout>
+    <View id="@id/2131366499" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

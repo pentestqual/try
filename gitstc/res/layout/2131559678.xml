@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView background="@android:color/white" layout_width="wrap_content" layout_height="wrap_content" foreground="?2130969981" minHeight="?android:listPreferredItemHeight" 2130968838="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="center" orientation="vertical" id="@id/2131364544" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165319">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@id/2131364719" layout_width="wrap_content" layout_height="wrap_content" checked="false" button="@drawable/2131231855" layout_marginStart="@dimen/2131165319" />
+        <ImageView id="@id/2131364718" layout_width="70.0dip" layout_height="70.0dip" layout_marginBottom="@dimen/2131165391" />
+        <TextView id="@id/2131363758" paddingLeft="@dimen/2131165333" paddingRight="@dimen/2131165333" layout_width="wrap_content" layout_height="wrap_content" textDirection="locale" paddingHorizontal="@dimen/2131165333" style="@style/2132083883" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

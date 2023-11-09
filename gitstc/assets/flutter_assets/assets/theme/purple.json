@@ -1,0 +1,136 @@
+{
+    "font": {
+        "font_name": "Inter",
+        "font_assets": [],
+        "font_size_large": 24,
+        "font_size_medium": 16,
+        "font_size_small": 14,
+        "font_size_smaller": 12
+    },
+    "global": {
+        "screen_background_color":"#4f008c",
+        "main_text_color":"#fafafa",
+        "main_text_weight":500,
+        "main_text_style":"normal",
+        "accessory_text_color":"#b7b7b7",
+        "notifications_background_style":"normal",
+        "list_hover_style":"normal",
+        "errors_text_color":"#ff253f",
+        "errors_text_weight":500,
+        "errors_text_style":"normal"
+    },
+    "header": {
+        "header_background_color":"#4f008c",
+        "header_icons_color":"#00c48c",
+        "header_text_color":"#fafafa",
+        "header_text_weight":700,
+        "header_text_style":"normal",
+        "header_title_position":"left",
+        "header_title_logo_visible":true,
+        "header_action_back_position":"left"
+    },
+    "bubble": {
+        "bubble_padding_x": 16,
+        "bubble_padding_y": 8,
+        "bubble_border_radius": 16,
+        "bubble_my_border_color":"transparent",
+        "bubble_my_background_color":"#00c48c",
+        "bubble_my_text_color":"#fafafa",
+        "bubble_my_text_weight":500,
+        "bubble_my_text_style":"normal",
+        "bubble_their_border_color":"transparent",
+        "bubble_their_background_color":"#fafafa",
+        "bubble_their_text_color":"#333333",
+        "bubble_their_text_weight":500,
+        "bubble_their_text_style":"normal",
+        "bubble_status_icons_color":"#00c48c",
+        "bubble_status_error_icon_color":"#ff253f"
+    },
+    "button": {
+        "button_border_radius": 2,
+        "button_border_color":"transparent",
+        "button_background_color":"#fafafa",
+        "button_text_color":"#ff253f",
+        "button_text_weight":500,
+        "button_text_style":"normal"
+    },
+    "reply": {
+        "reply_border_radius":2,
+        "reply_border_color":"#dedede",
+        "reply_background_color":"#fafafa",
+        "reply_position": "center",
+        "reply_text_color":"#346aea",
+        "reply_text_weight":500,
+        "reply_text_style":"normal"
+    },
+    "card": {
+        "card_border_color":"#dedede",
+        "card_background_color":"#fafafa",
+        "card_text_color":"#333333",
+        "card_text_weight":500,
+        "card_text_style":"normal"
+    },
+    "audio": {
+        "audio_my_border_color":"transparent",
+        "audio_my_background_color":"#00c48c",
+        "audio_my_icons_color":"#fafafa",
+        "audio_my_text_color":"#fafafa",
+        "audio_my_text_weight":500,
+        "audio_my_text_style":"normal",
+        "audio_their_border_color":"#dedede",
+        "audio_their_background_color":"#fafafa",
+        "audio_their_icons_color":"#ff253f",
+        "audio_their_text_color":"#333333",
+        "audio_their_text_weight":500,
+        "audio_their_text_style":"normal"
+    },
+    "file": {
+        "file_my_border_color":"#dedede",
+        "file_my_background_color":"#fafafa",
+        "file_my_icons_color":"#00c48c",
+        "file_my_text_color":"#333333",
+        "file_my_text_weight":700,
+        "file_my_text_style":"normal",
+        "file_their_border_color":"#dedede",
+        "file_their_background_color":"#fafafa",
+        "file_their_icons_color":"#00c48c",
+        "file_their_text_color":"#222222",
+        "file_their_text_weight":700,
+        "file_their_text_style":"normal"
+    },
+    "video": {
+        "video_play_icon_color": "#fafafa",
+        "video_play_icon_type": null,
+        "video_play_icon_url": null,
+        "video_pause_icon_color": "#fafafa",
+        "video_pause_icon_type": null,
+        "video_pause_icon_url": null
+    },
+    "event": {
+        "event_border_color": "#fafafa",
+        "event_border_width": 1,
+        "event_icon_background_color": "transparent",
+        "event_icon_border_radius": 16,
+        "event_icon_color": "#00c48c",
+        "event_title_text_color": "#fafafa",
+        "event_title_text_weight": 700,
+        "event_title_text_style": "normal",
+        "event_body_text_color": "#fafafa",
+        "event_body_text_weight": 500,
+        "event_body_text_style": "normal"
+    },
+    "input": {
+        "input_area_border_color": "#3f0070",
+        "input_area_background_color": "#3f0070",
+        "input_elements_border_radius": 2,
+        "input_icons_background_color": "transparent",
+        "input_icons_color": "#00c48c",
+        "input_text_background_color": "transparent",
+        "input_text_color":"#fafafa",
+        "input_text_weight":500,
+        "input_text_style":"normal",
+        "record_audio_visible": true,
+        "send_file_visible": true,
+        "send_location_visible": false
+    }
+}

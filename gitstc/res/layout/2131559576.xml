@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+        <include id="@id/2131362078" 2130969494="2131364589" 2130969517="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+        <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="50.0dip" text="@string/new_landline_choose_plan_button_choose_a_plan" 2130969517="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132084632" />
+        <TextView id="@id/subtitle" layout_width="fill_parent" layout_height="wrap_content" text="@string/new_landline_compare_plan_choose_a_plan_header_sub_choose_one" layout_marginStart="20.0dip" layout_marginEnd="20.0dip" 2130969517="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132084631" />
+        <androidx.recyclerview.widget.RecyclerView orientation="vertical" id="@id/2131364576" paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/subtitle" />
+        <ProgressBar id="@id/2131364862" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

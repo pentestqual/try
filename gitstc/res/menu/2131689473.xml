@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item icon="@drawable/2131231383" id="@id/2131364239" title="@string/home_details_button_home" 2130970031="2131366650" />
+    <item icon="@drawable/2131231704" id="@id/2131364242" title="@string/home_details_button_store" 2130970031="2131366650" />
+    <item icon="@drawable/2131231562" id="@id/2131364240" title="" />
+    <item icon="@drawable/2131231457" id="@id/2131364241" title="@string/home_details_button_more" 2130970031="2131366650" />
+</menu>

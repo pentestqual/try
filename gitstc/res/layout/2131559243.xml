@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView gravity="center_vertical" id="@id/2131362895" background="?2130969981" layout_width="0.0dip" layout_height="62.0dip" text="@string/device_select_number_button_get_my" drawablePadding="8.0dip" layout_weight="1.0" drawableStart="@drawable/2131231318" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" style="@style/2132083927" />
+    <ImageView id="@id/2131363654" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231395" />
+</LinearLayout>

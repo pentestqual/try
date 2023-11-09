@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView orientation="vertical" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+        <TextView textSize="16.0sp" textColor="?android:textColorSecondary" ellipsize="marquee" id="@id/2131363341" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="8.0dip" singleLine="true" marqueeRepeatLimit="marquee_forever" layout_marginStart="24.0dip" layout_marginEnd="24.0dip" />
+        <TextView textSize="16.0sp" textColor="?android:textColorSecondary" id="@id/2131363337" paddingTop="0.0dip" layout_width="fill_parent" layout_height="wrap_content" maxLines="4" layout_marginStart="24.0dip" layout_marginEnd="24.0dip" />
+        <ImageView layout_gravity="center_horizontal" id="@id/2131363339" layout_width="@dimen/2131165497" layout_height="@dimen/2131165497" layout_marginTop="32.0dip" scaleType="fitXY" />
+        <TextView textSize="14.0sp" textColor="?android:textColorSecondary" gravity="center_horizontal" id="@id/2131363338" paddingTop="16.0dip" paddingBottom="24.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/fingerprint_dialog_touch_sensor" layout_marginStart="24.0dip" layout_marginEnd="24.0dip" accessibilityLiveRegion="polite" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView layout_width="fill_parent" layout_height="90.0dip" layout_marginBottom="15.0dip" backgroundTint="@color/2131099656" 2130968837="2.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+            <ImageView id="@id/2131363628" background="?2130968978" layout_width="0.0dip" layout_height="fill_parent" scaleType="fitXY" 2130969499="1" 2130969520="2131364589" 2130969524="2131364589" />
+            <TextView ellipsize="end" id="@id/2131364599" padding="10.0dip" layout_width="0.0dip" layout_height="wrap_content" maxLines="1" textAlignment="viewStart" 2130969500="2131364589" 2130969519="@id/2131363628" 2130969524="2131364589" style="@style/2132083837" />
+            <TextView ellipsize="end" id="@id/2131362482" layout_width="0.0dip" layout_height="wrap_content" maxLines="2" textAlignment="viewStart" paddingStart="10.0dip" 2130969500="2131364589" 2130969519="@id/2131363628" 2130969523="@id/2131364599" style="@style/2132083921" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

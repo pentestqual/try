@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="?2130968978" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="0.0dip" fillViewport="true" 2130969495="@id/2131362669" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent">
+            <LinearLayout orientation="vertical" id="@id/2131362084" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content">
+                <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+                <ImageView layout_gravity="center_horizontal" id="@id/2131364551" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231344" />
+                <TextView gravity="center" id="@id/2131364553" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" style="@style/2132083905" />
+                <TextView gravity="center" id="@id/2131363414" background="@color/2131099733" visibility="gone" layout_width="73.0dip" layout_height="30.0dip" text="@string/redeem_qitaf_points_service_lift_main_free" style="@style/2132083829" />
+            </LinearLayout>
+            <TextView id="@id/2131365854" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" style="@style/2132083899" />
+            <View style="@style/2132083036" />
+            <TextView textColor="@color/2131099648" id="@id/price" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/browse_and_compare_package_details_header_title_price" layout_marginStart="@dimen/2131165388" style="@style/2132083927" />
+            <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                <TextView id="@id/2131364310" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" style="@style/2132083908" />
+                <TextView id="@id/2131362765" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/special_offers_offer_page_right_Main_sr_month" layout_marginStart="8.0dip" style="@style/2132083885" />
+            </LinearLayout>
+            <TextView id="@id/2131366479" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" text="@string/special_offers_offer_page_section_footer_5_vat" layout_marginStart="@dimen/2131165388" style="@style/2132083918" />
+            <View style="@style/2132083036" />
+            <TextView id="@id/2131363576" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+            <TextView id="@id/2131361974" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="30.0dip" text="@string/friend_family_service_page_section_title_active_contacts" layout_marginStart="@dimen/2131165388" style="@style/2132083837" />
+            <TextView layout_marginTop="@dimen/2131165388" style="@style/2132083036" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131365905" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969481="LinearLayoutManager" />
+            <TextView id="@id/2131362001" paddingTop="@dimen/2131165388" paddingBottom="10.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/friend_family_service_page_section_footer_you_can" paddingStart="@dimen/2131165388" style="@style/2132083921" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button id="@id/2131362669" visibility="invisible" layout_width="fill_parent" text="@string/friend_family_service_page_button_mange_contacts" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

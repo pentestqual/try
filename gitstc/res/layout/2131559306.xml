@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center" orientation="horizontal" id="@id/2131363965" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.archit.calendardaterangepicker.customviews.CustomTextView id="@id/2131366223" tag="dayOfWeek1" text="@string/cdrp_sun" style="@style/2132084195" />
+    <com.archit.calendardaterangepicker.customviews.CustomTextView id="@id/2131366224" tag="dayOfWeek2" text="@string/cdrp_mon" style="@style/2132084195" />
+    <com.archit.calendardaterangepicker.customviews.CustomTextView id="@id/2131366225" tag="dayOfWeek3" text="@string/cdrp_tue" style="@style/2132084195" />
+    <com.archit.calendardaterangepicker.customviews.CustomTextView id="@id/2131366226" tag="dayOfWeek4" text="@string/cdrp_wed" style="@style/2132084195" />
+    <com.archit.calendardaterangepicker.customviews.CustomTextView id="@id/2131366227" tag="dayOfWeek5" text="@string/cdrp_thu" style="@style/2132084195" />
+    <com.archit.calendardaterangepicker.customviews.CustomTextView id="@id/2131366228" tag="dayOfWeek6" text="@string/cdrp_fri" style="@style/2132084195" />
+    <com.archit.calendardaterangepicker.customviews.CustomTextView id="@id/2131366229" tag="dayOfWeek7" text="@string/cdrp_sat" style="@style/2132084195" />
+</LinearLayout>

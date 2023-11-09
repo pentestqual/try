@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView layout_width="fill_parent" layout_height="90.0dip" layout_marginBottom="15.0dip" backgroundTint="@color/2131099656" 2130968837="2.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent">
+            <ImageView id="@id/2131364404" background="?2130968978" layout_width="0.0dip" layout_height="fill_parent" scaleType="fitXY" 2130969499="1" 2130969520="2131364589" 2130969524="2131364589" />
+            <LinearLayout orientation="vertical" padding="10.0dip" layout_width="0.0dip" layout_height="fill_parent" 2130969501="@id/2131364744" 2130969519="@id/2131364404" 2130969524="2131364589">
+                <TextView ellipsize="end" id="@id/2131364409" layout_width="fill_parent" layout_height="wrap_content" maxLines="1" textAlignment="viewStart" style="@style/2132083837" />
+                <TextView ellipsize="end" id="@id/2131364402" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="5.0dip" maxLines="2" textAlignment="viewStart" style="@style/2132083921" />
+            </LinearLayout>
+            <View layout_height="fill_parent" layout_marginTop="10.0dip" layout_marginBottom="10.0dip" 2130969501="@id/2131364744" style="@style/2132084194" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364744" padding="10.0dip" layout_width="0.0dip" layout_height="fill_parent" 2130969499="1" 2130969500="2131364589" 2130969524="2131364589">
+                <TextView textColor="?colorAccent" id="@id/2131364746" layout_width="wrap_content" layout_height="wrap_content" 2130969495="@id/2131364745" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083899" />
+                <TextView textColor="?colorAccent" id="@id/2131364745" layout_width="wrap_content" layout_height="wrap_content" text="@string/transfer_qitaf_summary_right_main_points" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364746" style="@style/2132083827" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

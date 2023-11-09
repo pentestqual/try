@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView id="@id/2131362285" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+        <ImageView id="@id/2131362280" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231233" 2130969495="@id/2131362284" 2130969514="2131364589" 2130969518="2131364589" 2130969524="2131364589" />
+        <TextView gravity="center_horizontal" id="@id/2131362284" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="33.0dip" layout_marginBottom="@dimen/2131165388" text="@string/face_id_confirmation_message_title_welcome" 2130969495="@id/2131362286" 2130969514="2131364589" 2130969518="2131364589" style="@style/2132083845" />
+        <TextView gravity="center_horizontal" id="@id/2131362286" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165388" layout_marginTop="9.0dip" layout_marginRight="@dimen/2131165388" layout_marginBottom="31.0dip" text="@string/face_id_authentication_message_body_account_fingerprint_id" 2130969495="@id/2131362281" 2130969514="2131364589" 2130969518="2131364589" style="@style/2132083927" />
+        <Button id="@id/2131362281" layout_marginLeft="@dimen/2131165388" layout_marginTop="35.0dip" layout_marginRight="@dimen/2131165388" layout_marginBottom="35.0dip" text="@string/login_and_registrations_wifi_button_continue_as" 2130969495="@id/2131363405" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+        <FrameLayout id="@id/2131363405" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589">
+            <loading_progress_bar.LoadingProgressBar layout_gravity="center" id="@id/2131362380" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="35.0dip" layout_marginBottom="35.0dip" />
+            <LinearLayout orientation="vertical" id="@id/2131362379" layout_width="fill_parent" layout_height="wrap_content">
+                <Button id="@id/2131362282" layout_marginLeft="@dimen/2131165388" layout_marginRight="@dimen/2131165388" layout_marginBottom="30.0dip" text="@string/face_id_authentication_message_button_use_another" style="@style/2132083123" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

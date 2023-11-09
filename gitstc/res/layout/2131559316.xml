@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131366149" background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362813" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165915" layout_marginTop="@dimen/2131165901" layout_marginRight="@dimen/2131165915" layout_marginBottom="@dimen/2131165901" layout_marginHorizontal="@dimen/2131165915" layout_marginVertical="@dimen/2131165901" 2130969494="2131364589" 2130969524="2131364589">
+        <TextView textColor="@color/2131099966" id="@id/2131366102" layout_width="@dimen/2131166386" layout_height="wrap_content" text="@string/incoming_calls_business_sdk" textAlignment="viewStart" layout_marginEnd="@dimen/2131165908" 2130969494="2131364589" 2130969501="@id/2131362376" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083559" />
+        <androidx.appcompat.widget.AppCompatButton textSize="@dimen/2131166321" textColor="@color/2131100892" id="@id/2131362376" background="@drawable/2131231012" paddingLeft="@dimen/2131165926" paddingTop="@dimen/2131165915" paddingRight="@dimen/2131165926" paddingBottom="@dimen/2131165915" layout_width="wrap_content" layout_height="wrap_content" text="@string/enable_it_business_sdk" textAllCaps="false" paddingHorizontal="@dimen/2131165926" paddingVertical="@dimen/2131165915" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083411" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@id/2131362308" background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" layout_marginStart="@dimen/2131165915" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" />
+</androidx.constraintlayout.widget.ConstraintLayout>

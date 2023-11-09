@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132083951" parent="@style/2132083949" />
+    <style name="2132083952" parent="@style/2132083949" />
+    <style name="2132083953" parent="@style/2132083958" />
+    <style name="2132083954" parent="@style/2132083959" />
+    <style name="2132083955" parent="@style/2132083960" />
+    <style name="2132083956" parent="@style/2132083961" />
+    <style name="2132083957" parent="@style/2132083970" />
+    <style name="2132083992" parent="@style/2132083984" />
+    <style name="2132083993" parent="@style/2132083985" />
+    <style name="2132083994" parent="@style/2132083986" />
+    <style name="2132083995" parent="@style/2132083987" />
+    <style name="2132083996" parent="@style/2132083988" />
+    <style name="2132083997" parent="@style/2132083989" />
+    <style name="2132083998" parent="@style/2132083990" />
+    <style name="2132083999" parent="@style/2132083991" />
+    <style name="2132084001" parent="@style/2132084000" />
+    <style name="2132084015" parent="@style/2132084011" />
+    <style name="2132084016" parent="@style/2132084012" />
+    <style name="2132084017" parent="@style/2132084013" />
+    <style name="2132084018" parent="@style/2132084011" />
+    <style name="2132084019" parent="@style/2132084013" />
+    <style name="2132084020" parent="@style/2132084031" />
+    <style name="2132084021" parent="@style/2132084032" />
+    <style name="2132084022" parent="@style/2132084033" />
+    <style name="2132084023" parent="@style/2132084034" />
+    <style name="2132084024" parent="@style/2132084035" />
+    <style name="2132084025" parent="@style/2132084036" />
+    <style name="2132084026" parent="@style/2132084037" />
+    <style name="2132084027" parent="@style/2132084038" />
+    <style name="2132084028" parent="@style/2132084039" />
+    <style name="2132084029" parent="@style/2132084056" />
+    <style name="2132084030" parent="@style/2132084057" />
+    <style name="2132084080" parent="@style/2132084078" />
+    <style name="2132084116" parent="@style/2132084115" />
+    <style name="2132084449" parent="@style/2132084451" />
+    <style name="2132084454" parent="@style/2132084455" />
+    <style name="2132084463" parent="@style/2132084461" />
+    <style name="2132084466" parent="@style/2132084464" />
+    <style name="2132084531" parent="@style/2132084527" />
+    <style name="2132084545" parent="@style/2132084543" />
+    <style name="2132084571" parent="@style/2132084572" />
+</resources>

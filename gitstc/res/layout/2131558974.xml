@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="?2130968978" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362087" layout="@layout/2131559494" />
+    <FrameLayout fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <include id="@id/2131364058" layout_width="fill_parent" layout_height="fill_parent" layout="@layout/2131559821" />
+        <RadioGroup layout_gravity="end|center|top" orientation="vertical" id="@id/2131364059" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/2131165388">
+            <RadioButton gravity="center" id="@id/2131364060" background="@drawable/2131231445" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" checked="true" button="@null" />
+            <RadioButton gravity="center" id="@id/2131365352" background="@drawable/2131231616" padding="10.0dip" layout_width="wrap_content" layout_height="wrap_content" checked="false" button="@null" />
+        </RadioGroup>
+        <androidx.appcompat.widget.AppCompatImageView layout_gravity="center" id="@id/2131364064" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" src="@drawable/2131231481" />
+        <ImageView layout_gravity="end|bottom|center" id="@id/2131362777" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="228.0dip" src="@drawable/2131231306" layout_marginEnd="35.0dip" />
+        <LinearLayout layout_gravity="bottom|center" orientation="vertical" id="@id/2131364258" background="@drawable/2131230964" layout_width="fill_parent" layout_height="wrap_content" layout_marginLeft="@dimen/2131165388" layout_marginRight="@dimen/2131165388" layout_marginBottom="50.0dip">
+            <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                <LinearLayout orientation="vertical" layout_width="0.0dip" layout_height="wrap_content" layout_weight="1.0">
+                    <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8.0dip" text="@string/service_coverage_networks_lift_main_available_networks" layout_marginStart="@dimen/2131165388" style="@style/2132083926" />
+                    <TextView id="@id/2131362008" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083883" />
+                </LinearLayout>
+                <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_margin="8.0dip">
+                    <TextView textSize="8.0sp" textColor="#ffffffff" gravity="center" id="@id/2131363706" background="@drawable/2131230940" visibility="gone" layout_width="46.0dip" layout_height="17.0dip" text="@string/network_feedback_environment_left_main_indoors" />
+                    <TextView textSize="8.0sp" textColor="#ffffffff" gravity="center" id="@id/2131364524" background="@drawable/2131230939" visibility="gone" layout_width="46.0dip" layout_height="17.0dip" layout_marginTop="8.0dip" text="@string/network_feedback_environment_left_main_outdoors" />
+                </LinearLayout>
+            </LinearLayout>
+            <View id="@id/2131363030" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="8.0dip" />
+            <FrameLayout layout_width="fill_parent" layout_height="fill_parent">
+                <LinearLayout orientation="horizontal" id="@id/2131363617" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="8.0dip" layout_marginBottom="8.0dip">
+                    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                        <ImageView id="@id/2131363700" layout_width="14.0dip" layout_height="14.0dip" layout_marginBottom="8.0dip" />
+                        <TextView textSize="17.0dip" id="@id/2131363584" layout_width="wrap_content" layout_height="wrap_content" text="@string/twog" style="@style/2132083887" />
+                        <TextView textSize="17.0dip" id="@id/2131363585" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/twog" style="@style/2132083885" />
+                    </LinearLayout>
+                    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                        <ImageView id="@id/2131363701" layout_width="14.0dip" layout_height="14.0dip" layout_marginBottom="8.0dip" />
+                        <TextView textSize="17.0dip" id="@id/2131363586" layout_width="wrap_content" layout_height="wrap_content" text="@string/threeg" style="@style/2132083887" />
+                        <TextView textSize="17.0dip" id="@id/2131363587" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/threeg" layout_weight="1.0" style="@style/2132083885" />
+                    </LinearLayout>
+                    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                        <ImageView id="@id/2131363702" layout_width="14.0dip" layout_height="14.0dip" layout_marginBottom="8.0dip" />
+                        <LinearLayout orientation="vertical" id="@id/2131363393" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                            <TextView textSize="17.0dip" id="@id/2131363588" layout_width="wrap_content" layout_height="wrap_content" text="@string/fourg" style="@style/2132083887" />
+                            <TextView id="@id/2131363590" layout_width="wrap_content" layout_height="wrap_content" text="@string/service_coverage_networks_header_sub_mobile" style="@style/2132083828" />
+                        </LinearLayout>
+                        <LinearLayout orientation="vertical" id="@id/2131363392" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                            <TextView textSize="17.0dip" id="@id/2131363589" layout_width="wrap_content" layout_height="wrap_content" text="@string/fourg" style="@style/2132083885" />
+                            <TextView textSize="10.0dip" id="@id/2131363591" layout_width="wrap_content" layout_height="wrap_content" text="@string/service_coverage_networks_header_sub_mobile" style="@style/2132083834" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                        <ImageView id="@id/2131363703" layout_width="14.0dip" layout_height="14.0dip" layout_marginBottom="8.0dip" />
+                        <LinearLayout orientation="vertical" id="@id/2131363395" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                            <TextView textSize="17.0dip" id="@id/2131363592" layout_width="wrap_content" layout_height="wrap_content" text="@string/fourg" style="@style/2132083887" />
+                            <TextView id="@id/2131363594" layout_width="wrap_content" layout_height="wrap_content" text="@string/service_coverage_networks_header_sub_router" style="@style/2132083828" />
+                        </LinearLayout>
+                        <LinearLayout orientation="vertical" id="@id/2131363394" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                            <TextView textSize="17.0dip" id="@id/2131363593" layout_width="wrap_content" layout_height="wrap_content" text="@string/fourg" style="@style/2132083885" />
+                            <TextView textSize="10.0dip" id="@id/2131363595" layout_width="wrap_content" layout_height="wrap_content" text="@string/service_coverage_networks_header_sub_router" style="@style/2132083834" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                        <ImageView id="@id/2131363704" layout_width="14.0dip" layout_height="14.0dip" layout_marginBottom="8.0dip" />
+                        <TextView textSize="17.0dip" id="@id/2131363596" layout_width="wrap_content" layout_height="wrap_content" text="@string/fiveg" layout_weight="1.0" style="@style/2132083887" />
+                        <TextView textSize="17.0dip" id="@id/2131363597" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/fiveg" layout_weight="1.0" style="@style/2132083885" />
+                    </LinearLayout>
+                    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                        <ImageView id="@id/2131363705" layout_width="14.0dip" layout_height="14.0dip" layout_marginBottom="8.0dip" />
+                        <LinearLayout orientation="vertical" id="@id/2131363429" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                            <TextView textSize="17.0dip" id="@id/2131363598" layout_width="wrap_content" layout_height="wrap_content" text="@string/ftth_arabic" style="@style/2132083887" />
+                            <TextView id="@id/2131363600" layout_width="wrap_content" layout_height="wrap_content" text="@string/ftth" style="@style/2132083828" />
+                        </LinearLayout>
+                        <LinearLayout orientation="vertical" id="@id/2131363428" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_weight="1.0">
+                            <TextView textSize="17.0dip" id="@id/2131363599" layout_width="wrap_content" layout_height="wrap_content" text="@string/ftth_arabic" style="@style/2132083885" />
+                            <TextView textSize="10.0dip" id="@id/2131363601" layout_width="wrap_content" layout_height="wrap_content" text="@string/ftth" style="@style/2132083834" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ProgressBar layout_gravity="center" id="@id/2131364861" visibility="gone" layout_width="@dimen/2131165506" layout_height="@dimen/2131165506" />
+                <ImageView layout_gravity="center" id="@id/2131363224" visibility="gone" layout_width="@dimen/2131165506" layout_height="@dimen/2131165506" src="@drawable/2131231593" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

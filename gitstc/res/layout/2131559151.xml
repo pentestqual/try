@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="@dimen/2131165388"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout gravity="top" orientation="horizontal" background="@drawable/2131230946" layout_width="fill_parent" layout_height="50.0dip" weightSum="1.0" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388">
+        <EditText textColor="@color/2131099648" textColorHint="#40000000" id="@id/2131365403" background="@drawable/2131230946" layout_width="0.0dip" layout_height="fill_parent" hint="@string/telegram_select_secondary_left_main_search_for" lines="1" singleLine="true" drawablePadding="16.0dip" layout_weight="0.9" windowSoftInputMode="adjustNothing" drawableStart="@drawable/2131231372" fontFamily="@font/2131296263" paddingStart="10.0dip" style="@style/2132083927" />
+        <FrameLayout layout_width="0.0dip" layout_height="fill_parent" layout_weight="0.1" layout_marginEnd="8.0dip">
+            <ImageView layout_gravity="center" id="@id/2131365419" visibility="gone" clickable="true" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231281" />
+            <ProgressBar layout_gravity="center" id="@id/2131361829" visibility="gone" layout_width="24.0dip" layout_height="24.0dip" indeterminateTint="@color/2131099793" backgroundTintMode="src_atop" />
+        </FrameLayout>
+    </LinearLayout>
+    <View id="@id/2131364108" background="@color/2131099883" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="18.0dip" />
+    <RelativeLayout layout_width="fill_parent" layout_height="fill_parent">
+        <ScrollView layout_width="fill_parent" layout_height="fill_parent" layout_above="@id/2131362691">
+            <LinearLayout orientation="vertical" id="@id/2131365457" layout_width="fill_parent" layout_height="wrap_content" />
+        </ScrollView>
+        <Button enabled="false" id="@id/2131362691" layout_width="fill_parent" text="@string/telegram_summary_button_continue" layout_alignParentBottom="true" style="@style/2132082688" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165320" layout="@layout/2131559494" />
+    <FrameLayout id="@id/2131364618" layout_width="fill_parent" layout_height="fill_parent" layout_below="@id/2131362078" />
+</RelativeLayout>

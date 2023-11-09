@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131100677" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView id="@id/2131362064" layout_width="0.0dip" layout_margin="@dimen/2131165388" text="@string/partial_payment_payment_page_left_main_amount_payable" 2130969494="2131364589" 2130969501="@id/2131362065" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+    <TextView id="@id/2131362065" layout_margin="@dimen/2131165388" text="@string/home_details_roaming_country_info_right_main_sr" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+</androidx.constraintlayout.widget.ConstraintLayout>

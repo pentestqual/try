@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="wrap_content" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131364964" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131230933" 2130969494="2131364589" 2130969500="2131364589" 2130969510="0.0" 2130969520="2131364589" 2130969524="2131364589" 2130969525="0.0" />
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131363519" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16.0dip" 2130969502="16.0dip" 2130969520="@id/2131364964" />
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131363518" layout_width="wrap_content" layout_height="wrap_content" 2130969500="@id/2131364964" 2130969503="16.0dip" 2130969519="@id/2131364964" />
+    <androidx.constraintlayout.widget.Guideline orientation="horizontal" id="@id/2131363520" layout_width="wrap_content" layout_height="wrap_content" 2130969502="16.0dip" />
+    <androidx.constraintlayout.widget.Guideline orientation="horizontal" id="@id/2131363516" layout_width="wrap_content" layout_height="wrap_content" 2130969503="8.0dip" />
+    <androidx.constraintlayout.widget.Group id="@id/2131365743" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" 2130969020="qitaf_status_points_label,qitaf_status_bar,number" />
+    <TextView id="@id/2131365003" layout_width="0.0dip" layout_height="wrap_content" layout_marginEnd="8.0dip" 2130969495="@id/qitaf_status_points_label" 2130969501="@id/number" 2130969520="@id/2131363519" style="@style/2132083848" />
+    <TextView id="@id/number" layout_width="wrap_content" layout_height="wrap_content" 2130969494="@id/2131365003" 2130969500="@id/2131363518" 2130969524="@id/2131365003" style="@style/2132083884" />
+    <TextView id="@id/qitaf_status_points_label" layout_width="0.0dip" layout_height="wrap_content" layout_marginBottom="4.0dip" text="@string/purchase_status_status_points_title_status_points" maxLines="3" 2130969495="@id/qitaf_status_bar" 2130969501="@id/2131363518" 2130969510="0.0" 2130969520="@id/2131363519" style="@style/2132083829" />
+    <ProgressBar id="@id/qitaf_status_bar" layout_width="0.0dip" layout_height="6.0dip" layout_marginTop="32.0dip" progress="30" progressDrawable="@drawable/2131231872" 2130969495="@id/2131363516" 2130969501="@id/2131363518" 2130969520="@id/2131363519" 2130969524="@id/2131363520" style="?android:progressBarStyleHorizontal" />
+    <TextView id="@id/2131365002" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="4.0dip" maxLines="2" lines="2" 2130969501="@id/2131363518" 2130969520="@id/2131363519" 2130969523="@id/qitaf_status_bar" style="@style/2132083859" />
+    <TextView id="@id/2131362406" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" text="@string/purchase_status_status_points_button_get_points" 2130969494="@id/2131362101" 2130969501="@id/2131362101" 2130969524="@id/2131362101" style="@style/2132083881" />
+    <ImageView gravity="end|center" layout_gravity="center_vertical" id="@id/2131362101" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231411" singleLine="false" layout_marginEnd="8.0dip" 2130969495="@id/2131363516" 2130969500="2131364589" 2130969527="4.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

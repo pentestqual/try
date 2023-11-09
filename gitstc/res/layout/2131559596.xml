@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View layout_gravity="center_horizontal" id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" />
+    <LinearLayout orientation="vertical" id="@id/2131363964" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073">
+        <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+        <TextView id="@id/2131365798" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165319" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" />
+        <View id="@id/2131363075" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="@dimen/2131165388" />
+    </LinearLayout>
+    <FrameLayout id="@id/2131362535" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363964" />
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation id="@id/2131362268" 2130970102="@id/2131362251" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment label="fragment_bill_details" name="com.stc.businesssdk.presentation.bill.fragment.details.BillDetailsFragment" id="@id/2131362251" />
+    <fragment label="fragment_list_of_packages" name="com.stc.businesssdk.presentation.subscription.rateplans.ListOfPackagesFragment" id="@id/2131363947">
+        <action id="@id/2131361928" 2130969119="@id/2131362613" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+        <action id="@id/2131361927" 2130969119="@id/2131362390" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+        <argument name="currentRatePlanId" 2130968656="string" 2130969812="true" />
+    </fragment>
+    <fragment label="fragment_compare_rate_plan" name="com.stc.businesssdk.presentation.subscription.rateplans.CompareRatePlanFragment" id="@id/2131362613">
+        <action id="@id/2131361921" 2130969119="@id/2131362390" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+        <argument name="currentRatePlanId" 2130968656="string" 2130969812="true" />
+        <argument name="firstProductId" 2130968656="string" />
+        <argument name="secondProductId" 2130968656="string" />
+    </fragment>
+    <fragment label="fragment_number_management" name="com.stc.businesssdk.presentation.manage.fragment.number.NumberManagementFragment" id="@id/2131364361">
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="tabNameExtra" 2130968656="string" />
+        <argument name="serviceType" 2130968656="string" />
+        <action id="@id/2131361944" 2130969119="@id/2131365840" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+        <action id="@id/2131361943" 2130969119="@id/2131365594" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+        <action id="@id/2131361942" 2130969119="@id/2131365091" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+        <action id="@id/2131361945" 2130969119="@id/2131366420" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+        <action id="@id/2131361936" 2130969119="@id/2131361995" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+        <action id="@id/2131361934" 2130969119="@id/2131366365" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+        <action id="@id/2131361937" 2130969119="@id/2131362390" />
+        <action id="@id/2131361938" 2130969119="@id/2131362950" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+        <action id="@id/2131361940" 2130969119="@id/2131363947" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+        <action id="@id/2131361941" 2130969119="@id/2131364090" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+        <action id="@id/2131361935" 2130969119="@id/2131362193" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+        <action id="@id/2131361939" 2130969119="@id/2131361804" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+    </fragment>
+    <fragment label="BarChartFragment" name="com.stc.businesssdk.presentation.manage.fragment.barchart.BarChartSDKFragment" id="@id/2131362193">
+        <argument name="accountId" 2130968656="string" />
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="serviceType" 2130968656="string" />
+    </fragment>
+    <fragment label="fragment_sim_management" name="com.stc.businesssdk.presentation.manage.fragment.management.SimManagementFragment" id="@id/2131365594">
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="serviceType" 2130968656="string" />
+        <action id="@id/2131361950" 2130969119="@id/2131365589" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+    </fragment>
+    <fragment label="fragment_sim_details_with_tabs" name="com.stc.businesssdk.presentation.manage.fragment.management.SimDetailsWithTabsBusinessSdkFragment" id="@id/2131365589">
+        <argument name="serviceType" 2130968656="string" />
+        <argument name="simCodes" 2130968656="com.stc.mybusiness.databaseroom.domain.model.SimCodes" />
+        <argument name="simCodesList" 2130968656="com.stc.mybusiness.databaseroom.domain.model.SimCodes[]" />
+        <action id="@id/2131361907" 2130969119="@id/2131364519" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+    </fragment>
+    <fragment label="fragment_recharge_history_list" name="com.stc.businesssdk.presentation.manage.fragment.balance.RechargeHistoryListFragment" id="@id/2131365091">
+        <argument name="phoneNumber" 2130968656="string" />
+    </fragment>
+    <fragment label="AddProductsListBusinessSdkFragment" name="com.stc.businesssdk.presentation.manage.fragment.subscriptions.AddProductsListBusinessSdkFragment" id="@id/2131361995">
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="productCategory" 2130968656="string" />
+        <argument name="productPackage" 2130968656="string" />
+        <argument name="subscribedProducts" 2130968656="com.stc.businesssdk.presentation.manage.fragment.subscriptions.model.SubscriptionsModel[]" />
+        <action id="@id/2131361908" 2130969119="@id/2131362390" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+    </fragment>
+    <fragment label="BusinessSdkDynamicProductFragment" name="com.stc.businesssdk.presentation.manage.fragment.subscriptions.BusinessSdkDynamicProductFragment" id="@id/2131362390">
+        <argument name="serviceNumber" 2130968656="string" 2130969812="false" />
+        <argument name="productId" 2130968656="string" 2130969812="false" />
+        <argument name="isCurrentPackage" 2130968656="boolean" />
+        <argument name="isRatePlan" 2130968656="boolean" />
+        <argument name="isProductSubscribed" 2130968656="boolean" />
+        <action id="@id/2131361917" 2130969119="@id/2131363947" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+        <action id="@id/2131361919" 2130969119="@id/2131365840" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+        <action id="@id/2131361916" 2130969119="@id/2131362625" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+        <action id="@id/2131361918" 2130969119="@id/2131364090" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+    </fragment>
+    <fragment label="fragment_unbilled_amount_business_sdk" name="com.stc.businesssdk.presentation.manage.fragment.usage.UnbilledAmountBusinessSdkFragment" id="@id/2131366365">
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="serviceType" 2130968656="string" />
+        <action id="@id/2131361952" 2130969119="@id/2131366420" 2130969210="@anim/2130772021" 2130969224="@anim/2130772062" 2130969870="@anim/2130772020" 2130969871="@anim/2130772063" />
+    </fragment>
+    <fragment label="fragment_usage_details_list_business_sdk" name="com.stc.businesssdk.presentation.manage.fragment.usage.UsageDetailsListBusinessSdkFragment" id="@id/2131366420">
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="serviceType" 2130968656="string" />
+        <argument name="type" 2130968656="string" />
+    </fragment>
+    <fragment label="otpFragment" name="com.stc.businesssdk.presentation.compose.otp.OtpFragment" id="@id/2131364519">
+        <argument name="otpModel" 2130968656="com.stc.mybusiness.databaseroom.domain.model.OTPModel" />
+        <action id="@id/2131361946" 2130969119="@id/2131365840" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+        <argument name="imsi" 2130968656="string" />
+    </fragment>
+    <fragment label="SuccessFragment" name="com.stc.businesssdk.presentation.compose.successview.SuccessFragment" id="@id/2131365840">
+        <argument name="otpSuccessModel" 2130968656="com.stc.mybusiness.databaseroom.domain.model.SuccessAndErrorScreenModel" />
+    </fragment>
+    <fragment label="DeviceContractFragment" name="com.stc.businesssdk.presentation.manage.fragment.devicecontract.DeviceContractSDKFragment" id="@id/2131362950">
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="deviceContractEntity" 2130968656="com.stc.mybusiness.databaseroom.domain.tables.DeviceContractEntity" 2130969812="true" />
+    </fragment>
+    <fragment label="fragment_business_sdk_notifications" name="com.stc.businesssdk.presentation.notification.fragment.BusinessSdkNotificationsFragment" id="@id/2131362391">
+        <action id="@id/2131361920" 2130969119="@id/2131364326" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+    </fragment>
+    <fragment label="fragment_notification_settings" name="com.stc.businesssdk.presentation.notification.fragment.NotificationSettingsFragment" id="@id/2131364326">
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="serviceType" 2130968656="string" />
+    </fragment>
+    <fragment label="mawjoodExtrasFragment" name="com.stc.businesssdk.presentation.manage.fragment.mawjoodextras.MawjoodExtrasFragment" id="@id/2131364090" />
+    <fragment label="EContentDetailsSDKFragment" name="com.stc.businesssdk.presentation.manage.fragment.econtent.EContentDetailsSDKFragment" id="@id/2131361804">
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="eContent" 2130968656="com.stc.mybusiness.databaseroom.domain.dto.econtent.EContentEntity" />
+        <action id="@id/2131361906" 2130969119="@id/2131365840" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+    </fragment>
+    <fragment label="confirmChangeRatePlanFragment" name="com.stc.businesssdk.presentation.subscription.rateplans.ConfirmChangeRatePlanFragment" id="@id/2131362625">
+        <action id="@id/2131361922" 2130969119="@id/2131365840" 2130969210="@anim/2130772019" 2130969224="@anim/2130772061" 2130969870="@anim/2130772019" 2130969871="@anim/2130772061" />
+        <argument name="phoneNumber" 2130968656="string" />
+        <argument name="newRatePlanId" 2130968656="string" />
+    </fragment>
+</navigation>

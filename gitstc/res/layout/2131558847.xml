@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout id="@id/2131364023" background="?2130968978" visibility="invisible" fitsSystemWindows="true" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="fill_parent" layout_height="fill_parent" animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout id="@id/2131362079" background="?2130968978" layout_width="fill_parent" layout_height="wrap_content" 2130969495="@id/2131362421" 2130969524="2131364589">
+            <com.google.android.material.appbar.CollapsingToolbarLayout id="@id/2131362599" fitsSystemWindows="true" layout_width="fill_parent" layout_height="wrap_content" 2130969548="2131365390|2131363231">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362683" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="?2130968594" animateLayoutChanges="true" 2130969485="2131364588">
+                    <ImageView id="@id/2131364551" layout_width="80.0dip" layout_height="80.0dip" layout_marginTop="@dimen/2131165388" src="@drawable/2131231696" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                    <TextView gravity="center" id="@id/2131364553" paddingBottom="@dimen/2131165388" layout_width="fill_parent" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364551" style="@style/2132083905" />
+                    <TextView textColor="@color/2131099656" gravity="center" id="@id/2131363414" background="@color/2131099733" visibility="gone" layout_width="73.0dip" layout_height="30.0dip" text="@string/device_summary_left_main_free" 2130969494="2131364589" 2130969520="2131364589" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.Toolbar id="@id/2131366132" background="?2130968978" layout_width="fill_parent" layout_height="?2130968594" 2130969485="2131364698" 2130969780="@drawable/2131231430" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView id="@id/2131365391" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" overScrollMode="never" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" paddingBottom="@dimen/2131165326" layout_width="fill_parent" layout_height="0.0dip">
+                <TextView id="@id/2131365854" padding="@dimen/2131165388" visibility="gone" layout_width="fill_parent" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083899" />
+                <LinearLayout orientation="vertical" id="@id/2131364799" layout_width="fill_parent" layout_height="wrap_content" 2130969514="2131364589" 2130969518="2131364589" 2130969523="@id/2131365854">
+                    <View id="@id/divider" style="@style/2132083036" />
+                    <TextView id="@id/price" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" layout_marginBottom="10.0dip" text="@string/service_subscription_service_details_section_title_price" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+                    <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content">
+                        <TextView layout_gravity="bottom" id="@id/2131364807" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" style="@style/2132083908" />
+                        <TextView layout_gravity="bottom" id="@id/2131364794" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="5.0dip" style="@style/2132083885" />
+                    </LinearLayout>
+                    <TextView id="@id/2131366477" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="10.0dip" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" style="@style/2132083918" />
+                </LinearLayout>
+                <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364799">
+                    <View id="@id/2131363030" visibility="gone" layout_marginTop="15.0dip" style="@style/2132083036" />
+                    <TextView id="@id/2131362919" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" layout_marginTop="8.0dip" style="@style/2132083927" />
+                    <LinearLayout orientation="vertical" id="@id/2131365824" visibility="visible" layout_width="fill_parent" layout_height="wrap_content">
+                        <sa.com.stc.uicomponent.single_row_item.SingleRowWithColoredValue id="@id/2131365808" layout_width="fill_parent" layout_height="wrap_content" 2130969563="@string/home_details_subscriptions_section_title_subscription_details" />
+                        <include id="@id/2131365812" layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559369" />
+                        <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131365813" layout_width="fill_parent" layout_height="wrap_content" 2130969559="@string/home_details_subscriptions_left_main_type" />
+                        <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithArrowAndValue id="@id/2131365807" layout_width="fill_parent" layout_height="wrap_content" 2130969564="@string/home_details_subscriptions_left_main_subscription_cost" />
+                        <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131365811" layout_width="fill_parent" layout_height="wrap_content" 2130969559="@string/home_details_subscriptions_left_main_start_date" />
+                        <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131365809" layout_width="fill_parent" layout_height="wrap_content" 2130969559="@string/home_details_subscriptions_left_main_end_date" />
+                        <TextView textColor="@color/2131099954" id="@id/2131365810" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" layout_marginTop="8.0dip" text="@string/home_details_subscriptions_section_footer_the_service" style="@style/2132083927" />
+                    </LinearLayout>
+                    <Button layout_gravity="center" id="@id/2131366384" visibility="gone" layout_width="fill_parent" layout_margin="@dimen/2131165388" text="@string/service_subscription_service_details_button_unsubscribe" style="@style/2132083123" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <Button layout_gravity="bottom" id="@id/2131365814" visibility="gone" layout_width="fill_parent" text="@string/browse_and_compare_package_details_button_subscribe" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+    <TextView gravity="center" id="@id/2131364566" layout_width="fill_parent" layout_height="?2130968594" alpha="0.0" style="@style/2132083893" />
+</FrameLayout>

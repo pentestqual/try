@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131100892" layout_width="fill_parent" layout_height="wrap_content" layoutDirection="locale" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView layout_width="fill_parent" layout_height="wrap_content" fillViewport="true" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362416" layout_width="fill_parent" layout_height="wrap_content" 2130969524="2131364589">
+                <TextView textSize="@dimen/2131166322" textColor="@color/2131099965" id="@id/2131366253" layout_width="0.0dip" layout_height="wrap_content" layout_marginTop="@dimen/2131165957" text="@string/call_details" textAlignment="viewStart" layout_marginStart="@dimen/2131165926" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083400" />
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362578" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165908" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366253">
+                    <View id="@id/2131366154" background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                    <ImageView id="@id/2131363788" layout_width="@dimen/2131165932" layout_height="@dimen/2131165932" layout_marginTop="@dimen/2131165923" layout_marginBottom="@dimen/2131165923" src="@drawable/2131231025" layout_marginStart="@dimen/2131165926" layout_marginVertical="@dimen/2131165923" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                    <TextView textColor="@color/2131099965" id="@id/2131366266" layout_width="wrap_content" layout_height="wrap_content" text="@string/usage_details" textAlignment="viewStart" layout_marginStart="@dimen/2131165915" 2130969494="@id/2131363788" 2130969519="@id/2131363788" 2130969524="@id/2131363788" style="@style/2132083559" />
+                    <ImageView id="@id/2131363787" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131165923" layout_marginBottom="@dimen/2131165923" src="@drawable/2131231208" layout_marginEnd="@dimen/2131165926" layout_marginVertical="@dimen/2131165923" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+                    <View id="@id/2131362316" background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131365089" layout_width="fill_parent" layout_height="wrap_content" 2130969523="@id/2131362416">
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362575" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165957" layout_marginStart="@dimen/2131165926" layout_marginEnd="@dimen/2131165926" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+                    <TextView textSize="@dimen/2131166322" textColor="@color/2131099965" id="@id/2131366261" layout_width="0.0dip" layout_height="wrap_content" text="@string/recharge_history" textAlignment="viewStart" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083400" />
+                    <TextView id="@id/2131366262" layout_width="0.0dip" layout_height="wrap_content" text="@string/see_all" textAlignment="viewStart" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083401" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362576" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165912" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362575">
+                    <View background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                    <androidx.recyclerview.widget.RecyclerView id="@id/2131365349" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" nestedScrollingEnabled="false" 2130969481="androidx.recyclerview.widget.LinearLayoutManager" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+                    <View background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <include layout_gravity="center_vertical" id="@id/2131363216" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969494="2131364589" 2130969523="@id/2131362575" layout="@layout/2131559345" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

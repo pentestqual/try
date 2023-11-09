@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362813" layout_width="fill_parent" layout_height="@dimen/2131165932" layout_marginLeft="@dimen/2131165985" layout_marginTop="@dimen/2131165908" layout_marginRight="@dimen/2131165985" layout_marginBottom="@dimen/2131165908" layout_marginHorizontal="@dimen/2131165985" layout_marginVertical="@dimen/2131165908" 2130969524="2131364589">
+        <ImageView id="@id/2131363605" layout_width="@dimen/2131165932" layout_height="@dimen/2131165932" src="@drawable/2131231322" layout_marginStart="@dimen/2131165908" 2130969494="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+        <TextView textColor="@color/2131099966" gravity="center_vertical" id="@id/2131366102" layout_width="@dimen/2131166386" layout_height="fill_parent" layout_marginLeft="@dimen/2131165908" layout_marginRight="@dimen/2131165908" layout_marginHorizontal="@dimen/2131165908" 2130969494="2131364589" 2130969501="@id/2131361895" 2130969519="@id/2131363605" 2130969524="2131364589" style="@style/2132083559" />
+        <TextView gravity="end|center" id="@id/2131361895" layout_width="@dimen/2131166386" layout_height="fill_parent" layout_marginLeft="@dimen/2131165908" layout_marginRight="@dimen/2131165908" layout_marginHorizontal="@dimen/2131165908" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" style="@style/2132083405" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@id/2131366108" background="@color/2131099963" layout_width="fill_parent" layout_height="@dimen/2131165900" layout_marginTop="@dimen/2131165908" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362813" />
+</androidx.constraintlayout.widget.ConstraintLayout>

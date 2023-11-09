@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" id="@id/2131363935" layout_width="fill_parent" layout_height="fill_parent" paddingStart="8.0dip" paddingEnd="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView id="@id/2131362465" layout_width="fill_parent" layout_height="fill_parent" 2130968835="?2130968978" 2130968837="2.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131362441" background="#ffffffff" paddingTop="8.0dip" paddingBottom="8.0dip" focusable="true" clickable="true" layout_width="fill_parent" layout_height="fill_parent" layout_margin="1.0dip" paddingStart="25.0dip" paddingEnd="25.0dip">
+            <TextView gravity="center" layout_gravity="center" id="@id/2131366152" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" textAlignment="center" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" letterSpacing="0.05" 2130969495="@id/2131366150" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130969526="2131365706" style="@style/2132083834" />
+            <TextView gravity="center" layout_gravity="center" id="@id/2131366150" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" textAlignment="center" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" letterSpacing="0.05" 2130969495="@id/bottomTextDivider" 2130969500="@id/2131366152" 2130969520="@id/2131366152" 2130969523="@id/2131366152" style="@style/2132083921" />
+            <View layout_gravity="center" id="@id/bottomTextDivider" layout_width="40.0dip" 2130969495="@id/bottomText" 2130969500="@id/2131366150" 2130969520="@id/2131366150" 2130969523="@id/2131366150" style="@style/2132083036" />
+            <TextView gravity="center" layout_gravity="center" id="@id/bottomText" layout_width="wrap_content" layout_height="wrap_content" textAlignment="center" letterSpacing="0.05" 2130969495="@id/statusTextDivider" 2130969500="@id/bottomTextDivider" 2130969520="@id/bottomTextDivider" 2130969523="@id/bottomTextDivider" style="@style/2132083921" />
+            <View layout_gravity="center" id="@id/statusTextDivider" layout_width="40.0dip" 2130969495="@id/statusText" 2130969500="@id/bottomText" 2130969520="@id/bottomText" 2130969523="@id/bottomText" style="@style/2132083036" />
+            <TextView gravity="center" layout_gravity="center" id="@id/statusText" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" textAlignment="center" letterSpacing="0.05" 2130969494="2131364589" 2130969500="@id/statusTextDivider" 2130969520="@id/statusTextDivider" 2130969523="@id/statusTextDivider" style="@style/2132083913" />
+            <androidx.constraintlayout.widget.Group id="@id/2131363493" layout_width="wrap_content" layout_height="wrap_content" 2130969020="bottomTextDivider,bottomText" />
+            <androidx.constraintlayout.widget.Group id="@id/2131363498" layout_width="wrap_content" layout_height="wrap_content" 2130969020="statusTextDivider,statusText" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

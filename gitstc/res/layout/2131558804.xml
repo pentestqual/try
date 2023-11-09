@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <TextView id="@id/headerTextView" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131365783" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/headerTextView" style="@style/2132083927" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131363728" background="@color/2131100686" layout_width="fill_parent" layout_height="0.0dip" 2130969495="@id/2131366221" 2130969523="@id/2131365783">
+        <com.google.android.material.textfield.TextInputEditText gravity="start" id="@id/2131363723" background="@color/2131100860" padding="@dimen/2131165388" scrollbars="vertical" layout_width="fill_parent" layout_height="fill_parent" hint="@string/order_tracking_rate_the_service_any_other_comments_Write_here" minLines="10" style="@style/2132083921" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView id="@id/2131366221" padding="@dimen/2131165388" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8.0dip" layout_marginBottom="8.0dip" 2130969494="2131364589" 2130969495="@id/2131365803" 2130969520="@id/2131363728" />
+    <Button id="@id/2131365803" layout_width="fill_parent" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

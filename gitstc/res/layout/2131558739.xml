@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout background="@android:color/transparent" paddingTop="5.0dip" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131366135" layout="@layout/2131559494" />
+    <LinearLayout gravity="center" orientation="horizontal" id="@id/2131365017" background="@color/2131099656" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165322" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366135">
+        <LinearLayout gravity="center" orientation="vertical" id="@id/2131363921" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.25">
+            <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231431" />
+            <TextView theme="@style/2132083927" gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8.0dip" text="@string/home_details_message_button_light_mode" />
+        </LinearLayout>
+        <LinearLayout gravity="center" orientation="vertical" id="@id/2131362601" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.25">
+            <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231286" />
+            <TextView theme="@style/2132083927" gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8.0dip" text="@string/home_details_message_button_colorful_mode" />
+        </LinearLayout>
+    </LinearLayout>
+    <RadioGroup orientation="horizontal" id="@id/2131365246" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365017">
+        <RadioButton gravity="center" id="@id/2131365031" layout_width="0.0dip" layout_height="wrap_content" checked="false" button="@null" drawableBottom="@drawable/2131230859" layout_weight="1.0" />
+        <RadioButton gravity="center" id="@id/2131365030" layout_width="0.0dip" layout_height="wrap_content" checked="true" button="@null" drawableBottom="@drawable/2131230859" layout_weight="1.0" />
+    </RadioGroup>
+    <TextView gravity="center" id="@id/2131366296" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165321" text="@string/home_details_message_section_title_select_mode" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365246" style="@style/2132083845" />
+    <TextView gravity="center" id="@id/2131366326" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" text="@string/home_details_message_section_footer_you_can" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366296" style="@style/2132083927" />
+    <Button id="@id/2131365355" layout_width="fill_parent" layout_marginTop="@dimen/2131165324" text="@string/primary_number_profile_button_save" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366326" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

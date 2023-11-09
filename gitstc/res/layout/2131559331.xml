@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar id="@id/2131366132" padding="@dimen/2131166386" layout_width="fill_parent" layout_height="wrap_content" minHeight="?2130968594" paddingEnd="@dimen/2131165901" translationZ="@dimen/2131165925" stateListAnimator="@null" contentInsetStart="@dimen/2131166386" contentInsetEnd="@dimen/2131166386" contentInsetLeft="@dimen/2131166386" contentInsetRight="@dimen/2131166386" 2130969026="@dimen/2131166386" 2130969028="@dimen/2131166386" 2130969029="@dimen/2131166386" 2130969030="@dimen/2131166386" 2130969031="@dimen/2131166386" 2130969877="@style/2132084085" style="@style/2132083664" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView textSize="@dimen/2131166320" textColor="@color/2131099816" layout_gravity="center" id="@id/2131366141" layout_width="wrap_content" layout_height="wrap_content" text="@null" style="@style/2132083442" />
+</androidx.appcompat.widget.Toolbar>

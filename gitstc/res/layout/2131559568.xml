@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout id="@id/2131364173" paddingLeft="@dimen/2131166079" paddingTop="@dimen/2131166109" paddingRight="@dimen/2131166079" paddingBottom="16.0dip" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout id="@id/2131364184" layout_width="fill_parent" layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText layout_width="fill_parent" layout_height="wrap_content" hint="@string/mtrl_picker_text_input_date_hint" inputType="date" imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView gravity="start|center" id="@id/2131365986" background="?2130969981" layout_width="fill_parent" layout_height="wrap_content" minHeight="60.0dip" text="@string/purchase_new_sim_type_section_title_mobile" drawablePadding="10.0dip" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969167="@drawable/2131231666" style="@style/2132083945" />
+    <View id="@id/divider" layout_marginStart="@dimen/2131165388" style="@style/2132083036" />
+</LinearLayout>

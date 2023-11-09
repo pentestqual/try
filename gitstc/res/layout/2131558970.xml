@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout layout_width="fill_parent" layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" layout="@layout/2131559494" />
+    <ScrollView id="@id/2131365395" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true" layout_above="@id/2131362352" layout_below="@id/2131362078">
+        <LinearLayout orientation="vertical" id="@id/2131364018" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="42.0dip">
+            <TextView gravity="bottom" id="@id/2131362917" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="fill_parent" text="@string/new_landline_national_address_section_title_details" textAllCaps="true" style="@style/2132083837" />
+            <View style="@style/2132083036" />
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131365313" padding="20.0dip" layout_width="fill_parent" layout_height="wrap_content" divider="@drawable/2131231059">
+                <TextView gravity="center_vertical" id="@id/2131363816" layout_width="0.0dip" layout_height="wrap_content" text="@string/new_landline_national_address_left_main_building_number" layout_weight="0.4" style="@style/2132083927" />
+                <EditText gravity="right" id="@id/2131363143" background="@android:color/transparent" layout_width="0.0dip" layout_height="fill_parent" hint="@string/personal_profile_national_address_right_main_enter_number" maxLines="1" singleLine="true" layout_weight="0.6" inputType="phone|textNoSuggestions" imeOptions="actionDone" fontFamily="@font/2131296262" paddingEnd="20.0dip" style="@style/2132083041" />
+            </LinearLayout>
+            <include layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout="@layout/2131558601" />
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131365332" padding="20.0dip" layout_width="fill_parent" layout_height="wrap_content" divider="@drawable/2131231059">
+                <TextView gravity="center_vertical" id="@id/2131363821" layout_width="0.0dip" layout_height="wrap_content" text="@string/new_landline_national_address_left_main_street_name" layout_weight="0.4" style="@style/2132083927" />
+                <EditText gravity="right" id="@id/2131363149" background="@android:color/transparent" layout_width="0.0dip" layout_height="fill_parent" hint="@string/personal_profile_national_address_right_main_enter_name" maxLines="1" singleLine="true" layout_weight="0.6" inputType="phone|textNoSuggestions" imeOptions="actionDone" fontFamily="@font/2131296263" paddingEnd="20.0dip" style="@style/2132083041" />
+            </LinearLayout>
+            <include layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout="@layout/2131558601" />
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131365315" padding="20.0dip" layout_width="fill_parent" layout_height="wrap_content" divider="@drawable/2131231059">
+                <TextView gravity="center_vertical" id="@id/2131363817" layout_width="0.0dip" layout_height="wrap_content" text="@string/new_landline_national_address_left_main_city_name" layout_weight="0.4" style="@style/2132083927" />
+                <EditText gravity="right" id="@id/2131363146" background="@android:color/transparent" layout_width="0.0dip" layout_height="fill_parent" hint="@string/personal_profile_national_address_right_main_enter_name" maxLines="1" singleLine="true" layout_weight="0.6" inputType="phone|textNoSuggestions" imeOptions="actionDone" fontFamily="@font/2131296262" paddingEnd="20.0dip" style="@style/2132083041" />
+            </LinearLayout>
+            <include layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout="@layout/2131558601" />
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131365316" padding="20.0dip" layout_width="fill_parent" layout_height="wrap_content" divider="@drawable/2131231059">
+                <TextView gravity="center_vertical" id="@id/2131363819" layout_width="0.0dip" layout_height="wrap_content" text="@string/purchase_new_national_address_left_main_district_name" layout_weight="0.4" style="@style/2132083927" />
+                <EditText gravity="right" id="@id/2131363147" background="@android:color/transparent" layout_width="0.0dip" layout_height="fill_parent" hint="@string/personal_profile_national_address_right_main_enter_name" maxLines="1" singleLine="true" layout_weight="0.6" inputType="phone|textNoSuggestions" imeOptions="actionDone" fontFamily="@font/2131296262" paddingEnd="20.0dip" style="@style/2132083041" />
+            </LinearLayout>
+            <include layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout="@layout/2131558601" />
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131365335" padding="20.0dip" layout_width="fill_parent" layout_height="wrap_content" divider="@drawable/2131231059">
+                <TextView gravity="center_vertical" id="@id/2131363825" layout_width="0.0dip" layout_height="wrap_content" text="@string/new_landline_national_address_left_main_zip_code" layout_weight="0.4" style="@style/2132083927" />
+                <EditText gravity="right" id="@id/2131363152" background="@android:color/transparent" layout_width="0.0dip" layout_height="fill_parent" hint="@string/personal_profile_national_address_right_main_enter_code" maxLines="1" singleLine="true" layout_weight="0.6" inputType="phone|textNoSuggestions" imeOptions="actionDone" fontFamily="@font/2131296262" paddingEnd="20.0dip" style="@style/2132083041" />
+            </LinearLayout>
+            <include layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="@dimen/2131165388" layout="@layout/2131558601" />
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131365310" padding="20.0dip" layout_width="fill_parent" layout_height="wrap_content" divider="@drawable/2131231059">
+                <TextView gravity="center_vertical" id="@id/2131363815" layout_width="0.0dip" layout_height="wrap_content" text="@string/new_landline_national_address_left_main_additional_number" layout_weight="0.4" style="@style/2132083927" />
+                <EditText gravity="right" id="@id/2131363141" background="@android:color/transparent" layout_width="0.0dip" layout_height="wrap_content" hint="@string/personal_profile_national_address_right_main_enter_number" maxLines="1" singleLine="true" layout_weight="0.6" inputType="phone|textNoSuggestions" imeOptions="actionDone" fontFamily="@font/2131296262" paddingEnd="20.0dip" style="@style/2132083041" />
+            </LinearLayout>
+            <View background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginStart="@dimen/2131165388" />
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@id/2131365334" padding="20.0dip" layout_width="fill_parent" layout_height="wrap_content" divider="@drawable/2131231059">
+                <TextView gravity="center_vertical" id="@id/2131363823" layout_width="0.0dip" layout_height="fill_parent" text="@string/new_landline_national_address_left_main_unit_number" layout_weight="0.4" style="@style/2132083927" />
+                <EditText gravity="right" id="@id/2131363151" background="@android:color/transparent" layout_width="0.0dip" layout_height="wrap_content" hint="@string/personal_profile_national_address_right_main_enter_number" maxLines="1" singleLine="true" layout_weight="0.6" inputType="phone|textNoSuggestions" imeOptions="actionDone" fontFamily="@font/2131296262" paddingEnd="20.0dip" style="@style/2132083041" />
+            </LinearLayout>
+            <View style="@style/2132083036" />
+            <RelativeLayout id="@id/2131364221" paddingTop="15.0dip" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388">
+                <TextView paddingBottom="20.0dip" layout_width="fill_parent" layout_height="wrap_content" text="@string/new_landline_national_address_message_body_in_line" style="@style/2132083924" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button id="@id/2131362352" layout_width="fill_parent" text="@string/new_landline_national_address_button_continue" layout_alignParentBottom="true" style="@style/2132082688" />
+</RelativeLayout>

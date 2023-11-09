@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AlertDialogLayout gravity="start|center|top" orientation="vertical" id="@id/2131364591" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131559521" />
+    <FrameLayout id="@id/2131362685" layout_width="fill_parent" layout_height="wrap_content" minHeight="48.0dip">
+        <ImageView layout_gravity="top" id="@id/2131365393" background="#1f000000" visibility="gone" layout_width="fill_parent" layout_height="1.0dip" contentDescription="@null" 2130968703="?android:colorForeground" />
+        <androidx.core.widget.NestedScrollView id="@id/2131365395" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+                <android.widget.Space id="@id/2131366017" visibility="gone" layout_width="fill_parent" layout_height="@dimen/2131165229" />
+                <TextView id="@android:id/message" paddingLeft="?2130969127" paddingRight="?2130969127" layout_width="fill_parent" layout_height="wrap_content" style="?2130969627" />
+                <android.widget.Space id="@id/2131366016" visibility="gone" layout_width="fill_parent" layout_height="@dimen/2131165229" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <ImageView layout_gravity="bottom" id="@id/2131365392" background="#1f000000" visibility="gone" layout_width="fill_parent" layout_height="1.0dip" contentDescription="@null" 2130968703="?android:colorForeground" />
+    </FrameLayout>
+    <FrameLayout id="@id/2131362797" layout_width="fill_parent" layout_height="wrap_content" minHeight="48.0dip">
+        <FrameLayout id="@id/2131362796" layout_width="fill_parent" layout_height="wrap_content" />
+    </FrameLayout>
+    <include layout_width="fill_parent" layout_height="wrap_content" layout="@layout/2131559520" />
+</androidx.appcompat.widget.AlertDialogLayout>

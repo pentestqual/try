@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_gravity="end" id="@id/2131365871" background="@drawable/2131231945" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/2131166307" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView gravity="start" id="@id/2131365872" layout_width="wrap_content" layout_height="wrap_content" text="@string/upload_image_chat_left_main_image_has" 2130969494="@id/2131365870" 2130969510="1.0" 2130969520="2131364589" 2130969524="@id/2131365870" style="@style/2132083932" />
+    <ImageView gravity="start" id="@id/2131365870" layout_width="25.0dip" layout_height="25.0dip" src="@drawable/2131231709" layout_marginStart="10.0dip" 2130969500="2131364589" 2130969510="1.0" 2130969519="@id/2131365872" 2130969524="2131364589" />
+    <TextView layout_gravity="bottom" id="@id/2131365873" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5.0dip" layout_marginStart="5.0dip" 2130969500="@id/2131365870" 2130969510="1.0" 2130969520="2131364589" 2130969523="@id/2131365870" style="@style/2132083829" />
+</androidx.constraintlayout.widget.ConstraintLayout>

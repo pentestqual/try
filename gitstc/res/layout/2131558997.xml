@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content">
+        <include id="@id/2131362078" layout="@layout/2131559494" />
+        <TextView layout_marginTop="@dimen/2131165388" text="@string/join_stc_provider_header_title_who_is" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083845" />
+        <TextView layout_gravity="start" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginBottom="@dimen/2131165388" text="@string/join_stc_provider_header_sub_you_can" textAlignment="viewStart" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083927" />
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131365345" layout_width="fill_parent" layout_height="fill_parent" />
+    </LinearLayout>
+</ScrollView>

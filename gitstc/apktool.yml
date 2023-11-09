@@ -1,0 +1,998 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.stc_2023-10-10.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity-ktx.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.autofill_autofill.version
+- META-INF/androidx.biometric_biometric.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.compose.animation_animation-core.version
+- META-INF/androidx.compose.animation_animation.version
+- META-INF/androidx.compose.foundation_foundation-layout.version
+- META-INF/androidx.compose.foundation_foundation.version
+- META-INF/androidx.compose.material3_material3.version
+- META-INF/androidx.compose.material_material-icons-core.version
+- META-INF/androidx.compose.material_material-ripple.version
+- META-INF/androidx.compose.material_material.version
+- META-INF/androidx.compose.runtime_runtime-saveable.version
+- META-INF/androidx.compose.runtime_runtime.version
+- META-INF/androidx.compose.ui_ui-geometry.version
+- META-INF/androidx.compose.ui_ui-graphics.version
+- META-INF/androidx.compose.ui_ui-text.version
+- META-INF/androidx.compose.ui_ui-tooling-preview.version
+- META-INF/androidx.compose.ui_ui-unit.version
+- META-INF/androidx.compose.ui_ui-util.version
+- META-INF/androidx.compose.ui_ui.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview-poolingcontainer.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.databinding_baseAdapters.version
+- META-INF/androidx.databinding_databindingKtx.version
+- META-INF/androidx.databinding_library.version
+- META-INF/androidx.databinding_viewbinding.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.emoji2_emoji2-views-helper.version
+- META-INF/androidx.emoji2_emoji2.version
+- META-INF/androidx.exifinterface_exifinterface.version
+- META-INF/androidx.fragment_fragment-ktx.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-extensions.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-process.version
+- META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.navigation_navigation-common-ktx.version
+- META-INF/androidx.navigation_navigation-common.version
+- META-INF/androidx.navigation_navigation-fragment-ktx.version
+- META-INF/androidx.navigation_navigation-fragment.version
+- META-INF/androidx.navigation_navigation-runtime-ktx.version
+- META-INF/androidx.navigation_navigation-runtime.version
+- META-INF/androidx.navigation_navigation-ui-ktx.version
+- META-INF/androidx.navigation_navigation-ui.version
+- META-INF/androidx.paging_paging-runtime-ktx.version
+- META-INF/androidx.paging_paging-runtime.version
+- META-INF/androidx.paging_paging-rxjava2-ktx.version
+- META-INF/androidx.paging_paging-rxjava2.version
+- META-INF/androidx.preference_preference-ktx.version
+- META-INF/androidx.preference_preference.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.profileinstaller_profileinstaller.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-ktx.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate-ktx.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.security_security-crypto.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.webkit_webkit.version
+- META-INF/androidx.window_window.version
+- META-INF/com.google.android.material_material.version
+- META-INF/com.google.dagger_dagger-lint-aar.version
+- META-INF/com.google.dagger_dagger.version
+- META-INF/com.google.dagger_hilt-android.version
+- META-INF/com.google.dagger_hilt-core.version
+- META-INF/kotlinx_coroutines_android.version
+- META-INF/kotlinx_coroutines_core.version
+- META-INF/kotlinx_coroutines_play_services.version
+- META-INF/kotlinx_coroutines_reactive.version
+- META-INF/kotlinx_coroutines_rx2.version
+- assets/app_animation_loader.json
+- gif
+- assets/mockuup_data.json
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- assets/fonts/STCForward-Bold.ttf
+- assets/fonts/STCForward-Medium.ttf
+- lib/arm64-v8a/libapp.so
+- lib/arm64-v8a/libdb6e.so
+- lib/arm64-v8a/libflutter.so
+- lib/arm64-v8a/libnative-lib.so
+- lib/arm64-v8a/librealm-jni.so
+- lib/arm64-v8a/libsqlcipher.so
+- lib/armeabi-v7a/libapp.so
+- lib/armeabi-v7a/libdb6e.so
+- lib/armeabi-v7a/libflutter.so
+- lib/armeabi-v7a/libnative-lib.so
+- lib/armeabi-v7a/librealm-jni.so
+- lib/armeabi-v7a/libsqlcipher.so
+- lib/x86_64/libapp.so
+- lib/x86_64/libdb6e.so
+- lib/x86_64/libflutter.so
+- lib/x86_64/libnative-lib.so
+- lib/x86_64/librealm-jni.so
+- lib/x86_64/libsqlcipher.so
+- res/raw/BA
+- res/raw/BB
+- res/raw/BD
+- res/raw/BE
+- res/raw/BF
+- res/raw/BG
+- res/raw/BH
+- res/raw/By
+- res/raw/Bz
+- res/raw/Df
+- res/raw/Dg
+- res/raw/Dh
+- res/raw/Di
+- res/raw/Dj
+- res/raw/Do
+- res/raw/Dp
+- res/raw/Dq
+- res/raw/Dr
+- res/raw/EV
+- res/raw/EW
+- res/raw/EX
+- res/raw/EY
+- res/raw/Fd
+- res/raw/Fe
+- res/raw/Fg
+- res/raw/Fh
+- res/raw/Oq
+- res/raw/Or
+- res/raw/Os
+- res/raw/Ot
+- res/raw/Ou
+- res/raw/Qc
+- res/raw/Qd
+- res/raw/Qe
+- res/raw/Qf
+- res/raw/Qg
+- res/raw/RF
+- res/raw/RH
+- res/raw/RI
+- res/raw/RJ
+- res/raw/SA
+- res/raw/SB
+- res/raw/Ss
+- res/raw/St
+- res/raw/Su
+- res/raw/Sv
+- res/raw/Sw
+- res/raw/Sx
+- res/raw/Sy
+- res/raw/Sz
+- res/raw/awB
+- res/raw/awC
+- res/raw/awD
+- res/raw/awE
+- res/raw/awF
+- res/raw/awG
+- png
+- res/raw/awI
+- res/raw/awJ
+- res/raw/awK
+- res/raw/awL
+- res/raw/awM
+- res/raw/awN
+- res/raw/awO
+- res/raw/awP
+- res/raw/awQ
+- res/raw/awS
+- res/raw/awT
+- res/raw/awU
+- res/raw/awV
+- res/raw/awW
+- res/raw/awX
+- res/raw/awY
+- res/raw/awZ
+- mp3
+- wav
+- ogg
+- res/raw/axa
+- res/raw/axb
+- res/raw/axc
+- res/raw/axe
+- res/raw/axf
+- res/raw/axg
+- res/raw/axh
+- res/raw/axi
+- res/raw/axj
+- res/raw/axk
+- res/raw/axl
+- res/raw/axn
+- res/raw/axo
+- res/raw/axp
+- res/raw/axq
+- res/raw/axr
+- res/raw/axs
+- res/raw/axt
+- res/raw/axu
+- res/raw/axv
+- res/raw/axy
+- res/raw/iF
+- res/raw/iG
+- res/raw/iI
+- res/raw/iK
+- res/raw/iM
+- res/raw/iO
+- res/raw/iR
+- res/raw/iS
+- res/raw/iT
+- res/raw/iY
+- res/raw/iZ
+- res/raw/iq
+- res/raw/ir
+- res/raw/is
+- res/raw/it
+- res/raw/iu
+- res/raw/iv
+- res/raw/iw
+- res/raw/ix
+- res/raw/jA
+- res/raw/jB
+- res/raw/jC
+- res/raw/jE
+- res/raw/jF
+- res/raw/jG
+- res/raw/jH
+- res/raw/jI
+- res/raw/jJ
+- res/raw/jK
+- res/raw/jL
+- res/raw/jM
+- res/raw/jN
+- res/raw/jO
+- res/raw/jP
+- res/raw/jQ
+- res/raw/jR
+- res/raw/jS
+- res/raw/jT
+- res/raw/jU
+- res/raw/jV
+- res/raw/jW
+- res/raw/jX
+- res/raw/jY
+- res/raw/jZ
+- res/raw/jb
+- res/raw/jc
+- res/raw/jd
+- res/raw/je
+- res/raw/jf
+- res/raw/jg
+- res/raw/ji
+- res/raw/jj
+- res/raw/jk
+- res/raw/jl
+- res/raw/jm
+- res/raw/jn
+- res/raw/jo
+- res/raw/jp
+- res/raw/jq
+- res/raw/jr
+- res/raw/ju
+- res/raw/jv
+- res/raw/jx
+- res/raw/jz
+- res/raw/kA
+- res/raw/kB
+- res/raw/kC
+- res/raw/kD
+- res/raw/kE
+- res/raw/kF
+- res/raw/kG
+- res/raw/kH
+- res/raw/kI
+- res/raw/kJ
+- res/raw/kK
+- res/raw/kL
+- res/raw/kM
+- res/raw/kN
+- res/raw/kO
+- res/raw/kP
+- res/raw/kQ
+- res/raw/kR
+- res/raw/kS
+- res/raw/kT
+- res/raw/kU
+- res/raw/kV
+- res/raw/kX
+- res/raw/kY
+- res/raw/ka
+- res/raw/kb
+- res/raw/kc
+- res/raw/kd
+- res/raw/ke
+- res/raw/kf
+- res/raw/kg
+- res/raw/kh
+- res/raw/ki
+- res/raw/kj
+- res/raw/kk
+- res/raw/kl
+- res/raw/km
+- res/raw/kn
+- res/raw/ko
+- res/raw/kq
+- res/raw/kr
+- res/raw/kt
+- res/raw/kv
+- res/raw/kx
+- res/raw/ky
+- res/raw/kz
+- res/raw/lA
+- res/raw/lB
+- res/raw/lC
+- res/raw/lD
+- res/raw/lE
+- res/raw/lF
+- res/raw/lG
+- res/raw/lH
+- res/raw/lI
+- res/raw/lJ
+- res/raw/lK
+- res/raw/lL
+- res/raw/lM
+- res/raw/lN
+- res/raw/lO
+- res/raw/lP
+- res/raw/lQ
+- res/raw/lR
+- res/raw/lS
+- res/raw/lT
+- res/raw/lV
+- res/raw/lW
+- res/raw/lX
+- res/raw/lY
+- res/raw/lZ
+- res/raw/lb
+- res/raw/lm
+- res/raw/ln
+- res/raw/lo
+- res/raw/lp
+- res/raw/lq
+- res/raw/lr
+- res/raw/ls
+- res/raw/lt
+- res/raw/lu
+- res/raw/lv
+- res/raw/lw
+- res/raw/lx
+- res/raw/lz
+- res/raw/mA
+- res/raw/mB
+- res/raw/mC
+- res/raw/mE
+- res/raw/mF
+- res/raw/mG
+- res/raw/mH
+- res/raw/mI
+- res/raw/mJ
+- res/raw/mK
+- res/raw/mL
+- res/raw/mN
+- res/raw/mO
+- res/raw/mP
+- res/raw/mQ
+- res/raw/mR
+- res/raw/mS
+- res/raw/mT
+- res/raw/mU
+- res/raw/mV
+- res/raw/mW
+- res/raw/mY
+- res/raw/ma
+- res/raw/mb
+- res/raw/mc
+- res/raw/md
+- res/raw/me
+- res/raw/mf
+- res/raw/mg
+- res/raw/mh
+- res/raw/mi
+- res/raw/mj
+- res/raw/mk
+- res/raw/ml
+- res/raw/mm
+- res/raw/mn
+- res/raw/mo
+- res/raw/mp
+- res/raw/mq
+- res/raw/mr
+- res/raw/ms
+- res/raw/mt
+- res/raw/mu
+- res/raw/mv
+- res/raw/mw
+- res/raw/mx
+- res/raw/my
+- res/raw/mz
+- res/raw/nE
+- res/raw/nF
+- res/raw/nG
+- res/raw/nK
+- res/raw/nL
+- res/raw/nM
+- res/raw/nO
+- res/raw/nP
+- res/raw/nQ
+- res/raw/nS
+- res/raw/nT
+- res/raw/nU
+- res/raw/nV
+- res/raw/nW
+- res/raw/nX
+- res/raw/nY
+- res/raw/nZ
+- res/raw/ne
+- res/raw/nf
+- res/raw/ng
+- res/raw/nh
+- res/raw/nj
+- res/raw/nk
+- res/raw/nn
+- res/raw/nu
+- res/raw/nv
+- res/raw/nw
+- res/raw/nx
+- res/raw/oA
+- res/raw/oB
+- res/raw/oC
+- res/raw/oD
+- res/raw/oE
+- res/raw/oF
+- res/raw/oG
+- res/raw/oH
+- res/raw/oI
+- res/raw/oJ
+- res/raw/oK
+- res/raw/oL
+- res/raw/oM
+- res/raw/oN
+- res/raw/oO
+- res/raw/oP
+- res/raw/oQ
+- res/raw/oR
+- res/raw/oS
+- res/raw/oT
+- res/raw/oU
+- res/raw/oV
+- res/raw/oX
+- res/raw/oY
+- res/raw/oa
+- res/raw/ob
+- res/raw/od
+- res/raw/oh
+- res/raw/oi
+- res/raw/oj
+- res/raw/ok
+- res/raw/ol
+- res/raw/on
+- res/raw/oo
+- res/raw/op
+- res/raw/oq
+- res/raw/or
+- res/raw/os
+- res/raw/ot
+- res/raw/ou
+- res/raw/ov
+- res/raw/ow
+- res/raw/ox
+- res/raw/oy
+- res/raw/oz
+- res/raw/pA
+- res/raw/pB
+- res/raw/pC
+- res/raw/pD
+- res/raw/pE
+- res/raw/pF
+- res/raw/pG
+- res/raw/pH
+- res/raw/pK
+- res/raw/pS
+- res/raw/pV
+- res/raw/pW
+- res/raw/pX
+- res/raw/pY
+- res/raw/pa
+- res/raw/pb
+- res/raw/pc
+- res/raw/pd
+- res/raw/pe
+- res/raw/pf
+- res/raw/pg
+- res/raw/ph
+- res/raw/pi
+- res/raw/pj
+- res/raw/pk
+- res/raw/pl
+- res/raw/pm
+- res/raw/pn
+- res/raw/po
+- res/raw/pp
+- res/raw/pq
+- res/raw/pr
+- res/raw/ps
+- res/raw/pt
+- res/raw/pu
+- res/raw/pv
+- res/raw/pw
+- res/raw/px
+- res/raw/py
+- res/raw/pz
+- res/raw/qK
+- res/raw/qL
+- res/raw/qM
+- res/raw/qN
+- res/raw/qQ
+- res/raw/qT
+- res/raw/qW
+- res/raw/qZ
+- res/raw/qa
+- res/raw/qb
+- res/raw/qc
+- res/raw/qd
+- res/raw/qe
+- res/raw/qf
+- res/raw/qg
+- res/raw/qh
+- res/raw/qi
+- res/raw/qj
+- res/raw/qk
+- res/raw/ql
+- res/raw/qn
+- res/raw/qo
+- res/raw/rA
+- res/raw/rB
+- res/raw/rC
+- res/raw/rD
+- res/raw/rE
+- res/raw/rF
+- res/raw/rG
+- res/raw/rH
+- res/raw/rI
+- res/raw/rJ
+- res/raw/rK
+- res/raw/rP
+- res/raw/rR
+- res/raw/rS
+- res/raw/rT
+- res/raw/rU
+- res/raw/rV
+- res/raw/rW
+- res/raw/rX
+- res/raw/rZ
+- res/raw/ra
+- res/raw/rc
+- res/raw/re
+- res/raw/rf
+- res/raw/rg
+- res/raw/ri
+- res/raw/ro
+- res/raw/rp
+- res/raw/rq
+- res/raw/rr
+- res/raw/ru
+- res/raw/rv
+- res/raw/rw
+- res/raw/rx
+- res/raw/ry
+- res/raw/rz
+- res/raw/sA
+- res/raw/sB
+- res/raw/sC
+- res/raw/sD
+- res/raw/sE
+- res/raw/sG
+- res/raw/sH
+- res/raw/sJ
+- res/raw/sK
+- res/raw/sL
+- res/raw/sM
+- res/raw/sN
+- res/raw/sP
+- res/raw/sQ
+- res/raw/sR
+- res/raw/sS
+- res/raw/sT
+- res/raw/sV
+- res/raw/sW
+- res/raw/sX
+- res/raw/sY
+- res/raw/sZ
+- res/raw/sa
+- res/raw/sb
+- res/raw/sc
+- res/raw/sd
+- res/raw/se
+- res/raw/sf
+- res/raw/sh
+- res/raw/si
+- res/raw/sj
+- res/raw/sk
+- res/raw/sl
+- res/raw/sm
+- res/raw/sn
+- res/raw/sp
+- res/raw/sr
+- res/raw/ss
+- res/raw/st
+- res/raw/su
+- res/raw/sv
+- res/raw/sw
+- res/raw/sx
+- res/raw/sy
+- res/raw/sz
+- res/raw/tE
+- res/raw/tF
+- res/raw/tG
+- res/raw/tI
+- res/raw/tJ
+- res/raw/tK
+- res/raw/tL
+- res/raw/tM
+- res/raw/tN
+- res/raw/tO
+- res/raw/tQ
+- res/raw/tR
+- res/raw/tS
+- res/raw/tT
+- res/raw/tU
+- res/raw/tV
+- res/raw/tW
+- res/raw/tY
+- res/raw/tZ
+- res/raw/ta
+- res/raw/tb
+- res/raw/tc
+- res/raw/td
+- res/raw/te
+- res/raw/tf
+- res/raw/tg
+- res/raw/th
+- res/raw/ti
+- res/raw/tj
+- res/raw/tk
+- res/raw/tl
+- res/raw/tm
+- res/raw/tn
+- res/raw/tq
+- res/raw/tr
+- res/raw/ts
+- res/raw/uC
+- res/raw/uF
+- res/raw/uH
+- res/raw/uJ
+- res/raw/uL
+- res/raw/uM
+- res/raw/uN
+- res/raw/uO
+- res/raw/uP
+- res/raw/uR
+- res/raw/uS
+- res/raw/uT
+- res/raw/uU
+- res/raw/uV
+- res/raw/uW
+- res/raw/uX
+- res/raw/uY
+- res/raw/uZ
+- res/raw/ua
+- res/raw/ub
+- res/raw/uc
+- res/raw/ui
+- res/raw/un
+- res/raw/uo
+- res/raw/up
+- res/raw/uq
+- res/raw/us
+- res/raw/uu
+- res/raw/ux
+- res/raw/uz
+- res/raw/vC
+- res/raw/vD
+- res/raw/vE
+- res/raw/vF
+- res/raw/vG
+- res/raw/vK
+- res/raw/vL
+- res/raw/vM
+- res/raw/vN
+- res/raw/vO
+- res/raw/vP
+- res/raw/vQ
+- res/raw/vR
+- res/raw/vS
+- res/raw/vT
+- res/raw/vU
+- res/raw/vV
+- res/raw/vX
+- res/raw/va
+- res/raw/vf
+- res/raw/vg
+- res/raw/vh
+- res/raw/vi
+- res/raw/vj
+- res/raw/vk
+- res/raw/vl
+- res/raw/vm
+- res/raw/vn
+- res/raw/vp
+- res/raw/vq
+- res/raw/vt
+- res/raw/vu
+- res/raw/vv
+- res/raw/vw
+- res/raw/vy
+- res/raw/vz
+- res/raw/wA
+- res/raw/wD
+- res/raw/wE
+- res/raw/wG
+- res/raw/wH
+- res/raw/wI
+- res/raw/wJ
+- res/raw/wK
+- res/raw/wL
+- res/raw/wM
+- res/raw/wN
+- res/raw/wO
+- res/raw/wP
+- res/raw/wQ
+- res/raw/wR
+- res/raw/wS
+- res/raw/wT
+- res/raw/wU
+- res/raw/wW
+- res/raw/wX
+- res/raw/wY
+- res/raw/wZ
+- res/raw/wb
+- res/raw/wd
+- res/raw/wf
+- res/raw/wg
+- res/raw/wh
+- res/raw/wi
+- res/raw/wj
+- res/raw/wk
+- res/raw/wl
+- res/raw/wm
+- res/raw/wn
+- res/raw/wo
+- res/raw/wp
+- res/raw/wq
+- res/raw/wr
+- res/raw/ws
+- res/raw/wt
+- res/raw/wu
+- res/raw/wv
+- res/raw/ww
+- res/raw/wx
+- res/raw/wy
+- res/raw/wz
+- res/raw/xA
+- res/raw/xB
+- res/raw/xC
+- res/raw/xD
+- res/raw/xE
+- res/raw/xF
+- res/raw/xG
+- res/raw/xH
+- res/raw/xI
+- res/raw/xJ
+- res/raw/xK
+- res/raw/xL
+- res/raw/xM
+- res/raw/xN
+- res/raw/xQ
+- res/raw/xR
+- res/raw/xS
+- res/raw/xT
+- res/raw/xU
+- res/raw/xV
+- res/raw/xW
+- res/raw/xX
+- res/raw/xY
+- res/raw/xc
+- res/raw/xd
+- res/raw/xf
+- res/raw/xg
+- res/raw/xh
+- res/raw/xj
+- res/raw/xk
+- res/raw/xl
+- res/raw/xm
+- res/raw/xn
+- res/raw/xo
+- res/raw/xp
+- res/raw/xs
+- res/raw/xt
+- res/raw/xu
+- res/raw/xw
+- res/raw/xx
+- res/raw/xy
+- res/raw/xz
+- res/raw/yA
+- res/raw/yB
+- res/raw/yC
+- res/raw/yE
+- res/raw/yG
+- res/raw/yJ
+- res/raw/yK
+- res/raw/yL
+- res/raw/yM
+- res/raw/yN
+- res/raw/yO
+- res/raw/yP
+- res/raw/yQ
+- res/raw/yR
+- res/raw/yS
+- res/raw/yT
+- res/raw/yU
+- res/raw/yV
+- res/raw/yW
+- res/raw/yX
+- res/raw/yY
+- res/raw/yZ
+- res/raw/ya
+- res/raw/yb
+- res/raw/yd
+- res/raw/yk
+- res/raw/yl
+- res/raw/ym
+- res/raw/yo
+- res/raw/yp
+- res/raw/yr
+- res/raw/yu
+- res/raw/yw
+- res/raw/yy
+- res/raw/yz
+- res/raw/za
+- res/raw/zc
+- res/raw/ze
+- res/raw/zf
+- res/raw/zg
+- res/raw/zh
+- res/raw/zi
+- res/raw/zj
+- res/raw/zk
+- res/raw/zl
+- res/raw/zm
+- res/raw/zo
+- res/raw/zp
+- res/raw/zq
+- res/raw/zr
+- res/raw/zs
+- res/raw/zv
+- res/raw/zw
+- res/raw/zx
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo: null
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  LICENSE-junit.txt: '8'
+  a-: '0'
+  androidsupportmultidexversion.txt: '0'
+  b-: '0'
+  build-data.properties: '8'
+  c-: '0'
+  core-common.properties: '8'
+  d-: '0'
+  e-: '0'
+  f-: '0'
+  firebase-abt.properties: '8'
+  firebase-analytics-ktx.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-annotations.properties: '8'
+  firebase-common-ktx.properties: '8'
+  firebase-common.properties: '8'
+  firebase-components.properties: '8'
+  firebase-config.properties: '8'
+  firebase-crashlytics-ktx.properties: '8'
+  firebase-crashlytics.properties: '8'
+  firebase-datatransport.properties: '8'
+  firebase-encoders-json.properties: '8'
+  firebase-encoders-proto.properties: '8'
+  firebase-encoders.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-installations-interop.properties: '8'
+  firebase-installations.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  firebase-messaging-ktx.properties: '8'
+  firebase-messaging.properties: '8'
+  firebase-perf-ktx.properties: '8'
+  firebase-perf.properties: '8'
+  g-: '0'
+  h-: '0'
+  i-: '0'
+  j-: '0'
+  k-: '0'
+  kotlin-tooling-metadata.json: '8'
+  l-: '0'
+  m-: '0'
+  n-: '0'
+  o-: '0'
+  p-: '0'
+  play-services-ads-identifier.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-clearcut.properties: '8'
+  play-services-cloud-messaging.properties: '8'
+  play-services-flags.properties: '8'
+  play-services-location.properties: '8'
+  play-services-maps.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-phenotype.properties: '8'
+  play-services-places-placereport.properties: '8'
+  play-services-places.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  play-services-vision-common.properties: '8'
+  play-services-vision.properties: '8'
+  protolite-well-known-types.properties: '8'
+  review-ktx.properties: '8'
+  review.properties: '8'
+  transport-api.properties: '8'
+  transport-backend-cct.properties: '8'
+  transport-runtime.properties: '8'
+  stamp-cert-sha256: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  junit/runner/logo.gif: '0'
+  junit/runner/smalllogo.gif: '0'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/PublicSuffixDatabase.gz: '0'
+  org/apache/http/version.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.5.0-dirty
+versionInfo:
+  versionCode: '4231'
+  versionName: 4.43.0

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.core.widget.NestedScrollView id="@id/2131365395" background="@color/2131099656" layout_width="fill_parent" layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout paddingBottom="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content">
+            <include id="@id/2131364932" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559396" />
+            <ProgressBar id="@id/qitafBenefitsProgressBar" padding="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131366670" />
+            <ProgressBar id="@id/2131364924" padding="@dimen/2131165388" visibility="gone" layout_width="fill_parent" layout_height="fill_parent" 2130969520="2131364589" 2130969523="@id/2131365921" />
+            <TextView gravity="center" id="@id/2131366667" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="30.0dip" text="@string/collect_qitaf_points_qitaf_status_header_sub_Youre_currently" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364932" style="@style/2132083927" />
+            <TextView id="@id/2131364958" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" textAlignment="center" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366667" style="@style/2132083899" />
+            <TextView id="@id/2131364933" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" textAlignment="center" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364958" style="@style/2132083832" />
+            <TextView textSize="19.0dip" id="@id/2131365920" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/collect_qitaf_points_qitaf_section_title_tamayouz_for" fontFamily="@font/2131296262" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364933" style="@style/2132083837" />
+            <androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" id="@id/2131364951" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" divider="@drawable/2131231059" showDividers="middle" 2130969520="2131364589" 2130969523="@id/2131364923">
+                <TextView id="@id/2131363909" paddingTop="40.0dip" layout_width="wrap_content" layout_height="wrap_content" text="@string/browse_qitaf_partner_tamayouz_discounts_title_tamayouz_partner" layout_marginStart="@dimen/2131165388" letterSpacing="0.05" 2130969494="2131364589" 2130969511="2131365707" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+                <TextView textColor="?2130970328" gravity="end" id="@id/2131364912" focusable="true" clickable="true" layout_width="wrap_content" layout_height="wrap_content" text="@string/browse_qitaf_partner_tamayouz_page_button_see_all" layout_marginEnd="@dimen/2131165388" letterSpacing="0.1" 2130969494="2131364589" 2130969500="2131364589" style="@style/2132083866" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View id="@id/2131362983" layout_width="fill_parent" layout_marginTop="10.0dip" 2130969523="@id/2131364951" style="@style/2132083036" />
+            <ProgressBar id="@id/2131364911" padding="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131362983" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131364935" layout_width="fill_parent" layout_height="fill_parent" layout_marginTop="20.0dip" 2130969484="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969520="2131364589" 2130969523="@id/2131362983" />
+            <TextView id="@id/2131366669" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40.0dip" text="@string/collect_qitaf_points_qitaf_section_title_your_benefits" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364935" style="@style/2132083837" />
+            <View id="@id/2131366670" layout_marginTop="10.0dip" 2130969520="2131364589" 2130969523="@id/2131365920" style="@style/2132083036" />
+            <View id="@id/2131365921" layout_marginTop="10.0dip" 2130969520="2131364589" 2130969523="@id/2131366669" style="@style/2132083036" />
+            <androidx.constraintlayout.widget.ConstraintLayout id="@id/qitafEligibleOptions" layout_width="fill_parent" layout_height="wrap_content" 2130969520="2131364589" 2130969523="@id/2131366670">
+                <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@id/2131363512" layout_width="wrap_content" layout_height="fill_parent" 2130969503="177.0dip" />
+                <LinearLayout orientation="vertical" id="@id/2131365928" layout_width="fill_parent" layout_height="wrap_content" 2130969501="@id/2131363512" 2130969520="2131364589" 2130969524="2131364589">
+                    <sa.com.stc.ui.common.more.ListItemView id="@id/2131365929" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231530" 2130970033="false" />
+                    <sa.com.stc.ui.common.more.ListItemView id="@id/2131363415" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231530" 2130970033="true" />
+                    <sa.com.stc.ui.common.more.ListItemView id="@id/2131365447" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231634" 2130970033="true" 2130970229="@string/home_details_key_details_section_title_seasonal_gifts" />
+                    <sa.com.stc.ui.common.more.ListItemView id="@id/2131365931" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231530" 2130970033="true" />
+                    <sa.com.stc.ui.common.more.ListItemView id="@id/2131366538" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969377="@drawable/2131231722" 2130970033="true" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.Barrier id="@id/2131364907" layout_width="fill_parent" layout_height="wrap_content" 2130968749="2131362300" 2130969020="qitafBenefitsProgressBar,qitafEligibleOptions" />
+            <View id="@id/2131364923" 2130969494="@id/2131364907" 2130969520="2131364589" style="@style/2132083036" />
+            <androidx.recyclerview.widget.RecyclerView id="@id/2131364906" layout_width="fill_parent" layout_height="fill_parent" 2130969520="2131364589" 2130969523="@id/2131365921" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

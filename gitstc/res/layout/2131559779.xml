@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout gravity="center_vertical" id="@id/2131365299" background="#ffffffff" paddingTop="@dimen/2131165388" layout_width="fill_parent" layout_height="wrap_content" foreground="?android:selectableItemBackground" divider="@drawable/2131231059" minHeight="80.0dip" showDividers="middle" paddingStart="@dimen/2131165388" 2130968749="2131365726" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363897" layout_width="27.0dip" layout_height="16.0dip" layout_marginBottom="@dimen/2131165388" src="@drawable/2131231727" 2130969494="2131364589" 2130969511="2131365707" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/titleTextView" layout_width="0.0dip" layout_height="wrap_content" layout_marginStart="8.0dip" 2130969501="@id/2131365746" 2130969519="@id/2131363897" 2130969524="2131364589" style="@style/2132083927" />
+    <TextView id="@id/2131364425" layout_width="0.0dip" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" layout_marginStart="8.0dip" 2130969494="2131364589" 2130969501="@id/2131365746" 2130969519="@id/2131363897" 2130969523="@id/titleTextView" style="@style/2132083883" />
+    <TextView textColor="#ffef6b4b" id="@id/2131365746" background="@drawable/2131230961" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" layout_marginEnd="10.0dip" 2130969494="2131364589" 2130969501="@id/2131362101" 2130969524="2131364589" style="@style/2132083827" />
+    <ImageView id="@id/2131362101" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="@dimen/2131165388" src="@drawable/2131231410" layout_marginEnd="@dimen/2131165388" 2130969494="2131364589" 2130969500="2131364589" 2130969524="2131364589" />
+    <View 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132083036" />
+</androidx.constraintlayout.widget.ConstraintLayout>

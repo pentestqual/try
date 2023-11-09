@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout gravity="center_vertical" background="?android:selectableItemBackground" paddingLeft="?android:listPreferredItemPaddingLeft" paddingRight="?android:listPreferredItemPaddingRight" clipChildren="false" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" baselineAligned="false" minHeight="?android:listPreferredItemHeightSmall" paddingStart="?android:listPreferredItemPaddingStart" paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131559219" />
+    <LinearLayout orientation="vertical" clipChildren="false" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="8.0dip" layout_marginBottom="8.0dip">
+        <RelativeLayout layout_width="wrap_content" layout_height="0.0dip" layout_weight="1.0">
+            <TextView textAppearance="?android:textAppearanceListItem" ellipsize="marquee" id="@android:id/title" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" labelFor="@id/2131365480" />
+            <TextView textColor="?android:textColorSecondary" layout_gravity="start" id="@android:id/summary" layout_width="wrap_content" layout_height="wrap_content" maxLines="4" layout_below="@android:id/title" layout_alignLeft="@android:id/title" textAlignment="viewStart" layout_alignStart="@android:id/title" style="@style/2132083168" />
+        </RelativeLayout>
+        <androidx.preference.UnPressableLinearLayout gravity="center_vertical" paddingLeft="0.0dip" paddingRight="16.0dip" clipChildren="false" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" paddingStart="0.0dip" paddingEnd="16.0dip">
+            <SeekBar id="@id/2131365480" background="@null" paddingLeft="@dimen/2131166264" paddingTop="@dimen/2131166265" paddingRight="@dimen/2131166264" paddingBottom="@dimen/2131166265" layout_width="0.0dip" layout_height="wrap_content" layout_weight="1.0" paddingStart="@dimen/2131166264" paddingEnd="@dimen/2131166264" />
+            <TextView textAppearance="?android:textAppearanceListItem" ellipsize="marquee" gravity="right" id="@id/2131365482" paddingLeft="8.0dip" paddingRight="0.0dip" scrollbars="none" fadingEdge="horizontal" layout_width="wrap_content" layout_height="wrap_content" minWidth="@dimen/2131166266" singleLine="true" paddingStart="8.0dip" paddingEnd="0.0dip" />
+        </androidx.preference.UnPressableLinearLayout>
+    </LinearLayout>
+</LinearLayout>

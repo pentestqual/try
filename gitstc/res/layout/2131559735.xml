@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <sa.com.stc.ui.telegram.common.TelegramListItemView id="@id/2131363161" layout_width="fill_parent" layout_height="wrap_content" 2130970229="@string/telegram_summary_lift_main_email" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowSwitch id="@id/2131365516" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969462="@string/telegram_create_new_left_main_send_a" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/divider" />
+</LinearLayout>

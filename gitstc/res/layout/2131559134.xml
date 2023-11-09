@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_margin="@dimen/2131165388" text="@string/customer_support_comments_header_title_comments" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083837" />
+    <EditText id="@id/2131362605" background="@android:color/transparent" layout_width="fill_parent" layout_height="wrap_content" layout_margin="@dimen/2131165388" layout_marginTop="@dimen/2131165388" hint="@string/app_rating_rate_now_feedback_lift_main_write_here" maxLines="5" maxLength="100" inputType="textMultiLine" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083927" />
+    <Button id="@id/2131365802" layout_width="fill_parent" layout_height="wrap_content" text="@string/order_tracking_rate_the_button_submit" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

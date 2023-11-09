@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131366414" style="@style/2132083036" />
+    <androidx.legacy.widget.Space id="@id/2131366415" layout_width="wrap_content" layout_height="40.0dip" />
+    <TextView id="@id/2131365131" layout_width="fill_parent" layout_marginTop="8.0dip" layout_marginBottom="16.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" style="@style/2132083837" />
+    <View id="@id/2131363082" style="@style/2132083036" />
+</LinearLayout>

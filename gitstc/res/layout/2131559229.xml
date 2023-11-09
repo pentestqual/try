@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout id="@id/2131366007" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969216="true" 2130969848="@drawable/2131231889" 2130969849="true" 2130969850="@color/2131100768" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputEditText id="@id/2131366004" layout_width="fill_parent" layout_height="wrap_content" hint="@string/pay_bill_enter_password_section_title_password" maxLines="1" singleLine="true" drawablePadding="@dimen/2131165516" inputType="textPassword" drawableStart="@drawable/2131231498" fontFamily="@font/2131296258" textAlignment="viewStart" />
+    <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366454" visibility="gone" layout_width="fill_parent" layout_height="wrap_content">
+        <ImageView id="@id/2131363603" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231265" scaleType="centerInside" 2130969520="2131364589" 2130969524="2131364589" />
+        <TextView layout_width="wrap_content" layout_height="wrap_content" text="@string/password_validation1" layout_marginStart="@dimen/2131165388" 2130969519="@id/2131363603" 2130969524="2131364589" style="@style/2132083834" />
+        <ImageView id="@id/2131363604" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" src="@drawable/2131231265" scaleType="centerInside" 2130969520="2131364589" 2130969523="@id/2131363603" />
+        <TextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10.0dip" text="@string/password_validation2" layout_marginStart="@dimen/2131165388" 2130969519="@id/2131363604" 2130969523="@id/2131363603" style="@style/2132083834" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.textfield.TextInputLayout>

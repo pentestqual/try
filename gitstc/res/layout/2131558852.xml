@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131364382" clipToPadding="false" layout_width="fill_parent" layout_height="wrap_content" overScrollMode="never" 2130969520="2131364589" 2130969523="@id/2131362078" />
+</androidx.constraintlayout.widget.ConstraintLayout>

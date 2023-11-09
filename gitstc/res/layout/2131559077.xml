@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include id="@id/2131362078" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" layout="@layout/2131559494" />
+    <TextView id="@id/2131366102" layout_width="0.0dip" layout_marginTop="@dimen/2131165388" text="@string/reschedule_delivery_message_title_reschedule_delivery" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131362078" style="@style/2132083845" />
+    <TextView id="@id/2131364453" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="10.0dip" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" style="@style/2132083921" />
+    <LinearLayout orientation="horizontal" id="@id/2131364455" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="40.0dip" layout_marginStart="@dimen/2131165388" 2130969520="2131364589" 2130969523="@id/2131364453">
+        <ImageView layout_gravity="center" id="@id/2131364483" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231488" scaleType="centerInside" />
+        <TextView layout_gravity="center" id="@id/2131364454" layout_width="wrap_content" layout_height="wrap_content" text="@string/reschedule_delivery_reschedule_delivery_section_title_order_details" layout_marginStart="16.0dip" style="@style/2132083837" />
+    </LinearLayout>
+    <View id="@id/divider" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364455" style="@style/2132083036" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364474" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969520="2131364589" 2130969523="@id/divider" 2130969559="@string/reschedule_delivery_reschedule_delivery_left_main_order_number" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362887" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363698" 2130969523="@id/2131364474" 2130969559="@string/reschedule_delivery_reschedule_delivery_left_main_new_delivery" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131362896" layout_width="fill_parent" layout_height="wrap_content" 2130969149="2131363430" 2130969523="@id/2131362887" 2130969559="@string/reschedule_delivery_reschedule_delivery_left_main_new_delivery_time" />
+    <Button id="@id/2131362624" layout_marginTop="@dimen/2131165388" text="@string/reschedule_delivery_reschedule_delivery_button_confirm_rescheduling" 2130969494="2131364589" 2130969520="2131364589" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView id="@id/2131366688" layout_width="fill_parent" layout_height="fill_parent" 2130970514="2131362491" 2130970517="false" />
+</merge>

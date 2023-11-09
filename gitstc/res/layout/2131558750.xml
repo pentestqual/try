@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" layout_width="fill_parent" layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar id="@id/2131366132" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" 2130969780="@drawable/2131231200" 2130970359="@string/auctions_search_title_search_number" 2130970360="true" 2130970370="@style/2132083941" />
+    <androidx.appcompat.widget.SearchView theme="@style/2132083212" id="@id/2131365414" background="@drawable/2131231884" layout_width="fill_parent" layout_height="56.0dip" layout_marginLeft="24.0dip" layout_marginTop="8.0dip" layout_marginRight="24.0dip" inputType="numberSigned" backgroundTint="@color/2131100686" layout_marginHorizontal="24.0dip" 2130968915="@drawable/2131231281" 2130969374="false" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366132" 2130969914="@string/auctions_search_left_main_search_a" 2130969969="@drawable/2131231629" style="@style/2132083212" />
+    <androidx.recyclerview.widget.RecyclerView id="@id/2131365409" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365414" />
+    <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" id="@id/2131363213" background="@color/2131100892" visibility="gone" layout_width="fill_parent" layout_height="0.0dip" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131365414">
+        <androidx.appcompat.widget.AppCompatImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/2131231215" 2130970356="@color/2131099731" />
+        <com.google.android.material.textview.MaterialTextView gravity="center" id="@id/2131364305" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="12.0dip" text="@string/auctions_search_section_footer_no_result" style="@style/2132083882" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

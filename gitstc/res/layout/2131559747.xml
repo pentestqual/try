@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <sa.com.stc.uicomponent.SeekbarWithIntervals layout_gravity="center_horizontal" id="@id/2131365480" layout_width="400.0dip" layout_height="90.0dip" 2130969206="100" 2130969983="30" 2130970110="10" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowWithArrowLayout layout_width="wrap_content" layout_height="wrap_content" 2130969143="2131363698" 2130969462="hfksjdhfjkhkjhfkj" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowWithArrowFieldLayout layout_width="wrap_content" layout_height="wrap_content" 2130969143="2131363430" 2130969462="dhkajhkfjshf" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayout layout_width="wrap_content" layout_height="wrap_content" 2130969143="2131363698" 2130969462="dhkajhkfjshf" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowLayoutWithTextValue layout_width="wrap_content" layout_height="wrap_content" 2130969143="2131363698" 2130969462="label" 2130970448="800" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowSwitch layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="Test" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRowSwitch layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363698" 2130969462="Test" />
+    <sa.com.stc.uicomponent.single_row_item.SingleRow layout_width="fill_parent" layout_height="wrap_content" 2130969150="2131363430" 2130969463="title" />
+    <sa.com.stc.uicomponent.single_row_item.TextRowItem id="@id/2131364139" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969553="@drawable/2131231395" 2130969559="@string/transfer_balance_contact_list_title_send" />
+</LinearLayout>

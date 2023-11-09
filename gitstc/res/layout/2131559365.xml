@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout orientation="vertical" layout_width="fill_parent" layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout orientation="horizontal" layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165328" weightSum="1.0" layout_marginStart="@dimen/2131165388">
+        <TextView id="@id/2131365111" layout_width="0.0dip" layout_height="wrap_content" layout_weight="0.8" style="@style/2132083927" />
+        <ImageView layout_gravity="center" id="@id/2131365508" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" src="@drawable/2131231639" layout_weight="0.2" />
+        <ImageView layout_gravity="center" id="@id/2131365507" visibility="gone" layout_width="0.0dip" layout_height="wrap_content" src="@drawable/2131231640" layout_weight="0.2" />
+    </LinearLayout>
+    <View id="@id/2131365102" background="#1e000000" visibility="visible" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="@dimen/2131165493" layout_marginStart="@dimen/2131165388" />
+    <View id="@id/2131365103" background="@color/2131099883" visibility="gone" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="@dimen/2131165493" />
+</LinearLayout>

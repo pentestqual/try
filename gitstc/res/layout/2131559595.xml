@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="fill_parent" layout_height="wrap_content" layout_marginTop="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@id/2131366107" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589">
+            <TextView id="@id/2131366102" layout_width="fill_parent" layout_height="wrap_content" text="@string/device_select_number_not_eligible_section_title_why_is" paddingStart="@dimen/2131165388" paddingEnd="@dimen/2131165388" letterSpacing="0.02" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" style="@style/2132083837" />
+            <View id="@id/divider" background="#ffdcdcdc" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366102" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <sa.com.stc.uicomponent.single_row_item.SingleRowLayout id="@id/2131364366" visibility="gone" layout_width="fill_parent" layout_height="wrap_content" 2130969143="2131363430" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131366107" />
+        <androidx.recyclerview.widget.RecyclerView id="@id/2131365064" layout_width="fill_parent" layout_height="wrap_content" layout_marginBottom="10.0dip" nestedScrollingEnabled="false" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364366" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

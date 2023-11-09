@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView orientation="vertical" layout_width="fill_parent" layout_height="wrap_content" minWidth="196.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView id="@id/2131363500" background="@drawable/2131230816" layout_width="fill_parent" layout_height="1.0dip" layout_marginTop="4.0dip" layout_marginBottom="4.0dip" />
+    <LinearLayout id="@id/2131362681" duplicateParentState="true" layout_width="fill_parent" layout_height="?2130969175" style="@style/2132083192">
+        <RelativeLayout layout_gravity="center_vertical" duplicateParentState="true" layout_width="0.0dip" layout_height="wrap_content" layout_weight="1.0" style="@style/2132083193">
+            <TextView textAppearance="?2130970255" ellipsize="marquee" id="@id/2131366102" fadingEdge="horizontal" duplicateParentState="true" layout_width="fill_parent" layout_height="wrap_content" singleLine="true" layout_alignParentTop="true" style="@style/2132083196" />
+            <TextView textAppearance="?2130970264" id="@id/2131365567" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" layout_below="@id/2131366102" style="@style/2132083196" />
+        </RelativeLayout>
+        <ImageView layout_gravity="center" id="@id/2131365799" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" scaleType="center" style="@style/2132083195" />
+    </LinearLayout>
+</androidx.appcompat.view.menu.ListMenuItemView>

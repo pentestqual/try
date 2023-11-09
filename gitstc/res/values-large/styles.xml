@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132082797" parent="@style/2132082795" />
+    <style name="2132082804" parent="@style/2132082802" />
+    <style name="2132082821" parent="@style/2132082819" />
+    <style name="2132082831" parent="@style/2132082829" />
+    <style name="2132083989" parent="@style/2132082807">
+        <item name="2130970490">@dimen/2131165220</item>
+        <item name="2130970491">@dimen/2131165221</item>
+        <item name="2130970492">@dimen/2131165222</item>
+        <item name="2130970493">@dimen/2131165223</item>
+    </style>
+    <style name="2132084008" parent="@style/2132082811">
+        <item name="2130970490">@dimen/2131165220</item>
+        <item name="2130970491">@dimen/2131165221</item>
+        <item name="2130970492">@dimen/2131165222</item>
+        <item name="2130970493">@dimen/2131165223</item>
+    </style>
+</resources>

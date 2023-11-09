@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout id="@id/2131364195" background="@drawable/2131231881" layout_width="fill_parent" layout_height="wrap_content" minHeight="350.0dip" fillViewport="true" 2130968767="false" 2130968769="200.0dip" 2130969484="com.google.android.material.bottomsheet.BottomSheetBehavior" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View id="@id/2131363073" background="#ffcccccc" layout_width="50.0dip" layout_height="5.0dip" layout_marginTop="10.0dip" 2130969500="2131364589" 2130969520="2131364589" 2130969524="2131364589" />
+    <TextView id="@id/2131363522" paddingBottom="@dimen/2131165388" layout_marginTop="51.0dip" text="@string/replace_sim_my_sim_section_title_or_enter" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363073" style="@style/2132083845" />
+    <EditText id="@id/2131364202" background="#fff7f7f7" layout_width="0.0dip" layout_height="50.0dip" hint="xxxxxxxxxxxxxxxxxx" lines="1" singleLine="true" selectAllOnFocus="true" maxLength="18" inputType="number" imeOptions="actionNext" textAlignment="center" layout_marginStart="@dimen/2131165388" layout_marginEnd="@dimen/2131165388" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131363522" />
+    <Button enabled="false" id="@id/2131362627" layout_marginTop="56.0dip" text="@string/replace_sim_my_sim_button_confirm" 2130969494="2131364589" 2130969500="2131364589" 2130969520="2131364589" 2130969523="@id/2131364202" 2130969525="1.0" style="@style/2132082688" />
+</androidx.constraintlayout.widget.ConstraintLayout>
